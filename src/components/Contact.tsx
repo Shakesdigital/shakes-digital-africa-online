@@ -79,19 +79,20 @@ const Contact: React.FC = () => {
               <div className="space-y-4">
                 <div>
                   <p className="font-medium text-shakes-blue">Location</p>
-                  <p className="text-gray-600">Nairobi, Kenya, East Africa</p>
+                  <p className="text-gray-600">Kampala and Jinja, Uganda</p>
                 </div>
                 <div>
                   <p className="font-medium text-shakes-blue">Email</p>
                   <p className="text-gray-600">info@shakesdigital.com</p>
+                  <p className="text-gray-600">shakesdigital@gmail.com</p>
                 </div>
                 <div>
                   <p className="font-medium text-shakes-blue">Phone</p>
-                  <p className="text-gray-600">+254 700 000000</p>
+                  <p className="text-gray-600">+256 705 718 590</p>
                 </div>
                 <div>
                   <p className="font-medium text-shakes-blue">Working Hours</p>
-                  <p className="text-gray-600">Monday - Friday: 9AM to 5PM EAT</p>
+                  <p className="text-gray-600">Monday to Saturday, 9:00 AM – 5:00 PM EAT</p>
                 </div>
               </div>
             </div>
