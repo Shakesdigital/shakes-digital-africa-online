@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -15,7 +14,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features, icon, color, link }) => {
   return (
-    <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-all duration-300 border-t-4" style={{ borderColor: color }}>
+    <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="mb-6">
         <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: `${color}20` }}>
           {icon}

@@ -1,38 +1,113 @@
-
-import React from "react";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { sendEmail } from "@/lib/email-service";
+import { useToast } from "@/components/ui/use-toast";
+import { useScrollTo } from "@/hooks/use-scroll-to";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
+  const [email, setEmail] = useState("");
+  const [isSubscribing, setIsSubscribing] = useState(false);
+  const { toast } = useToast();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const scrollToHash = useScrollTo();
+
+  const handleNavClick = (path: string) => {
+    if (location.pathname !== "/" && path.startsWith("/#")) {
+      navigate("/");
+      setTimeout(scrollToHash, 100);
+    }
+  };
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubscribing(true);
+    
+    try {
+      await sendEmail({
+        name: "Newsletter Subscription",
+        email: email,
+        message: `New newsletter subscription request from ${email}`,
+        company: ""
+      });
+      
+      toast({
+        title: "Successfully Subscribed!",
+        description: "Thank you for subscribing to our newsletter.",
+      });
+      setEmail("");
+    } catch (error) {
+      toast({
+        title: "Subscription Failed",
+        description: "There was an error subscribing to the newsletter. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubscribing(false);
+    }
+  };
 
   return (
-    <footer className="bg-shakes-blue-dark text-white pt-16 pb-8">
+    <footer className="bg-shakes-blue-dark text-white py-16">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <img 
-                src="/lovable-uploads/97fbf1c7-d62a-40ce-9b67-0c5b50bb01e5.png" 
-                alt="Shakes Digital Logo" 
-                className="h-10 w-auto"
-              />
-            </div>
-            <p className="mb-4 text-gray-300">
-              Empowering Africa's businesses with innovative digital solutions tailored to your unique needs.
+            <h3 className="text-xl font-bold mb-4">About Us</h3>
+            <p className="text-gray-300 mb-4">
+              Leading digital transformation across East Africa with innovative web solutions and exceptional service.
             </p>
-            <div className="flex space-x-4">
-              {/* Social Media Icons would go here */}
-            </div>
+            <form onSubmit={handleSubscribe} className="space-y-2">
+              <Input
+                type="email"
+                placeholder="Subscribe to our newsletter"
+                className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+              <Button 
+                type="submit" 
+                className="w-full bg-shakes-teal hover:bg-shakes-teal-dark"
+                disabled={isSubscribing}
+              >
+                {isSubscribing ? "Subscribing..." : "Subscribe"}
+              </Button>
+            </form>
           </div>
 
           {/* Services */}
           <div>
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#services" className="hover:text-shakes-teal transition-colors">Website Development</a></li>
-              <li><a href="#services" className="hover:text-shakes-teal transition-colors">Web Application Development</a></li>
-              <li><a href="#services" className="hover:text-shakes-teal transition-colors">eCommerce Solutions</a></li>
+              <li>
+                <Link 
+                  to="/website-development" 
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  Website Development
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/web-application-development" 
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  Web Application Development
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/ecommerce-solutions" 
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  eCommerce Solutions
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -40,36 +115,88 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-shakes-teal transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-shakes-teal transition-colors">About Us</a></li>
-              <li><a href="#portfolio" className="hover:text-shakes-teal transition-colors">Portfolio</a></li>
-              <li><a href="#industries" className="hover:text-shakes-teal transition-colors">Industries We Serve</a></li>
-              <li><a href="#contact" className="hover:text-shakes-teal transition-colors">Contact Us</a></li>
+              <li>
+                <Link 
+                  to="/" 
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/")}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/blog" 
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/blog")}
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/#about" 
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/#about")}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/portfolio" 
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/portfolio")}
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/contact" 
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/contact")}
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-4 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-shakes-teal" />
                 <span>Kampala and Jinja, Uganda, Africa</span>
               </li>
+              <li>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-5 w-5 text-shakes-teal" />
+                  <a href="mailto:info@shakesdigital.com" className="hover:text-shakes-teal transition-colors">
+                    info@shakesdigital.com
+                  </a>
+                </div>
+                <div className="ml-7">
+                  <a href="mailto:shakesdigital@gmail.com" className="hover:text-shakes-teal transition-colors">
+                    shakesdigital@gmail.com
+                  </a>
+                </div>
+              </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-shakes-teal" />
-                <span>+256 705 718 590</span>
+                <a href="tel:+256705718590" className="hover:text-shakes-teal transition-colors">
+                  +256 705 718 590
+                </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Mail className="h-5 w-5 text-shakes-teal" />
-                <span>info@shakesdigital.com</span>
-              </li>
-              <li className="flex items-start gap-2 ml-7">
-                <span>shakesdigital@gmail.com</span>
-              </li>
-              <li className="flex items-center gap-2 mt-2">
-                <span className="font-medium">Working Hours:</span>
-                <span>Monday to Saturday, 9:00 AM – 5:00 PM EAT</span>
+              <li className="flex items-start gap-2">
+                <Clock className="h-5 w-5 text-shakes-teal mt-1" />
+                <div>
+                  <span className="font-medium">Working Hours:</span>
+                  <div>Monday to Saturday</div>
+                  <div>9:00 AM – 5:00 PM EAT</div>
+                </div>
               </li>
             </ul>
           </div>
@@ -82,8 +209,7 @@ const Footer: React.FC = () => {
               &copy; {currentYear} Shakes Digital. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm md:text-right">
-              <a href="#" className="hover:text-shakes-teal mr-4">Privacy Policy</a>
-              <a href="#" className="hover:text-shakes-teal">Terms of Service</a>
+              Designed and developed with ❤️ by Shakes Digital
             </div>
           </div>
         </div>
