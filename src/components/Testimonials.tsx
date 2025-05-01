@@ -22,9 +22,9 @@ const Testimonial: React.FC<TestimonialProps> = ({ quote, name, title, company, 
         </div>
       </div>
       <div className="text-gray-600 italic relative">
-        <div className="text-4xl text-shakes-orange/20 absolute top-0 left-0">"</div>
+        <div className="text-4xl text-shakes-teal/20 absolute top-0 left-0">"</div>
         <p className="pl-6">{quote}</p>
-        <div className="text-4xl text-shakes-orange/20 absolute bottom-0 right-0">"</div>
+        <div className="text-4xl text-shakes-teal/20 absolute bottom-0 right-0">"</div>
       </div>
     </div>
   );
@@ -40,7 +40,7 @@ const Testimonials: React.FC = () => {
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
     },
     {
-      quote: "Their eCommerce solution allowed us to reach customers across East Africa and beyond. The local payment integration was seamless and transformed our business.",
+      quote: "Their eCommerce solution allowed us to reach customers across Africa and beyond. The local payment integration was seamless and transformed our business.",
       name: "David Mwangi",
       title: "CEO",
       company: "Artisan Crafts Kenya",
@@ -61,7 +61,7 @@ const Testimonials: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">What Our Clients Say</h2>
           <p className="section-subtitle mx-auto">
-            Don't just take our word for it. Here's what our clients across East Africa have to say about working with Shakes Digital.
+            Don't just take our word for it. Here's what our clients across Africa have to say about working with Shakes Digital.
           </p>
         </div>
 

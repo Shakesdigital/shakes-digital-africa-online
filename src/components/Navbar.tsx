@@ -11,26 +11,28 @@ const Navbar: React.FC = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center gap-2">
-            <span className="font-heading font-bold text-2xl text-shakes-blue-dark">
-              Shakes<span className="text-shakes-orange">Digital</span>
-            </span>
+            <img 
+              src="/lovable-uploads/97fbf1c7-d62a-40ce-9b67-0c5b50bb01e5.png" 
+              alt="Shakes Digital Logo" 
+              className="h-12 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            <a href="#" className="text-shakes-blue-dark hover:text-shakes-orange font-medium">
+            <a href="#" className="text-shakes-blue-dark hover:text-shakes-teal font-medium">
               Home
             </a>
-            <a href="#services" className="text-shakes-blue-dark hover:text-shakes-orange font-medium">
+            <a href="#services" className="text-shakes-blue-dark hover:text-shakes-teal font-medium">
               Services
             </a>
-            <a href="#industries" className="text-shakes-blue-dark hover:text-shakes-orange font-medium">
+            <a href="#industries" className="text-shakes-blue-dark hover:text-shakes-teal font-medium">
               Industries
             </a>
-            <a href="#portfolio" className="text-shakes-blue-dark hover:text-shakes-orange font-medium">
+            <a href="#portfolio" className="text-shakes-blue-dark hover:text-shakes-teal font-medium">
               Portfolio
             </a>
-            <a href="#about" className="text-shakes-blue-dark hover:text-shakes-orange font-medium">
+            <a href="#about" className="text-shakes-blue-dark hover:text-shakes-teal font-medium">
               About Us
             </a>
             <a href="#contact" className="btn-primary ml-4">
@@ -57,35 +59,35 @@ const Navbar: React.FC = () => {
             <div className="flex flex-col space-y-4">
               <a 
                 href="#" 
-                className="text-shakes-blue-dark hover:text-shakes-orange font-medium px-4 py-2"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a 
                 href="#services" 
-                className="text-shakes-blue-dark hover:text-shakes-orange font-medium px-4 py-2"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </a>
               <a 
                 href="#industries" 
-                className="text-shakes-blue-dark hover:text-shakes-orange font-medium px-4 py-2"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Industries
               </a>
               <a 
                 href="#portfolio" 
-                className="text-shakes-blue-dark hover:text-shakes-orange font-medium px-4 py-2"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Portfolio
               </a>
               <a 
                 href="#about" 
-                className="text-shakes-blue-dark hover:text-shakes-orange font-medium px-4 py-2"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us

@@ -63,13 +63,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom Shakes Digital Theme Colors
+				// Custom Shakes Digital Theme Colors - Updated with teal from logo
 				shakes: {
 					'blue-dark': '#0B3954',
 					'blue': '#1D70A2',
 					'blue-light': '#66B9DE',
-					'orange': '#FF6B35',
-					'orange-light': '#FFB299',
+					'teal': '#1DACA2', // New teal color from the logo
+					'teal-light': '#85DBD4', // Lighter teal variant
+					'teal-dark': '#167F78', // Darker teal variant
+					'orange': '#1DACA2', // Changed to teal to replace orange
+					'orange-light': '#85DBD4', // Changed to light teal
 					'white': '#FFFFFF',
 					'gray': '#F5F5F5',
 					'gray-dark': '#333333',

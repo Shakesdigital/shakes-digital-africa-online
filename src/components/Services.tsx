@@ -26,7 +26,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
           <li key={index} className="flex items-center">
-            <div className="mr-2 text-shakes-orange">✓</div>
+            <div className="mr-2 text-shakes-teal">✓</div>
             <span>{feature}</span>
           </li>
         ))}
@@ -62,8 +62,8 @@ const Services: React.FC = () => {
         "Client portals & dashboards",
         "Process automation"
       ],
-      icon: <Code className="w-8 h-8 text-shakes-orange" />,
-      color: "#FF6B35",
+      icon: <Code className="w-8 h-8 text-shakes-teal" />,
+      color: "#1DACA2",
       link: "/web-application-development"
     },
     {
@@ -87,7 +87,7 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Digital Services</h2>
           <p className="section-subtitle mx-auto">
-            We deliver end-to-end digital solutions tailored to the unique needs of East African businesses.
+            We deliver end-to-end digital solutions tailored to the unique needs of African businesses.
           </p>
         </div>
 

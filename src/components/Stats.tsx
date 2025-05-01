@@ -9,8 +9,8 @@ interface StatProps {
 const Stat: React.FC<StatProps> = ({ value, label }) => {
   return (
     <div className="text-center">
-      <div className="text-4xl font-bold text-shakes-blue mb-2">{value}</div>
-      <div className="text-gray-600">{label}</div>
+      <div className="text-4xl font-bold text-shakes-teal mb-2">{value}</div>
+      <div className="text-gray-300">{label}</div>
     </div>
   );
 };
@@ -23,7 +23,7 @@ const Stats: React.FC = () => {
           <Stat value="150+" label="Projects Completed" />
           <Stat value="50+" label="Happy Clients" />
           <Stat value="10+" label="Industries Served" />
-          <Stat value="5+" label="East African Countries" />
+          <Stat value="5+" label="African Countries" />
         </div>
       </div>
     </section>

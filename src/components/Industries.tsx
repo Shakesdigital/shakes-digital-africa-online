@@ -22,7 +22,7 @@ const Industries: React.FC = () => {
     {
       icon: "/placeholder.svg",
       title: "Tourism & Hospitality",
-      description: "Digital solutions for hotels, tour companies, and travel services across East Africa."
+      description: "Digital solutions for hotels, tour companies, and travel services across Africa."
     },
     {
       icon: "/placeholder.svg",
@@ -47,7 +47,7 @@ const Industries: React.FC = () => {
     {
       icon: "/placeholder.svg",
       title: "NGOs & Non-Profits",
-      description: "Impact-focused platforms for organizations making a difference in East Africa."
+      description: "Impact-focused platforms for organizations making a difference in Africa."
     }
   ];
 
@@ -57,7 +57,7 @@ const Industries: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Industries We Serve</h2>
           <p className="section-subtitle mx-auto">
-            Our digital solutions are tailored to meet the unique needs of diverse sectors across East Africa.
+            Our digital solutions are tailored to meet the unique needs of diverse sectors across Africa.
           </p>
         </div>
 

@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
               <p className="mb-6">
                 Schedule a free 30-minute consultation with our digital experts to discuss your project needs and how we can help.
               </p>
-              <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white w-full">
+              <Button className="bg-shakes-teal hover:bg-shakes-teal-dark text-white w-full">
                 Book a Consultation
               </Button>
             </div>
@@ -78,20 +78,21 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-bold mb-6 text-shakes-blue-dark">Contact Information</h3>
               <div className="space-y-4">
                 <div>
-                  <p className="font-medium text-shakes-blue">Location</p>
-                  <p className="text-gray-600">Nairobi, Kenya, East Africa</p>
+                  <p className="font-medium text-shakes-teal">Location</p>
+                  <p className="text-gray-600">Kampala and Jinja, Uganda, Africa</p>
                 </div>
                 <div>
-                  <p className="font-medium text-shakes-blue">Email</p>
+                  <p className="font-medium text-shakes-teal">Email</p>
                   <p className="text-gray-600">info@shakesdigital.com</p>
+                  <p className="text-gray-600">shakesdigital@gmail.com</p>
                 </div>
                 <div>
-                  <p className="font-medium text-shakes-blue">Phone</p>
-                  <p className="text-gray-600">+254 700 000000</p>
+                  <p className="font-medium text-shakes-teal">Phone</p>
+                  <p className="text-gray-600">+256 705 718 590</p>
                 </div>
                 <div>
-                  <p className="font-medium text-shakes-blue">Working Hours</p>
-                  <p className="text-gray-600">Monday - Friday: 9AM to 5PM EAT</p>
+                  <p className="font-medium text-shakes-teal">Working Hours</p>
+                  <p className="text-gray-600">Monday to Saturday, 9:00 AM – 5:00 PM EAT</p>
                 </div>
               </div>
             </div>

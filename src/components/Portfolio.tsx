@@ -21,10 +21,10 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({ image, title, category, d
         />
       </div>
       <div className="p-6">
-        <div className="text-sm font-medium text-shakes-orange mb-2">{category}</div>
+        <div className="text-sm font-medium text-shakes-teal mb-2">{category}</div>
         <h3 className="text-xl font-bold mb-3 text-shakes-blue-dark">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        <Button variant="ghost" className="text-shakes-blue hover:text-shakes-orange p-0 flex items-center gap-2">
+        <Button variant="ghost" className="text-shakes-blue hover:text-shakes-teal p-0 flex items-center gap-2">
           View Case Study <ArrowRight className="h-4 w-4" />
         </Button>
       </div>
@@ -42,13 +42,13 @@ const Portfolio: React.FC = () => {
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800",
       title: "Safari Tours Booking Platform",
       category: "Web Apps",
-      description: "A comprehensive booking system for East Africa's premier safari company."
+      description: "A comprehensive booking system for Africa's premier safari company."
     },
     {
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=800",
       title: "Afya Health Portal",
       category: "Web Apps",
-      description: "Patient management system for a network of clinics across Kenya."
+      description: "Patient management system for a network of clinics across Uganda."
     },
     {
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
@@ -60,7 +60,7 @@ const Portfolio: React.FC = () => {
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
       title: "Kilimanjaro University",
       category: "Websites",
-      description: "Modern, responsive website for a leading East African university."
+      description: "Modern, responsive website for a leading African university."
     }
   ];
 
@@ -75,7 +75,7 @@ const Portfolio: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Portfolio</h2>
           <p className="section-subtitle mx-auto">
-            Explore our successful digital projects across various industries in East Africa.
+            Explore our successful digital projects across various industries in Africa.
           </p>
           
           <div className="flex flex-wrap justify-center gap-2 mt-8">
@@ -83,7 +83,7 @@ const Portfolio: React.FC = () => {
               <Button 
                 key={filter}
                 variant={activeFilter === filter ? "default" : "outline"}
-                className={activeFilter === filter ? "bg-shakes-blue text-white" : "text-shakes-blue-dark"}
+                className={activeFilter === filter ? "bg-shakes-teal text-white" : "text-shakes-blue-dark"}
                 onClick={() => setActiveFilter(filter)}
               >
                 {filter}

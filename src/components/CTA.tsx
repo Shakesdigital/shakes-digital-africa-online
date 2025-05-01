@@ -5,18 +5,18 @@ import { ArrowRight } from "lucide-react";
 
 const CTA: React.FC = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-shakes-blue to-shakes-blue-dark text-white">
+    <section className="py-16 bg-gradient-to-r from-shakes-teal to-shakes-blue text-white">
       <div className="container-custom">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Digital Presence?
           </h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Let's collaborate to create innovative digital solutions that drive growth for your East African business.
+            Let's collaborate to create innovative digital solutions that drive growth for your African business.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button 
-              className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg"
+              className="bg-white hover:bg-gray-100 text-shakes-teal py-3 px-8 text-lg"
               asChild
             >
               <a href="#contact" className="flex items-center gap-2">
