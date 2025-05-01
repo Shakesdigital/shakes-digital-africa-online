@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Shakes<span className="text-shakes-orange">Digital</span></h3>
             <p className="mb-4 text-gray-300">
-              Empowering Africa's businesses with innovative digital solutions tailored to your unique needs.
+              Empowering East Africa's businesses with innovative digital solutions tailored to your unique needs.
             </p>
             <div className="flex space-x-4">
               {/* Social Media Icons would go here */}
@@ -24,9 +24,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/website-development" className="hover:text-shakes-orange transition-colors">Website Development</a></li>
-              <li><a href="/web-application-development" className="hover:text-shakes-orange transition-colors">Web Application Development</a></li>
-              <li><a href="/ecommerce-solutions" className="hover:text-shakes-orange transition-colors">eCommerce Solutions</a></li>
+              <li><a href="#services" className="hover:text-shakes-orange transition-colors">Website Development</a></li>
+              <li><a href="#services" className="hover:text-shakes-orange transition-colors">Web Application Development</a></li>
+              <li><a href="#services" className="hover:text-shakes-orange transition-colors">eCommerce Solutions</a></li>
             </ul>
           </div>
 
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/" className="hover:text-shakes-orange transition-colors">Home</a></li>
+              <li><a href="#" className="hover:text-shakes-orange transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-shakes-orange transition-colors">About Us</a></li>
               <li><a href="#portfolio" className="hover:text-shakes-orange transition-colors">Portfolio</a></li>
               <li><a href="#industries" className="hover:text-shakes-orange transition-colors">Industries We Serve</a></li>
@@ -48,23 +48,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-shakes-orange" />
-                <span>Kampala and Jinja, Uganda</span>
+                <span>Nairobi, Kenya, East Africa</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-shakes-orange" />
-                <span>+256 705 718 590</span>
+                <span>+254 700 000000</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-shakes-orange" />
                 <span>info@shakesdigital.com</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <Mail className="h-5 w-5 text-transparent" />
-                <span>shakesdigital@gmail.com</span>
-              </li>
-              <li>
-                <p className="mt-2"><span className="font-medium">Working Hours:</span></p>
-                <p>Monday to Saturday, 9:00 AM – 5:00 PM EAT</p>
               </li>
             </ul>
           </div>

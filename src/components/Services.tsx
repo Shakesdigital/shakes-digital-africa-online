@@ -11,17 +11,9 @@ interface ServiceCardProps {
   icon: React.ReactNode;
   color: string;
   link: string;
-  cta1: {
-    text: string;
-    link: string;
-  };
-  cta2: {
-    text: string;
-    link: string;
-  };
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features, icon, color, link, cta1, cta2 }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features, icon, color, link }) => {
   return (
     <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-all duration-300 border-t-4" style={{ borderColor: color }}>
       <div className="mb-6">
@@ -39,14 +31,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
           </li>
         ))}
       </ul>
-      <div className="flex flex-col space-y-2">
-        <Button className="btn-secondary w-full mt-auto" asChild>
-          <Link to={cta1.link}>{cta1.text}</Link>
-        </Button>
-        <Button variant="outline" className="w-full border-shakes-blue text-shakes-blue hover:bg-shakes-blue hover:text-white" asChild>
-          <Link to={cta2.link}>{cta2.text}</Link>
-        </Button>
-      </div>
+      <Button className="btn-secondary w-full mt-auto" asChild>
+        <Link to={link}>Request a Quote</Link>
+      </Button>
     </div>
   );
 };
@@ -64,15 +51,7 @@ const Services: React.FC = () => {
       ],
       icon: <LayoutDashboard className="w-8 h-8 text-shakes-blue" />,
       color: "#1D70A2",
-      link: "/website-development",
-      cta1: {
-        text: "Request a Quote",
-        link: "/website-development/request-quote"
-      },
-      cta2: {
-        text: "See Our Work",
-        link: "/website-development/portfolio"
-      }
+      link: "/website-development"
     },
     {
       title: "Web Application Development",
@@ -85,15 +64,7 @@ const Services: React.FC = () => {
       ],
       icon: <Code className="w-8 h-8 text-shakes-orange" />,
       color: "#FF6B35",
-      link: "/web-application-development",
-      cta1: {
-        text: "Schedule a Demo",
-        link: "/web-application-development/schedule-demo"
-      },
-      cta2: {
-        text: "View Our Portfolio",
-        link: "/web-application-development/portfolio"
-      }
+      link: "/web-application-development"
     },
     {
       title: "eCommerce Solutions",
@@ -106,15 +77,7 @@ const Services: React.FC = () => {
       ],
       icon: <ShoppingCart className="w-8 h-8 text-shakes-blue-light" />,
       color: "#66B9DE",
-      link: "/ecommerce-solutions",
-      cta1: {
-        text: "Get Started",
-        link: "/ecommerce-solutions/get-started"
-      },
-      cta2: {
-        text: "Explore Features",
-        link: "/ecommerce-solutions/explore-features"
-      }
+      link: "/ecommerce-solutions"
     }
   ];
 
@@ -124,7 +87,7 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Digital Services</h2>
           <p className="section-subtitle mx-auto">
-            We deliver end-to-end digital solutions tailored to the unique needs of African businesses.
+            We deliver end-to-end digital solutions tailored to the unique needs of East African businesses.
           </p>
         </div>
 
