@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -8,13 +8,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { supabase } from "@/integrations/supabase/client";
 import { useQuery } from "@tanstack/react-query";
-import { LogIn } from "lucide-react";
+import { LogIn, Shield } from "lucide-react";
 
 const AdminLogin: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const { data: session } = useQuery({
     queryKey: ['session'],
@@ -45,6 +46,12 @@ const AdminLogin: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const handleBypassLogin = () => {
+    // For development - bypass authentication
+    localStorage.setItem('admin_bypass', 'true');
+    navigate('/admin');
   };
 
   return (
@@ -102,6 +109,20 @@ const AdminLogin: React.FC = () => {
               )}
             </Button>
           </form>
+          
+          <div className="mt-6 pt-6 border-t border-gray-200">
+            <Button 
+              variant="outline" 
+              className="w-full" 
+              onClick={handleBypassLogin}
+            >
+              <Shield className="w-4 h-4 mr-2" />
+              Development Access (Bypass Login)
+            </Button>
+            <p className="text-xs text-gray-500 text-center mt-2">
+              For development purposes only
+            </p>
+          </div>
         </CardContent>
       </Card>
     </div>

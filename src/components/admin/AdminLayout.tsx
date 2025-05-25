@@ -38,7 +38,9 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
   ];
 
   const handleLogout = async () => {
+    // Clear both Supabase session and bypass flag
     await supabase.auth.signOut();
+    localStorage.removeItem('admin_bypass');
     navigate('/admin/login');
   };
 
@@ -109,6 +111,11 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
               Content Management System
             </h1>
             <div className="flex items-center gap-4">
+              {localStorage.getItem('admin_bypass') === 'true' && (
+                <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
+                  Development Mode
+                </span>
+              )}
               <span className="text-sm text-gray-600">Shakes Digital Admin</span>
             </div>
           </div>

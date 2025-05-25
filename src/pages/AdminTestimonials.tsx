@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Navigate } from "react-router-dom";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
@@ -21,6 +20,9 @@ const AdminTestimonials: React.FC = () => {
       return session;
     }
   });
+
+  // Check for development bypass
+  const hasBypass = localStorage.getItem('admin_bypass') === 'true';
 
   const { data: testimonials, isLoading } = useQuery({
     queryKey: ['testimonials'],
@@ -68,7 +70,7 @@ const AdminTestimonials: React.FC = () => {
     );
   }
 
-  if (!session) {
+  if (!session && !hasBypass) {
     return <Navigate to="/admin/login" replace />;
   }
 
