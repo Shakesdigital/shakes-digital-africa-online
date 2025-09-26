@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-300 mb-4">
-              Leading digital transformation across East Africa with innovative web solutions and exceptional service.
+              Empowering African communities through digital innovation, driving sustainable development and poverty alleviation across the continent.
             </p>
             <form onSubmit={handleSubscribe} className="space-y-2">
               <Input
@@ -85,28 +85,38 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <Link 
-                  to="/website-development" 
-                  className="hover:text-shakes-teal transition-colors"
-                >
-                  Website Development
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/web-application-development" 
+                <Link
+                  to="/web-application-development"
                   className="hover:text-shakes-teal transition-colors"
                 >
                   Web Application Development
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/ecommerce-solutions" 
+                <Link
+                  to="/website-development"
                   className="hover:text-shakes-teal transition-colors"
                 >
-                  eCommerce Solutions
+                  Website Re-development
                 </Link>
+              </li>
+              <li>
+                <Link
+                  to="/ecommerce-solutions"
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  E-Commerce Solutions
+                </Link>
+              </li>
+              <li>
+                <span className="hover:text-shakes-teal transition-colors cursor-pointer">
+                  Digital Marketing
+                </span>
+              </li>
+              <li>
+                <span className="hover:text-shakes-teal transition-colors cursor-pointer">
+                  Data Management Systems
+                </span>
               </li>
             </ul>
           </div>
@@ -134,8 +144,8 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/#about" 
+                <Link
+                  to="/#about"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/#about")}
                 >
@@ -143,8 +153,17 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/portfolio" 
+                <Link
+                  to="/objectives"
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/objectives")}
+                >
+                  Objectives
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/portfolio"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/portfolio")}
                 >
@@ -152,8 +171,8 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/contact")}
                 >

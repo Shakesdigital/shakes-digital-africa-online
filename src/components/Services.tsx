@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Code, LayoutDashboard, ShoppingCart } from "lucide-react";
+import { Code, LayoutDashboard, ShoppingCart, Globe, Database, Search, Megaphone, Users, Shield, FileText, BarChart } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -40,43 +40,121 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
 const Services: React.FC = () => {
   const services = [
     {
-      title: "Website Development",
-      description: "Custom, responsive websites that represent your brand and engage your audience effectively.",
-      features: [
-        "Custom design & development",
-        "Content management systems",
-        "Responsive & mobile-friendly",
-        "SEO optimization"
-      ],
-      icon: <LayoutDashboard className="w-8 h-8 text-shakes-blue" />,
-      color: "#1D70A2",
-      link: "/website-development"
-    },
-    {
       title: "Web Application Development",
-      description: "Powerful, scalable web applications built for your specific business needs and processes.",
+      description: "Build custom apps that streamline operations and enhance user engagement for African community initiatives and businesses.",
       features: [
-        "Custom business applications",
-        "Internal platforms & tools",
-        "Client portals & dashboards",
-        "Process automation"
+        "Community engagement tools",
+        "Data collection systems",
+        "Resource management platforms",
+        "Mobile-first design for African users"
       ],
       icon: <Code className="w-8 h-8 text-shakes-teal" />,
       color: "#1DACA2",
       link: "/web-application-development"
     },
     {
-      title: "eCommerce Solutions",
-      description: "End-to-end online store development with local payment integration and order management.",
+      title: "Portal Development",
+      description: "Create secure, user-friendly portals for resource sharing, collaboration, and information access in African development projects.",
       features: [
-        "Custom online stores",
-        "Local payment gateways",
-        "Inventory management",
-        "Mobile shopping experience"
+        "Stakeholder collaboration portals",
+        "Resource sharing platforms",
+        "Information access systems",
+        "Multi-language support"
       ],
-      icon: <ShoppingCart className="w-8 h-8 text-shakes-blue-light" />,
+      icon: <Globe className="w-8 h-8 text-shakes-blue" />,
+      color: "#1D70A2",
+      link: "/portal-development"
+    },
+    {
+      title: "Website Re-development",
+      description: "Revamp existing sites to improve functionality, accessibility, and performance, ensuring they meet modern standards for African users.",
+      features: [
+        "Accessibility improvements",
+        "Performance optimization",
+        "Mobile responsiveness",
+        "Cross-platform compatibility"
+      ],
+      icon: <LayoutDashboard className="w-8 h-8 text-shakes-blue-light" />,
       color: "#66B9DE",
+      link: "/website-development"
+    },
+    {
+      title: "E-Commerce Website Development",
+      description: "Launch online stores to boost local African businesses, enabling wider market reach and economic growth across the continent.",
+      features: [
+        "Local payment integration",
+        "Multi-currency support",
+        "Inventory management",
+        "Market expansion tools"
+      ],
+      icon: <ShoppingCart className="w-8 h-8 text-shakes-teal" />,
+      color: "#1DACA2",
       link: "/ecommerce-solutions"
+    },
+    {
+      title: "CRM Applications",
+      description: "Manage interactions efficiently to strengthen community ties and business relationships in African contexts.",
+      features: [
+        "Community relationship management",
+        "Stakeholder engagement tracking",
+        "Communication automation",
+        "Impact measurement tools"
+      ],
+      icon: <Users className="w-8 h-8 text-shakes-blue" />,
+      color: "#1D70A2",
+      link: "/crm-development"
+    },
+    {
+      title: "Content Management Systems",
+      description: "Easy-to-use platforms for updating and sharing content on African development topics and business resources.",
+      features: [
+        "Multi-language content support",
+        "Community content sharing",
+        "Educational resource management",
+        "Offline content access"
+      ],
+      icon: <FileText className="w-8 h-8 text-shakes-blue-light" />,
+      color: "#66B9DE",
+      link: "/cms-development"
+    },
+    {
+      title: "Data Management Systems",
+      description: "Securely handle data to inform decisions in poverty alleviation and sustainability efforts in Africa.",
+      features: [
+        "Impact data tracking",
+        "Analytics and reporting",
+        "Secure data storage",
+        "Evidence-based insights"
+      ],
+      icon: <Database className="w-8 h-8 text-shakes-teal" />,
+      color: "#1DACA2",
+      link: "/data-management"
+    },
+    {
+      title: "Digital Marketing",
+      description: "Promote your initiatives online to amplify impact and attract support within African markets.",
+      features: [
+        "Community awareness campaigns",
+        "Social media strategy",
+        "Local market targeting",
+        "Impact storytelling"
+      ],
+      icon: <Megaphone className="w-8 h-8 text-shakes-blue" />,
+      color: "#1D70A2",
+      link: "/digital-marketing"
+    },
+    {
+      title: "Search Engine Optimization",
+      description: "Optimize your digital presence for better visibility and reach in Africa-focused searches.",
+      features: [
+        "Local SEO optimization",
+        "African market targeting",
+        "Multi-language SEO",
+        "Community visibility enhancement"
+      ],
+      icon: <Search className="w-8 h-8 text-shakes-blue-light" />,
+      color: "#66B9DE",
+      link: "/seo-services"
     }
   ];
 
@@ -86,7 +164,10 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Digital Services</h2>
           <p className="section-subtitle mx-auto">
-            We deliver end-to-end digital solutions tailored to the unique needs of African businesses.
+            Tailored solutions to empower African communities and businesses in the fight against poverty and for sustainable growth across the continent.
+          </p>
+          <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
+            Discover how our digital expertise can transform challenges into opportunities for African sustainable development.
           </p>
         </div>
 
@@ -94,6 +175,16 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
+        </div>
+
+        {/* Customization Note */}
+        <div className="text-center mt-16 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 mb-6">
+            All services are customized to align with your African sustainable development goals. Contact us for a consultation tailored to your community's needs.
+          </p>
+          <a href="#contact" className="btn-primary">
+            Request a Quote
+          </a>
         </div>
       </div>
     </section>

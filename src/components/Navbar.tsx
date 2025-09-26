@@ -73,15 +73,22 @@ const Navbar: React.FC = () => {
             >
               Blog
             </Link>
-            <Link 
-              to="/#about" 
+            <Link
+              to="/#about"
               className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
               onClick={() => handleNavClick("/#about")}
             >
               About Us
             </Link>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/objectives"
+              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
+              onClick={() => handleNavClick("/objectives")}
+            >
+              Objectives
+            </Link>
+            <Link
+              to="/contact"
               className="btn-primary ml-4"
               onClick={() => handleNavClick("/contact")}
             >
@@ -147,6 +154,13 @@ const Navbar: React.FC = () => {
                 onClick={() => handleNavClick("/#about")}
               >
                 About Us
+              </Link>
+              <Link
+                to="/objectives"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
+                onClick={() => handleNavClick("/objectives")}
+              >
+                Objectives
               </Link>
               <Link
                 to="/contact"

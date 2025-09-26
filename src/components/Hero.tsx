@@ -9,19 +9,18 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Empowering Africa's Businesses with 
-              <span className="text-shakes-teal"> Digital Excellence</span>
+              Empowering African Communities Through
+              <span className="text-shakes-teal"> Digital Innovation</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              We build innovative, scalable, and sustainable digital solutions tailored to 
-              the unique needs of African businesses and organizations.
+              At Shakes Digital, we harness the power of technology to tackle sustainable community development and business challenges across Africa, driving poverty alleviation and lasting impact in regions like East Africa.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#services" className="btn-primary flex items-center gap-2">
-                Explore Services <ArrowRight className="h-5 w-5" />
+                Get Started Today <ArrowRight className="h-5 w-5" />
               </a>
               <a href="#contact" className="btn-outline">
-                Get a Digital Quote
+                Explore Our Services
               </a>
             </div>
           </div>
@@ -36,6 +35,13 @@ const Hero: React.FC = () => {
               />
             </div>
           </div>
+        </div>
+
+        {/* Intro Paragraph */}
+        <div className="text-center mt-16 max-w-4xl mx-auto">
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Founded with a passion for change in Africa, Shakes Digital bridges the gap between technology and real-world needs on the continent. We provide tailored digital solutions to empower African businesses and communities, fostering growth, inclusion, and sustainability from Uganda to Rwanda and beyond.
+          </p>
         </div>
       </div>
     </section>

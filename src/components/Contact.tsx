@@ -70,7 +70,10 @@ const Contact: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Get In Touch</h2>
           <p className="section-subtitle mx-auto">
-            Ready to start your digital journey? Contact us for a consultation and discover how we can help your business thrive online.
+            Ready to start your journey towards sustainable African development through digital innovation? Contact us for a consultation and discover how we can empower your community or business.
+          </p>
+          <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
+            Whether you're working on poverty alleviation initiatives, community development projects, or business growth in Africa, we're here to help with tailored digital solutions.
           </p>
         </div>
         
@@ -104,20 +107,20 @@ const Contact: React.FC = () => {
               </div>
               <div className="mb-4">
                 <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">Company/Organization</label>
-                <Input 
+                <Input
                   id="company"
                   name="company"
                   type="text"
-                  placeholder="Your company or organization"
+                  placeholder="Your company, NGO, or community organization"
                   className="w-full"
                 />
               </div>
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                <Textarea 
+                <Textarea
                   id="message"
                   name="message"
-                  placeholder="Tell us about your project or inquiry"
+                  placeholder="Tell us about your African sustainable development project, community initiative, or business needs"
                   className="w-full min-h-[150px]"
                   required
                 />
@@ -136,7 +139,7 @@ const Contact: React.FC = () => {
             <div className="bg-shakes-blue-dark text-white rounded-lg shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6">Book a Free Consultation</h3>
               <p className="mb-6">
-                Schedule a free 30-minute consultation with our digital experts to discuss your project needs and how we can help.
+                Schedule a free 30-minute consultation with our African development-focused digital experts to discuss your sustainable community development project, poverty alleviation initiative, or business growth needs across Africa.
               </p>
               <Button 
                 className="bg-shakes-teal hover:bg-shakes-teal-dark text-white w-full"
