@@ -38,54 +38,40 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
               onClick={() => handleNavClick("/")}
             >
               Home
             </Link>
-            <Link 
-              to="/#services" 
-              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/#services")}
-            >
-              Services
-            </Link>
-            <Link 
-              to="/#industries" 
-              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/#industries")}
-            >
-              Industries
-            </Link>
-            <Link 
-              to="/portfolio" 
-              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/portfolio")}
-            >
-              Portfolio
-            </Link>
-            <Link 
-              to="/blog" 
-              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/blog")}
-            >
-              Blog
-            </Link>
             <Link
-              to="/#about"
+              to="/about-us"
               className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/#about")}
+              onClick={() => handleNavClick("/about-us")}
             >
               About Us
             </Link>
             <Link
-              to="/objectives"
+              to="/services"
               className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/objectives")}
+              onClick={() => handleNavClick("/services")}
             >
-              Objectives
+              Services
+            </Link>
+            <Link
+              to="/industries"
+              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
+              onClick={() => handleNavClick("/industries")}
+            >
+              Industries
+            </Link>
+            <Link
+              to="/blog"
+              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
+              onClick={() => handleNavClick("/blog")}
+            >
+              Blog
             </Link>
             <Link
               to="/contact"
@@ -121,25 +107,25 @@ const Navbar: React.FC = () => {
                 Home
               </Link>
               <Link
-                to="/#services"
+                to="/about-us"
                 className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/#services")}
+                onClick={() => handleNavClick("/about-us")}
+              >
+                About Us
+              </Link>
+              <Link
+                to="/services"
+                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
+                onClick={() => handleNavClick("/services")}
               >
                 Services
               </Link>
               <Link
-                to="/#industries"
+                to="/industries"
                 className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/#industries")}
+                onClick={() => handleNavClick("/industries")}
               >
                 Industries
-              </Link>
-              <Link
-                to="/portfolio"
-                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/portfolio")}
-              >
-                Portfolio
               </Link>
               <Link
                 to="/blog"
@@ -147,20 +133,6 @@ const Navbar: React.FC = () => {
                 onClick={() => handleNavClick("/blog")}
               >
                 Blog
-              </Link>
-              <Link
-                to="/#about"
-                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/#about")}
-              >
-                About Us
-              </Link>
-              <Link
-                to="/objectives"
-                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/objectives")}
-              >
-                Objectives
               </Link>
               <Link
                 to="/contact"

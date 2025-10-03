@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, Linkedin, Twitter, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { sendEmail } from "@/lib/email-service";
@@ -126,8 +126,8 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <Link 
-                  to="/" 
+                <Link
+                  to="/"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/")}
                 >
@@ -135,8 +135,35 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/blog" 
+                <Link
+                  to="/about-us"
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/about-us")}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/services")}
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/industries"
+                  className="hover:text-shakes-teal transition-colors"
+                  onClick={() => handleNavClick("/industries")}
+                >
+                  Industries
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/blog"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/blog")}
                 >
@@ -145,38 +172,11 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/#about"
-                  className="hover:text-shakes-teal transition-colors"
-                  onClick={() => handleNavClick("/#about")}
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/objectives"
-                  className="hover:text-shakes-teal transition-colors"
-                  onClick={() => handleNavClick("/objectives")}
-                >
-                  Objectives
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/portfolio"
-                  className="hover:text-shakes-teal transition-colors"
-                  onClick={() => handleNavClick("/portfolio")}
-                >
-                  Portfolio
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/contact"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/contact")}
                 >
-                  Contact
+                  Contact Us
                 </Link>
               </li>
             </ul>
@@ -218,6 +218,34 @@ const Footer: React.FC = () => {
                 </div>
               </li>
             </ul>
+
+            {/* Social Media Links */}
+            <div className="mt-6">
+              <h4 className="text-lg font-semibold mb-3">Follow Us</h4>
+              <div className="flex gap-3">
+                <a
+                  href="#"
+                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
+                  aria-label="Twitter/X"
+                >
+                  <Twitter className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -225,7 +253,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="text-gray-400 text-sm">
-              &copy; {currentYear} Shakes Digital. All rights reserved.
+              © 2025 Shakes Digital. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm md:text-right">
               Designed and developed with ❤️ by Shakes Digital

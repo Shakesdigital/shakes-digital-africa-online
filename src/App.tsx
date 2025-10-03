@@ -23,7 +23,9 @@ import AdminBlog from "./pages/AdminBlog";
 import AdminTestimonials from "./pages/AdminTestimonials";
 import AdminAnalytics from "./pages/AdminAnalytics";
 import AdminUsers from "./pages/AdminUsers";
-import Objectives from "./pages/Objectives";
+import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
+import Industries from "./pages/Industries";
 
 const queryClient = new QueryClient();
 
@@ -38,10 +40,12 @@ const App = () => (
           <Route path="/website-development" element={<WebsiteDevelopment />} />
           <Route path="/web-application-development" element={<WebApplicationDevelopment />} />
           <Route path="/ecommerce-solutions" element={<EcommerceSolutions />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/industries" element={<Industries />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/objectives" element={<Objectives />} />
           <Route path="/case-studies/:slug" element={<CaseStudy />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/login" element={<AdminLogin />} />

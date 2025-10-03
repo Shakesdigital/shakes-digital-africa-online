@@ -21,33 +21,28 @@ const Industries: React.FC = () => {
   const industries = [
     {
       icon: "/placeholder.svg",
-      title: "Tourism & Hospitality",
-      description: "Digital solutions for hotels, tour companies, and travel services across Africa."
-    },
-    {
-      icon: "/placeholder.svg",
-      title: "Retail & eCommerce",
-      description: "Online store development with local payment integration for retailers of all sizes."
-    },
-    {
-      icon: "/placeholder.svg",
-      title: "Education",
-      description: "Learning platforms and school management systems for educational institutions."
+      title: "Agriculture",
+      description: "Custom apps and data systems to optimize farming practices, connect farmers to markets, and enhance food security in rural East Africa (e.g., Uganda and Kenya)."
     },
     {
       icon: "/placeholder.svg",
       title: "Healthcare",
-      description: "Patient management systems and healthcare service platforms tailored to local needs."
+      description: "Portals and CRM tools for telemedicine, patient data management, and community health initiatives, addressing access challenges in underserved African regions."
     },
     {
       icon: "/placeholder.svg",
-      title: "Logistics & Transport",
-      description: "Route optimization, tracking, and management systems for logistics companies."
+      title: "Education",
+      description: "E-learning platforms, CMS, and digital literacy programs to bridge educational gaps and empower youth in countries like Tanzania and Rwanda."
     },
     {
       icon: "/placeholder.svg",
-      title: "NGOs & Non-Profits",
-      description: "Impact-focused platforms for organizations making a difference in Africa."
+      title: "Finance",
+      description: "E-commerce and SEO services for fintech startups, promoting financial inclusion and micro-lending in African economies."
+    },
+    {
+      icon: "/placeholder.svg",
+      title: "Environment",
+      description: "Network systems and digital marketing for conservation projects, supporting sustainable resource management and climate resilience across the continent."
     }
   ];
 
@@ -57,7 +52,10 @@ const Industries: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Industries We Serve</h2>
           <p className="section-subtitle mx-auto">
-            Our digital solutions are tailored to meet the unique needs of diverse sectors across Africa.
+            Delivering digital solutions tailored to key African industries for sustainable growth and poverty alleviation.
+          </p>
+          <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
+            Explore how Shakes Digital supports transformation in these vital sectors across Africa.
           </p>
         </div>
 
@@ -65,6 +63,12 @@ const Industries: React.FC = () => {
           {industries.map((industry, index) => (
             <IndustryCard key={index} {...industry} />
           ))}
+        </div>
+
+        <div className="text-center mt-16">
+          <a href="#contact" className="btn-primary">
+            See How We Can Help Your Industry
+          </a>
         </div>
       </div>
     </section>

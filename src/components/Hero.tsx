@@ -9,18 +9,21 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Empowering African Communities Through
-              <span className="text-shakes-teal"> Digital Innovation</span>
+              Shakes Digital: Tailored Digital Solutions for
+              <span className="text-shakes-teal"> Sustainable Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              At Shakes Digital, we harness the power of technology to tackle sustainable community development and business challenges across Africa, driving poverty alleviation and lasting impact in regions like East Africa.
+              We are a web development agency dedicated to solving sustainable community and business challenges through innovative, tailored digital web solutions.
+            </p>
+            <p className="text-base md:text-lg text-gray-600 mb-8 max-w-xl">
+              Established to leverage digital technology for addressing sustainable community and business challenges, we offer Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions that enable scalability, collaboration, and impact across East Africa.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#services" className="btn-primary flex items-center gap-2">
-                Get Started Today <ArrowRight className="h-5 w-5" />
+              <a href="/services" className="btn-primary flex items-center gap-2">
+                Discover Our Services <ArrowRight className="h-5 w-5" />
               </a>
-              <a href="#contact" className="btn-outline">
-                Explore Our Services
+              <a href="/about-us" className="btn-outline">
+                Learn More About Us
               </a>
             </div>
           </div>
@@ -28,19 +31,20 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" 
-                alt="Digital transformation in Africa" 
+              <img
+                src="/kids-on-laptop.jpg"
+                alt="African children learning with digital technology"
                 className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
               />
             </div>
           </div>
         </div>
 
-        {/* Intro Paragraph */}
+        {/* Mission Highlight */}
         <div className="text-center mt-16 max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Our Vision for Digital Sustainability</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Founded with a passion for change in Africa, Shakes Digital bridges the gap between technology and real-world needs on the continent. We provide tailored digital solutions to empower African businesses and communities, fostering growth, inclusion, and sustainability from Uganda to Rwanda and beyond.
+            Guided by a goal to harness innovative solutions for community development and business resilience, we pursue objectives of research, implementation, partnerships, resource mobilization, and evaluation to deliver transformative technologies.
           </p>
         </div>
       </div>
