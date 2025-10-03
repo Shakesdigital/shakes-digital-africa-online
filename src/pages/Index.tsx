@@ -19,7 +19,7 @@ const Index: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Five tailored digital solutions designed to address sustainable community and business challenges across East Africa.
+                Five tailored digital solutions designed to address sustainable community and business challenges across Africa.
               </p>
             </div>
 

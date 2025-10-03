@@ -22,7 +22,7 @@ const Industries: React.FC = () => {
     {
       icon: "/placeholder.svg",
       title: "Agriculture",
-      description: "Custom apps and data systems to optimize farming practices, connect farmers to markets, and enhance food security in rural East Africa (e.g., Uganda and Kenya)."
+      description: "Custom apps and data systems to optimize farming practices, connect farmers to markets, and enhance food security across rural Africa."
     },
     {
       icon: "/placeholder.svg",

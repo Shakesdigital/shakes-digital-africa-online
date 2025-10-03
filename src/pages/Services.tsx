@@ -135,7 +135,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Five Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact across East Africa.
+                Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact across Africa.
               </p>
             </div>
 
@@ -207,7 +207,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why Choose Shakes Digital</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We combine technical excellence with a deep understanding of sustainable community and business challenges across East Africa.
+                We combine technical excellence with a deep understanding of sustainable community and business challenges across Africa.
               </p>
             </div>
 
@@ -218,8 +218,8 @@ const Services: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-shakes-teal mb-3">East Africa Focus</h4>
-                <p className="text-gray-600">Deep understanding of regional challenges, infrastructure, and opportunities.</p>
+                <h4 className="text-xl font-bold text-shakes-teal mb-3">Africa Focus</h4>
+                <p className="text-gray-600">Deep understanding of regional challenges, infrastructure, and opportunities across the continent.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">

@@ -43,7 +43,7 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">The Foundation of Shakes Digital</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital was established to leverage digital technology through tailored solutions, effectively meeting sustainable community development and business challenges. Our mission centers on empowering organizations in Uganda and East Africa with technologies that promote environmental stewardship, economic growth, and collaborative efficiency.
+                      Shakes Digital was established to leverage digital technology through tailored solutions, effectively meeting sustainable community development and business challenges. Our mission centers on empowering organizations across Africa with technologies that promote environmental stewardship, economic growth, and collaborative efficiency.
                     </p>
                   </div>
 

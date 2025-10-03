@@ -141,7 +141,7 @@ const Industries: React.FC = () => {
                 Industries We Elevate: Digital Solutions for Sector-Specific Sustainability
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions tailored for East African challenges.
+                Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions tailored for African challenges.
               </p>
             </div>
           </div>
@@ -183,7 +183,7 @@ const Industries: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Impact Across Sectors</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                Delivering objective-driven solutions for sustainable development across East Africa.
+                Delivering objective-driven solutions for sustainable development across Africa.
               </p>
             </div>
 
@@ -219,7 +219,7 @@ const Industries: React.FC = () => {
                 Ready to Transform Your Industry?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Let us help you leverage digital technology to address the unique challenges in your sector and drive sustainable growth across East Africa.
+                Let us help you leverage digital technology to address the unique challenges in your sector and drive sustainable growth across Africa.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">
