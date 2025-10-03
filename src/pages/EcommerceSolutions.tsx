@@ -20,9 +20,9 @@ const EcommerceSolutions: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce Solutions</Badge>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Sell Online Across East Africa & Beyond</h1>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Sell Online Across Africa & Beyond</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  Custom eCommerce solutions designed for the unique needs of East African businesses, with local payment integration and optimized mobile experiences.
+                  Custom eCommerce solutions designed for the unique needs of African businesses, with local payment integration and optimized mobile experiences.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -89,19 +89,19 @@ const EcommerceSolutions: React.FC = () => {
               {[
                 {
                   title: "Local Payment Integration",
-                  description: "Seamlessly integrate with popular East African payment methods like M-Pesa, Airtel Money, and local banking options.",
+                  description: "Seamlessly integrate with popular African payment methods like M-Pesa, Airtel Money, and local banking options.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Mobile money integration", "Bank transfers", "Payment notifications", "Secure transactions"]
                 },
                 {
                   title: "Mobile-Optimized Shopping",
-                  description: "Create exceptional shopping experiences on smartphones, where the majority of East African consumers browse and buy.",
+                  description: "Create exceptional shopping experiences on smartphones, where the majority of African consumers browse and buy.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Fast loading on 3G/4G", "Low data consumption", "Touch-friendly interfaces", "Offline capabilities"]
                 },
                 {
                   title: "Delivery & Logistics",
-                  description: "Integrate with local delivery services and implement location systems that work with East Africa's unique addressing challenges.",
+                  description: "Integrate with local delivery services and implement location systems that work with Africa's unique addressing challenges.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Multiple delivery options", "Location mapping", "Delivery tracking", "Cash on delivery"]
                 }
@@ -168,7 +168,7 @@ const EcommerceSolutions: React.FC = () => {
                 },
                 {
                   title: "Marketplace Development",
-                  description: "Multi-vendor marketplace platforms that connect buyers and sellers across East Africa.",
+                  description: "Multi-vendor marketplace platforms that connect buyers and sellers across Africa.",
                   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600",
                   features: [
                     "Multiple seller accounts and management",
@@ -215,7 +215,7 @@ const EcommerceSolutions: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">East African eCommerce Success Stories</h2>
+              <h2 className="section-title">African eCommerce Success Stories</h2>
               <p className="section-subtitle mx-auto">
                 See how businesses across the region have transformed their operations with our eCommerce solutions
               </p>
@@ -292,7 +292,7 @@ const EcommerceSolutions: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
-                  quote: "Shakes Digital's eCommerce platform has completely transformed our business. Our sales have increased by 150% and we're now able to reach customers across East Africa.",
+                  quote: "Shakes Digital's eCommerce platform has completely transformed our business. Our sales have increased by 150% and we're now able to reach customers across Africa.",
                   name: "Amina Ibrahim",
                   role: "Founder, Nairobi Fashion House",
                   image: "https://randomuser.me/api/portraits/women/65.jpg"
@@ -455,7 +455,7 @@ const EcommerceSolutions: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Selling Online?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's build an eCommerce solution tailored to your business needs and the unique requirements of East African markets.
+                Let's build an eCommerce solution tailored to your business needs and the unique requirements of African markets.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button 
@@ -492,7 +492,7 @@ const EcommerceSolutions: React.FC = () => {
                 },
                 {
                   question: "Which payment methods can you integrate?",
-                  answer: "We integrate all major East African payment methods including M-Pesa, Airtel Money, Tigo Pesa, bank transfers, credit/debit cards, and international payment options like PayPal for global sales."
+                  answer: "We integrate all major African payment methods including M-Pesa, Airtel Money, Tigo Pesa, bank transfers, credit/debit cards, and international payment options like PayPal for global sales."
                 },
                 {
                   question: "Can you help with product photography and content?",
@@ -500,7 +500,7 @@ const EcommerceSolutions: React.FC = () => {
                 },
                 {
                   question: "How do you handle delivery and logistics?",
-                  answer: "We integrate with local delivery services across East Africa and implement location systems that work with the region's unique addressing challenges, including custom delivery zones and rates."
+                  answer: "We integrate with local delivery services across Africa and implement location systems that work with the region's unique addressing challenges, including custom delivery zones and rates."
                 }
               ].map((faq, index) => (
                 <div key={index}>

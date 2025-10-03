@@ -58,7 +58,7 @@ const Portfolio: React.FC = () => {
     },
     {
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
-      title: "East African Crafts eStore",
+      title: "African Crafts eStore",
       category: "eCommerce",
       description: "Online marketplace connecting artisans to global customers.",
       slug: "east-african-crafts-estore"

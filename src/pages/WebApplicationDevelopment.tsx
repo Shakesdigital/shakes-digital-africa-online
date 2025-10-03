@@ -257,7 +257,7 @@ const WebApplicationDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">Featured Web Application Projects</h2>
               <p className="section-subtitle mx-auto">
-                Real-world solutions we've built for businesses across East Africa
+                Real-world solutions we've built for businesses across Africa
               </p>
             </div>
 
@@ -265,7 +265,7 @@ const WebApplicationDevelopment: React.FC = () => {
               {[
                 {
                   title: "Logistics Management System",
-                  client: "East Africa Transport Solutions",
+                  client: "Africa Transport Solutions",
                   description: "A comprehensive logistics platform that streamlines operations, manages fleets, and provides real-time tracking for this major Kenyan logistics company.",
                   image: "https://picsum.photos/800/450?random=10",
                   technologies: ["React", "Node.js", "MongoDB", "Google Maps API"],
@@ -274,7 +274,7 @@ const WebApplicationDevelopment: React.FC = () => {
                 {
                   title: "Healthcare Patient Portal",
                   client: "Nairobi Medical Network",
-                  description: "A secure patient portal allowing appointment scheduling, medical record access, and telehealth consultations for a network of clinics across East Africa.",
+                  description: "A secure patient portal allowing appointment scheduling, medical record access, and telehealth consultations for a network of clinics across Africa.",
                   image: "https://picsum.photos/800/450?random=11",
                   technologies: ["Vue.js", "PHP/Laravel", "MySQL", "AWS"],
                   results: ["40% reduction in administrative work", "24/7 access to medical services", "Expanded patient reach beyond urban centers"]

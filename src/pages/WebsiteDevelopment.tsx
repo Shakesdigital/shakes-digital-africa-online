@@ -22,7 +22,7 @@ const WebsiteDevelopment: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development</Badge>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Custom Websites That Drive Results</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We design and develop responsive, high-performance websites tailored to your brand and business goals, helping East African businesses establish a powerful online presence.
+                  We design and develop responsive, high-performance websites tailored to your brand and business goals, helping African businesses establish a powerful online presence.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -73,7 +73,7 @@ const WebsiteDevelopment: React.FC = () => {
                 },
                 {
                   title: "Local Optimization",
-                  description: "SEO-optimized code and content structured for East African markets and search patterns.",
+                  description: "SEO-optimized code and content structured for African markets and search patterns.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />
                 }
               ].map((benefit, index) => (
@@ -176,7 +176,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">Recent Website Projects</h2>
               <p className="section-subtitle mx-auto">
-                See how we've helped businesses across East Africa establish a powerful online presence
+                See how we've helped businesses across Africa establish a powerful online presence
               </p>
             </div>
 
@@ -195,7 +195,7 @@ const WebsiteDevelopment: React.FC = () => {
                       {["Tourism", "Healthcare", "Education"][item - 1]}
                     </Badge>
                     <h3 className="text-xl font-bold mb-2 text-shakes-blue-dark">
-                      {["East Africa Tours", "Nairobi Health Center", "Kenya Education Portal"][item - 1]}
+                      {["Africa Tours", "Nairobi Health Center", "Kenya Education Portal"][item - 1]}
                     </h3>
                     <p className="text-gray-600 mb-4">
                       {[
@@ -234,7 +234,7 @@ const WebsiteDevelopment: React.FC = () => {
                 {
                   quote: "Shakes Digital transformed our business with a beautiful, functional website that has significantly increased our online inquiries and bookings.",
                   name: "Sarah Mwangi",
-                  company: "Adventure East Africa",
+                  company: "Adventure Africa",
                   image: "https://randomuser.me/api/portraits/women/45.jpg"
                 },
                 {
@@ -271,7 +271,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Online Presence?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's create a website that represents your brand, engages your audience, and drives business growth across East Africa.
+                Let's create a website that represents your brand, engages your audience, and drives business growth across Africa.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button 
@@ -308,7 +308,7 @@ const WebsiteDevelopment: React.FC = () => {
                 },
                 {
                   question: "Do you provide website maintenance?",
-                  answer: "Yes, we offer ongoing maintenance packages to keep your website secure, updated, and performing optimally. Our support team is based in East Africa for quick response times."
+                  answer: "Yes, we offer ongoing maintenance packages to keep your website secure, updated, and performing optimally. Our support team is based in Africa for quick response times."
                 },
                 {
                   question: "Can I update the website myself?",

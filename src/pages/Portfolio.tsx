@@ -12,7 +12,7 @@ const PortfolioPage: React.FC = () => {
           <div className="container-custom">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Portfolio</h1>
             <p className="text-xl opacity-90 max-w-2xl">
-              Explore our successful digital projects and see how we've helped businesses across East Africa transform their online presence.
+              Explore our successful digital projects and see how we've helped businesses across Africa transform their online presence.
             </p>
           </div>
         </div>
