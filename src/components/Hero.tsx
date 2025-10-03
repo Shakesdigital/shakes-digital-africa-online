@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
         <div className="text-center mt-16 max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Our Vision for Digital Sustainability</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Guided by a goal to harness innovative solutions for community development and business resilience, we pursue objectives of research, implementation, partnerships, resource mobilization, and evaluation to deliver transformative technologies.
+            Guided by a goal to harness innovative digital web solutions for community development and business resilience, we pursue objectives of research, implementation, partnerships, resource mobilization, and evaluation to deliver transformative digital technologies.
           </p>
         </div>
       </div>
