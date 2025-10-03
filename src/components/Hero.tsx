@@ -8,9 +8,9 @@ const Hero: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Shakes Digital: Tailored Digital Solutions for
-              <span className="text-shakes-teal"> Sustainable Excellence</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
+              Tailored Digital Web Solutions for
+              <span className="text-shakes-teal"> Sustainable Excellence in Africa</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
               We are a web development agency dedicated to solving sustainable community and business challenges through innovative, tailored digital web solutions.

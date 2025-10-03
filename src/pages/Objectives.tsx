@@ -57,7 +57,7 @@ const Objectives: React.FC = () => {
         <section className="bg-gradient-to-b from-white to-gray-100 pt-24 pb-20">
           <div className="container-custom">
             <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-shakes-blue-dark mb-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
                 Our Objectives
               </h1>
               <p className="text-xl text-gray-600 mb-8">

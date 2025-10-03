@@ -20,7 +20,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development</Badge>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Custom Websites That Drive Results</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Custom Websites That Drive Results</h1>
                 <p className="text-xl opacity-90 mb-8">
                   We design and develop responsive, high-performance websites tailored to your brand and business goals, helping African businesses establish a powerful online presence.
                 </p>
