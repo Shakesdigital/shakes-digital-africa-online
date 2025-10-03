@@ -10,12 +10,12 @@ const CTA = () => {
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-shakes-blue-dark">Objective-Driven Impact</h2>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto text-gray-700">
-            We're committed to leveraging digital technology through our five core services. Our objectives—research, implementation, partnerships, resource mobilization, and evaluation—ensure every solution drives sustainable outcomes across Africa.
+            We're committed to leveraging digital technology through our core services. Our objectives—research, implementation, partnerships, resource mobilization, and evaluation—ensure every solution drives sustainable outcomes across Africa.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-shakes-teal mb-3">Research & Implementation</h3>
-              <p className="text-gray-600">Identifying sustainable challenges and deploying tailored Custom Software, Web, Mobile, Cloud, and Database solutions.</p>
+              <p className="text-gray-600">Identifying sustainable challenges and deploying tailored Custom Software, Web, and Mobile solutions.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-shakes-teal mb-3">Partnerships & Resources</h3>
@@ -34,7 +34,7 @@ const CTA = () => {
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Launch Your Digital Journey Today</h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Let's create innovative digital solutions—Custom Software, Web Development, Mobile Apps, Cloud Services, or Database Solutions—that address your sustainable community and business challenges across Africa.
+            Let's create innovative digital solutions—Custom Software, Web Development, or Mobile Apps—that address your sustainable community and business challenges across Africa.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">

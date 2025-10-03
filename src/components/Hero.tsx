@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
               We are a web development agency dedicated to solving sustainable community and business challenges through innovative, tailored digital web solutions.
             </p>
             <p className="text-base md:text-lg text-gray-600 mb-8 max-w-xl">
-              Established to leverage digital technology for addressing sustainable community and business challenges, we offer Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions that enable scalability, collaboration, and impact across Africa.
+              Established to leverage digital technology for addressing sustainable community and business challenges, we offer Custom Software, Web Development, and Mobile Apps that enable scalability, collaboration, and impact across Africa.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">

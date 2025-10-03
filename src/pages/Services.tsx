@@ -82,32 +82,6 @@ const Services: React.FC = () => {
       icon: <Smartphone className="w-8 h-8 text-shakes-blue-light" />,
       color: "#66B9DE",
       ctaText: "Build Your App"
-    },
-    {
-      title: "Cloud Services",
-      description: "Flexible cloud deployments for storage, computing, and hosting, emphasizing energy-efficient and secure environments.",
-      benefits: [
-        "Supports scaling through elastic resources",
-        "Aligns with networking by enabling seamless integrations",
-        "Cost-effective infrastructure",
-        "High availability and disaster recovery"
-      ],
-      icon: <Cloud className="w-8 h-8 text-shakes-teal" />,
-      color: "#1DACA2",
-      ctaText: "Migrate to Cloud"
-    },
-    {
-      title: "Database Solutions",
-      description: "Advanced database design and management for handling complex data, with queries optimized for sustainability reporting.",
-      benefits: [
-        "Enhances research with data insights",
-        "Ensures replication readiness via robust structures",
-        "Query optimization for performance",
-        "Data security and compliance"
-      ],
-      icon: <Database className="w-8 h-8 text-shakes-blue" />,
-      color: "#1D70A2",
-      ctaText: "Optimize Your Database"
     }
   ];
 

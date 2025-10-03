@@ -50,8 +50,7 @@ const Industries: React.FC = () => {
       services: [
         "Web Development for booking sites and visitor portals",
         "Mobile Apps for guided tours and wildlife tracking",
-        "Cloud Services for real-time data and reservations",
-        "Database Solutions for guest management"
+        "Custom Software for real-time data and reservations"
       ],
       objectives: "Leverages research and evaluation for scalable, impactful tourism deployments."
     },
@@ -61,9 +60,8 @@ const Industries: React.FC = () => {
       description: "Technology supporting clean energy initiatives and sustainability projects.",
       services: [
         "Custom Software for energy modeling and grid management",
-        "Database Solutions for performance tracking",
-        "Mobile Apps for field monitoring and reporting",
-        "Cloud Services for data analytics"
+        "Web Development for performance tracking dashboards",
+        "Mobile Apps for field monitoring and reporting"
       ],
       objectives: "Supports implementation and resource mobilization for renewable energy expansion."
     },
@@ -74,8 +72,7 @@ const Industries: React.FC = () => {
       services: [
         "Mobile Apps for crop management and market access",
         "Web Development for market portals and supply chain",
-        "Database Solutions for supply chain data and analytics",
-        "Custom Software for precision agriculture"
+        "Custom Software for precision agriculture and analytics"
       ],
       objectives: "Facilitates networking and partnerships for sustainable food system transformation."
     },
@@ -84,10 +81,9 @@ const Industries: React.FC = () => {
       title: "Non-Profit & Social Impact",
       description: "Digital infrastructure for NGOs and community development organizations.",
       services: [
-        "Cloud Services for collaboration and donor management",
         "Custom Software for project tools and impact tracking",
         "Web Development for outreach sites and fundraising",
-        "Database Solutions for beneficiary data"
+        "Mobile Apps for collaboration and donor management"
       ],
       objectives: "Enables research, implementation, and evaluation for amplified social impact."
     },
@@ -98,8 +94,7 @@ const Industries: React.FC = () => {
       services: [
         "Web Development for learning management platforms",
         "Mobile Apps for interactive courses and assessments",
-        "Database Solutions for student analytics and progress",
-        "Cloud Services for scalable content delivery"
+        "Custom Software for student analytics and progress tracking"
       ],
       objectives: "Drives implementation and monitoring for improved educational outcomes."
     },
@@ -109,9 +104,8 @@ const Industries: React.FC = () => {
       description: "Supporting small and medium enterprises committed to environmental, social, and governance goals.",
       services: [
         "Custom Software for ESG compliance and reporting tools",
-        "Cloud Services for scalable operations",
         "Web Development with ecommerce integration",
-        "Database Solutions for sustainability metrics"
+        "Mobile Apps for sustainability metrics tracking"
       ],
       objectives: "Supports resource mobilization and evaluation for sustainable business growth."
     },
@@ -121,9 +115,8 @@ const Industries: React.FC = () => {
       description: "Digital health solutions improving access and quality of care.",
       services: [
         "Mobile Apps for telehealth and patient engagement",
-        "Database Solutions for patient records and analytics",
-        "Cloud Services for secure data sharing",
-        "Custom Software for health information systems"
+        "Custom Software for health information systems",
+        "Web Development for patient portals and secure data sharing"
       ],
       objectives: "Enables partnerships and implementation for expanded healthcare access."
     }
@@ -141,7 +134,7 @@ const Industries: React.FC = () => {
                 Industries We Elevate: Digital Solutions for Sector-Specific Sustainability
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions tailored for African challenges.
+                Custom Software, Web Development, and Mobile Apps tailored for African challenges.
               </p>
             </div>
           </div>
@@ -153,7 +146,7 @@ const Industries: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Sector-Specific Solutions</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each industry benefits from our five core services, aligned with our objectives for sustainable impact.
+                Each industry benefits from our core services, aligned with our objectives for sustainable impact.
               </p>
             </div>
 
@@ -171,7 +164,7 @@ const Industries: React.FC = () => {
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Cross-Sector Innovation</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Our services enable resource mobilization and partnerships, ensuring solutions scale across industries. From tourism to healthcare, we deliver Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions that are researched, implemented, and evaluated for maximum sustainable impact.
+                Our services enable resource mobilization and partnerships, ensuring solutions scale across industries. From tourism to healthcare, we deliver Custom Software, Web Development, and Mobile Apps that are researched, implemented, and evaluated for maximum sustainable impact.
               </p>
             </div>
           </div>
@@ -194,7 +187,7 @@ const Industries: React.FC = () => {
               </div>
 
               <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <div className="text-4xl font-bold text-shakes-blue mb-2">5</div>
+                <div className="text-4xl font-bold text-shakes-blue mb-2">3</div>
                 <p className="text-gray-600 font-medium">Core Services</p>
               </div>
 

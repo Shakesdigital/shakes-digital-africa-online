@@ -19,11 +19,11 @@ const Index: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We offer five powerful, tailored digital web services expertly designed to transform and address sustainable community and business challenges across Africa.
+                We offer three powerful, tailored digital web services expertly designed to transform and address sustainable community and business challenges across Africa.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Settings className="w-8 h-8 text-shakes-teal" />
@@ -56,28 +56,6 @@ const Index: React.FC = () => {
                 </p>
                 <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
               </div>
-
-              <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Lightbulb className="w-8 h-8 text-shakes-blue-light" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Cloud Services</h3>
-                <p className="text-gray-600 text-sm text-center mb-4">
-                  Scalable infrastructure for secure, eco-friendly operations.
-                </p>
-                <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
-              </div>
-
-              <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BarChart className="w-8 h-8 text-shakes-blue" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Database Solutions</h3>
-                <p className="text-gray-600 text-sm text-center mb-4">
-                  Robust data management for insightful decision-making.
-                </p>
-                <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
-              </div>
             </div>
           </div>
         </section>
@@ -95,7 +73,7 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-24 h-24 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-3xl font-bold text-shakes-teal">5</span>
+                  <span className="text-3xl font-bold text-shakes-teal">3</span>
                 </div>
                 <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Core Services</h4>
                 <p className="text-gray-600">Comprehensive digital solutions for every need</p>

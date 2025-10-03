@@ -57,22 +57,10 @@ const Blog: React.FC = () => {
     },
     {
       id: "4",
-      title: "Harnessing Cloud Services for Environmental Impact",
+      title: "Digital Infrastructure for Environmental Impact",
       excerpt: "Resource mobilization strategies using scalable infrastructure for secure, eco-friendly operations...",
       date: "February 28, 2025",
-      category: "Cloud & Database",
-      imageUrl: "/placeholder.svg",
-      author: {
-        name: "Shakes Digital Team",
-        avatar: "/placeholder.svg"
-      }
-    },
-    {
-      id: "5",
-      title: "Database Solutions: Data-Driven Decisions for Sustainability",
-      excerpt: "Objective-aligned trends in robust data management for insightful decision-making and sustainability reporting...",
-      date: "February 20, 2025",
-      category: "Database Solutions",
+      category: "Sustainability",
       imageUrl: "/placeholder.svg",
       author: {
         name: "Shakes Digital Team",
@@ -105,7 +93,7 @@ const Blog: React.FC = () => {
 
         {/* Categories */}
         <div className="flex flex-wrap gap-4 justify-center mb-12">
-          {["All", "Custom Software", "Web Development", "Mobile Apps", "Cloud & Database", "Sustainable Challenges"].map((category) => (
+          {["All", "Custom Software", "Web Development", "Mobile Apps", "Sustainable Challenges"].map((category) => (
             <Button
               key={category}
               variant={category === "All" ? "default" : "outline"}
@@ -159,7 +147,7 @@ const Blog: React.FC = () => {
         <div className="mt-16 bg-shakes-blue-dark text-white rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Subscribe for Cutting-Edge Updates</h2>
           <p className="mb-6">
-            Stay informed on Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions for sustainable impact.
+            Stay informed on Custom Software, Web Development, and Mobile Apps for sustainable impact.
           </p>
           <form className="flex gap-4 max-w-md mx-auto">
             <input

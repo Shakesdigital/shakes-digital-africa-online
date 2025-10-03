@@ -119,7 +119,7 @@ const AboutUs: React.FC = () => {
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Integrated Methodology</h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We deliver our five core services—Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions—in alignment with our objectives, ensuring every project is innovative, tailored, and evaluated for sustainability.
+                We deliver our core services—Custom Software, Web Development, and Mobile Apps—in alignment with our objectives, ensuring every project is innovative, tailored, and evaluated for sustainability.
               </p>
               <a href="/industries" className="btn-primary inline-flex items-center gap-2">
                 Explore Our Industries <ArrowRight className="h-5 w-5" />
@@ -137,7 +137,7 @@ const AboutUs: React.FC = () => {
                 Ready to Partner with Us?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Join us in creating sustainable digital solutions that drive meaningful change through Custom Software, Web Development, Mobile Apps, Cloud Services, and Database Solutions.
+                Join us in creating sustainable digital solutions that drive meaningful change through Custom Software, Web Development, and Mobile Apps.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">

@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
             Reach Out to Shakes Digital: Tailor Your Digital Solutions
           </h1>
           <p className="text-xl text-gray-600">
-            Explore Custom Software, Web Development, Mobile Apps, Cloud Services, or Database Solutions for your sustainable goals.
+            Explore Custom Software, Web Development, or Mobile Apps for your sustainable goals.
           </p>
         </div>
 
@@ -101,8 +101,6 @@ const Contact: React.FC = () => {
                   <option value="custom-software">Custom Software</option>
                   <option value="web-development">Web Development</option>
                   <option value="mobile-apps">Mobile Apps</option>
-                  <option value="cloud-services">Cloud Services</option>
-                  <option value="database-solutions">Database Solutions</option>
                 </select>
               </div>
               <div className="mb-6">
@@ -160,7 +158,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-shakes-teal mb-2">Which service fits my industry?</h4>
-                  <p className="text-gray-600 text-sm">Each of our five core services can be tailored to your sector. Contact us to discuss your specific needs and challenges.</p>
+                  <p className="text-gray-600 text-sm">Each of our core services can be tailored to your sector. Contact us to discuss your specific needs and challenges.</p>
                 </div>
               </div>
             </div>
