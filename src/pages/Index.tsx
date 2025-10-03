@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import { ArrowRight, Code, Users, Lightbulb, BarChart } from "lucide-react";
+import { ArrowRight, Code, Users, Lightbulb, BarChart, Settings, Globe } from "lucide-react";
 
 const Index: React.FC = () => {
   return (
@@ -26,7 +26,7 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
               <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Code className="w-8 h-8 text-shakes-teal" />
+                  <Settings className="w-8 h-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
                 <p className="text-gray-600 text-sm text-center mb-4">
@@ -37,7 +37,7 @@ const Index: React.FC = () => {
 
               <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Code className="w-8 h-8 text-shakes-blue" />
+                  <Globe className="w-8 h-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
                 <p className="text-gray-600 text-sm text-center mb-4">
