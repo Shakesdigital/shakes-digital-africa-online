@@ -24,37 +24,49 @@ const Index: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Settings className="w-8 h-8 text-shakes-teal" />
+              <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=400"
+                  alt="Custom software development in Africa"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
+                  <p className="text-gray-600 text-sm text-center mb-4">
+                    Bespoke applications designed for unique sustainable needs.
+                  </p>
+                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
-                <p className="text-gray-600 text-sm text-center mb-4">
-                  Bespoke applications designed for unique sustainable needs.
-                </p>
-                <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
               </div>
 
-              <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Globe className="w-8 h-8 text-shakes-blue" />
+              <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800&h=400"
+                  alt="Web development team collaboration"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
+                  <p className="text-gray-600 text-sm text-center mb-4">
+                    Responsive platforms optimizing business and community efficiency.
+                  </p>
+                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
-                <p className="text-gray-600 text-sm text-center mb-4">
-                  Responsive platforms optimizing business and community efficiency.
-                </p>
-                <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
               </div>
 
-              <div className="bg-white border-2 border-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-shakes-teal" />
+              <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=800&h=400"
+                  alt="Mobile app development and usage"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile Apps</h3>
+                  <p className="text-gray-600 text-sm text-center mb-4">
+                    User-centric apps for on-the-go access and engagement.
+                  </p>
+                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile Apps</h3>
-                <p className="text-gray-600 text-sm text-center mb-4">
-                  User-centric apps for on-the-go access and engagement.
-                </p>
-                <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
               </div>
             </div>
           </div>
@@ -101,17 +113,23 @@ const Index: React.FC = () => {
         {/* Partners Teaser Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Forging Alliances for Innovation</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We network with local and international organizations in tech, community, and environmental development to mobilize resources and scale digital impact.
-              </p>
-            </div>
-
-            <div className="text-center mt-12">
-              <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
-                Learn About Our Partnerships <ArrowRight className="h-5 w-5" />
-              </a>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Forging Alliances for Innovation</h2>
+                <p className="text-lg text-gray-600 mb-8">
+                  We network with local and international organizations in tech, community, and environmental development to mobilize resources and scale digital impact.
+                </p>
+                <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
+                  Learn About Our Partnerships <ArrowRight className="h-5 w-5" />
+                </a>
+              </div>
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800"
+                  alt="Partnership and collaboration in technology"
+                  className="rounded-lg shadow-xl w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>

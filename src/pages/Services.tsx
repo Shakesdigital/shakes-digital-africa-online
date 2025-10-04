@@ -3,41 +3,45 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Code, Smartphone, Globe, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
   description: string;
   benefits: string[];
-  icon: React.ReactNode;
+  imageUrl: string;
   color: string;
   ctaText: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, benefits, icon, color, ctaText }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, benefits, imageUrl, color, ctaText }) => {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4" style={{ borderColor: color }}>
-      <div className="mb-6">
-        <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: `${color}20` }}>
-          {icon}
+    <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 overflow-hidden" style={{ borderColor: color }}>
+      <img
+        src={imageUrl}
+        alt={title}
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-8">
+        <div className="mb-6">
+          <h3 className="text-2xl font-bold mb-3 text-shakes-blue-dark">{title}</h3>
+          <p className="text-gray-600 mb-6">{description}</p>
         </div>
-        <h3 className="text-2xl font-bold mb-3 text-shakes-blue-dark">{title}</h3>
-        <p className="text-gray-600 mb-6">{description}</p>
+        <div className="mb-6">
+          <h4 className="font-bold text-shakes-teal mb-3">Key Benefits:</h4>
+          <ul className="space-y-2">
+            {benefits.map((benefit, index) => (
+              <li key={index} className="flex items-start">
+                <div className="mr-2 text-shakes-teal mt-1">✓</div>
+                <span className="text-gray-600 text-sm">{benefit}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <Button className="btn-primary w-full mt-auto" asChild>
+          <Link to="/contact">{ctaText}</Link>
+        </Button>
       </div>
-      <div className="mb-6">
-        <h4 className="font-bold text-shakes-teal mb-3">Key Benefits:</h4>
-        <ul className="space-y-2">
-          {benefits.map((benefit, index) => (
-            <li key={index} className="flex items-start">
-              <div className="mr-2 text-shakes-teal mt-1">✓</div>
-              <span className="text-gray-600 text-sm">{benefit}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <Button className="btn-primary w-full mt-auto" asChild>
-        <Link to="/contact">{ctaText}</Link>
-      </Button>
     </div>
   );
 };
@@ -53,7 +57,7 @@ const Services: React.FC = () => {
         "Bespoke applications for unique sustainable challenges",
         "Scalable architecture for growing organizations"
       ],
-      icon: <Code className="w-8 h-8 text-shakes-teal" />,
+      imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800",
       color: "#1DACA2",
       ctaText: "Request Custom Build"
     },
@@ -66,7 +70,7 @@ const Services: React.FC = () => {
         "Responsive design for all devices",
         "SEO-optimized for maximum reach"
       ],
-      icon: <Globe className="w-8 h-8 text-shakes-blue" />,
+      imageUrl: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=800",
       color: "#1D70A2",
       ctaText: "Develop Your Web Presence"
     },
@@ -79,7 +83,7 @@ const Services: React.FC = () => {
         "Native and cross-platform development",
         "Offline functionality for low-connectivity areas"
       ],
-      icon: <Smartphone className="w-8 h-8 text-shakes-blue-light" />,
+      imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800",
       color: "#66B9DE",
       ctaText: "Build Your App"
     }
@@ -92,13 +96,22 @@ const Services: React.FC = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-white to-gray-100 pt-24 pb-20">
           <div className="container-custom">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                Our Services: Precision Digital Tools for Sustainability
-              </h1>
-              <p className="text-xl text-gray-600 mb-8">
-                Innovative offerings dedicated to solving sustainable community and business challenges.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
+                  Our Services: Precision Digital Tools for Sustainability
+                </h1>
+                <p className="text-xl text-gray-600 mb-8">
+                  Innovative offerings dedicated to solving sustainable community and business challenges.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800"
+                  alt="Digital services and technology solutions"
+                  className="rounded-lg shadow-xl w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
