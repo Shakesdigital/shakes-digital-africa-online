@@ -26,8 +26,8 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=400"
-                  alt="Custom software development in Africa"
+                  src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="African woman coding custom software"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -41,8 +41,8 @@ const Index: React.FC = () => {
 
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800&h=400"
-                  alt="Web development team collaboration"
+                  src="https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="African developers working on web development"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -56,8 +56,8 @@ const Index: React.FC = () => {
 
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=800&h=400"
-                  alt="Mobile app development and usage"
+                  src="https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="African person using mobile technology"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -125,8 +125,8 @@ const Index: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800"
-                  alt="Partnership and collaboration in technology"
+                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="African professionals collaborating on technology projects"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>

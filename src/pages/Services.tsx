@@ -57,7 +57,7 @@ const Services: React.FC = () => {
         "Bespoke applications for unique sustainable challenges",
         "Scalable architecture for growing organizations"
       ],
-      imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1DACA2",
       ctaText: "Request Custom Build"
     },
@@ -70,7 +70,7 @@ const Services: React.FC = () => {
         "Responsive design for all devices",
         "SEO-optimized for maximum reach"
       ],
-      imageUrl: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1D70A2",
       ctaText: "Develop Your Web Presence"
     },
@@ -83,7 +83,7 @@ const Services: React.FC = () => {
         "Native and cross-platform development",
         "Offline functionality for low-connectivity areas"
       ],
-      imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#66B9DE",
       ctaText: "Build Your App"
     }
@@ -107,8 +107,8 @@ const Services: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800"
-                  alt="Digital services and technology solutions"
+                  src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="African team providing digital services and technology solutions"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>
