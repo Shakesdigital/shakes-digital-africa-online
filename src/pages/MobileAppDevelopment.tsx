@@ -516,26 +516,26 @@ const MobileAppDevelopment: React.FC = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Agricultural App Empowering 50,000+ Farmers
+                    Imagine: Agricultural App Empowering 50,000+ Farmers
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We built a cross-platform farming app connecting smallholder farmers to market prices, weather data, and buyers—resulting in 35% income increase and reaching 50,000+ downloads in East Africa.
+                    Picture a cross-platform farming app connecting smallholder farmers to market prices, weather data, and buyers—achieving 35% income increase and reaching 50,000+ downloads across East Africa.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">50K+</p>
-                      <p className="text-blue-100">Active Farmers</p>
+                      <p className="text-blue-100">Potential Active Farmers</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">35%</p>
-                      <p className="text-blue-100">Income Increase</p>
+                      <p className="text-blue-100">Possible Income Increase</p>
                     </div>
                   </div>
                   <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                    Explore Possibilities <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

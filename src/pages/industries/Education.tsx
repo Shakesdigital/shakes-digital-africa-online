@@ -334,33 +334,33 @@ const Education: React.FC = () => {
           </div>
         </section>
 
-        {/* Success Story */}
+        {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    E-Learning Platform Reaches 100,000+ Students Across 5 African Countries
+                    Help Your E-Learning Platform Reach 100,000+ Students Across Africa
                   </h2>
                   <p className="text-xl text-blue-50 mb-8">
-                    We built a mobile-first learning management system with offline capabilities for a Pan-African education provider—resulting in 10X student reach, 85% course completion rates, and improved learning outcomes.
+                    We can build a mobile-first learning management system with offline capabilities for your education organization—potentially achieving 10X student reach, 85% course completion rates, and improved learning outcomes.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">100K+</p>
-                      <p className="text-blue-50">Students Reached</p>
+                      <p className="text-blue-50">Potential Student Reach</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">85%</p>
-                      <p className="text-blue-50">Completion Rate</p>
+                      <p className="text-3xl font-bold mb-2">Up to 85%</p>
+                      <p className="text-blue-50">Potential Completion Rate</p>
                     </div>
                   </div>
-                  <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

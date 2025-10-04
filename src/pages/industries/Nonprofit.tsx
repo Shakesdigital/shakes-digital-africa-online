@@ -334,33 +334,33 @@ const Nonprofit: React.FC = () => {
           </div>
         </section>
 
-        {/* Success Story */}
+        {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    NGO Triples Program Reach and Secures $5M in New Funding
+                    Help Your NGO Triple Program Reach and Secure $5M+ in New Funding
                   </h2>
                   <p className="text-xl text-purple-50 mb-8">
-                    We built an integrated program management and impact measurement platform for a Pan-African NGO—enabling data-driven decision-making, transparent reporting, and dramatic expansion of life-changing programs.
+                    We can build an integrated program management and impact measurement platform for your organization—enabling data-driven decision-making, transparent reporting, and dramatic expansion of life-changing programs.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">3X</p>
-                      <p className="text-purple-50">Program Reach</p>
+                      <p className="text-3xl font-bold mb-2">Up to 3X</p>
+                      <p className="text-purple-50">Potential Program Reach</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">$5M</p>
-                      <p className="text-purple-50">Funding Secured</p>
+                      <p className="text-3xl font-bold mb-2">$5M+</p>
+                      <p className="text-purple-50">Funding Potential</p>
                     </div>
                   </div>
-                  <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

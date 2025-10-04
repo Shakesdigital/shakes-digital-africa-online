@@ -376,26 +376,26 @@ const CustomSoftware: React.FC = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Custom Agricultural Platform Serving 10,000+ Farmers
+                    Imagine: Custom Agricultural Platform Serving 10,000+ Farmers
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We built a comprehensive agricultural management system connecting smallholder farmers to markets, weather data, and financial services—resulting in 40% income increase and 60% reduction in post-harvest losses.
+                    Picture a comprehensive agricultural management system connecting smallholder farmers to markets, weather data, and financial services—achieving 40% income increase and 60% reduction in post-harvest losses.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">10,000+</p>
-                      <p className="text-blue-100">Active Farmers</p>
+                      <p className="text-blue-100">Potential Active Farmers</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">40%</p>
-                      <p className="text-blue-100">Income Increase</p>
+                      <p className="text-blue-100">Possible Income Increase</p>
                     </div>
                   </div>
                   <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                    Explore Possibilities <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

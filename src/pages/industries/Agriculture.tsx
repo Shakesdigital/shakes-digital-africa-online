@@ -334,33 +334,33 @@ const Agriculture: React.FC = () => {
           </div>
         </section>
 
-        {/* Success Story */}
+        {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-emerald-600 to-green-600 text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    AgTech Platform Increases Farmer Incomes by 35% and Reaches 50,000+ Smallholders
+                    Help Increase Farmer Incomes by 35% and Reach 50,000+ Smallholders
                   </h2>
                   <p className="text-xl text-green-50 mb-8">
-                    We built an integrated farm management and marketplace app for East African smallholder farmers—resulting in higher yields, better prices, reduced post-harvest losses, and improved livelihoods for thousands of farming families.
+                    We can build an integrated farm management and marketplace app for smallholder farmers—potentially achieving higher yields, better prices, reduced post-harvest losses, and improved livelihoods for thousands of farming families.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">35%</p>
-                      <p className="text-green-50">Income Increase</p>
+                      <p className="text-3xl font-bold mb-2">Up to 35%</p>
+                      <p className="text-green-50">Potential Income Increase</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">50K+</p>
-                      <p className="text-green-50">Farmers Reached</p>
+                      <p className="text-green-50">Potential Farmer Reach</p>
                     </div>
                   </div>
-                  <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

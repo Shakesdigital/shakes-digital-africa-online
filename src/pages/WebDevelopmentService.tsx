@@ -451,26 +451,26 @@ const WebDevelopmentService: React.FC = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    E-Commerce Platform Generating $50K Monthly Revenue
+                    Imagine: E-Commerce Platform Generating $50K Monthly Revenue
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We built a mobile-first e-commerce platform for a Kenya-based retailer, integrating M-Pesa and optimizing for 3G networks. Result: 250% increase in online sales within 6 months.
+                    Picture a mobile-first e-commerce platform for a Kenya-based retailer, integrating M-Pesa and optimizing for 3G networks—achieving 250% increase in online sales within 6 months.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">250%</p>
-                      <p className="text-blue-100">Sales Increase</p>
+                      <p className="text-blue-100">Potential Sales Increase</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">1.5s</p>
-                      <p className="text-blue-100">Load Time on 3G</p>
+                      <p className="text-blue-100">Optimized Load Time on 3G</p>
                     </div>
                   </div>
                   <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                    Explore Possibilities <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

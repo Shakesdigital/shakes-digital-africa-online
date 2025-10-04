@@ -334,33 +334,33 @@ const Healthcare: React.FC = () => {
           </div>
         </section>
 
-        {/* Success Story */}
+        {/* What's Possible */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-red-500 to-pink-500 text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    SUCCESS STORY
+                    WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Telemedicine Platform Reaches 500,000+ Patients in Rural East Africa
+                    Imagine: Telemedicine Platform Reaching 500,000+ Patients in Rural East Africa
                   </h2>
                   <p className="text-xl text-red-50 mb-8">
-                    We built a comprehensive telemedicine and EMR system for a Pan-African health network—resulting in 500K+ patients reached, 70% reduction in wait times, and improved maternal health outcomes.
+                    Picture a comprehensive telemedicine and EMR system for a Pan-African health network—reaching 500K+ patients, reducing wait times by 70%, and improving maternal health outcomes across underserved communities.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">500K+</p>
-                      <p className="text-red-50">Patients Reached</p>
+                      <p className="text-red-50">Potential Patients Reached</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">70%</p>
-                      <p className="text-red-50">Wait Time Reduction</p>
+                      <p className="text-red-50">Possible Wait Time Reduction</p>
                     </div>
                   </div>
                   <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-red-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    View Full Case Study <ArrowRight className="h-5 w-5" />
+                    Explore Possibilities <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>
