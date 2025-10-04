@@ -86,18 +86,26 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link
-                  to="/web-application-development"
+                  to="/services/custom-software"
                   className="hover:text-shakes-teal transition-colors"
                 >
-                  Web Application Development
+                  Custom Software Development
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/website-development"
+                  to="/services/web-development"
                   className="hover:text-shakes-teal transition-colors"
                 >
-                  Website Re-development
+                  Web Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services/mobile-app-development"
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  Mobile App Development
                 </Link>
               </li>
               <li>
@@ -109,14 +117,12 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <span className="hover:text-shakes-teal transition-colors cursor-pointer">
-                  Digital Marketing
-                </span>
-              </li>
-              <li>
-                <span className="hover:text-shakes-teal transition-colors cursor-pointer">
-                  Data Management Systems
-                </span>
+                <Link
+                  to="/services"
+                  className="hover:text-shakes-teal transition-colors"
+                >
+                  View All Services
+                </Link>
               </li>
             </ul>
           </div>
