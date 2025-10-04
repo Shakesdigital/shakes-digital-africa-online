@@ -67,13 +67,6 @@ const Navbar: React.FC = () => {
               Industries
             </Link>
             <Link
-              to="/blog"
-              className="text-shakes-blue-dark hover:text-shakes-teal font-medium"
-              onClick={() => handleNavClick("/blog")}
-            >
-              Blog
-            </Link>
-            <Link
               to="/contact"
               className="btn-primary ml-4"
               onClick={() => handleNavClick("/contact")}
@@ -126,13 +119,6 @@ const Navbar: React.FC = () => {
                 onClick={() => handleNavClick("/industries")}
               >
                 Industries
-              </Link>
-              <Link
-                to="/blog"
-                className="text-shakes-blue-dark hover:text-shakes-teal font-medium px-4 py-2"
-                onClick={() => handleNavClick("/blog")}
-              >
-                Blog
               </Link>
               <Link
                 to="/contact"

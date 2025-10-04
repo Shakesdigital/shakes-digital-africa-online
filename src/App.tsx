@@ -10,7 +10,6 @@ import NotFound from "./pages/NotFound";
 import WebsiteDevelopment from "./pages/WebsiteDevelopment";
 import WebApplicationDevelopment from "./pages/WebApplicationDevelopment";
 import EcommerceSolutions from "./pages/EcommerceSolutions";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import CaseStudy from "./pages/CaseStudy";
@@ -63,7 +62,6 @@ const App = () => (
           <Route path="/industries/education" element={<Education />} />
           <Route path="/industries/smes" element={<SMEs />} />
           <Route path="/industries/healthcare" element={<Healthcare />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/case-studies/:slug" element={<CaseStudy />} />

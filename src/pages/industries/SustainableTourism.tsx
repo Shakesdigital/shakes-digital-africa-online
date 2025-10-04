@@ -226,7 +226,7 @@ const SustainableTourism: React.FC = () => {
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Integrated blog for storytelling and conservation updates</span>
+                    <span className="text-gray-600">Content sections for storytelling and conservation updates</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />

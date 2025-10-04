@@ -169,15 +169,6 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/blog"
-                  className="hover:text-shakes-teal transition-colors"
-                  onClick={() => handleNavClick("/blog")}
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/contact"
                   className="hover:text-shakes-teal transition-colors"
                   onClick={() => handleNavClick("/contact")}

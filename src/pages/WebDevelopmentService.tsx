@@ -536,7 +536,7 @@ const WebDevelopmentService: React.FC = () => {
                   Can I update the website content myself?
                 </h3>
                 <p className="text-gray-600">
-                  Absolutely. We build user-friendly content management systems (CMS) and provide comprehensive training, so you can easily update text, images, products, and blog posts without technical knowledge.
+                  Absolutely. We build user-friendly content management systems (CMS) and provide comprehensive training, so you can easily update text, images, and products without technical knowledge.
                 </p>
               </div>
             </div>
