@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Code, Smartphone, Cloud, Database, Globe, ArrowRight } from "lucide-react";
+import { Code, Smartphone, Globe, ArrowRight } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -107,7 +107,7 @@ const Services: React.FC = () => {
         <section className="py-20">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Five Core Services</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact across Africa.
               </p>

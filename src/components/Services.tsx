@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Code, LayoutDashboard, ShoppingCart, Globe, Database, Search, Megaphone, Users, Shield, FileText, BarChart } from "lucide-react";
+import { Code, LayoutDashboard, ShoppingCart, Globe, Search, Megaphone, Users, Shield, FileText, BarChart } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -116,19 +116,6 @@ const Services: React.FC = () => {
       icon: <FileText className="w-8 h-8 text-shakes-blue-light" />,
       color: "#66B9DE",
       link: "/cms-development"
-    },
-    {
-      title: "Data Management Systems",
-      description: "Securely handle data to inform decisions in poverty alleviation and sustainability efforts in Africa.",
-      features: [
-        "Impact data tracking",
-        "Analytics and reporting",
-        "Secure data storage",
-        "Evidence-based insights"
-      ],
-      icon: <Database className="w-8 h-8 text-shakes-teal" />,
-      color: "#1DACA2",
-      link: "/data-management"
     },
     {
       title: "Digital Marketing",

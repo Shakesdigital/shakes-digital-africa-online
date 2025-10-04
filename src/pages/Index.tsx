@@ -108,7 +108,7 @@ const Index: React.FC = () => {
               </p>
               <div className="bg-gray-50 p-8 rounded-lg max-w-2xl mx-auto">
                 <p className="text-gray-700 italic mb-4">
-                  "Collaborating with organizations like SDSN Uganda on cloud-enabled projects for sustainable development goals."
+                  "Collaborating with organizations like SDSN Uganda on digital projects for sustainable development goals."
                 </p>
                 <p className="text-sm text-shakes-teal font-medium">– Partnership Initiatives</p>
               </div>
