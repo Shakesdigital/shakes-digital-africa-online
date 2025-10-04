@@ -50,12 +50,12 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Custom Software",
-      description: "Tailored software solutions built to fit specific needs, from workflow automation to specialized tools for environmental monitoring.",
+      description: "Bespoke applications designed specifically for Africa's development challenges—from agricultural management systems addressing food security, to healthcare platforms improving medical access in rural areas, to environmental monitoring tools tracking conservation efforts.",
       benefits: [
-        "Advances research and implementation by creating adaptable systems",
-        "Supports evaluation through built-in analytics",
-        "Bespoke applications for unique sustainable challenges",
-        "Scalable architecture for growing organizations"
+        "Built for Africa's infrastructure realities (low bandwidth, intermittent power)",
+        "Addresses poverty alleviation through targeted digital interventions",
+        "Supports sustainable agriculture, healthcare access, and financial inclusion",
+        "Designed for scalability across African communities and markets"
       ],
       imageUrl: "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1DACA2",
@@ -63,12 +63,12 @@ const Services: React.FC = () => {
     },
     {
       title: "Web Development",
-      description: "Full-stack web platforms with responsive designs, optimized for secure collaboration and data-driven insights.",
+      description: "Robust web platforms engineered for Africa's digital landscape—optimized for low bandwidth environments, mobile-first access reflecting Africa's smartphone growth, and designed to drive sustainable business development across the continent.",
       benefits: [
-        "Facilitates partnerships with integrated features",
-        "Aids resource mobilization via scalable architectures",
-        "Responsive design for all devices",
-        "SEO-optimized for maximum reach"
+        "Optimized for Africa's connectivity challenges and mobile-first users",
+        "Drives business growth and economic empowerment across African markets",
+        "Supports community initiatives, NGOs, and sustainable development projects",
+        "Built to facilitate partnerships and resource mobilization across Africa"
       ],
       imageUrl: "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1D70A2",
@@ -76,12 +76,12 @@ const Services: React.FC = () => {
     },
     {
       title: "Mobile Apps",
-      description: "Cross-platform apps enabling real-time engagement, such as community reporting or business management tools.",
+      description: "Mobile-first solutions capitalizing on Africa's rapid smartphone adoption—enabling community reporting, market access for small businesses, digital payment integration for financial inclusion, and offline functionality for areas with limited connectivity.",
       benefits: [
-        "Drives objective fulfillment by providing accessible implementations",
-        "Enables monitoring for user feedback and iteration",
-        "Native and cross-platform development",
-        "Offline functionality for low-connectivity areas"
+        "Leverages Africa's mobile-first reality and growing smartphone penetration",
+        "Enables financial inclusion through mobile money and digital payment integration",
+        "Supports community empowerment, market access, and business development",
+        "Offline-first architecture for Africa's connectivity challenges"
       ],
       imageUrl: "https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#66B9DE",
@@ -99,16 +99,16 @@ const Services: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                  Our Services: Precision Digital Tools for Sustainability
+                  Digital Web Solutions for Africa's Sustainable Development
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Innovative offerings dedicated to solving sustainable community and business challenges.
+                  Purpose-built services addressing Africa's unique challenges—poverty alleviation, business growth, infrastructure limitations, and community empowerment through contextually-relevant digital technology.
                 </p>
               </div>
               <div>
                 <img
                   src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Team providing digital services and technology solutions"
+                  alt="African team developing digital solutions for sustainable development challenges"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>
@@ -120,9 +120,9 @@ const Services: React.FC = () => {
         <section className="py-20">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Core Services</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Services Tailored for Africa's Development Needs</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact for your organization.
+                Each service is meticulously designed to address Africa's specific sustainable development and business challenges—researched within African contexts, implemented with local infrastructure in mind, and evaluated for scalability across diverse African communities and markets.
               </p>
             </div>
 
@@ -138,9 +138,9 @@ const Services: React.FC = () => {
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Objective-Driven Delivery</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Africa-Focused Approach</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Our workflow reflects our objectives: from challenge research to solution implementation and impact evaluation, powered by our core services.
+                Every solution begins with deep research into Africa's sustainable development and business challenges, followed by contextually-relevant implementation, strategic partnerships across the continent, resource mobilization, and rigorous evaluation for scalability across African communities.
               </p>
             </div>
 
@@ -150,7 +150,7 @@ const Services: React.FC = () => {
                   <span className="text-xl font-bold text-shakes-teal">1</span>
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
-                <p className="text-gray-600 text-sm">Identify challenges addressable through digital solutions</p>
+                <p className="text-gray-600 text-sm">Identify Africa's sustainable development and business challenges addressable through digital solutions</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -158,7 +158,7 @@ const Services: React.FC = () => {
                   <span className="text-xl font-bold text-shakes-blue">2</span>
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Deploy tailored technologies to resolve challenges</p>
+                <p className="text-gray-600 text-sm">Deploy Africa-adapted technologies addressing poverty, business growth, and community needs</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -166,7 +166,7 @@ const Services: React.FC = () => {
                   <span className="text-xl font-bold text-shakes-teal">3</span>
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
-                <p className="text-gray-600 text-sm">Collaborate with organizations for greater impact</p>
+                <p className="text-gray-600 text-sm">Partner with African and international organizations to scale sustainable development impact</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -174,7 +174,7 @@ const Services: React.FC = () => {
                   <span className="text-xl font-bold text-shakes-blue">4</span>
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
-                <p className="text-gray-600 text-sm">Secure funding for scalable projects</p>
+                <p className="text-gray-600 text-sm">Mobilize funding and resources for Africa-focused sustainable development projects</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -182,7 +182,7 @@ const Services: React.FC = () => {
                   <span className="text-xl font-bold text-shakes-teal">5</span>
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
-                <p className="text-gray-600 text-sm">Assess and scale solutions for maximum impact</p>
+                <p className="text-gray-600 text-sm">Evaluate and replicate solutions across African populations for maximum sustainable impact</p>
               </div>
             </div>
           </div>
@@ -192,26 +192,26 @@ const Services: React.FC = () => {
         <section className="py-20">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why Choose Shakes Digital</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why Choose Shakes Digital for Africa's Development Challenges</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We combine technical excellence with a deep understanding of sustainable community and business challenges worldwide.
+                We combine technical excellence with deep expertise in Africa's unique sustainable development and business challenges—from poverty alleviation to infrastructure limitations, community empowerment to economic growth.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-shakes-teal mb-3">Tailored Solutions</h4>
-                <p className="text-gray-600">Every project is customized to align with your unique sustainable development goals.</p>
+                <h4 className="text-xl font-bold text-shakes-teal mb-3">Africa-Contextualized Solutions</h4>
+                <p className="text-gray-600">Every project is designed for Africa's realities—infrastructure limitations, connectivity challenges, and diverse community needs across the continent.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-shakes-teal mb-3">Global Reach</h4>
-                <p className="text-gray-600">Deep understanding of diverse challenges, infrastructure needs, and opportunities across different regions.</p>
+                <h4 className="text-xl font-bold text-shakes-teal mb-3">Sustainable Development Focus</h4>
+                <p className="text-gray-600">Specialized in addressing Africa's poverty alleviation, business growth, environmental conservation, and community empowerment challenges through digital solutions.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-shakes-teal mb-3">Impact-Driven</h4>
-                <p className="text-gray-600">Solutions designed for evaluation, scaling, and long-term sustainable impact.</p>
+                <h4 className="text-xl font-bold text-shakes-teal mb-3">Proven African Impact</h4>
+                <p className="text-gray-600">Solutions rigorously tested and scaled across African contexts for maximum sustainable development and business growth impact.</p>
               </div>
             </div>
           </div>
@@ -222,10 +222,10 @@ const Services: React.FC = () => {
           <div className="container-custom">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">
-                Ready to Transform Your Vision?
+                Ready to Address Your African Development Challenges?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Contact us for a consultation tailored to your sustainable community and business needs.
+                Let's discuss how our digital web solutions can tackle your specific sustainable development and business challenges in Africa—from poverty alleviation to community empowerment, business growth to environmental conservation.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">

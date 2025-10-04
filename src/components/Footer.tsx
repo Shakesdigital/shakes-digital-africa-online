@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-300 mb-4">
-              Empowering communities through digital innovation, driving sustainable development and positive impact worldwide.
+              Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth across the continent.
             </p>
             <form onSubmit={handleSubscribe} className="space-y-2">
               <Input
@@ -188,7 +188,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-shakes-teal" />
-                <span>Kampala and Jinja, Uganda</span>
+                <span>Kampala and Jinja, Uganda, East Africa</span>
               </li>
               <li>
                 <div className="flex items-center gap-2">
