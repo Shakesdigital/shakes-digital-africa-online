@@ -19,7 +19,7 @@ const Index: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We offer three powerful, tailored digital web services expertly designed to transform and address sustainable community and business challenges across Africa.
+                We offer three powerful, tailored digital web services expertly designed to transform and address sustainable community and business challenges for organizations worldwide.
               </p>
             </div>
 
@@ -27,7 +27,7 @@ const Index: React.FC = () => {
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African woman coding custom software"
+                  alt="Professional woman coding custom software"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -42,7 +42,7 @@ const Index: React.FC = () => {
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African developers working on web development"
+                  alt="Developers working on web development"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -57,7 +57,7 @@ const Index: React.FC = () => {
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African person using mobile technology"
+                  alt="Professional using mobile technology"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -126,7 +126,7 @@ const Index: React.FC = () => {
               <div>
                 <img
                   src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African professionals collaborating on technology projects"
+                  alt="Professionals collaborating on technology projects"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>

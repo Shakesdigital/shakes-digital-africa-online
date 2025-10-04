@@ -13,7 +13,7 @@ const AboutUs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                About Shakes Digital: Architects of Sustainable Digital Futures
+                About Shakes Digital: Building Sustainable Digital Futures
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Innovative Solutions for Community and Business Resilience
@@ -43,7 +43,7 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">The Foundation of Shakes Digital</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital was established to leverage digital technology through tailored solutions, effectively meeting sustainable community development and business challenges. Our mission centers on empowering organizations across Africa with technologies that promote environmental stewardship, economic growth, and collaborative efficiency.
+                      Shakes Digital was established to leverage digital technology through tailored solutions, effectively meeting sustainable community development and business challenges. Our mission centers on empowering organizations worldwide with technologies that promote environmental stewardship, economic growth, and collaborative efficiency.
                     </p>
                   </div>
 

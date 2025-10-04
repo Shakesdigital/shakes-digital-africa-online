@@ -167,7 +167,7 @@ const Services: React.FC = () => {
         {/* Customization Note */}
         <div className="text-center mt-16 max-w-3xl mx-auto">
           <p className="text-lg text-gray-600 mb-6">
-            All services are customized to align with your African sustainable development goals. Contact us for a consultation tailored to your community's needs.
+            All services are customized to align with your sustainable development goals. Contact us for a consultation tailored to your organization's needs.
           </p>
           <a href="#contact" className="btn-primary">
             Request a Quote

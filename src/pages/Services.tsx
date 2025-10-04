@@ -108,7 +108,7 @@ const Services: React.FC = () => {
               <div>
                 <img
                   src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African team providing digital services and technology solutions"
+                  alt="Team providing digital services and technology solutions"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>
@@ -122,7 +122,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact across Africa.
+                Each service is designed to align with our objectives—from research to implementation, partnerships, resource mobilization, and evaluation—ensuring sustainable impact for your organization.
               </p>
             </div>
 
@@ -194,7 +194,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why Choose Shakes Digital</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We combine technical excellence with a deep understanding of sustainable community and business challenges across Africa.
+                We combine technical excellence with a deep understanding of sustainable community and business challenges worldwide.
               </p>
             </div>
 
@@ -205,8 +205,8 @@ const Services: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <h4 className="text-xl font-bold text-shakes-teal mb-3">Africa Focus</h4>
-                <p className="text-gray-600">Deep understanding of regional challenges, infrastructure, and opportunities across the continent.</p>
+                <h4 className="text-xl font-bold text-shakes-teal mb-3">Global Reach</h4>
+                <p className="text-gray-600">Deep understanding of diverse challenges, infrastructure needs, and opportunities across different regions.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">

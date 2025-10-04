@@ -10,13 +10,13 @@ const Hero: React.FC = () => {
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
               Tailored Digital Web Solutions for
-              <span className="text-shakes-teal"> Sustainable Excellence in Africa</span>
+              <span className="text-shakes-teal"> Sustainable Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
               We are a web development agency dedicated to solving sustainable community and business challenges through innovative, tailored digital web solutions.
             </p>
             <p className="text-base md:text-lg text-gray-600 mb-8 max-w-xl">
-              Established to leverage digital technology for addressing sustainable community and business challenges, we offer Custom Software, Web Development, and Mobile Apps that enable scalability, collaboration, and impact across Africa.
+              Established to leverage digital technology for addressing sustainable community and business challenges, we offer Custom Software, Web Development, and Mobile Apps that enable scalability, collaboration, and impact for organizations globally.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
               <img
                 src="/kids-on-laptop.jpg"
-                alt="African children learning with digital technology"
+                alt="Children learning with digital technology"
                 className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
               />
             </div>
