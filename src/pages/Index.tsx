@@ -35,7 +35,7 @@ const Index: React.FC = () => {
                   <p className="text-gray-600 text-sm text-center mb-4">
                     Tailored applications addressing Africa's specific challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.
                   </p>
-                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
+                  <a href="/services/custom-software" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ const Index: React.FC = () => {
                   <p className="text-gray-600 text-sm text-center mb-4">
                     Robust web platforms designed for Africa's context—optimized for low bandwidth, mobile-first access, and driving sustainable business growth across the continent.
                   </p>
-                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
+                  <a href="/services/web-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ const Index: React.FC = () => {
                   <p className="text-gray-600 text-sm text-center mb-4">
                     Mobile-first solutions for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality for areas with limited connectivity.
                   </p>
-                  <a href="/services" className="btn-outline w-full text-center block">Learn More</a>
+                  <a href="/services/mobile-app-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
               </div>
             </div>

@@ -12,9 +12,10 @@ interface ServiceCardProps {
   imageUrl: string;
   color: string;
   ctaText: string;
+  serviceLink: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, benefits, imageUrl, color, ctaText }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, benefits, imageUrl, color, ctaText, serviceLink }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 overflow-hidden" style={{ borderColor: color }}>
       <img
@@ -38,9 +39,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, benefits,
             ))}
           </ul>
         </div>
-        <Button className="btn-primary w-full mt-auto" asChild>
-          <Link to="/contact">{ctaText}</Link>
-        </Button>
+        <div className="space-y-3">
+          <Button className="btn-outline w-full" asChild>
+            <Link to={serviceLink}>Learn More</Link>
+          </Button>
+          <Button className="btn-primary w-full" asChild>
+            <Link to="/contact">{ctaText}</Link>
+          </Button>
+        </div>
       </div>
     </div>
   );
@@ -59,7 +65,8 @@ const Services: React.FC = () => {
       ],
       imageUrl: "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1DACA2",
-      ctaText: "Request Custom Build"
+      ctaText: "Request Custom Build",
+      serviceLink: "/services/custom-software"
     },
     {
       title: "Web Development",
@@ -72,7 +79,8 @@ const Services: React.FC = () => {
       ],
       imageUrl: "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#1D70A2",
-      ctaText: "Develop Your Web Presence"
+      ctaText: "Develop Your Web Presence",
+      serviceLink: "/services/web-development"
     },
     {
       title: "Mobile Apps",
@@ -85,7 +93,8 @@ const Services: React.FC = () => {
       ],
       imageUrl: "https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "#66B9DE",
-      ctaText: "Build Your App"
+      ctaText: "Build Your App",
+      serviceLink: "/services/mobile-app-development"
     }
   ];
 
