@@ -19,10 +19,10 @@ const EcommerceSolutions: React.FC = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
-                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce Solutions</Badge>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Sell Online Across Africa & Beyond</h1>
+                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce for African Development</Badge>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">eCommerce Solutions Overcoming Africa's Market Access Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  Custom eCommerce solutions designed for the unique needs of African businesses, with local payment integration and optimized mobile experiences.
+                  Custom eCommerce platforms specifically designed to address Africa's business development challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -79,31 +79,31 @@ const EcommerceSolutions: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">eCommerce Solutions Tailored for African Markets</h2>
+              <h2 className="section-title">eCommerce Addressing Africa's Business Development Challenges</h2>
               <p className="section-subtitle mx-auto">
-                Our eCommerce platforms are built to address unique regional challenges and opportunities
+                Our eCommerce platforms overcome Africa's unique barriers—from limited market access and financial exclusion to infrastructure challenges and poverty—empowering businesses to thrive and communities to prosper
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Local Payment Integration",
-                  description: "Seamlessly integrate with popular African payment methods like M-Pesa, Airtel Money, and local banking options.",
+                  title: "Financial Inclusion Through Mobile Money",
+                  description: "Overcome Africa's banking access challenges by integrating M-Pesa, Airtel Money, and local payment methods—enabling unbanked communities to participate in digital commerce and driving poverty alleviation through economic participation.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
-                  features: ["Mobile money integration", "Bank transfers", "Payment notifications", "Secure transactions"]
+                  features: ["Mobile money for unbanked populations", "Microfinance integration", "Community savings group payments", "Financial empowerment tools"]
                 },
                 {
-                  title: "Mobile-Optimized Shopping",
-                  description: "Create exceptional shopping experiences on smartphones, where the majority of African consumers browse and buy.",
+                  title: "Mobile-First Market Access",
+                  description: "Address Africa's infrastructure realities by creating smartphone-optimized platforms that work in low-bandwidth environments—breaking down barriers for small businesses and rural entrepreneurs to access broader markets.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
-                  features: ["Fast loading on 3G/4G", "Low data consumption", "Touch-friendly interfaces", "Offline capabilities"]
+                  features: ["Optimized for Africa's 3G networks", "Progressive web app functionality", "Offline browsing capabilities", "Low data consumption for affordability"]
                 },
                 {
-                  title: "Delivery & Logistics",
-                  description: "Integrate with local delivery services and implement location systems that work with Africa's unique addressing challenges.",
+                  title: "Overcoming Logistics Barriers",
+                  description: "Solve Africa's addressing and delivery challenges through innovative location mapping, flexible delivery options, and cash-on-delivery—ensuring rural and underserved communities can access markets and products.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
-                  features: ["Multiple delivery options", "Location mapping", "Delivery tracking", "Cash on delivery"]
+                  features: ["Alternative addressing systems", "Community pickup points", "Rural delivery networks", "Trust-building through cash payment"]
                 }
               ].map((feature, index) => (
                 <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 h-full">
@@ -132,9 +132,9 @@ const EcommerceSolutions: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">eCommerce Solutions for Every Business</h2>
-              <p className="section-subtitle mx-auto">
-                Whether you're a small business or a large enterprise, we have the right solution for you
+              <h2 className="section-title">eCommerce Solutions Driving African Business Growth</h2>
+              <p class="section-subtitle mx-auto">
+                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique business development and market access challenges
               </p>
             </div>
 

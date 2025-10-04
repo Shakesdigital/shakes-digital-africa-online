@@ -20,10 +20,10 @@ const WebApplicationDevelopment: React.FC = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
-                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Web Application Development</Badge>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Custom Web Applications for African Businesses</h1>
+                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Web Applications for African Development</Badge>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Custom Web Applications Addressing Africa's Sustainable Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We build powerful, scalable web applications that automate processes, optimize workflows, and create exceptional digital experiences for your users.
+                  We build powerful, scalable web applications specifically designed to overcome Africa's sustainable development and business challenges—from poverty alleviation tools to community empowerment platforms, healthcare access systems to agricultural management solutions.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -54,31 +54,31 @@ const WebApplicationDevelopment: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Web Application Solutions</h2>
+              <h2 className="section-title">Web Applications for Africa's Development Needs</h2>
               <p className="section-subtitle mx-auto">
-                From internal tools to customer-facing platforms, we build applications that drive business growth
+                From poverty alleviation tools to community empowerment platforms, we build applications that address Africa's sustainable development and business challenges
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Custom Business Applications",
-                  description: "Tailored software solutions that address your specific business challenges and requirements.",
+                  title: "Sustainable Development Applications",
+                  description: "Custom applications addressing Africa's poverty alleviation, healthcare access, agricultural productivity, and environmental conservation challenges through digital innovation.",
                   icon: <LayoutDashboard className="h-12 w-12 text-shakes-blue" />,
-                  features: ["Business process automation", "Workflow optimization", "Data management", "Reporting & analytics"]
+                  features: ["Community impact tracking", "Resource allocation optimization", "Offline-first for rural areas", "Multi-language support for African contexts"]
                 },
                 {
-                  title: "Client Portals & Dashboards",
-                  description: "Secure, interactive portals that provide your customers with personalized experiences and information.",
+                  title: "Community Empowerment Platforms",
+                  description: "Secure portals enabling African communities to report challenges, access resources, participate in development initiatives, and connect with support services.",
                   icon: <Code className="h-12 w-12 text-shakes-blue" />,
-                  features: ["User authentication", "Interactive dashboards", "Real-time data visualization", "Document sharing"]
+                  features: ["Community reporting tools", "Resource mapping dashboards", "Mobile money integration", "SMS/USSD accessibility"]
                 },
                 {
-                  title: "Enterprise Solutions",
-                  description: "Robust applications that integrate with your existing systems to streamline operations across your organization.",
+                  title: "African Business Growth Solutions",
+                  description: "Robust applications helping African enterprises overcome infrastructure limitations, access markets, manage operations, and scale sustainably across the continent.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />,
-                  features: ["API integrations", "Legacy system connections", "Multi-tenant architecture", "Scalable infrastructure"]
+                  features: ["Low-bandwidth optimization", "Local payment integration", "Supply chain management", "Market access facilitation"]
                 }
               ].map((solution, index) => (
                 <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 h-full">
@@ -107,9 +107,9 @@ const WebApplicationDevelopment: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Our Technology Stack</h2>
+              <h2 className="section-title">Africa-Optimized Technology Stack</h2>
               <p className="section-subtitle mx-auto">
-                We use modern, reliable technologies to build robust and scalable web applications
+                We use modern, reliable technologies optimized for Africa's infrastructure realities—building robust applications that work in low-bandwidth environments and scale across diverse African contexts
               </p>
             </div>
 
@@ -175,9 +175,9 @@ const WebApplicationDevelopment: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Our Development Methodology</h2>
+              <h2 className="section-title">Our Africa-Focused Development Methodology</h2>
               <p className="section-subtitle mx-auto">
-                We follow a proven Agile approach to deliver high-quality web applications
+                We follow a proven Agile approach rooted in understanding Africa's sustainable development challenges, delivering applications that drive real impact across the continent
               </p>
             </div>
 
@@ -190,36 +190,36 @@ const WebApplicationDevelopment: React.FC = () => {
                 {[
                   {
                     step: "01",
-                    title: "Discovery & Requirements",
-                    description: "We work closely with your team to understand your business processes, user needs, and technical requirements.",
+                    title: "African Context Discovery",
+                    description: "We research your specific African sustainable development or business challenges, understanding community needs, infrastructure limitations, and impact objectives.",
                     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=600",
                     align: "left"
                   },
                   {
                     step: "02",
-                    title: "Design & Architecture",
-                    description: "Our team designs intuitive user interfaces and develops a robust technical architecture to support your application.",
+                    title: "Africa-Adapted Design",
+                    description: "Our team designs interfaces optimized for African contexts—mobile-first, low-bandwidth, offline-capable, and culturally appropriate for your target communities.",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600",
                     align: "right"
                   },
                   {
                     step: "03",
-                    title: "Agile Development",
-                    description: "We develop your application in iterative sprints, delivering working software that you can test and provide feedback on.",
+                    title: "Agile Development for Africa",
+                    description: "We develop applications in iterative sprints, optimizing for Africa's infrastructure realities and incorporating local payment systems, languages, and connectivity solutions.",
                     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600",
                     align: "left"
                   },
                   {
                     step: "04",
-                    title: "Testing & Deployment",
-                    description: "We thoroughly test your application for quality, security, and performance before deploying it to production.",
+                    title: "Africa Testing & Deployment",
+                    description: "We thoroughly test your application across African connectivity scenarios, devices, and use cases before deploying to ensure maximum community accessibility and impact.",
                     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600",
                     align: "right"
                   },
                   {
                     step: "05",
-                    title: "Support & Evolution",
-                    description: "We provide ongoing support and continue to evolve your application to meet your changing business needs.",
+                    title: "Impact Support & Scale",
+                    description: "We provide ongoing support and evaluate opportunities to scale your application across diverse African communities, maximizing sustainable development impact.",
                     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=600",
                     align: "left"
                   }
@@ -255,29 +255,29 @@ const WebApplicationDevelopment: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Featured Web Application Projects</h2>
+              <h2 className="section-title">African Development Impact Through Web Applications</h2>
               <p className="section-subtitle mx-auto">
-                Real-world solutions we've built for businesses across Africa
+                Real-world applications addressing Africa's sustainable development and business challenges—driving poverty alleviation, community empowerment, and economic growth
               </p>
             </div>
 
             <div className="space-y-12">
               {[
                 {
-                  title: "Logistics Management System",
-                  client: "Africa Transport Solutions",
-                  description: "A comprehensive logistics platform that streamlines operations, manages fleets, and provides real-time tracking for this major Kenyan logistics company.",
+                  title: "Community Health Access Platform",
+                  client: "Rural Healthcare Initiative, Uganda",
+                  description: "A mobile-optimized application connecting rural communities with healthcare services—featuring offline appointment scheduling, SMS health alerts, and mobile money payment integration to overcome Africa's healthcare access challenges.",
                   image: "https://picsum.photos/800/450?random=10",
-                  technologies: ["React", "Node.js", "MongoDB", "Google Maps API"],
-                  results: ["35% reduction in operational costs", "65% faster delivery time tracking", "Improved customer satisfaction scores"]
+                  technologies: ["React", "Node.js", "MongoDB", "M-Pesa API", "SMS Gateway"],
+                  results: ["60% increase in rural healthcare access", "Reduced maternal mortality in target areas", "Offline functionality serving communities without reliable internet"]
                 },
                 {
-                  title: "Healthcare Patient Portal",
-                  client: "Nairobi Medical Network",
-                  description: "A secure patient portal allowing appointment scheduling, medical record access, and telehealth consultations for a network of clinics across Africa.",
+                  title: "Agricultural Productivity Platform",
+                  client: "Smallholder Farmer Cooperative, Kenya",
+                  description: "A web application empowering African smallholder farmers with crop management tools, weather predictions, market price information, and direct buyer connections—addressing poverty through agricultural development.",
                   image: "https://picsum.photos/800/450?random=11",
-                  technologies: ["Vue.js", "PHP/Laravel", "MySQL", "AWS"],
-                  results: ["40% reduction in administrative work", "24/7 access to medical services", "Expanded patient reach beyond urban centers"]
+                  technologies: ["Vue.js", "PHP/Laravel", "MySQL", "Weather API", "Mobile Money"],
+                  results: ["45% increase in farmer income", "Reduced post-harvest losses by 30%", "Connected 5,000+ farmers to sustainable markets"]
                 }
               ].map((project, index) => (
                 <Card key={index} className="overflow-hidden border-none shadow-lg">
@@ -341,9 +341,9 @@ const WebApplicationDevelopment: React.FC = () => {
         <section className="py-16 bg-gradient-to-r from-shakes-blue to-shakes-blue-dark text-white">
           <div className="container-custom">
             <div className="text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Build Your Custom Web Application?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Address Africa's Challenges Through Custom Web Applications?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's create a powerful, user-friendly web application that streamlines your operations and helps your business grow.
+                Let's create powerful applications specifically designed to overcome Africa's sustainable development and business challenges—from poverty alleviation to community empowerment, healthcare access to agricultural productivity.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button 
@@ -375,20 +375,20 @@ const WebApplicationDevelopment: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 max-w-4xl mx-auto">
               {[
                 {
-                  question: "How long does it take to develop a web application?",
-                  answer: "Development timelines vary based on complexity, but typical projects range from 3-6 months. We work in Agile sprints, delivering working software incrementally throughout the project."
+                  question: "How do you optimize applications for Africa's infrastructure challenges?",
+                  answer: "We build with Africa's realities in mind—optimizing for low bandwidth, implementing offline-first functionality where needed, ensuring mobile responsiveness, and integrating local payment systems like M-Pesa. Our applications are tested across diverse African connectivity scenarios."
                 },
                 {
-                  question: "What is your approach to security?",
-                  answer: "We prioritize security at every stage of development, implementing industry best practices for authentication, data protection, and vulnerability prevention. We also conduct security audits before launch."
+                  question: "Can your applications address poverty alleviation and community development?",
+                  answer: "Yes, we specialize in building applications that directly address Africa's sustainable development challenges—from healthcare access and agricultural productivity to financial inclusion and community empowerment. We focus on measurable impact and scalability across African contexts."
                 },
                 {
-                  question: "Can you integrate with our existing systems?",
-                  answer: "Yes, we specialize in creating web applications that integrate seamlessly with your existing software through APIs and custom connectors, ensuring data flows smoothly across your organization."
+                  question: "Do you support African languages and local contexts?",
+                  answer: "Absolutely. We implement multi-language support for African languages, culturally appropriate design, and features tailored to regional needs—ensuring accessibility for diverse communities across the continent."
                 },
                 {
-                  question: "Do you provide ongoing support and maintenance?",
-                  answer: "Absolutely. We offer flexible support packages to ensure your application remains secure, up-to-date, and continues to meet your evolving business needs."
+                  question: "How do you ensure applications work in rural African areas?",
+                  answer: "We design with rural accessibility in mind—offline functionality, SMS/USSD integration for basic phones, low-bandwidth optimization, and mobile money integration. Our Africa-based support team understands regional infrastructure challenges and provides localized assistance."
                 }
               ].map((faq, index) => (
                 <div key={index}>

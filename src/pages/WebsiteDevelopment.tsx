@@ -19,10 +19,10 @@ const WebsiteDevelopment: React.FC = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
-                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development</Badge>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Custom Websites That Drive Results</h1>
+                <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development for African Development</Badge>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Websites Addressing Africa's Business & Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We design and develop responsive, high-performance websites tailored to your brand and business goals, helping African businesses establish a powerful online presence.
+                  We design responsive, high-performance websites specifically engineered to overcome Africa's business development barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -53,27 +53,27 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Why Choose Our Website Development</h2>
+              <h2 className="section-title">Website Solutions for Africa's Development Challenges</h2>
               <p className="section-subtitle mx-auto">
-                We deliver websites that not only look great but drive real business results
+                We deliver websites engineered to overcome Africa's unique sustainable development and business challenges—driving poverty alleviation, community empowerment, and economic growth across the continent
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Custom Design & Development",
-                  description: "Unique, brand-aligned websites that stand out from templates and represent your business authentically.",
+                  title: "Africa-Contextualized Design",
+                  description: "Websites designed for Africa's realities—low bandwidth environments, limited infrastructure, and diverse community needs—representing your sustainable development or business mission authentically.",
                   icon: <Globe className="h-12 w-12 text-shakes-blue" />
                 },
                 {
-                  title: "Mobile-First Approach",
-                  description: "Responsive designs that work flawlessly across all devices, ensuring you never lose a mobile visitor.",
+                  title: "Mobile-First for African Markets",
+                  description: "Responsive designs optimized for Africa's smartphone-dominant landscape, ensuring accessibility for communities with limited desktop access—critical for poverty alleviation and business inclusion initiatives.",
                   icon: <Code className="h-12 w-12 text-shakes-blue" />
                 },
                 {
-                  title: "Local Optimization",
-                  description: "SEO-optimized code and content structured for African markets and search patterns.",
+                  title: "African Market Optimization",
+                  description: "SEO and content structured for African search patterns, local languages, and regional business development contexts—maximizing visibility for sustainable development projects and African enterprises.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />
                 }
               ].map((benefit, index) => (
@@ -95,9 +95,9 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Our Website Development Process</h2>
+              <h2 className="section-title">Our Africa-Focused Website Development Process</h2>
               <p className="section-subtitle mx-auto">
-                A proven approach to creating websites that deliver value and exceed expectations
+                A proven approach rooted in understanding Africa's sustainable development and business challenges, delivering websites that drive real impact across the continent
               </p>
             </div>
 
@@ -105,23 +105,23 @@ const WebsiteDevelopment: React.FC = () => {
               {[
                 {
                   step: "01",
-                  title: "Discovery & Planning",
-                  description: "We learn about your business, goals, target audience, and competitors to create a strategic plan."
+                  title: "Africa Challenge Research",
+                  description: "We research your specific African context—understanding your sustainable development or business challenges, target communities, infrastructure limitations, and development objectives."
                 },
                 {
                   step: "02",
-                  title: "Design & Prototyping",
-                  description: "Our designers create wireframes and visual designs that align with your brand and business objectives."
+                  title: "Contextual Design",
+                  description: "Our designers create wireframes optimized for Africa's realities—low bandwidth, mobile-first access, and cultural contexts that align with your development or business mission."
                 },
                 {
                   step: "03",
-                  title: "Development & Testing",
-                  description: "Our developers build your website with clean code and thoroughly test it for quality assurance."
+                  title: "Africa-Optimized Development",
+                  description: "We build your website with lightweight code, offline capabilities where needed, and thoroughly test across African connectivity scenarios for maximum accessibility."
                 },
                 {
                   step: "04",
-                  title: "Launch & Support",
-                  description: "We deploy your website and provide ongoing support and maintenance to ensure continued success."
+                  title: "Launch & Impact Support",
+                  description: "We deploy your website and provide ongoing support to ensure it continues addressing Africa's evolving sustainable development and business challenges effectively."
                 }
               ].map((process, index) => (
                 <div key={index} className="relative">
@@ -143,23 +143,23 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16 bg-shakes-blue-dark text-white">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Website Features & Capabilities</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Features Addressing Africa's Development Challenges</h2>
               <p className="text-xl font-medium mb-8 opacity-90 max-w-2xl mx-auto">
-                Modern websites need more than just good looks. Our websites come equipped with everything you need to succeed online.
+                Our websites come equipped with features specifically designed to overcome Africa's sustainable development and business barriers—from connectivity challenges to community accessibility needs.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-12">
               {[
-                "Content Management Systems",
-                "Multilingual Support",
-                "Social Media Integration",
-                "Contact Forms & Lead Capture",
-                "Image & Video Galleries",
-                "Performance Optimization",
-                "Local SEO Implementation",
-                "Analytics & Tracking",
-                "Security Measures"
+                "Low-Bandwidth Optimization for African Infrastructure",
+                "Multilingual Support for African Languages",
+                "Mobile Money & Local Payment Integration",
+                "Community Engagement & Reporting Tools",
+                "Offline Functionality for Rural Areas",
+                "Africa-Optimized Performance & Speed",
+                "African Market SEO & Visibility",
+                "Impact Measurement & Analytics",
+                "Enhanced Security for African Contexts"
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <CheckCircle className="h-5 w-5 text-shakes-orange flex-shrink-0" />
@@ -174,9 +174,9 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">Recent Website Projects</h2>
+              <h2 className="section-title">African Development Impact Through Websites</h2>
               <p className="section-subtitle mx-auto">
-                See how we've helped businesses across Africa establish a powerful online presence
+                See how our websites are addressing sustainable development and business challenges across Africa—from poverty alleviation to community empowerment
               </p>
             </div>
 
@@ -223,24 +223,24 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">What Our Clients Say</h2>
+              <h2 className="section-title">African Organizations Addressing Development Challenges</h2>
               <p className="section-subtitle mx-auto">
-                Hear from businesses that have transformed their online presence with our websites
+                Hear from African organizations and businesses using our websites to tackle sustainable development and business challenges across the continent
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  quote: "Shakes Digital transformed our business with a beautiful, functional website that has significantly increased our online inquiries and bookings.",
+                  quote: "Shakes Digital created a website optimized for our African context—it loads quickly even in areas with limited connectivity, enabling us to reach communities we couldn't serve before. Our sustainable tourism initiative now empowers local guides and reduces poverty in rural areas.",
                   name: "Sarah Mwangi",
-                  company: "Adventure Africa",
+                  company: "Community Tourism Initiative, Kenya",
                   image: "https://randomuser.me/api/portraits/women/45.jpg"
                 },
                 {
-                  quote: "Their team understood our unique needs and delivered a website that perfectly represents our brand and has helped us expand our customer base across Tanzania.",
+                  quote: "Their understanding of Africa's infrastructure challenges was crucial. Our website works perfectly on mobile devices with low bandwidth, allowing small businesses across Tanzania to access our digital skills training platform—directly addressing unemployment and poverty alleviation.",
                   name: "John Ochieng",
-                  company: "Dar Tech Solutions",
+                  company: "Digital Inclusion Project, Tanzania",
                   image: "https://randomuser.me/api/portraits/men/32.jpg"
                 }
               ].map((testimonial, index) => (
@@ -269,9 +269,9 @@ const WebsiteDevelopment: React.FC = () => {
         <section className="py-16 bg-gradient-to-r from-shakes-blue to-shakes-blue-dark text-white">
           <div className="container-custom">
             <div className="text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Online Presence?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Address Africa's Development Challenges Through Your Website?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's create a website that represents your brand, engages your audience, and drives business growth across Africa.
+                Let's create a website specifically designed to overcome Africa's sustainable development and business barriers—driving poverty alleviation, community empowerment, and economic growth across the continent.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button 
@@ -307,16 +307,16 @@ const WebsiteDevelopment: React.FC = () => {
                   answer: "Typical website projects take 4-8 weeks from concept to launch, depending on complexity and content requirements. We'll provide a detailed timeline during our initial consultation."
                 },
                 {
-                  question: "Do you provide website maintenance?",
-                  answer: "Yes, we offer ongoing maintenance packages to keep your website secure, updated, and performing optimally. Our support team is based in Africa for quick response times."
+                  question: "Do you provide website maintenance for African contexts?",
+                  answer: "Yes, we offer ongoing maintenance packages to keep your website secure, updated, and optimized for Africa's evolving infrastructure. Our Africa-based support team understands regional challenges and provides quick response times across African time zones."
                 },
                 {
                   question: "Can I update the website myself?",
                   answer: "Absolutely! We build most websites on user-friendly content management systems like WordPress, allowing you to easily update content. We also provide training for your team."
                 },
                 {
-                  question: "Will my website work on mobile devices?",
-                  answer: "Yes, all our websites are built with a mobile-first approach, ensuring they look and function perfectly on smartphones, tablets, and desktop computers."
+                  question: "Will my website work in areas with limited connectivity across Africa?",
+                  answer: "Yes, all our websites are built with Africa's realities in mind—mobile-first design for smartphone users, optimized for low bandwidth environments, and tested across various connectivity scenarios typical in African regions to ensure maximum accessibility."
                 }
               ].map((faq, index) => (
                 <div key={index}>

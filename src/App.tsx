@@ -26,6 +26,9 @@ import AdminUsers from "./pages/AdminUsers";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Industries from "./pages/Industries";
+import CustomSoftware from "./pages/CustomSoftware";
+import WebDevelopmentService from "./pages/WebDevelopmentService";
+import MobileAppDevelopment from "./pages/MobileAppDevelopment";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +45,9 @@ const App = () => (
           <Route path="/ecommerce-solutions" element={<EcommerceSolutions />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/custom-software" element={<CustomSoftware />} />
+          <Route path="/services/web-development" element={<WebDevelopmentService />} />
+          <Route path="/services/mobile-app-development" element={<MobileAppDevelopment />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
