@@ -106,12 +106,6 @@ const Index: React.FC = () => {
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
                 We network with local and international organizations in tech, community, and environmental development to mobilize resources and scale digital impact.
               </p>
-              <div className="bg-gray-50 p-8 rounded-lg max-w-2xl mx-auto">
-                <p className="text-gray-700 italic mb-4">
-                  "Collaborating with organizations like SDSN Uganda on digital projects for sustainable development goals."
-                </p>
-                <p className="text-sm text-shakes-teal font-medium">– Partnership Initiatives</p>
-              </div>
             </div>
 
             <div className="text-center mt-12">
@@ -124,77 +118,6 @@ const Index: React.FC = () => {
 
 
 
-
-        {/* Blog Summary */}
-        <section className="py-20 bg-gray-50">
-          <div className="container-custom">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Latest Insights</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Expert perspectives on digital sustainability and transformative technologies for community and business impact.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src="/placeholder.svg"
-                  alt="Custom Software for Sustainable Operations"
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <span className="text-sm text-shakes-teal">Custom Software</span>
-                  <h3 className="text-xl font-bold text-shakes-blue-dark mt-2 mb-3">
-                    Unlocking Efficiency: Custom Software for Sustainable Operations
-                  </h3>
-                  <p className="text-gray-600 text-sm">
-                    Research and implementation case studies on tailored software solutions...
-                  </p>
-                </div>
-              </article>
-
-              <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src="/placeholder.svg"
-                  alt="Web Development Strategies"
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <span className="text-sm text-shakes-teal">Web Development</span>
-                  <h3 className="text-xl font-bold text-shakes-blue-dark mt-2 mb-3">
-                    Web Development Strategies for Resilient Businesses
-                  </h3>
-                  <p className="text-gray-600 text-sm">
-                    Partnership and scaling tips for responsive digital platforms...
-                  </p>
-                </div>
-              </article>
-
-              <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src="/placeholder.svg"
-                  alt="Mobile Apps Empowering Communities"
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <span className="text-sm text-shakes-teal">Mobile Innovation</span>
-                  <h3 className="text-xl font-bold text-shakes-blue-dark mt-2 mb-3">
-                    Mobile Apps: Empowering Communities on the Move
-                  </h3>
-                  <p className="text-gray-600 text-sm">
-                    Evaluation and replication examples for on-the-go engagement...
-                  </p>
-                </div>
-              </article>
-            </div>
-
-            <div className="text-center">
-              <a href="/blog" className="btn-primary inline-flex items-center gap-2">
-                Read All Articles <ArrowRight className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
-        </section>
 
         <CTA />
       </main>
