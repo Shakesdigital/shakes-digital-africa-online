@@ -9,9 +9,10 @@ interface IndustryCardProps {
   description: string;
   services: string[];
   objectives: string;
+  link: string;
 }
 
-const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, services, objectives }) => {
+const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, services, objectives, link }) => {
   return (
     <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
       <div className="text-5xl mb-4">{emoji}</div>
@@ -30,13 +31,18 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, 
         </ul>
       </div>
 
-      <div className="pt-4 border-t border-gray-200">
+      <div className="pt-4 border-t border-gray-200 mb-6">
         <p className="text-sm text-gray-600 italic">{objectives}</p>
       </div>
 
-      <a href="/contact" className="btn-outline w-full mt-6 block text-center">
-        Customize for Your Sector
-      </a>
+      <div className="flex gap-3">
+        <a href={link} className="btn-primary flex-1 text-center inline-flex items-center justify-center gap-2">
+          Learn More <ArrowRight className="h-4 w-4" />
+        </a>
+        <a href="/contact" className="btn-outline flex-1 text-center">
+          Get Started
+        </a>
+      </div>
     </div>
   );
 };
@@ -52,7 +58,8 @@ const Industries: React.FC = () => {
         "Mobile Apps for guided tours and wildlife tracking",
         "Custom Software for real-time data and reservations"
       ],
-      objectives: "Leverages research and evaluation for scalable, impactful tourism deployments."
+      objectives: "Leverages research and evaluation for scalable, impactful tourism deployments.",
+      link: "/industries/sustainable-tourism"
     },
     {
       emoji: "⚡",
@@ -63,7 +70,8 @@ const Industries: React.FC = () => {
         "Web Development for performance tracking dashboards",
         "Mobile Apps for field monitoring and reporting"
       ],
-      objectives: "Supports implementation and resource mobilization for renewable energy expansion."
+      objectives: "Supports implementation and resource mobilization for renewable energy expansion.",
+      link: "/industries/renewable-energy"
     },
     {
       emoji: "🌾",
@@ -74,7 +82,8 @@ const Industries: React.FC = () => {
         "Web Development for market portals and supply chain",
         "Custom Software for precision agriculture and analytics"
       ],
-      objectives: "Facilitates networking and partnerships for sustainable food system transformation."
+      objectives: "Facilitates networking and partnerships for sustainable food system transformation.",
+      link: "/industries/agriculture"
     },
     {
       emoji: "🤝",
@@ -85,7 +94,8 @@ const Industries: React.FC = () => {
         "Web Development for outreach sites and fundraising",
         "Mobile Apps for collaboration and donor management"
       ],
-      objectives: "Enables research, implementation, and evaluation for amplified social impact."
+      objectives: "Enables research, implementation, and evaluation for amplified social impact.",
+      link: "/industries/nonprofit"
     },
     {
       emoji: "📚",
@@ -96,7 +106,8 @@ const Industries: React.FC = () => {
         "Mobile Apps for interactive courses and assessments",
         "Custom Software for student analytics and progress tracking"
       ],
-      objectives: "Drives implementation and monitoring for improved educational outcomes."
+      objectives: "Drives implementation and monitoring for improved educational outcomes.",
+      link: "/industries/education"
     },
     {
       emoji: "💼",
@@ -107,7 +118,8 @@ const Industries: React.FC = () => {
         "Web Development with ecommerce integration",
         "Mobile Apps for sustainability metrics tracking"
       ],
-      objectives: "Supports resource mobilization and evaluation for sustainable business growth."
+      objectives: "Supports resource mobilization and evaluation for sustainable business growth.",
+      link: "/industries/smes"
     },
     {
       emoji: "🏥",
@@ -118,7 +130,8 @@ const Industries: React.FC = () => {
         "Custom Software for health information systems",
         "Web Development for patient portals and secure data sharing"
       ],
-      objectives: "Enables partnerships and implementation for expanded healthcare access."
+      objectives: "Enables partnerships and implementation for expanded healthcare access.",
+      link: "/industries/healthcare"
     }
   ];
 

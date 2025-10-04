@@ -29,6 +29,13 @@ import Industries from "./pages/Industries";
 import CustomSoftware from "./pages/CustomSoftware";
 import WebDevelopmentService from "./pages/WebDevelopmentService";
 import MobileAppDevelopment from "./pages/MobileAppDevelopment";
+import SustainableTourism from "./pages/industries/SustainableTourism";
+import RenewableEnergy from "./pages/industries/RenewableEnergy";
+import Agriculture from "./pages/industries/Agriculture";
+import Nonprofit from "./pages/industries/Nonprofit";
+import Education from "./pages/industries/Education";
+import SMEs from "./pages/industries/SMEs";
+import Healthcare from "./pages/industries/Healthcare";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +56,13 @@ const App = () => (
           <Route path="/services/web-development" element={<WebDevelopmentService />} />
           <Route path="/services/mobile-app-development" element={<MobileAppDevelopment />} />
           <Route path="/industries" element={<Industries />} />
+          <Route path="/industries/sustainable-tourism" element={<SustainableTourism />} />
+          <Route path="/industries/renewable-energy" element={<RenewableEnergy />} />
+          <Route path="/industries/agriculture" element={<Agriculture />} />
+          <Route path="/industries/nonprofit" element={<Nonprofit />} />
+          <Route path="/industries/education" element={<Education />} />
+          <Route path="/industries/smes" element={<SMEs />} />
+          <Route path="/industries/healthcare" element={<Healthcare />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
