@@ -26,7 +26,7 @@ const About: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold mb-3 text-shakes-blue-dark">Founder's Story</h3>
                 <p className="text-gray-600 mb-4">
-                  I started Shakes Digital with a clear mission: to solve real-life sustainable community development and business challenges using digital technology, with a primary focus on Africa, particularly East Africa. During my time as Program Coordinator at FSD (now known as FOSCOD), one question kept echoing in my mind:
+                  I started Shakes Digital with a clear mission: to solve real-life sustainable community development and business challenges using digital technology, with a primary focus on Africa. During my time as Program Coordinator at FSD (now known as FOSCOD) in Uganda, one question kept echoing in my mind:
                 </p>
                 <p className="text-gray-600 mb-4 font-medium italic">
                   "How can we address the ongoing sustainable community development and business challenges associated with poverty alleviation using digital technology?"

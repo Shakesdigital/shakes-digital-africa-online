@@ -128,8 +128,8 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-bold mb-6 text-shakes-blue-dark">Contact Details</h3>
               <div className="space-y-4">
                 <div>
-                  <p className="font-medium text-shakes-teal">Regional Coverage</p>
-                  <p className="text-gray-600">East Africa: Uganda, Kenya, Tanzania & Rwanda</p>
+                  <p className="font-medium text-shakes-teal">Address</p>
+                  <p className="text-gray-600">Kampala, Uganda</p>
                 </div>
                 <div>
                   <p className="font-medium text-shakes-teal">Email</p>

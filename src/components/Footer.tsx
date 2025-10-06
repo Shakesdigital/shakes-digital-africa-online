@@ -185,7 +185,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-shakes-teal" />
-                <span>East Africa: Uganda, Kenya, Tanzania & Rwanda</span>
+                <span>Kampala and Jinja, Uganda, East Africa</span>
               </li>
               <li>
                 <div className="flex items-center gap-2">
@@ -247,13 +247,13 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-white pt-8 mt-8">
+        <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="text-gray-400 text-sm">
               © 2025 Shakes Digital. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm md:text-right">
-              Designed and developed by Shakes Digital developers
+              Designed and developed with ❤️ by Shakes Digital
             </div>
           </div>
         </div>

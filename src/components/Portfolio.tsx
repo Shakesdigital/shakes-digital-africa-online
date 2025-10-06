@@ -53,7 +53,7 @@ const Portfolio: React.FC = () => {
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=800",
       title: "Afya Health Portal",
       category: "Web Apps",
-      description: "Patient management system for a network of clinics across East Africa.",
+      description: "Patient management system for a network of clinics across Uganda.",
       slug: "afya-health-portal"
     },
     {
