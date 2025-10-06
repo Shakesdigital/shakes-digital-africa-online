@@ -304,9 +304,9 @@ const EcommerceSolutions: React.FC = () => {
                   image: "https://randomuser.me/api/portraits/men/42.jpg"
                 },
                 {
-                  quote: "Working with Shakes Digital helped us expand from a local shop to serving customers across Tanzania, Uganda, and beyond. Their understanding of regional markets is invaluable.",
+                  quote: "Working with Shakes Digital helped us expand from a local shop to serving customers across Uganda, Kenya, Tanzania, Rwanda, and beyond. Their understanding of East African markets is invaluable.",
                   name: "Grace Mugisha",
-                  role: "Operations Director, Tanzanian Spices",
+                  role: "Operations Director, East African Spices",
                   image: "https://randomuser.me/api/portraits/women/38.jpg"
                 }
               ].map((testimonial, index) => (

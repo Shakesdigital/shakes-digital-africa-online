@@ -185,7 +185,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-shakes-teal" />
-                <span>Kampala and Jinja, Uganda, East Africa</span>
+                <span>East Africa: Uganda, Kenya, Tanzania & Rwanda</span>
               </li>
               <li>
                 <div className="flex items-center gap-2">

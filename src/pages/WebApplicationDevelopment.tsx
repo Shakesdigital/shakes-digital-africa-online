@@ -265,8 +265,8 @@ const WebApplicationDevelopment: React.FC = () => {
               {[
                 {
                   title: "Community Health Access Platform",
-                  client: "Rural Healthcare Initiative, Uganda",
-                  description: "A mobile-optimized application connecting rural communities with healthcare services—featuring offline appointment scheduling, SMS health alerts, and mobile money payment integration to overcome Africa's healthcare access challenges.",
+                  client: "Rural Healthcare Initiative, East Africa",
+                  description: "A mobile-optimized application connecting rural communities across Uganda, Kenya, Tanzania, and Rwanda with healthcare services—featuring offline appointment scheduling, SMS health alerts, and mobile money payment integration to overcome Africa's healthcare access challenges.",
                   image: "https://picsum.photos/800/450?random=10",
                   technologies: ["React", "Node.js", "MongoDB", "M-Pesa API", "SMS Gateway"],
                   results: ["60% increase in rural healthcare access", "Reduced maternal mortality in target areas", "Offline functionality serving communities without reliable internet"]
