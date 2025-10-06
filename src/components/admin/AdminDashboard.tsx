@@ -1,12 +1,13 @@
 
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
+import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  FileText, 
-  Briefcase, 
-  Settings, 
+import {
+  FileText,
+  Briefcase,
+  Settings,
   PenTool,
   MessageSquare,
   Users,
@@ -15,6 +16,8 @@ import {
 } from "lucide-react";
 
 const AdminDashboard: React.FC = () => {
+  const navigate = useNavigate();
+
   // Fetch dashboard statistics
   const { data: stats } = useQuery({
     queryKey: ['dashboard-stats'],
@@ -219,19 +222,31 @@ const AdminDashboard: React.FC = () => {
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <button className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-blue hover:bg-shakes-blue hover:text-white transition-colors">
+            <button
+              onClick={() => navigate('/admin/landing-pages')}
+              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-blue hover:bg-shakes-blue hover:text-white transition-colors"
+            >
               <FileText className="h-8 w-8 mx-auto mb-2" />
               <span className="text-sm font-medium">New Landing Page</span>
             </button>
-            <button className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-teal hover:bg-shakes-teal hover:text-white transition-colors">
+            <button
+              onClick={() => navigate('/admin/portfolio')}
+              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-teal hover:bg-shakes-teal hover:text-white transition-colors"
+            >
               <Briefcase className="h-8 w-8 mx-auto mb-2" />
               <span className="text-sm font-medium">Add Portfolio</span>
             </button>
-            <button className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-blue-light hover:bg-shakes-blue-light hover:text-white transition-colors">
+            <button
+              onClick={() => navigate('/admin/blog')}
+              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-blue-light hover:bg-shakes-blue-light hover:text-white transition-colors"
+            >
               <PenTool className="h-8 w-8 mx-auto mb-2" />
               <span className="text-sm font-medium">Write Blog Post</span>
             </button>
-            <button className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-orange hover:bg-shakes-orange hover:text-white transition-colors">
+            <button
+              onClick={() => navigate('/admin/services')}
+              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-orange hover:bg-shakes-orange hover:text-white transition-colors"
+            >
               <Settings className="h-8 w-8 mx-auto mb-2" />
               <span className="text-sm font-medium">Add Service</span>
             </button>
