@@ -13,10 +13,10 @@ const AboutUs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                About Shakes Digital: Building Sustainable Digital Futures
+                About Shakes Digital: Empowering Africa Through Digital Innovation
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Innovative Solutions for Community and Business Resilience
+                Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth
               </p>
             </div>
           </div>
@@ -41,16 +41,16 @@ const AboutUs: React.FC = () => {
               <div>
                 <div className="space-y-8">
                   <div>
-                    <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">The Foundation of Shakes Digital</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital was established to leverage digital technology through tailored solutions, effectively meeting sustainable community development and business challenges. Our mission centers on empowering organizations worldwide with technologies that promote environmental stewardship, economic growth, and collaborative efficiency.
+                      Shakes Digital is Africa's premier digital web agency dedicated to addressing the continent's sustainable development and business challenges through innovative digital solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive poverty alleviation, community empowerment, and economic growth across Africa's diverse sectors.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
                     <p className="text-gray-600">
-                      To leverage digital technology through innovative solutions to meet sustainable community development and business challenges, fostering long-term resilience and progress.
+                      To leverage digital technology through tailored solutions that address Africa's unique sustainable development and business challenges—from poverty alleviation to infrastructure limitations, community empowerment to economic growth—across 7 key sectors.
                     </p>
                   </div>
                 </div>
@@ -113,31 +113,98 @@ const AboutUs: React.FC = () => {
           </div>
         </section>
 
-        {/* Our Approach Section */}
+        {/* Our Services & Sectors Section */}
         <section className="py-20">
           <div className="container-custom">
-            <div className="text-center max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Integrated Methodology</h2>
+            <div className="text-center max-w-4xl mx-auto mb-16">
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Powerful Digital Solutions for Africa</h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We deliver our core services—Custom Software, Web Development, and Mobile Apps—in alignment with our objectives, ensuring every project is innovative, tailored, and evaluated for sustainability.
+                We deliver Custom Software, Web Development, and Mobile Apps specifically designed to address Africa's unique sustainable development and business challenges across 7 key sectors.
               </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-8 h-8 bg-shakes-teal rounded-full"></div>
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Custom Software</h4>
+                <p className="text-gray-600 text-sm">Tailored applications addressing Africa's specific challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-8 h-8 bg-shakes-blue rounded-full"></div>
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Web Development</h4>
+                <p className="text-gray-600 text-sm">Robust web platforms designed for Africa's context—optimized for low bandwidth, mobile-first access, and driving sustainable business growth across the continent.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-8 h-8 bg-shakes-blue-light rounded-full"></div>
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Mobile Apps</h4>
+                <p className="text-gray-600 text-sm">Mobile-first solutions for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality.</p>
+              </div>
+            </div>
+
+            <div className="text-center">
               <a href="/industries" className="btn-primary inline-flex items-center gap-2">
-                Explore Our Industries <ArrowRight className="h-5 w-5" />
+                Explore Our 7 Key Sectors <ArrowRight className="h-5 w-5" />
               </a>
             </div>
           </div>
         </section>
 
 
-        {/* Call to Action */}
+        {/* Impact Across Africa */}
         <section className="py-20 bg-gray-50">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Africa-Wide Impact</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+                Every solution we create is rooted in deep research of Africa's sustainable development and business challenges, implemented with local context in mind, and evaluated for scalability across African communities.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="text-center p-6 bg-white rounded-lg shadow">
+                <div className="text-4xl font-bold text-shakes-teal mb-2">7</div>
+                <p className="text-gray-600 font-medium">Key Sectors Served</p>
+                <p className="text-xs text-gray-500 mt-1">From Tourism to Healthcare</p>
+              </div>
+
+              <div className="text-center p-6 bg-white rounded-lg shadow">
+                <div className="text-4xl font-bold text-shakes-blue mb-2">3</div>
+                <p className="text-gray-600 font-medium">Core Digital Services</p>
+                <p className="text-xs text-gray-500 mt-1">Tailored to Africa's Needs</p>
+              </div>
+
+              <div className="text-center p-6 bg-white rounded-lg shadow">
+                <div className="text-4xl font-bold text-shakes-teal mb-2">5</div>
+                <p className="text-gray-600 font-medium">Strategic Objectives</p>
+                <p className="text-xs text-gray-500 mt-1">Guiding Every Project</p>
+              </div>
+
+              <div className="text-center p-6 bg-white rounded-lg shadow">
+                <div className="text-4xl font-bold text-shakes-blue mb-2">100%</div>
+                <p className="text-gray-600 font-medium">Tailored Solutions</p>
+                <p className="text-xs text-gray-500 mt-1">Built for Africa's Context</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="py-20">
           <div className="container-custom">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">
-                Ready to Partner with Us?
+                Ready to Transform Africa's Future Together?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Join us in creating sustainable digital solutions that drive meaningful change through Custom Software, Web Development, and Mobile Apps.
+                Join us in creating tailored digital solutions that address Africa's sustainable development and business challenges across different sectors.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">
