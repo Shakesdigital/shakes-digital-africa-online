@@ -247,13 +247,13 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-700 pt-8 mt-8">
+        <div className="border-t border-white pt-8 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="text-gray-400 text-sm">
               © 2025 Shakes Digital. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm md:text-right">
-              Designed and developed with ❤️ by Shakes Digital
+              Designed and developed by Shakes Digital developers
             </div>
           </div>
         </div>
