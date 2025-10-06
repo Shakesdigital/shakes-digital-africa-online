@@ -26,12 +26,12 @@ const Contact: React.FC = () => {
     try {
       // Save to database
       const { error: dbError } = await supabase
-        .from('contact_requests')
+        .from('contact_submissions')
         .insert([{
           name: data.name,
           email: data.email,
           company: data.company || null,
-          service: data.service || null,
+          project_type: data.service || null,
           message: data.message,
           status: 'new'
         }]);

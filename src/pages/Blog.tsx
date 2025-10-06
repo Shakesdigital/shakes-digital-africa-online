@@ -201,20 +201,93 @@ const Blog: React.FC = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* Newsletter Subscription Section */}
         <section className="py-16 bg-shakes-blue-dark text-white">
-          <div className="container-custom text-center">
+          <div className="container-custom text-center max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
             <p className="text-xl mb-8 text-gray-300">
               Subscribe to our newsletter for the latest insights on digital transformation in Africa
             </p>
-            <Button size="lg" className="bg-shakes-teal hover:bg-shakes-teal-dark text-white">
-              Subscribe Now
-            </Button>
+            <NewsletterForm />
           </div>
         </section>
       </main>
       <Footer />
+    </div>
+  );
+};
+
+const NewsletterForm: React.FC = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setMessage(null);
+
+    try {
+      const { error } = await supabase
+        .from('newsletter_subscriptions')
+        .insert([{
+          email,
+          name: name || null,
+          status: 'active',
+          source: 'blog'
+        }]);
+
+      if (error) {
+        if (error.code === '23505') { // Unique constraint violation
+          throw new Error('This email is already subscribed!');
+        }
+        throw error;
+      }
+
+      setMessage({ type: 'success', text: 'Successfully subscribed! Check your email for confirmation.' });
+      setEmail("");
+      setName("");
+    } catch (error: any) {
+      setMessage({ type: 'error', text: error.message || 'Failed to subscribe. Please try again.' });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+        <Input
+          type="text"
+          placeholder="Your name (optional)"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="bg-white text-gray-900"
+        />
+        <Input
+          type="email"
+          placeholder="Your email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="bg-white text-gray-900"
+        />
+        <Button
+          type="submit"
+          disabled={isSubmitting}
+          className="bg-shakes-teal hover:bg-shakes-teal/90 whitespace-nowrap"
+        >
+          {isSubmitting ? 'Subscribing...' : 'Subscribe'}
+        </Button>
+      </form>
+      {message && (
+        <div className={`mt-4 p-3 rounded-md ${
+          message.type === 'success' ? 'bg-green-500/20 text-green-100' : 'bg-red-500/20 text-red-100'
+        }`}>
+          {message.text}
+        </div>
+      )}
     </div>
   );
 };

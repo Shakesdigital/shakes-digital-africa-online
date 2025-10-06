@@ -30,8 +30,8 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
 
   const navigation = [
     { name: 'Dashboard', href: '/admin', icon: LayoutDashboard },
-    { name: 'Contact Requests', href: '/admin/contact-requests', icon: Inbox },
-    { name: 'Subscriptions', href: '/admin/subscriptions', icon: Mail },
+    { name: 'Contact Requests', href: '/admin/contacts', icon: Inbox },
+    { name: 'Subscribers', href: '/admin/subscribers', icon: Mail },
     { name: 'Blog', href: '/admin/blog', icon: PenTool },
     { name: 'Landing Pages', href: '/admin/landing-pages', icon: FileText },
     { name: 'Portfolio', href: '/admin/portfolio', icon: Briefcase },
