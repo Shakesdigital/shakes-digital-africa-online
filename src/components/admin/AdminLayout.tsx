@@ -3,18 +3,20 @@ import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
-import { 
-  LayoutDashboard, 
-  FileText, 
-  Briefcase, 
-  Settings, 
-  Users, 
+import {
+  LayoutDashboard,
+  FileText,
+  Briefcase,
+  Settings,
+  Users,
   PenTool,
   LogOut,
   Menu,
   X,
   MessageSquare,
-  BarChart3
+  BarChart3,
+  Inbox,
+  Mail
 } from "lucide-react";
 
 interface AdminLayoutProps {
@@ -28,10 +30,12 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
 
   const navigation = [
     { name: 'Dashboard', href: '/admin', icon: LayoutDashboard },
+    { name: 'Contact Requests', href: '/admin/contact-requests', icon: Inbox },
+    { name: 'Subscriptions', href: '/admin/subscriptions', icon: Mail },
+    { name: 'Blog', href: '/admin/blog', icon: PenTool },
     { name: 'Landing Pages', href: '/admin/landing-pages', icon: FileText },
     { name: 'Portfolio', href: '/admin/portfolio', icon: Briefcase },
     { name: 'Services', href: '/admin/services', icon: Settings },
-    { name: 'Blog', href: '/admin/blog', icon: PenTool },
     { name: 'Testimonials', href: '/admin/testimonials', icon: MessageSquare },
     { name: 'Analytics', href: '/admin/analytics', icon: BarChart3 },
     { name: 'Users', href: '/admin/users', icon: Users },

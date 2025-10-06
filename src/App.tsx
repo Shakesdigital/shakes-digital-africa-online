@@ -22,8 +22,12 @@ import AdminBlog from "./pages/AdminBlog";
 import AdminTestimonials from "./pages/AdminTestimonials";
 import AdminAnalytics from "./pages/AdminAnalytics";
 import AdminUsers from "./pages/AdminUsers";
+import AdminContactRequests from "./pages/AdminContactRequests";
+import AdminSubscriptions from "./pages/AdminSubscriptions";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Industries from "./pages/Industries";
 import CustomSoftware from "./pages/CustomSoftware";
 import WebDevelopmentService from "./pages/WebDevelopmentService";
@@ -65,12 +69,16 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/case-studies/:slug" element={<CaseStudy />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/landing-pages" element={<AdminLandingPages />} />
           <Route path="/admin/portfolio" element={<AdminPortfolio />} />
           <Route path="/admin/services" element={<AdminServices />} />
           <Route path="/admin/blog" element={<AdminBlog />} />
+          <Route path="/admin/contact-requests" element={<AdminContactRequests />} />
+          <Route path="/admin/subscriptions" element={<AdminSubscriptions />} />
           <Route path="/admin/testimonials" element={<AdminTestimonials />} />
           <Route path="/admin/analytics" element={<AdminAnalytics />} />
           <Route path="/admin/users" element={<AdminUsers />} />

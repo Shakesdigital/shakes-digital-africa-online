@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { sendEmail } from "@/lib/email-service";
+import { supabase } from "@/integrations/supabase/client";
 
 const Contact: React.FC = () => {
   const { toast } = useToast();
@@ -18,11 +19,28 @@ const Contact: React.FC = () => {
       name: formData.get('name') as string,
       email: formData.get('email') as string,
       company: formData.get('organization') as string,
+      service: formData.get('service') as string,
       message: formData.get('message') as string
     };
 
     try {
+      // Save to database
+      const { error: dbError } = await supabase
+        .from('contact_requests')
+        .insert([{
+          name: data.name,
+          email: data.email,
+          company: data.company || null,
+          service: data.service || null,
+          message: data.message,
+          status: 'new'
+        }]);
+
+      if (dbError) throw dbError;
+
+      // Also send email notification
       await sendEmail(data);
+
       toast({
         title: "Message Sent!",
         description: "Thank you for contacting us. We'll get back to you soon.",
