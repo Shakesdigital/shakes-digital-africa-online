@@ -26,7 +26,7 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/custom-software.png"
                   alt="African software developer creating solutions for sustainable development"
                   className="w-full h-48 object-cover"
                 />
@@ -41,7 +41,7 @@ const Index: React.FC = () => {
 
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/web-development-2.png"
                   alt="African developers building web platforms for business growth"
                   className="w-full h-48 object-cover"
                 />
@@ -56,7 +56,7 @@ const Index: React.FC = () => {
 
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/mobile-app.png"
                   alt="African entrepreneur using mobile app for business development"
                   className="w-full h-48 object-cover"
                 />
