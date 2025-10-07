@@ -56,7 +56,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ image, title, description, 
 const Industries: React.FC = () => {
   const industries = [
     {
-      image: "/sustainable-tourism-new.png",
+      image: "/sustainable-tourism.png",
       title: "Sustainable Tourism & Ecotourism",
       description: "Digital solutions for environmentally responsible tourism operations.",
       services: [
@@ -68,7 +68,7 @@ const Industries: React.FC = () => {
       link: "/industries/sustainable-tourism"
     },
     {
-      image: "/renewable-energy-new.png",
+      image: "/renewable-energy.png",
       title: "Renewable Energy & Green Tech",
       description: "Technology supporting clean energy initiatives and sustainability projects.",
       services: [
@@ -80,7 +80,7 @@ const Industries: React.FC = () => {
       link: "/industries/renewable-energy"
     },
     {
-      image: "/agriculture-new.png",
+      image: "/agriculture.png",
       title: "Agriculture & Food Security",
       description: "Empowering farmers and agricultural enterprises with digital tools.",
       services: [
@@ -92,7 +92,7 @@ const Industries: React.FC = () => {
       link: "/industries/agriculture"
     },
     {
-      image: "/non-profit-new.png",
+      image: "/non-profit.png",
       title: "Non-Profit & Social Impact",
       description: "Digital infrastructure for NGOs and community development organizations.",
       services: [
@@ -104,7 +104,7 @@ const Industries: React.FC = () => {
       link: "/industries/nonprofit"
     },
     {
-      image: "/education-new.png",
+      image: "/education.png",
       title: "Education & Workforce Development",
       description: "Technology platforms advancing learning and skills development.",
       services: [
@@ -116,7 +116,7 @@ const Industries: React.FC = () => {
       link: "/industries/education"
     },
     {
-      image: "/sme-esg-new.png",
+      image: "/sme-esg.png",
       title: "SMEs with ESG Focus",
       description: "Supporting small and medium enterprises committed to environmental, social, and governance goals.",
       services: [
@@ -128,7 +128,7 @@ const Industries: React.FC = () => {
       link: "/industries/smes"
     },
     {
-      image: "/healthcare-new.png",
+      image: "/healthcare.png",
       title: "Healthcare & Public Health",
       description: "Digital health solutions improving access and quality of care.",
       services: [
@@ -162,7 +162,7 @@ const Industries: React.FC = () => {
                   <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
                   <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
-                    src="/industries-hero-new.png"
+                    src="/industries-hero.png"
                     alt="African industries empowered through digital solutions for sustainable development"
                     className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
                   />
