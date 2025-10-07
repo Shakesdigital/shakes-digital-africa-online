@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
 
 interface IndustryCardProps {
-  emoji: string;
+  image: string;
   title: string;
   description: string;
   services: string[];
@@ -12,12 +12,17 @@ interface IndustryCardProps {
   link: string;
 }
 
-const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, services, objectives, link }) => {
+const IndustryCard: React.FC<IndustryCardProps> = ({ image, title, description, services, objectives, link }) => {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <div className="text-5xl mb-4">{emoji}</div>
-      <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">{title}</h3>
-      <p className="text-gray-600 mb-6">{description}</p>
+    <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+      <img
+        src={image}
+        alt={title}
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-8">
+        <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">{title}</h3>
+        <p className="text-gray-600 mb-6">{description}</p>
 
       <div className="mb-6">
         <h4 className="text-lg font-semibold text-shakes-teal mb-3">Our Services:</h4>
@@ -31,17 +36,18 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, 
         </ul>
       </div>
 
-      <div className="pt-4 border-t border-gray-200 mb-6">
-        <p className="text-sm text-gray-600 italic">{objectives}</p>
-      </div>
+        <div className="pt-4 border-t border-gray-200 mb-6">
+          <p className="text-sm text-gray-600 italic">{objectives}</p>
+        </div>
 
-      <div className="flex gap-3">
-        <a href={link} className="btn-primary flex-1 text-center inline-flex items-center justify-center gap-2">
-          Learn More <ArrowRight className="h-4 w-4" />
-        </a>
-        <a href="/contact" className="btn-outline flex-1 text-center">
-          Get Started
-        </a>
+        <div className="flex gap-3">
+          <a href={link} className="btn-primary flex-1 text-center inline-flex items-center justify-center gap-2">
+            Learn More <ArrowRight className="h-4 w-4" />
+          </a>
+          <a href="/contact" className="btn-outline flex-1 text-center">
+            Get Started
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -50,7 +56,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ emoji, title, description, 
 const Industries: React.FC = () => {
   const industries = [
     {
-      emoji: "🌿",
+      image: "/sustainable-tourism-new.png",
       title: "Sustainable Tourism & Ecotourism",
       description: "Digital solutions for environmentally responsible tourism operations.",
       services: [
@@ -62,7 +68,7 @@ const Industries: React.FC = () => {
       link: "/industries/sustainable-tourism"
     },
     {
-      emoji: "⚡",
+      image: "/renewable-energy-new.png",
       title: "Renewable Energy & Green Tech",
       description: "Technology supporting clean energy initiatives and sustainability projects.",
       services: [
@@ -74,7 +80,7 @@ const Industries: React.FC = () => {
       link: "/industries/renewable-energy"
     },
     {
-      emoji: "🌾",
+      image: "/agriculture-new.png",
       title: "Agriculture & Food Security",
       description: "Empowering farmers and agricultural enterprises with digital tools.",
       services: [
@@ -86,7 +92,7 @@ const Industries: React.FC = () => {
       link: "/industries/agriculture"
     },
     {
-      emoji: "🤝",
+      image: "/non-profit-new.png",
       title: "Non-Profit & Social Impact",
       description: "Digital infrastructure for NGOs and community development organizations.",
       services: [
@@ -98,7 +104,7 @@ const Industries: React.FC = () => {
       link: "/industries/nonprofit"
     },
     {
-      emoji: "📚",
+      image: "/education-new.png",
       title: "Education & Workforce Development",
       description: "Technology platforms advancing learning and skills development.",
       services: [
@@ -110,7 +116,7 @@ const Industries: React.FC = () => {
       link: "/industries/education"
     },
     {
-      emoji: "💼",
+      image: "/sme-esg-new.png",
       title: "SMEs with ESG Focus",
       description: "Supporting small and medium enterprises committed to environmental, social, and governance goals.",
       services: [
@@ -122,7 +128,7 @@ const Industries: React.FC = () => {
       link: "/industries/smes"
     },
     {
-      emoji: "🏥",
+      image: "/healthcare-new.png",
       title: "Healthcare & Public Health",
       description: "Digital health solutions improving access and quality of care.",
       services: [
@@ -142,13 +148,26 @@ const Industries: React.FC = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-white to-gray-100 pt-24 pb-20">
           <div className="container-custom">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                Industries We Elevate: Digital Solutions for Sector-Specific Sustainability
-              </h1>
-              <p className="text-xl text-gray-600 mb-8">
-                Custom Software, Web Development, and Mobile Apps tailored for African challenges.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="animate-fade-in">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
+                  Industries We Elevate: Digital Solutions for Sector-Specific Sustainability
+                </h1>
+                <p className="text-lg md:text-xl text-gray-600 mb-8">
+                  Custom Software, Web Development, and Mobile Apps tailored for African challenges.
+                </p>
+              </div>
+              <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+                <div className="relative">
+                  <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
+                  <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
+                  <img
+                    src="/industries-hero-new.png"
+                    alt="African industries empowered through digital solutions for sustainable development"
+                    className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
