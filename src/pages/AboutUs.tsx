@@ -11,19 +11,25 @@ const AboutUs: React.FC = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-white to-gray-100 pt-24 pb-20">
           <div className="container-custom">
-            <div className="flex flex-col items-center max-w-6xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6 text-center">
-                About Shakes Digital: Empowering Africa Through Digital Innovation
-              </h1>
-              <p className="text-xl text-gray-600 mb-8 text-center">
-                Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth
-              </p>
-              <div className="mt-8">
-                <img
-                  src="/kids-on-laptop.jpg"
-                  alt="African children empowered through digital technology for sustainable development"
-                  className="w-full max-w-2xl rounded-lg shadow-lg"
-                />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="animate-fade-in">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
+                  About Shakes Digital: Empowering Africa Through Digital Innovation
+                </h1>
+                <p className="text-lg md:text-xl text-gray-600 mb-8">
+                  Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth
+                </p>
+              </div>
+              <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+                <div className="relative">
+                  <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
+                  <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
+                  <img
+                    src="/children-learning.png"
+                    alt="African children learning through digital technology for sustainable development"
+                    className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
