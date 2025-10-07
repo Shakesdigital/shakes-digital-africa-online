@@ -25,7 +25,7 @@ const AboutUs: React.FC = () => {
                   <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
                   <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
-                    src="/children-learning.png"
+                    src="/about-us-hero.png"
                     alt="African children learning through digital technology for sustainable development"
                     className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
                   />
