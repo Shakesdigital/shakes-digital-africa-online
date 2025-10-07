@@ -137,28 +137,40 @@ const AboutUs: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="w-8 h-8 bg-shakes-teal rounded-full"></div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/custom-software.png"
+                  alt="Custom software solutions for Africa's development challenges"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6 text-center">
+                  <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Custom Software</h4>
+                  <p className="text-gray-600 text-sm">Tailored applications addressing Africa's specific challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.</p>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Custom Software</h4>
-                <p className="text-gray-600 text-sm">Tailored applications addressing Africa's specific challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.</p>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="w-8 h-8 bg-shakes-blue rounded-full"></div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/web-development-2.png"
+                  alt="Web development platforms for African businesses"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6 text-center">
+                  <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Web Development</h4>
+                  <p className="text-gray-600 text-sm">Robust web platforms designed for Africa's context—optimized for low bandwidth, mobile-first access, and driving sustainable business growth across the continent.</p>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Web Development</h4>
-                <p className="text-gray-600 text-sm">Robust web platforms designed for Africa's context—optimized for low bandwidth, mobile-first access, and driving sustainable business growth across the continent.</p>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="w-8 h-8 bg-shakes-blue-light rounded-full"></div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/mobile-app.png"
+                  alt="Mobile apps for African communities and businesses"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6 text-center">
+                  <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Mobile Apps</h4>
+                  <p className="text-gray-600 text-sm">Mobile-first solutions for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality.</p>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Mobile Apps</h4>
-                <p className="text-gray-600 text-sm">Mobile-first solutions for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality.</p>
               </div>
             </div>
 
