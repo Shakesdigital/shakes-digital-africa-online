@@ -63,7 +63,7 @@ const Services: React.FC = () => {
         "Supports sustainable agriculture, healthcare access, and financial inclusion",
         "Designed for scalability across African communities and markets"
       ],
-      imageUrl: "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/custom-software.png",
       color: "#1DACA2",
       ctaText: "Request Custom Build",
       serviceLink: "/services/custom-software"
@@ -77,7 +77,7 @@ const Services: React.FC = () => {
         "Supports community initiatives, NGOs, and sustainable development projects",
         "Built to facilitate partnerships and resource mobilization across Africa"
       ],
-      imageUrl: "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/web-development-2.png",
       color: "#1D70A2",
       ctaText: "Develop Your Web Presence",
       serviceLink: "/services/web-development"
@@ -91,7 +91,7 @@ const Services: React.FC = () => {
         "Supports community empowerment, market access, and business development",
         "Offline-first architecture for Africa's connectivity challenges"
       ],
-      imageUrl: "https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/mobile-app.png",
       color: "#66B9DE",
       ctaText: "Build Your App",
       serviceLink: "/services/mobile-app-development"
@@ -116,7 +116,7 @@ const Services: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/children-learning-2.png"
                   alt="African team developing digital solutions for sustainable development challenges"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
