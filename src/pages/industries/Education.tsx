@@ -168,19 +168,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Offline content download for learning without internet</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Gamified lessons and adaptive learning algorithms</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Multi-language support and voice-based interaction</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Low data consumption optimized for African networks</span>
                   </li>
                 </ul>
@@ -193,19 +193,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Student registration and enrollment management</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Attendance tracking with SMS notifications to parents</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Report card generation and academic analytics</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Fee management and mobile money payment integration</span>
                   </li>
                 </ul>
@@ -218,19 +218,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Industry-aligned curriculum and certification programs</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Hands-on project submissions and portfolio building</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Job placement matching and employer connections</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Digital skills training (coding, design, digital marketing)</span>
                   </li>
                 </ul>
@@ -243,19 +243,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Self-paced professional development courses</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Lesson plan libraries and teaching resource repositories</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Peer collaboration and communities of practice</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Certification tracking and continuing education credits</span>
                   </li>
                 </ul>
@@ -268,19 +268,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Automated grading and instant feedback systems</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Learning analytics dashboards for educators and administrators</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Early intervention alerts for struggling students</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Competency tracking and skills gap analysis</span>
                   </li>
                 </ul>

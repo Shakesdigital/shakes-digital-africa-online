@@ -142,19 +142,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Real-time availability calendar and instant confirmations</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Integration with international payment gateways and mobile money</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Multi-language support for international guests</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Automated email/SMS notifications and itineraries</span>
                   </li>
                 </ul>
@@ -167,19 +167,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">AI-powered wildlife and plant species identification</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">GPS-guided walking and driving trails with offline maps</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Audio guides and educational content in multiple languages</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Wildlife sighting reporting and real-time alerts</span>
                   </li>
                 </ul>
@@ -192,19 +192,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Real-time wildlife population and movement tracking</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Environmental impact monitoring and reporting dashboards</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Ranger patrol management and incident reporting</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Visitor capacity management to prevent over-tourism</span>
                   </li>
                 </ul>
@@ -217,19 +217,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">High-quality photo galleries and virtual tour capabilities</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">SEO optimization for international travel search terms</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Content sections for storytelling and conservation updates</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Social media integration and user-generated content</span>
                   </li>
                 </ul>
@@ -242,19 +242,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Local guide and cultural expert profiles and booking</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Community-based tourism experience marketplace</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Direct payment to community members via mobile money</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Reviews and ratings system building local reputation</span>
                   </li>
                 </ul>
@@ -267,19 +267,19 @@ const SustainableTourism: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Staff scheduling and shift management tools</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Inventory tracking for supplies and equipment</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Maintenance request and task management systems</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Guest feedback collection and service improvement tracking</span>
                   </li>
                 </ul>

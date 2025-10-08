@@ -123,19 +123,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Secure video consultation and messaging platforms</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Electronic prescription and medication management</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Patient scheduling and appointment booking systems</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Integration with mobile money for consultation payments</span>
                   </li>
                 </ul>
@@ -148,19 +148,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Complete patient health records and medical histories</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Clinical decision support and treatment protocols</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Laboratory and diagnostic results integration</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">HIPAA-compliant security and access controls</span>
                   </li>
                 </ul>
@@ -173,19 +173,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Health education content and disease prevention information</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Medication reminders and adherence tracking</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Symptom checkers and self-assessment tools</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Maternal and child health tracking features</span>
                   </li>
                 </ul>
@@ -198,19 +198,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Patient registration and household visit tracking</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Clinical protocols and treatment guidelines offline access</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Referral management and facility connection</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Performance monitoring and incentive tracking</span>
                   </li>
                 </ul>
@@ -223,19 +223,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">FHIR-compliant data exchange standards</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Patient consent management and privacy controls</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Laboratory and pharmacy integration systems</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">National health registry connections</span>
                   </li>
                 </ul>
@@ -248,19 +248,19 @@ const Healthcare: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Real-time disease case reporting and tracking</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Outbreak detection algorithms and early warning systems</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Immunization tracking and vaccine cold chain monitoring</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-red-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Epidemiological analysis and reporting dashboards</span>
                   </li>
                 </ul>
