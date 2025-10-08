@@ -127,7 +127,7 @@ const CustomSoftware: React.FC = () => {
                 Custom Solutions We Build for Africa
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From poverty alleviation to environmental conservation, our custom software addresses Africa's most pressing sustainable development challenges.
+                From poverty alleviation to environmental conservation, our custom software addresses Africa's most pressing sustainable development and business challenges.
               </p>
             </div>
 
