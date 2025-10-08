@@ -30,8 +30,8 @@ const CustomSoftware: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                  alt="African software developers creating custom solutions for sustainable development"
+                  src="/custom-software.png"
+                  alt="Custom software development solutions for African businesses and communities"
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-teal text-white p-6 rounded-lg shadow-xl max-w-xs">

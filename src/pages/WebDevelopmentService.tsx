@@ -30,8 +30,8 @@ const WebDevelopmentService: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                  alt="African developers building responsive web platforms for business growth"
+                  src="/web-development-2.png"
+                  alt="Web development solutions designed for African markets and businesses"
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">

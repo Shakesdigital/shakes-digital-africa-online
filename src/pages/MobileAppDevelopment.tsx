@@ -30,8 +30,8 @@ const MobileAppDevelopment: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/4050299/pexels-photo-4050299.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                  alt="African entrepreneur using mobile app for business development"
+                  src="/mobile-app.png"
+                  alt="Mobile app development solutions for African communities and businesses"
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
