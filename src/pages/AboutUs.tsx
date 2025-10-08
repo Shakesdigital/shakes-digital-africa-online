@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
+import { Search, Handshake, Coins, LineChart } from 'lucide-react';
 
 const AboutUs: React.FC = () => {
   return (
@@ -85,23 +86,15 @@ const AboutUs: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="w-12 h-12 bg-shakes-teal/20 rounded-full flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-shakes-teal rounded-full"></div>
+                  <Search className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Research</h4>
-                <p className="text-gray-600 text-sm">Identify sustainable community and business challenges addressable through digital solutions.</p>
+                <p className="text-gray-600 text-sm">Understand local needs and challenges through community engagement and data analysis.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <div className="w-12 h-12 bg-shakes-blue/20 rounded-full flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-shakes-blue rounded-full"></div>
-                </div>
-                <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Implementation</h4>
-                <p className="text-gray-600 text-sm">Develop and deploy custom technologies to resolve these challenges.</p>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <div className="w-12 h-12 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-shakes-blue-light rounded-full"></div>
+                <div className="w-12 h-12 bg-shakes-teal/20 rounded-full flex items-center justify-center mb-4">
+                  <Handshake className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Networking & Partnerships</h4>
                 <p className="text-gray-600 text-sm">Collaborate with local and international organizations in tech, community, and environmental development.</p>
@@ -109,15 +102,15 @@ const AboutUs: React.FC = () => {
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="w-12 h-12 bg-shakes-teal/20 rounded-full flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-shakes-teal rounded-full"></div>
+                  <Coins className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Secure funding and resources to enable scalable digital projects.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg col-span-1 md:col-span-2 lg:col-span-1">
-                <div className="w-12 h-12 bg-shakes-blue/20 rounded-full flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-shakes-blue rounded-full"></div>
+                <div className="w-12 h-12 bg-shakes-teal/20 rounded-full flex items-center justify-center mb-4">
+                  <LineChart className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Monitoring & Evaluation</h4>
                 <p className="text-gray-600 text-sm">Assess solution effectiveness to facilitate scaling or replication across diverse populations for enhanced impact.</p>

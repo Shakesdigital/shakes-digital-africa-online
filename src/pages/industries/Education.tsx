@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight, Check, BookOpen, GraduationCap, Users, Monitor, Smartphone, Award } from "lucide-react";
+import { Search, Wrench, Handshake, Coins, LineChart } from 'lucide-react';
 
 const Education: React.FC = () => {
   return (
@@ -302,31 +303,41 @@ const Education: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="h-6 w-6" />
+                </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Understanding learner needs, curriculum requirements, and pedagogical best practices</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Wrench className="h-6 w-6" />
+                </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Building accessible, engaging platforms optimized for African learners and educators</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Handshake className="h-6 w-6" />
+                </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Connecting with schools, universities, training providers, and education ministries</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Coins className="h-6 w-6" />
+                </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Enabling sustainable funding models for educational technology initiatives</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                  <LineChart className="h-6 w-6" />
+                </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
                 <p className="text-gray-600 text-sm">Measuring learning outcomes, student engagement, and educational impact for improvement</p>
               </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight, Check, Zap, Sun, Wind, Battery, TrendingUp, Globe } from "lucide-react";
+import { Search, Wrench, Handshake, Coins, LineChart } from 'lucide-react';
 
 const RenewableEnergy: React.FC = () => {
   return (
@@ -59,64 +60,44 @@ const RenewableEnergy: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
-                  <Zap className="h-8 w-8 text-yellow-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="w-6 h-6 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Smart Grid Management</h3>
-                <p className="text-gray-600">
-                  Real-time monitoring and control of distributed renewable energy systems—optimizing solar, wind, hydro, and battery storage across mini-grids and utility-scale installations.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
+                <p className="text-gray-600 text-sm">Identifying renewable energy opportunities and challenges across Africa</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-                  <Sun className="h-8 w-8 text-orange-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-emerald-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Wrench className="w-6 h-6 text-emerald-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Performance Analytics</h3>
-                <p className="text-gray-600">
-                  Advanced data analytics tracking energy production, equipment efficiency, maintenance needs, and ROI—enabling data-driven decisions for maximum output and profitability.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
+                <p className="text-gray-600 text-sm">Developing and deploying sustainable energy solutions for African communities</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
-                  <TrendingUp className="h-8 w-8 text-yellow-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Handshake className="w-6 h-6 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Investment Attraction</h3>
-                <p className="text-gray-600">
-                  Transparent reporting dashboards and verified performance data that build investor confidence—critical for securing funding for renewable energy expansion across Africa.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
+                <p className="text-gray-600 text-sm">Collaborating with energy stakeholders and local communities</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-                  <Battery className="h-8 w-8 text-orange-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-emerald-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Coins className="w-6 h-6 text-emerald-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Energy Storage Optimization</h3>
-                <p className="text-gray-600">
-                  Intelligent battery management systems predicting demand, optimizing charge/discharge cycles, and maximizing the value of energy storage in off-grid and hybrid systems.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
+                <p className="text-gray-600 text-sm">Securing funding and resources for renewable energy projects</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
-                  <Wind className="h-8 w-8 text-yellow-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <LineChart className="w-6 h-6 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Remote Monitoring</h3>
-                <p className="text-gray-600">
-                  IoT-enabled systems monitoring installations in remote locations—reducing site visits, predicting failures before they occur, and minimizing downtime across distributed assets.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-orange-600" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Carbon Credit Tracking</h3>
-                <p className="text-gray-600">
-                  Automated measurement and verification of emissions reductions—enabling participation in carbon markets and unlocking additional revenue streams from clean energy projects.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Monitoring & Evaluation</h4>
+                <p className="text-gray-600 text-sm">Tracking project impact and sustainability metrics</p>
               </div>
             </div>
           </div>

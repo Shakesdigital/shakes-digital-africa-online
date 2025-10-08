@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight, Check, Heart, Activity, Smartphone, Users, Shield, BarChart } from "lucide-react";
+import { Search, Wrench, Handshake, Coins, LineChart } from 'lucide-react';
 
 const Healthcare: React.FC = () => {
   return (
@@ -59,64 +60,44 @@ const Healthcare: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Heart className="h-8 w-8 text-red-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-pink-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="w-6 h-6 text-pink-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Expanded Access to Care</h3>
-                <p className="text-gray-600">
-                  Telemedicine platforms connecting patients in remote areas with healthcare providers—overcoming geographical barriers and bringing specialist care to underserved communities.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
+                <p className="text-gray-600 text-sm">Identifying healthcare challenges and opportunities across African communities</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <Activity className="h-8 w-8 text-pink-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Wrench className="w-6 h-6 text-red-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Health Information Systems</h3>
-                <p className="text-gray-600">
-                  Electronic medical records, patient databases, and health data interoperability—enabling coordinated care, reducing errors, and improving clinical outcomes.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
+                <p className="text-gray-600 text-sm">Developing and deploying healthcare technology solutions optimized for African contexts</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-red-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-pink-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Handshake className="w-6 h-6 text-pink-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile Health (mHealth)</h3>
-                <p className="text-gray-600">
-                  Smartphone applications for health education, medication reminders, symptom tracking, and appointment scheduling—empowering patients to manage their own health.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
+                <p className="text-gray-600 text-sm">Connecting with health ministries, NGOs, and healthcare providers</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-pink-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Coins className="w-6 h-6 text-red-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Health Workers</h3>
-                <p className="text-gray-600">
-                  Digital tools supporting community health workers with patient tracking, health education delivery, and connection to healthcare facilities—strengthening primary care.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
+                <p className="text-gray-600 text-sm">Enabling funding for health infrastructure and technology deployment</p>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Shield className="h-8 w-8 text-red-600" />
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <div className="w-12 h-12 bg-pink-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <LineChart className="w-6 h-6 text-pink-600" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Disease Surveillance</h3>
-                <p className="text-gray-600">
-                  Real-time disease tracking, outbreak detection, and public health monitoring systems—enabling rapid response to health emergencies and epidemic prevention.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <BarChart className="h-8 w-8 text-pink-600" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Health Analytics</h3>
-                <p className="text-gray-600">
-                  Data-driven insights on population health, resource allocation, treatment outcomes, and service utilization—supporting evidence-based health policy and planning.
-                </p>
+                <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
+                <p className="text-gray-600 text-sm">Measuring health outcomes, patient satisfaction, and system performance</p>
               </div>
             </div>
           </div>
