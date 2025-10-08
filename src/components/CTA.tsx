@@ -13,11 +13,11 @@ const CTA = () => {
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Let's create powerful digital web solutions—Custom Software, Web Platforms, or Mobile Apps—specifically designed to address your sustainable development and business challenges in Africa. From poverty alleviation to community empowerment, business growth to environmental conservation.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
+            <Button asChild variant="outline" className="border-2 border-white text-white hover:bg-white/10 py-3 px-8 text-lg">
               <Link to="/contact">Get Started Now</Link>
             </Button>
-            <Button asChild variant="outline" className="border-2 border-white text-white hover:bg-white/10 py-3 px-8 text-lg">
+            <Button asChild className="bg-white text-shakes-blue hover:bg-shakes-orange hover:text-white py-3 px-8 text-lg transition-all duration-300 transform hover:scale-105 font-semibold">
               <Link to="/about-us">Learn About Our Objectives</Link>
             </Button>
           </div>
