@@ -32,9 +32,9 @@ const CaseStudy: React.FC = () => {
               className="text-white mb-6" 
               asChild
             >
-              <Link to="/portfolio">
+              <Link to="/services">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Portfolio
+                Back to Services
               </Link>
             </Button>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{caseStudy.title}</h1>

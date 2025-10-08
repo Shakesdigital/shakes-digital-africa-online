@@ -26,8 +26,8 @@ const SMEs: React.FC = () => {
                   <a href="/contact" className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
-                  <a href="/portfolio" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
-                    View SME Success Stories
+                  <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
+                    Explore Services
                   </a>
                 </div>
               </div>
@@ -359,8 +359,8 @@ const SMEs: React.FC = () => {
                       <p className="text-green-50">Impact Investment Potential</p>
                     </div>
                   </div>
-                  <a href="/portfolio" className="inline-flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    Explore Possibilities <ArrowRight className="h-5 w-5" />
+                  <a href="/services" className="inline-flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Explore Services <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
                 <div>

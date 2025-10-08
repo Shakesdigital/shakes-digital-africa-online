@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -11,7 +10,6 @@ import WebsiteDevelopment from "./pages/WebsiteDevelopment";
 import WebApplicationDevelopment from "./pages/WebApplicationDevelopment";
 import EcommerceSolutions from "./pages/EcommerceSolutions";
 import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
 import CaseStudy from "./pages/CaseStudy";
 import Admin from "./pages/Admin";
 import AdminLogin from "./pages/AdminLogin";
@@ -67,7 +65,6 @@ const App = () => (
           <Route path="/industries/smes" element={<SMEs />} />
           <Route path="/industries/healthcare" element={<Healthcare />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/case-studies/:slug" element={<CaseStudy />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
