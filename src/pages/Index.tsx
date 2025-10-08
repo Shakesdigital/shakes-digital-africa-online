@@ -84,20 +84,26 @@ const Index: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
-                <img src="/African-research.png" alt="Africa-Focused Research & Implementation" className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Africa-Focused Research & Implementation</h4>
+                <div className="w-24 h-24 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-shakes-teal">3</span>
+                </div>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Africa-Focused Solutions</h4>
                 <p className="text-gray-600">Digital services designed for Africa's unique development challenges</p>
               </div>
 
               <div className="text-center">
-                <img src="/partnerships-and-collaboration.png" alt="African Partnerships & Resources" className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">African Partnerships & Resources</h4>
+                <div className="w-24 h-24 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-12 h-12 text-shakes-blue" />
+                </div>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">African Partnerships</h4>
                 <p className="text-gray-600">Collaborating with organizations across Africa to scale sustainable impact</p>
               </div>
 
               <div className="text-center">
-                <img src="/monitoring-and-evaluation.png" alt="Evaluation for African Impact" className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Evaluation for African Impact</h4>
+                <div className="w-24 h-24 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <BarChart className="w-12 h-12 text-shakes-blue-light" />
+                </div>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Impact Across Africa</h4>
                 <p className="text-gray-600">Solutions tested and scaled for maximum sustainable development impact</p>
               </div>
             </div>
