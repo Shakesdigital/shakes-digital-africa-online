@@ -400,8 +400,8 @@ const CustomSoftware: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/2131784/pexels-photo-2131784.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                    alt="African farmer using custom agricultural software on mobile device"
+                    src="/images/small holder farmer.png"
+                    alt="African smallholder farmer using digital technology"
                     className="rounded-lg shadow-2xl w-full"
                   />
                 </div>
