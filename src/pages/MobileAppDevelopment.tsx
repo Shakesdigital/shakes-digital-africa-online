@@ -127,7 +127,7 @@ const MobileAppDevelopment: React.FC = () => {
                 Mobile Solutions Transforming African Communities
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From financial inclusion to agricultural productivity, our mobile apps address real challenges facing African communities and businesses.
+                From financial inclusion to agricultural productivity, we develop mobile apps that address real challenges facing African communities and businesses.
               </p>
             </div>
 
