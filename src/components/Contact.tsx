@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                Reach Out to Shakes Digital: Tailor Your Digital Solutions
+                Reach out to Shakes Digital for custom digital web solutions for your business or community challenge
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8">
                 Explore Custom Software, Web Development, or Mobile Apps for your sustainable goals.
