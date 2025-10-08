@@ -51,7 +51,7 @@ const CustomSoftware: React.FC = () => {
                 Why Choose Custom Software Development?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Off-the-shelf solutions often fall short in addressing Africa's unique context. Our custom software is built specifically for your challenges, infrastructure, and growth aspirations.
+                We offer off the shelf custom software solutions tailored specifically to address Africa's unique sustainable development and business challenges.
               </p>
             </div>
 
