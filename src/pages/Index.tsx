@@ -125,8 +125,8 @@ const Index: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="African professionals collaborating on sustainable development technology solutions"
+                  src="/farmer-2.png"
+                  alt="African farmer using technology in the field"
                   className="rounded-lg shadow-xl w-full object-cover"
                 />
               </div>
