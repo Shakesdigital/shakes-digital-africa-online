@@ -113,27 +113,22 @@ const Index: React.FC = () => {
         {/* Partners Teaser Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Partnering to Solve Africa's Development Challenges</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Addressing Africa's complex sustainable development and business challenges requires collaboration. We partner with African and international organizations in tech, community development, environmental conservation, and poverty alleviation to create scalable digital solutions that drive real change across the continent.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <img src="/African-research.png" alt="Africa-Focused Research & Implementation" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mt-4 mb-2">Africa-Focused Research & Implementation</h4>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Partnering to Solve Africa's Development Challenges</h2>
+                <p className="text-lg text-gray-600 mb-8">
+                  Addressing Africa's complex sustainable development and business challenges requires collaboration. We partner with African and international organizations in tech, community development, environmental conservation, and poverty alleviation to create scalable digital solutions that drive real change across the continent.
+                </p>
+                <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
+                  Learn About Our Partnerships <ArrowRight className="h-5 w-5" />
+                </a>
               </div>
-
-              <div className="text-center">
-                <img src="/partnerships-and-collaboration.png" alt="African Partnerships & Resources" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mt-4 mb-2">African Partnerships & Resources</h4>
-              </div>
-
-              <div className="text-center">
-                <img src="/monitoring-and-evaluation.png" alt="Evaluation for African Impact" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-                <h4 className="text-xl font-bold text-shakes-blue-dark mt-4 mb-2">Evaluation for African Impact</h4>
+              <div>
+                <img
+                  src="/farmer-2.png"
+                  alt="African farmer using technology in the field"
+                  className="rounded-lg shadow-xl w-full object-cover"
+                />
               </div>
             </div>
           </div>
