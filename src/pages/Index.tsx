@@ -137,6 +137,61 @@ const Index: React.FC = () => {
 
 
 
+        <section className="py-20 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Addressing Africa's Development Challenges</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Our comprehensive approach combines research, partnerships, and evaluation to create sustainable digital solutions that address Africa's unique development needs.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/african-research.png"
+                  alt="Africa-Focused Research & Implementation"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Africa-Focused Research & Implementation</h3>
+                  <p className="text-gray-600 text-sm text-center">
+                    Conducting thorough research to understand local challenges and implementing solutions tailored to African contexts.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/partnerships-collaboration.png"
+                  alt="African Partnerships & Resources"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">African Partnerships & Resources</h3>
+                  <p className="text-gray-600 text-sm text-center">
+                    Building strong partnerships and mobilizing resources to create sustainable impact across African communities.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/images/monitoring-evaluation.png"
+                  alt="Evaluation for African Impact"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Evaluation for African Impact</h3>
+                  <p className="text-gray-600 text-sm text-center">
+                    Continuously monitoring and evaluating our solutions to ensure meaningful impact in African communities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <CTA />
       </main>
       <Footer />
