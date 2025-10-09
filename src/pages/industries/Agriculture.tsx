@@ -9,7 +9,7 @@ const Agriculture: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-emerald-600 via-green-600 to-lime-600 pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -19,11 +19,11 @@ const Agriculture: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Solutions Empowering Africa's Farmers and Food Systems
                 </h1>
-                <p className="text-xl text-green-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Transform agricultural operations with precision farming tools, market access platforms, and supply chain solutions designed to improve yields, incomes, and food security across Africa.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -37,9 +37,9 @@ const Agriculture: React.FC = () => {
                   alt="African farmer using mobile technology for improved agricultural practices"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-green-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">40%</p>
-                  <p className="text-sm text-gray-700">Average Income Increase for Digital-Enabled Farmers</p>
+                  <p className="text-sm">Average Income Increase for Digital-Enabled Farmers</p>
                 </div>
               </div>
             </div>
@@ -60,8 +60,8 @@ const Agriculture: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Sprout className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Sprout className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Precision Agriculture</h3>
                 <p className="text-gray-600">
@@ -70,8 +70,8 @@ const Agriculture: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <TrendingUp className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <TrendingUp className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Market Access</h3>
                 <p className="text-gray-600">
@@ -80,8 +80,8 @@ const Agriculture: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Cloud className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Cloud className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Weather & Climate Data</h3>
                 <p className="text-gray-600">
@@ -90,8 +90,8 @@ const Agriculture: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Smartphone className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile-First Solutions</h3>
                 <p className="text-gray-600">
@@ -100,8 +100,8 @@ const Agriculture: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Database className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Database className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Supply Chain Transparency</h3>
                 <p className="text-gray-600">
@@ -110,8 +110,8 @@ const Agriculture: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <Map className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Map className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Farm Management</h3>
                 <p className="text-gray-600">
@@ -167,19 +167,19 @@ const Agriculture: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Real-time commodity pricing from multiple markets</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Direct farmer-to-buyer matching and negotiation</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Mobile money integration for instant payments</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Quality grading and logistics coordination tools</span>
                   </li>
                 </ul>
@@ -192,19 +192,19 @@ const Agriculture: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">GPS-based field mapping and acreage calculation</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Input inventory management (seeds, fertilizers, pesticides)</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Expense tracking and profit/loss analysis per plot</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Seasonal planning and crop rotation recommendations</span>
                   </li>
                 </ul>
@@ -302,31 +302,31 @@ const Agriculture: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Understanding farmer challenges, crop patterns, market dynamics, and local agricultural practices</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Building mobile-first, offline-capable solutions accessible to smallholder farmers</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Connecting with agribusinesses, NGOs, government extension services, and farmer organizations</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Facilitating access to agricultural finance, inputs, and market opportunities</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
                 <p className="text-gray-600 text-sm">Measuring yield improvements, income gains, and food security outcomes for continuous refinement</p>
               </div>
@@ -337,7 +337,7 @@ const Agriculture: React.FC = () => {
         {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-emerald-600 to-green-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -346,20 +346,20 @@ const Agriculture: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Help Increase Farmer Incomes by 35% and Reach 50,000+ Smallholders
                   </h2>
-                  <p className="text-xl text-green-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     We can build an integrated farm management and marketplace app for smallholder farmers—potentially achieving higher yields, better prices, reduced post-harvest losses, and improved livelihoods for thousands of farming families.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 35%</p>
-                      <p className="text-green-50">Potential Income Increase</p>
+                      <p className="text-blue-100">Potential Income Increase</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">50K+</p>
-                      <p className="text-green-50">Potential Farmer Reach</p>
+                      <p className="text-blue-100">Potential Farmer Reach</p>
                     </div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -378,15 +378,15 @@ const Agriculture: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Transform Agricultural Operations?
               </h2>
-              <p className="text-xl text-green-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital solutions that improve yields, increase farmer incomes, strengthen food security, and create sustainable agricultural value chains across Africa.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">

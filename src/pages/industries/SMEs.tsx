@@ -9,7 +9,7 @@ const SMEs: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -19,11 +19,11 @@ const SMEs: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Solutions for Sustainable Small & Medium Enterprises Across Africa
                 </h1>
-                <p className="text-xl text-green-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Empower your SME with digital tools for ESG compliance, sustainable operations, e-commerce growth, and impact measurement—driving business success while creating positive social and environmental impact.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -37,7 +37,7 @@ const SMEs: React.FC = () => {
                   alt="African SME business owners using digital tools for sustainable growth"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-emerald-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">300%</p>
                   <p className="text-sm text-gray-700">Revenue Growth with Digital Transformation</p>
                 </div>
@@ -60,8 +60,8 @@ const SMEs: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <Building2 className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Building2 className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Market Expansion</h3>
                 <p className="text-gray-600">
@@ -70,8 +70,8 @@ const SMEs: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Shield className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Shield className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">ESG Compliance & Reporting</h3>
                 <p className="text-gray-600">
@@ -80,8 +80,8 @@ const SMEs: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <TrendingUp className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <TrendingUp className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Operational Efficiency</h3>
                 <p className="text-gray-600">
@@ -90,8 +90,8 @@ const SMEs: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <BarChart3 className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <BarChart3 className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Data-Driven Decisions</h3>
                 <p className="text-gray-600">
@@ -100,8 +100,8 @@ const SMEs: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-                  <Award className="h-8 w-8 text-emerald-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Award className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Impact Investment Readiness</h3>
                 <p className="text-gray-600">
@@ -110,8 +110,8 @@ const SMEs: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Leaf className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Leaf className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Sustainability Integration</h3>
                 <p className="text-gray-600">
@@ -302,31 +302,31 @@ const SMEs: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Understanding your business model, ESG goals, and market opportunities</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Building scalable digital solutions aligned with sustainability objectives</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Connecting with investors, suppliers, and strategic partners for growth</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Enabling access to impact investment and sustainable financing</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
                 <p className="text-gray-600 text-sm">Measuring business performance, impact metrics, and ROI for continuous improvement</p>
               </div>
@@ -337,7 +337,7 @@ const SMEs: React.FC = () => {
         {/* What's Possible */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-emerald-600 to-green-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -346,20 +346,20 @@ const SMEs: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Imagine: Sustainable Fashion SME Tripling Revenue While Achieving Carbon Neutrality
                   </h2>
-                  <p className="text-xl text-green-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     Picture an integrated e-commerce platform with ESG tracking for an African sustainable fashion brand—achieving 300% revenue growth, carbon-neutral operations, and $2M in impact investment.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">300%</p>
-                      <p className="text-green-50">Potential Revenue Growth</p>
+                      <p className="text-blue-100">Potential Revenue Growth</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">$2M</p>
-                      <p className="text-green-50">Impact Investment Potential</p>
+                      <p className="text-blue-100">Impact Investment Potential</p>
                     </div>
                   </div>
-                  <a href="/services" className="inline-flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/services" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Explore Services <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -378,15 +378,15 @@ const SMEs: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-blue to-shakes-teal text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Transform Your SME?
               </h2>
-              <p className="text-xl text-green-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital solutions that drive sustainable growth, demonstrate ESG impact, and unlock new opportunities for your African small or medium enterprise.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">

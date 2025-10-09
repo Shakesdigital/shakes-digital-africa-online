@@ -10,7 +10,7 @@ const RenewableEnergy: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-yellow-500 via-orange-500 to-red-500 pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -20,11 +20,11 @@ const RenewableEnergy: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Solutions Powering Africa's Clean Energy Future
                 </h1>
-                <p className="text-xl text-orange-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Transform your renewable energy operation with smart grid management, monitoring systems, and data analytics designed for Africa's energy transition and sustainable development goals.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-orange-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -38,7 +38,7 @@ const RenewableEnergy: React.FC = () => {
                   alt="Solar panels providing renewable energy in Africa"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-orange-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">40%</p>
                   <p className="text-sm text-gray-700">Efficiency Improvement with Smart Monitoring</p>
                 </div>
@@ -61,40 +61,40 @@ const RenewableEnergy: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Search className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-shakes-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Identifying renewable energy opportunities and challenges across Africa</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-6 h-6 text-emerald-600" />
+                <div className="w-12 h-12 bg-shakes-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Wrench className="w-6 h-6 text-shakes-blue" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Developing and deploying sustainable energy solutions for African communities</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Handshake className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-shakes-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Handshake className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Collaborating with energy stakeholders and local communities</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-emerald-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Coins className="w-6 h-6 text-emerald-600" />
+                <div className="w-12 h-12 bg-shakes-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Coins className="w-6 h-6 text-shakes-blue" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Securing funding and resources for renewable energy projects</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <LineChart className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-shakes-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <LineChart className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Monitoring & Evaluation</h4>
                 <p className="text-gray-600 text-sm">Tracking project impact and sustainability metrics</p>
@@ -283,31 +283,31 @@ const RenewableEnergy: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Understanding your renewable energy assets, operational challenges, and growth opportunities</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-yellow-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Deploying IoT sensors, software platforms, and analytics optimized for African energy infrastructure</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Connecting with energy companies, development finance institutions, and climate organizations</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-yellow-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Enabling investment attraction through transparent data and verified performance metrics</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
                 <p className="text-gray-600 text-sm">Measuring energy output, financial returns, and environmental impact for continuous optimization</p>
               </div>
@@ -318,7 +318,7 @@ const RenewableEnergy: React.FC = () => {
         {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-orange-600 to-yellow-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -327,20 +327,20 @@ const RenewableEnergy: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Help Your Solar Mini-Grid Operation Reduce Downtime by 65% and Attract $2M+ Investment
                   </h2>
-                  <p className="text-xl text-orange-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     We can implement an integrated energy management and investor reporting platform for your mini-grid operation—potentially achieving dramatic operational improvements and helping you secure Series A funding.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 65%</p>
-                      <p className="text-orange-50">Potential Downtime Reduction</p>
+                      <p className="text-blue-100">Potential Downtime Reduction</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">$2M+</p>
-                      <p className="text-orange-50">Investment Potential</p>
+                      <p className="text-blue-100">Investment Potential</p>
                     </div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-orange-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -359,15 +359,15 @@ const RenewableEnergy: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-orange-600 to-yellow-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-blue to-shakes-teal text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Optimize Your Renewable Energy Operation?
               </h2>
-              <p className="text-xl text-orange-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital solutions that maximize energy output, reduce costs, attract investment, and accelerate Africa's clean energy transition.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-orange-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">

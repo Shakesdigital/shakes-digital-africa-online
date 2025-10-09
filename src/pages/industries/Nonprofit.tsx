@@ -10,7 +10,7 @@ const Nonprofit: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-purple-600 via-pink-600 to-rose-600 pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -20,11 +20,11 @@ const Nonprofit: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Infrastructure Amplifying Africa's Social Impact
                 </h1>
-                <p className="text-xl text-purple-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Empower your NGO or social enterprise with digital tools for program management, impact measurement, fundraising, and community engagement—maximizing your reach and sustainable development outcomes.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-purple-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -38,9 +38,9 @@ const Nonprofit: React.FC = () => {
                   alt="African community development organization using digital tools for social impact"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-purple-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">3X</p>
-                  <p className="text-sm text-gray-700">Increase in Program Reach with Digital Tools</p>
+                  <p className="text-sm text-white">Increase in Program Reach with Digital Tools</p>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ const Nonprofit: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                  <Heart className="h-8 w-8 text-purple-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Heart className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Program Management</h3>
                 <p className="text-gray-600">
@@ -71,8 +71,8 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <BarChart className="h-8 w-8 text-pink-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <BarChart className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Impact Measurement</h3>
                 <p className="text-gray-600">
@@ -81,8 +81,8 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                  <DollarSign className="h-8 w-8 text-purple-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <DollarSign className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Fundraising & Donor Management</h3>
                 <p className="text-gray-600">
@@ -91,8 +91,8 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-pink-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Users className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Engagement</h3>
                 <p className="text-gray-600">
@@ -101,8 +101,8 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-purple-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Smartphone className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile Data Collection</h3>
                 <p className="text-gray-600">
@@ -111,8 +111,8 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-pink-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Globe className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Transparency & Accountability</h3>
                 <p className="text-gray-600">
@@ -303,7 +303,7 @@ const Nonprofit: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Search className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
@@ -311,7 +311,7 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-pink-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Wrench className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
@@ -319,7 +319,7 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Handshake className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
@@ -327,7 +327,7 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-pink-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Coins className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
@@ -335,7 +335,7 @@ const Nonprofit: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <LineChart className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
@@ -348,7 +348,7 @@ const Nonprofit: React.FC = () => {
         {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -357,20 +357,20 @@ const Nonprofit: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Help Your NGO Triple Program Reach and Secure $5M+ in New Funding
                   </h2>
-                  <p className="text-xl text-purple-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     We can build an integrated program management and impact measurement platform for your organization—enabling data-driven decision-making, transparent reporting, and dramatic expansion of life-changing programs.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 3X</p>
-                      <p className="text-purple-50">Potential Program Reach</p>
+                      <p className="text-blue-100">Potential Program Reach</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">$5M+</p>
-                      <p className="text-purple-50">Funding Potential</p>
+                      <p className="text-blue-100">Funding Potential</p>
                     </div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -389,15 +389,15 @@ const Nonprofit: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Amplify Your Social Impact?
               </h2>
-              <p className="text-xl text-purple-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital solutions that streamline operations, measure impact, secure funding, and scale your organization's reach across African communities.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-purple-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">

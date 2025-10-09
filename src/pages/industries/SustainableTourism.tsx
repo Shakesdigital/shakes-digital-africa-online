@@ -9,7 +9,7 @@ const SustainableTourism: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-green-600 via-teal-500 to-shakes-teal pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -19,11 +19,11 @@ const SustainableTourism: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Solutions for Environmentally Responsible Tourism in Africa
                 </h1>
-                <p className="text-xl text-green-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Empower your tourism operation with digital tools designed for conservation, community empowerment, and sustainable visitor experiences across Africa's natural wonders.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -37,9 +37,9 @@ const SustainableTourism: React.FC = () => {
                   alt="African wildlife safari tourists experiencing sustainable ecotourism"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-green-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">85%</p>
-                  <p className="text-sm text-gray-700">Increase in Direct Bookings with Digital Solutions</p>
+                  <p className="text-sm text-white">Increase in Direct Bookings with Digital Solutions</p>
                 </div>
               </div>
             </div>
@@ -60,8 +60,8 @@ const SustainableTourism: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Globe className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Reach Global Travelers</h3>
                 <p className="text-gray-600">
@@ -70,8 +70,8 @@ const SustainableTourism: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-teal-100 rounded-lg flex items-center justify-center mb-6">
-                  <Leaf className="h-8 w-8 text-teal-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Leaf className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Conservation Tracking</h3>
                 <p className="text-gray-600">
@@ -80,8 +80,8 @@ const SustainableTourism: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Users className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Empowerment</h3>
                 <p className="text-gray-600">
@@ -90,8 +90,8 @@ const SustainableTourism: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-teal-100 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-teal-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Smartphone className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Enhanced Visitor Experiences</h3>
                 <p className="text-gray-600">
@@ -100,8 +100,8 @@ const SustainableTourism: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                  <BarChart className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <BarChart className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Data-Driven Management</h3>
                 <p className="text-gray-600">
@@ -110,8 +110,8 @@ const SustainableTourism: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-teal-100 rounded-lg flex items-center justify-center mb-6">
-                  <Palmtree className="h-8 w-8 text-teal-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Palmtree className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Remote Location Support</h3>
                 <p className="text-gray-600">
@@ -302,31 +302,31 @@ const SustainableTourism: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
                 <p className="text-gray-600 text-sm">Understanding your tourism operation's unique challenges, conservation goals, and target market</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
                 <p className="text-gray-600 text-sm">Building digital solutions optimized for remote locations and sustainable tourism practices</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
                 <p className="text-gray-600 text-sm">Connecting with conservation organizations, tour operators, and community groups for scalable impact</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
                 <p className="text-gray-600 text-sm">Enabling funding opportunities and investment attraction for tourism infrastructure</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
                 <p className="text-gray-600 text-sm">Measuring environmental impact, visitor satisfaction, and revenue to optimize for sustainable growth</p>
               </div>
@@ -337,7 +337,7 @@ const SustainableTourism: React.FC = () => {
         {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-green-600 to-teal-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -346,20 +346,20 @@ const SustainableTourism: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Help Your Safari Lodge Increase Direct Bookings by 200% While Reducing Environmental Impact
                   </h2>
-                  <p className="text-xl text-green-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     We can build an integrated booking platform and conservation management system for your ecotourism operation—potentially doubling revenue, reducing operational carbon footprint by 50%, and empowering 120+ community members.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 200%</p>
-                      <p className="text-green-50">Potential Bookings Growth</p>
+                      <p className="text-blue-100">Potential Bookings Growth</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 50%</p>
-                      <p className="text-green-50">Potential Carbon Reduction</p>
+                      <p className="text-blue-100">Potential Carbon Reduction</p>
                     </div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -378,15 +378,15 @@ const SustainableTourism: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Transform Your Tourism Operation?
               </h2>
-              <p className="text-xl text-green-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital solutions that drive bookings, enhance visitor experiences, support conservation, and empower local communities across Africa's tourism sector.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">

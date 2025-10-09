@@ -10,7 +10,7 @@ const Education: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 pt-32 pb-24 text-white">
+        <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
@@ -20,11 +20,11 @@ const Education: React.FC = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   Digital Learning Platforms Transforming Education Across Africa
                 </h1>
-                <p className="text-xl text-blue-50 mb-8">
+                <p className="text-xl text-blue-100 mb-8">
                   Empower learners and educators with digital tools for e-learning, skills development, student management, and workforce training—expanding access to quality education and economic opportunities.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                   <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
@@ -38,9 +38,9 @@ const Education: React.FC = () => {
                   alt="African students using digital learning platform for education"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white text-blue-700 p-6 rounded-lg shadow-xl max-w-xs">
+                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">10X</p>
-                  <p className="text-sm text-gray-700">Increase in Student Reach with Digital Platforms</p>
+                  <p className="text-sm text-white">Increase in Student Reach with Digital Platforms</p>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ const Education: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <BookOpen className="h-8 w-8 text-blue-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <BookOpen className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Expanded Access</h3>
                 <p className="text-gray-600">
@@ -71,8 +71,8 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                  <Monitor className="h-8 w-8 text-indigo-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Monitor className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Blended Learning</h3>
                 <p className="text-gray-600">
@@ -81,8 +81,8 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <GraduationCap className="h-8 w-8 text-blue-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <GraduationCap className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Skills for Employment</h3>
                 <p className="text-gray-600">
@@ -91,8 +91,8 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-indigo-600" />
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
+                  <Users className="h-8 w-8 text-shakes-teal" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Teacher Empowerment</h3>
                 <p className="text-gray-600">
@@ -101,8 +101,8 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-blue-600" />
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
+                  <Smartphone className="h-8 w-8 text-shakes-blue" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile-First Learning</h3>
                 <p className="text-gray-600">
@@ -111,8 +111,8 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                  <Award className="h-8 w-8 text-indigo-600" />
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
+                  <Award className="h-8 w-8 text-shakes-blue-light" />
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Credentials & Certification</h3>
                 <p className="text-gray-600">
@@ -143,19 +143,19 @@ const Education: React.FC = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Course builder with multimedia content support</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Interactive quizzes, assignments, and grading tools</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Student progress tracking and analytics dashboards</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" />
+                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
                     <span className="text-gray-600">Discussion forums and collaborative learning tools</span>
                   </li>
                 </ul>
@@ -303,7 +303,7 @@ const Education: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Search className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
@@ -311,7 +311,7 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Wrench className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
@@ -319,7 +319,7 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Handshake className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
@@ -327,7 +327,7 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Coins className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
@@ -335,7 +335,7 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <LineChart className="h-6 w-6" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
@@ -348,7 +348,7 @@ const Education: React.FC = () => {
         {/* What We Can Achieve */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
-            <div className="bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-2xl p-12">
+            <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -357,20 +357,20 @@ const Education: React.FC = () => {
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
                     Help Your E-Learning Platform Reach 100,000+ Students Across Africa
                   </h2>
-                  <p className="text-xl text-blue-50 mb-8">
+                  <p className="text-xl text-blue-100 mb-8">
                     We can build a mobile-first learning management system with offline capabilities for your education organization—potentially achieving 10X student reach, 85% course completion rates, and improved learning outcomes.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">100K+</p>
-                      <p className="text-blue-50">Potential Student Reach</p>
+                      <p className="text-blue-100">Potential Student Reach</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 85%</p>
-                      <p className="text-blue-50">Potential Completion Rate</p>
+                      <p className="text-blue-100">Potential Completion Rate</p>
                     </div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Start Your Project <ArrowRight className="h-5 w-5" />
                   </a>
                 </div>
@@ -389,15 +389,15 @@ const Education: React.FC = () => {
         {/* CTA Section */}
         <section className="py-20 bg-white">
           <div className="container-custom">
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-2xl p-12 text-center">
+            <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Transform Education?
               </h2>
-              <p className="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
                 Let's build digital learning platforms that expand access, improve outcomes, and prepare African learners for success in the 21st century economy.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
                   Schedule Free Consultation <ArrowRight className="h-5 w-5" />
                 </a>
                 <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
