@@ -12,7 +12,10 @@ import {
   MessageSquare,
   Users,
   TrendingUp,
-  Eye
+  Eye,
+  Inbox,
+  Mail,
+  UserPlus
 } from "lucide-react";
 
 const AdminDashboard: React.FC = () => {
@@ -28,14 +31,22 @@ const AdminDashboard: React.FC = () => {
         { count: servicesCount },
         { count: blogPostsCount },
         { count: testimonialsCount },
-        { count: publishedBlogPosts }
+        { count: publishedBlogPosts },
+        { count: contactSubmissionsCount },
+        { count: newContactsCount },
+        { count: subscribersCount },
+        { count: activeSubscribersCount }
       ] = await Promise.all([
         supabase.from('landing_pages').select('*', { count: 'exact', head: true }),
         supabase.from('portfolio_projects').select('*', { count: 'exact', head: true }),
         supabase.from('services').select('*', { count: 'exact', head: true }),
         supabase.from('blog_posts').select('*', { count: 'exact', head: true }),
         supabase.from('testimonials').select('*', { count: 'exact', head: true }),
-        supabase.from('blog_posts').select('*', { count: 'exact', head: true }).eq('status', 'published')
+        supabase.from('blog_posts').select('*', { count: 'exact', head: true }).eq('status', 'published'),
+        supabase.from('contact_submissions').select('*', { count: 'exact', head: true }),
+        supabase.from('contact_submissions').select('*', { count: 'exact', head: true }).eq('status', 'new'),
+        supabase.from('newsletter_subscriptions').select('*', { count: 'exact', head: true }),
+        supabase.from('newsletter_subscriptions').select('*', { count: 'exact', head: true }).eq('status', 'active')
       ]);
 
       return {
@@ -44,7 +55,11 @@ const AdminDashboard: React.FC = () => {
         services: servicesCount || 0,
         blogPosts: blogPostsCount || 0,
         testimonials: testimonialsCount || 0,
-        publishedPosts: publishedBlogPosts || 0
+        publishedPosts: publishedBlogPosts || 0,
+        contactSubmissions: contactSubmissionsCount || 0,
+        newContacts: newContactsCount || 0,
+        subscribers: subscribersCount || 0,
+        activeSubscribers: activeSubscribersCount || 0
       };
     }
   });
@@ -74,46 +89,68 @@ const AdminDashboard: React.FC = () => {
 
   const dashboardCards = [
     {
-      title: "Landing Pages",
-      value: stats?.landingPages || 0,
-      icon: FileText,
+      title: "Contact Requests",
+      value: stats?.contactSubmissions || 0,
+      icon: Inbox,
       color: "text-blue-600",
-      bgColor: "bg-blue-100"
+      bgColor: "bg-blue-100",
+      onClick: () => navigate('/admin/contacts')
     },
     {
-      title: "Portfolio Projects",
-      value: stats?.portfolio || 0,
-      icon: Briefcase,
+      title: "New Contacts",
+      value: stats?.newContacts || 0,
+      icon: MessageSquare,
+      color: "text-red-600",
+      bgColor: "bg-red-100",
+      onClick: () => navigate('/admin/contacts')
+    },
+    {
+      title: "Newsletter Subscribers",
+      value: stats?.subscribers || 0,
+      icon: Mail,
       color: "text-green-600",
-      bgColor: "bg-green-100"
+      bgColor: "bg-green-100",
+      onClick: () => navigate('/admin/subscribers')
     },
     {
-      title: "Services",
-      value: stats?.services || 0,
-      icon: Settings,
-      color: "text-purple-600",
-      bgColor: "bg-purple-100"
+      title: "Active Subscribers",
+      value: stats?.activeSubscribers || 0,
+      icon: UserPlus,
+      color: "text-teal-600",
+      bgColor: "bg-teal-100",
+      onClick: () => navigate('/admin/subscribers')
     },
     {
       title: "Blog Posts",
       value: stats?.blogPosts || 0,
       icon: PenTool,
       color: "text-orange-600",
-      bgColor: "bg-orange-100"
+      bgColor: "bg-orange-100",
+      onClick: () => navigate('/admin/blog')
     },
     {
       title: "Published Posts",
       value: stats?.publishedPosts || 0,
       icon: Eye,
-      color: "text-teal-600",
-      bgColor: "bg-teal-100"
+      color: "text-purple-600",
+      bgColor: "bg-purple-100",
+      onClick: () => navigate('/admin/blog')
+    },
+    {
+      title: "Portfolio Projects",
+      value: stats?.portfolio || 0,
+      icon: Briefcase,
+      color: "text-indigo-600",
+      bgColor: "bg-indigo-100",
+      onClick: () => navigate('/admin/portfolio')
     },
     {
       title: "Testimonials",
       value: stats?.testimonials || 0,
       icon: MessageSquare,
       color: "text-pink-600",
-      bgColor: "bg-pink-100"
+      bgColor: "bg-pink-100",
+      onClick: () => navigate('/admin/testimonials')
     }
   ];
 
@@ -125,11 +162,15 @@ const AdminDashboard: React.FC = () => {
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {dashboardCards.map((card, index) => {
           const Icon = card.icon;
           return (
-            <Card key={index}>
+            <Card
+              key={index}
+              className="cursor-pointer hover:shadow-lg transition-shadow"
+              onClick={card.onClick}
+            >
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
@@ -223,18 +264,18 @@ const AdminDashboard: React.FC = () => {
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <button
-              onClick={() => navigate('/admin/landing-pages')}
+              onClick={() => navigate('/admin/contacts')}
               className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-blue hover:bg-shakes-blue hover:text-white transition-colors"
             >
-              <FileText className="h-8 w-8 mx-auto mb-2" />
-              <span className="text-sm font-medium">New Landing Page</span>
+              <Inbox className="h-8 w-8 mx-auto mb-2" />
+              <span className="text-sm font-medium">View Contacts</span>
             </button>
             <button
-              onClick={() => navigate('/admin/portfolio')}
+              onClick={() => navigate('/admin/subscribers')}
               className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-teal hover:bg-shakes-teal hover:text-white transition-colors"
             >
-              <Briefcase className="h-8 w-8 mx-auto mb-2" />
-              <span className="text-sm font-medium">Add Portfolio</span>
+              <Mail className="h-8 w-8 mx-auto mb-2" />
+              <span className="text-sm font-medium">Manage Subscribers</span>
             </button>
             <button
               onClick={() => navigate('/admin/blog')}
@@ -244,11 +285,11 @@ const AdminDashboard: React.FC = () => {
               <span className="text-sm font-medium">Write Blog Post</span>
             </button>
             <button
-              onClick={() => navigate('/admin/services')}
-              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-shakes-orange hover:bg-shakes-orange hover:text-white transition-colors"
+              onClick={() => navigate('/admin/portfolio')}
+              className="p-4 text-center border-2 border-dashed border-gray-300 rounded-lg hover:border-purple-500 hover:bg-purple-500 hover:text-white transition-colors"
             >
-              <Settings className="h-8 w-8 mx-auto mb-2" />
-              <span className="text-sm font-medium">Add Service</span>
+              <Briefcase className="h-8 w-8 mx-auto mb-2" />
+              <span className="text-sm font-medium">Add Portfolio</span>
             </button>
           </div>
         </CardContent>
