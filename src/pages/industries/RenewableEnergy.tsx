@@ -346,7 +346,7 @@ const RenewableEnergy: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="/Renewable Energy 1.png"
+                    src="/Renewable energy better.png"
                     alt="Solar energy installation in Africa with digital monitoring"
                     className="rounded-lg shadow-2xl w-full"
                   />

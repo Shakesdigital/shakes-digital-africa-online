@@ -346,7 +346,7 @@ const Healthcare: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/Health first 2.png"
                     alt="African patient receiving telemedicine consultation"
                     className="rounded-lg shadow-2xl w-full"
                   />

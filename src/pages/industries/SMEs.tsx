@@ -33,7 +33,7 @@ const SMEs: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/SME 12.png"
                   alt="African SME business owners using digital tools for sustainable growth"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -365,7 +365,7 @@ const SMEs: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/SME 1.png"
                     alt="African SME entrepreneur celebrating business success with digital transformation"
                     className="rounded-lg shadow-2xl w-full"
                   />

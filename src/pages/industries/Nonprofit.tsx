@@ -34,7 +34,7 @@ const Nonprofit: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/6646968/pexels-photo-6646968.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/Non profit 2.png"
                   alt="African community development organization using digital tools for social impact"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -376,7 +376,7 @@ const Nonprofit: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/Non Profit.png"
                     alt="NGO staff using digital platform for community development programs"
                     className="rounded-lg shadow-2xl w-full"
                   />
