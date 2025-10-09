@@ -33,7 +33,7 @@ const SustainableTourism: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1920"
                   alt="African wildlife safari tourists experiencing sustainable ecotourism"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -365,7 +365,7 @@ const SustainableTourism: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    src="https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1920"
                     alt="African eco-lodge benefiting from sustainable tourism digital platform"
                     className="rounded-lg shadow-2xl w-full"
                   />

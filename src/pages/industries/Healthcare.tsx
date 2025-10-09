@@ -34,7 +34,7 @@ const Healthcare: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&w=1920"
                   alt="African healthcare worker using digital health technology for patient care"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -346,7 +346,7 @@ const Healthcare: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=1920"
                     alt="African patient receiving telemedicine consultation"
                     className="rounded-lg shadow-2xl w-full"
                   />
