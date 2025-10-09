@@ -33,7 +33,7 @@ const Agriculture: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/5076531/pexels-photo-5076531.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/Agriculture food.png"
                   alt="African farmer using mobile technology for improved agricultural practices"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -365,7 +365,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/2131784/pexels-photo-2131784.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/Agric and food security 2.png"
                     alt="African farmers benefiting from agricultural technology platform"
                     className="rounded-lg shadow-2xl w-full"
                   />

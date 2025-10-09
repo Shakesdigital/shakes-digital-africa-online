@@ -34,7 +34,7 @@ const Education: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/Education 1.png"
                   alt="African students using digital learning platform for education"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -376,7 +376,7 @@ const Education: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/5905888/pexels-photo-5905888.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/Education 2.png"
                     alt="African students learning using digital education platform"
                     className="rounded-lg shadow-2xl w-full"
                   />

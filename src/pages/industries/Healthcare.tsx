@@ -34,7 +34,7 @@ const Healthcare: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/health 1.png"
                   alt="African healthcare worker using digital health technology for patient care"
                   className="rounded-lg shadow-2xl w-full"
                 />

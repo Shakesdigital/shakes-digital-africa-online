@@ -34,7 +34,7 @@ const RenewableEnergy: React.FC = () => {
               </div>
               <div className="relative animate-fade-in">
                 <img
-                  src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                  src="/renewable energy 2.png"
                   alt="Solar panels providing renewable energy in Africa"
                   className="rounded-lg shadow-2xl w-full"
                 />
@@ -346,7 +346,7 @@ const RenewableEnergy: React.FC = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                    src="/Renewable Energy 1.png"
                     alt="Solar energy installation in Africa with digital monitoring"
                     className="rounded-lg shadow-2xl w-full"
                   />
