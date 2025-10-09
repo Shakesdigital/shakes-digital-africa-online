@@ -39,8 +39,8 @@ const RenewableEnergy: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">40%</p>
-                  <p className="text-sm text-gray-700">Efficiency Improvement with Smart Monitoring</p>
+                  <p className="font-bold text-2xl mb-1">Up to 40%</p>
+                  <p className="text-sm text-gray-700">Potential Efficiency Improvement with Smart Monitoring</p>
                 </div>
               </div>
             </div>

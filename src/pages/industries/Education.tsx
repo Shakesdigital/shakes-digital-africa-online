@@ -39,8 +39,8 @@ const Education: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">10X</p>
-                  <p className="text-sm text-white">Increase in Student Reach with Digital Platforms</p>
+                  <p className="font-bold text-2xl mb-1">Up to 10X</p>
+                  <p className="text-sm text-white">Potential Increase in Student Reach with Digital Platforms</p>
                 </div>
               </div>
             </div>

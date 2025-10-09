@@ -38,8 +38,8 @@ const SMEs: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">300%</p>
-                  <p className="text-sm text-gray-700">Revenue Growth with Digital Transformation</p>
+                  <p className="font-bold text-2xl mb-1">Up to 300%</p>
+                  <p className="text-sm text-gray-700">Potential Revenue Growth with Digital Transformation</p>
                 </div>
               </div>
             </div>

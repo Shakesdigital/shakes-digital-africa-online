@@ -38,8 +38,8 @@ const Agriculture: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">40%</p>
-                  <p className="text-sm">Average Income Increase for Digital-Enabled Farmers</p>
+                  <p className="font-bold text-2xl mb-1">Up to 40%</p>
+                  <p className="text-sm">Potential Income Increase for Digital-Enabled Farmers</p>
                 </div>
               </div>
             </div>

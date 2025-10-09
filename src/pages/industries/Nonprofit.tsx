@@ -39,8 +39,8 @@ const Nonprofit: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">3X</p>
-                  <p className="text-sm text-white">Increase in Program Reach with Digital Tools</p>
+                  <p className="font-bold text-2xl mb-1">Up to 3X</p>
+                  <p className="text-sm text-white">Potential Increase in Program Reach with Digital Tools</p>
                 </div>
               </div>
             </div>
