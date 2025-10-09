@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
 import AdminLayout from "@/components/admin/AdminLayout";
@@ -13,6 +13,7 @@ import { useToast } from "@/hooks/use-toast";
 const AdminBlog: React.FC = () => {
   const { toast } = useToast();
   const queryClient = useQueryClient();
+  const navigate = useNavigate();
 
   const { data: session, isLoading: sessionLoading } = useQuery({
     queryKey: ['session'],
@@ -89,7 +90,10 @@ const AdminBlog: React.FC = () => {
             <h1 className="text-3xl font-bold text-gray-900">Blog Posts</h1>
             <p className="text-gray-600 mt-2">Manage your blog content and articles</p>
           </div>
-          <Button className="bg-shakes-blue hover:bg-shakes-blue-dark">
+          <Button
+            onClick={() => navigate('/admin/blog/new')}
+            className="bg-shakes-blue hover:bg-shakes-blue-dark"
+          >
             <Plus className="h-4 w-4 mr-2" />
             New Blog Post
           </Button>
@@ -158,24 +162,32 @@ const AdminBlog: React.FC = () => {
                   </div>
 
                   <div className="flex gap-2 mt-4 pt-4 border-t border-gray-100">
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => navigate(`/admin/blog/edit/${post.id}`)}
+                    >
                       <Edit className="h-4 w-4 mr-1" />
                       Edit
                     </Button>
-                    <Button variant="outline" size="sm">
-                      <Eye className="h-4 w-4 mr-1" />
-                      Preview
-                    </Button>
                     {post.status === 'published' && (
-                      <Button variant="outline" size="sm">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => window.open(`/blog/${post.slug}`, '_blank')}
+                      >
                         <Eye className="h-4 w-4 mr-1" />
                         View Live
                       </Button>
                     )}
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      onClick={() => deleteMutation.mutate(post.id)}
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => {
+                        if (confirm('Are you sure you want to delete this blog post?')) {
+                          deleteMutation.mutate(post.id);
+                        }
+                      }}
                       disabled={deleteMutation.isPending}
                       className="text-red-600 hover:text-red-700"
                     >
@@ -192,7 +204,10 @@ const AdminBlog: React.FC = () => {
           <div className="text-center py-12">
             <h3 className="text-lg font-medium text-gray-900 mb-2">No blog posts yet</h3>
             <p className="text-gray-600 mb-4">Write your first blog post to get started</p>
-            <Button className="bg-shakes-blue hover:bg-shakes-blue-dark">
+            <Button
+              onClick={() => navigate('/admin/blog/new')}
+              className="bg-shakes-blue hover:bg-shakes-blue-dark"
+            >
               <Plus className="h-4 w-4 mr-2" />
               Write First Post
             </Button>

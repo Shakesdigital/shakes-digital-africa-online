@@ -17,6 +17,7 @@ import AdminLandingPages from "./pages/AdminLandingPages";
 import AdminPortfolio from "./pages/AdminPortfolio";
 import AdminServices from "./pages/AdminServices";
 import AdminBlog from "./pages/AdminBlog";
+import AdminBlogEdit from "./pages/AdminBlogEdit";
 import AdminTestimonials from "./pages/AdminTestimonials";
 import AdminAnalytics from "./pages/AdminAnalytics";
 import AdminUsers from "./pages/AdminUsers";
@@ -74,6 +75,8 @@ const App = () => (
           <Route path="/admin/portfolio" element={<AdminPortfolio />} />
           <Route path="/admin/services" element={<AdminServices />} />
           <Route path="/admin/blog" element={<AdminBlog />} />
+          <Route path="/admin/blog/new" element={<AdminBlogEdit />} />
+          <Route path="/admin/blog/edit/:id" element={<AdminBlogEdit />} />
           <Route path="/admin/contacts" element={<AdminContacts />} />
           <Route path="/admin/subscribers" element={<AdminSubscribers />} />
           <Route path="/admin/testimonials" element={<AdminTestimonials />} />
