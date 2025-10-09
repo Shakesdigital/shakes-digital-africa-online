@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Check, Globe, Smartphone, Zap, Lock, Search, TrendingUp } from "lucide-react";
+import { ArrowRight, Check, Globe, Smartphone, Zap, Lock, Search, TrendingUp, Code, Server, Database, Cloud, GitBranch, Square, HardDrive, Monitor } from "lucide-react";
 
 const WebDevelopmentService: React.FC = () => {
   return (
@@ -375,21 +375,22 @@ const WebDevelopmentService: React.FC = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[
-                "React & Next.js",
-                "Vue.js & Nuxt",
-                "Node.js & Express",
-                "WordPress (optimized)",
-                "Tailwind CSS",
-                "Progressive Web Apps",
-                "RESTful APIs",
-                "GraphQL",
-                "PostgreSQL & MySQL",
-                "MongoDB",
-                "AWS & Azure Africa",
-                "CDN & Caching"
+                { name: "React & Next.js", icon: <Globe className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Vue.js & Nuxt", icon: <Globe className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Node.js & Express", icon: <Server className="h-6 w-6 text-shakes-blue" /> },
+                { name: "WordPress (optimized)", icon: <Globe className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Tailwind CSS", icon: <Monitor className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Progressive Web Apps", icon: <Smartphone className="h-6 w-6 text-shakes-blue" /> },
+                { name: "RESTful APIs", icon: <GitBranch className="h-6 w-6 text-shakes-blue" /> },
+                { name: "GraphQL", icon: <GitBranch className="h-6 w-6 text-shakes-blue" /> },
+                { name: "PostgreSQL & MySQL", icon: <Database className="h-6 w-6 text-shakes-blue" /> },
+                { name: "MongoDB", icon: <Database className="h-6 w-6 text-shakes-blue" /> },
+                { name: "AWS & Azure Africa", icon: <Cloud className="h-6 w-6 text-shakes-blue" /> },
+                { name: "CDN & Caching", icon: <Zap className="h-6 w-6 text-shakes-blue" /> }
               ].map((tech, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
-                  <p className="text-shakes-blue-dark font-semibold">{tech}</p>
+                <div key={index} className="bg-white p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow flex flex-col items-center">
+                  <div className="mb-3">{tech.icon}</div>
+                  <p className="text-shakes-blue-dark font-semibold text-sm">{tech.name}</p>
                 </div>
               ))}
             </div>

@@ -8,7 +8,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
-import { CheckCircle, ArrowRight, Code, LayoutDashboard } from "lucide-react";
+import { CheckCircle, ArrowRight, Code, LayoutDashboard, Globe, Server, Database, Cloud, GitBranch, Square, HardDrive, Smartphone, Zap, Lock, Monitor } from "lucide-react";
 
 const WebApplicationDevelopment: React.FC = () => {
   return (
@@ -118,37 +118,37 @@ const WebApplicationDevelopment: React.FC = () => {
                 {
                   category: "Frontend Development",
                   technologies: [
-                    { name: "React.js", proficiency: 95 },
-                    { name: "Vue.js", proficiency: 85 },
-                    { name: "Angular", proficiency: 80 },
-                    { name: "Progressive Web Apps", proficiency: 90 }
+                    { name: "React.js", proficiency: 95, icon: <Globe className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Vue.js", proficiency: 85, icon: <Globe className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Angular", proficiency: 80, icon: <Globe className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Progressive Web Apps", proficiency: 90, icon: <Smartphone className="h-5 w-5 text-shakes-blue" /> }
                   ]
                 },
                 {
                   category: "Backend Development",
                   technologies: [
-                    { name: "Node.js", proficiency: 95 },
-                    { name: "Python", proficiency: 90 },
-                    { name: "PHP/Laravel", proficiency: 85 },
-                    { name: "Java", proficiency: 75 }
+                    { name: "Node.js", proficiency: 95, icon: <Server className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Python", proficiency: 90, icon: <Code className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "PHP/Laravel", proficiency: 85, icon: <Code className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Java", proficiency: 75, icon: <Code className="h-5 w-5 text-shakes-blue" /> }
                   ]
                 },
                 {
                   category: "Database & Storage",
                   technologies: [
-                    { name: "MySQL/PostgreSQL", proficiency: 90 },
-                    { name: "MongoDB", proficiency: 85 },
-                    { name: "Redis", proficiency: 80 },
-                    { name: "Firebase", proficiency: 85 }
+                    { name: "MySQL/PostgreSQL", proficiency: 90, icon: <Database className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "MongoDB", proficiency: 85, icon: <Database className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Redis", proficiency: 80, icon: <Database className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Firebase", proficiency: 85, icon: <Database className="h-5 w-5 text-shakes-blue" /> }
                   ]
                 },
                 {
                   category: "DevOps & Cloud",
                   technologies: [
-                    { name: "AWS", proficiency: 85 },
-                    { name: "Google Cloud", proficiency: 80 },
-                    { name: "Docker", proficiency: 90 },
-                    { name: "CI/CD Pipelines", proficiency: 85 }
+                    { name: "AWS", proficiency: 85, icon: <Cloud className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Google Cloud", proficiency: 80, icon: <Cloud className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "Docker", proficiency: 90, icon: <Square className="h-5 w-5 text-shakes-blue" /> },
+                    { name: "CI/CD Pipelines", proficiency: 85, icon: <GitBranch className="h-5 w-5 text-shakes-blue" /> }
                   ]
                 }
               ].map((stack, index) => (
@@ -157,8 +157,11 @@ const WebApplicationDevelopment: React.FC = () => {
                   <div className="space-y-4">
                     {stack.technologies.map((tech, idx) => (
                       <div key={idx}>
-                        <div className="flex justify-between mb-1">
-                          <span className="text-gray-700 font-medium">{tech.name}</span>
+                        <div className="flex items-center justify-between mb-1">
+                          <div className="flex items-center gap-2">
+                            <span className="text-gray-700 font-medium">{tech.icon}</span>
+                            <span className="text-gray-700 font-medium">{tech.name}</span>
+                          </div>
                           <span className="text-gray-500">{tech.proficiency}%</span>
                         </div>
                         <Progress value={tech.proficiency} className="h-2 bg-gray-200" />
@@ -301,7 +304,15 @@ const WebApplicationDevelopment: React.FC = () => {
                         <h4 className="font-bold text-gray-700 mb-2">Technologies Used:</h4>
                         <div className="flex flex-wrap gap-2">
                           {project.technologies.map((tech, idx) => (
-                            <Badge key={idx} variant="outline" className="border-shakes-blue text-shakes-blue">
+                            <Badge key={idx} variant="outline" className="border-shakes-blue text-shakes-blue flex items-center gap-1">
+                              {tech.includes("React") && <Globe className="h-3 w-3" />}
+                              {tech.includes("Node") && <Server className="h-3 w-3" />}
+                              {tech.includes("Mongo") && <Database className="h-3 w-3" />}
+                              {tech.includes("PHP") && <Code className="h-3 w-3" />}
+                              {tech.includes("M-Pesa") && <Zap className="h-3 w-3" />}
+                              {tech.includes("SMS") && <Zap className="h-3 w-3" />}
+                              {tech.includes("MySQL") && <Database className="h-3 w-3" />}
+                              {tech.includes("Vue") && <Globe className="h-3 w-3" />}
                               {tech}
                             </Badge>
                           ))}

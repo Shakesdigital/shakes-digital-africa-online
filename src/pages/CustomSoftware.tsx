@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Check, Code2, Cog, Database, Rocket, Shield, Users } from "lucide-react";
+import { ArrowRight, Check, Code2, Cog, Database, Rocket, Shield, Users, Globe, Square, DatabaseZap, Code, Server, Cloud, Smartphone, Zap, Lock, GitBranch, HardDrive } from "lucide-react";
 
 const CustomSoftware: React.FC = () => {
   return (
@@ -348,21 +348,22 @@ const CustomSoftware: React.FC = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[
-                "React & React Native",
-                "Node.js & Python",
-                "PostgreSQL & MongoDB",
-                "Progressive Web Apps",
-                "GraphQL & REST APIs",
-                "Docker & Kubernetes",
-                "AWS & Azure (Africa regions)",
-                "Offline-first Architecture",
-                "SMS & USSD Integration",
-                "Mobile Money APIs",
-                "WebSockets & Real-time",
-                "Serverless Functions"
+                { name: "React & React Native", icon: <Globe className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Node.js & Python", icon: <Code className="h-6 w-6 text-shakes-blue" /> },
+                { name: "PostgreSQL & MongoDB", icon: <DatabaseZap className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Progressive Web Apps", icon: <Smartphone className="h-6 w-6 text-shakes-blue" /> },
+                { name: "GraphQL & REST APIs", icon: <GitBranch className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Docker & Kubernetes", icon: <Square className="h-6 w-6 text-shakes-blue" /> },
+                { name: "AWS & Azure (Africa regions)", icon: <Cloud className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Offline-first Architecture", icon: <Server className="h-6 w-6 text-shakes-blue" /> },
+                { name: "SMS & USSD Integration", icon: <Zap className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Mobile Money APIs", icon: <Zap className="h-6 w-6 text-shakes-blue" /> },
+                { name: "WebSockets & Real-time", icon: <Zap className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Serverless Functions", icon: <Cloud className="h-6 w-6 text-shakes-blue" /> }
               ].map((tech, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
-                  <p className="text-shakes-blue-dark font-semibold">{tech}</p>
+                <div key={index} className="bg-white p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow flex flex-col items-center">
+                  <div className="mb-3">{tech.icon}</div>
+                  <p className="text-shakes-blue-dark font-semibold text-sm">{tech.name}</p>
                 </div>
               ))}
             </div>

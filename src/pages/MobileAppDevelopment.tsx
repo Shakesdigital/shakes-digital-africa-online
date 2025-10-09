@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Check, Smartphone, Wifi, Battery, Users, Share2, Bell } from "lucide-react";
+import { ArrowRight, Check, Smartphone, Wifi, Battery, Users, Share2, Bell, Code, Database, Cloud, Zap, Shield, MapPin, DollarSign, Server, HardDrive } from "lucide-react";
 
 const MobileAppDevelopment: React.FC = () => {
   return (
@@ -435,21 +435,22 @@ const MobileAppDevelopment: React.FC = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[
-                "React Native",
-                "Flutter",
-                "Swift (iOS)",
-                "Kotlin (Android)",
-                "Firebase",
-                "SQLite & Realm",
-                "Push Notifications",
-                "GPS & Maps",
-                "Mobile Analytics",
-                "In-App Payments",
-                "Offline-First Sync",
-                "Biometric Auth"
+                { name: "React Native", icon: <Smartphone className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Flutter", icon: <Smartphone className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Swift (iOS)", icon: <Code className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Kotlin (Android)", icon: <Code className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Firebase", icon: <Database className="h-6 w-6 text-shakes-blue" /> },
+                { name: "SQLite & Realm", icon: <Database className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Push Notifications", icon: <Bell className="h-6 w-6 text-shakes-blue" /> },
+                { name: "GPS & Maps", icon: <MapPin className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Mobile Analytics", icon: <Zap className="h-6 w-6 text-shakes-blue" /> },
+                { name: "In-App Payments", icon: <DollarSign className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Offline-First Sync", icon: <Server className="h-6 w-6 text-shakes-blue" /> },
+                { name: "Biometric Auth", icon: <Shield className="h-6 w-6 text-shakes-blue" /> }
               ].map((tech, index) => (
-                <div key={index} className="bg-gray-50 p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
-                  <p className="text-shakes-blue-dark font-semibold">{tech}</p>
+                <div key={index} className="bg-gray-50 p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow flex flex-col items-center">
+                  <div className="mb-3">{tech.icon}</div>
+                  <p className="text-shakes-blue-dark font-semibold text-sm">{tech.name}</p>
                 </div>
               ))}
             </div>

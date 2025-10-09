@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { CheckCircle, Code, ArrowRight, Globe } from "lucide-react";
+import { CheckCircle, Code, ArrowRight, Globe, Database, Cloud, Smartphone, Zap, Lock, Monitor, Server, GitBranch, Square, HardDrive } from "lucide-react";
 
 const WebsiteDevelopment: React.FC = () => {
   return (
@@ -151,19 +151,19 @@ const WebsiteDevelopment: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-12">
               {[
-                "Low-Bandwidth Optimization for African Infrastructure",
-                "Multilingual Support for African Languages",
-                "Mobile Money & Local Payment Integration",
-                "Community Engagement & Reporting Tools",
-                "Offline Functionality for Rural Areas",
-                "Africa-Optimized Performance & Speed",
-                "African Market SEO & Visibility",
-                "Impact Measurement & Analytics",
-                "Enhanced Security for African Contexts"
+                { name: "Low-Bandwidth Optimization for African Infrastructure", icon: <Zap className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Multilingual Support for African Languages", icon: <Globe className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Mobile Money & Local Payment Integration", icon: <Zap className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Community Engagement & Reporting Tools", icon: <Code className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Offline Functionality for Rural Areas", icon: <Server className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Africa-Optimized Performance & Speed", icon: <Zap className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "African Market SEO & Visibility", icon: <Globe className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Impact Measurement & Analytics", icon: <Monitor className="h-5 w-5 text-shakes-blue flex-shrink-0" /> },
+                { name: "Enhanced Security for African Contexts", icon: <Lock className="h-5 w-5 text-shakes-blue flex-shrink-0" /> }
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <CheckCircle className="h-5 w-5 text-shakes-orange flex-shrink-0" />
-                  <span>{feature}</span>
+                  {feature.icon}
+                  <span>{feature.name}</span>
                 </div>
               ))}
             </div>

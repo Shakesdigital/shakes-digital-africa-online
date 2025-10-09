@@ -54,7 +54,7 @@ const SustainableTourism: React.FC = () => {
                 Why Digital Technology for Africa's Sustainable Tourism Sector?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's tourism industry faces unique challenges—from remote locations with limited connectivity to the need for conservation-focused operations. Our digital solutions address these while empowering local communities and protecting natural heritage.
+                Africa's tourism industry faces unique challenges—from remote locations with limited connectivity to the need for conservation-focused operations. We develop digital solutions that address these while empowering local communities and protecting natural heritage.
               </p>
             </div>
 
