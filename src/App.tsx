@@ -38,6 +38,7 @@ import Nonprofit from "./pages/industries/Nonprofit";
 import Education from "./pages/industries/Education";
 import SMEs from "./pages/industries/SMEs";
 import Healthcare from "./pages/industries/Healthcare";
+import TestConnection from "./pages/TestConnection";
 
 const queryClient = new QueryClient();
 
@@ -82,6 +83,7 @@ const App = () => (
           <Route path="/admin/testimonials" element={<AdminTestimonials />} />
           <Route path="/admin/analytics" element={<AdminAnalytics />} />
           <Route path="/admin/users" element={<AdminUsers />} />
+          <Route path="/test-connection" element={<TestConnection />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
