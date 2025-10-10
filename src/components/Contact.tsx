@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
-import { sendEmail } from "@/lib/email-service";
 import { supabase } from "@/integrations/supabase/client";
 
 const Contact: React.FC = () => {
@@ -24,7 +23,7 @@ const Contact: React.FC = () => {
     };
 
     try {
-      // Save to database
+      // 1. Save to database first
       const { error: dbError } = await supabase
         .from('contact_submissions')
         .insert([{
@@ -33,13 +32,36 @@ const Contact: React.FC = () => {
           company: data.company || null,
           project_type: data.service || null,
           message: data.message,
-          status: 'new'
+          status: 'new',
+          priority: 'normal'
         }]);
 
       if (dbError) throw dbError;
 
-      // Also send email notification
-      await sendEmail(data);
+      // 2. Send email notification to admins
+      try {
+        const { data: functionData, error: functionError } = await supabase.functions.invoke(
+          'send-contact-notification',
+          {
+            body: {
+              name: data.name,
+              email: data.email,
+              company: data.company,
+              service: data.service,
+              message: data.message,
+              submittedAt: new Date().toISOString()
+            }
+          }
+        );
+
+        if (functionError) {
+          console.error('Email notification error:', functionError);
+          // Don't throw - we still want to show success since DB save worked
+        }
+      } catch (emailError) {
+        console.error('Failed to send email notification:', emailError);
+        // Continue - email is secondary to database save
+      }
 
       toast({
         title: "Message Sent!",
@@ -47,6 +69,7 @@ const Contact: React.FC = () => {
       });
       (e.target as HTMLFormElement).reset();
     } catch (error) {
+      console.error('Contact form error:', error);
       toast({
         title: "Error",
         description: "There was a problem sending your message. Please try again.",
