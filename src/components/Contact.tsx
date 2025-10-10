@@ -23,8 +23,8 @@ const Contact: React.FC = () => {
     };
 
     try {
-      // 1. Save to database first
-      const { error: dbError } = await supabase
+      // Save to database
+      const { data: insertData, error: dbError } = await supabase
         .from('contact_submissions')
         .insert([{
           name: data.name,
@@ -34,33 +34,29 @@ const Contact: React.FC = () => {
           message: data.message,
           status: 'new',
           priority: 'normal'
-        }]);
+        }])
+        .select();
 
-      if (dbError) throw dbError;
+      if (dbError) {
+        console.error('Database error:', dbError);
+        throw new Error(dbError.message);
+      }
 
-      // 2. Send email notification to admins
+      // Try to send email notification (optional - won't fail if function not deployed)
       try {
-        const { data: functionData, error: functionError } = await supabase.functions.invoke(
-          'send-contact-notification',
-          {
-            body: {
-              name: data.name,
-              email: data.email,
-              company: data.company,
-              service: data.service,
-              message: data.message,
-              submittedAt: new Date().toISOString()
-            }
+        await supabase.functions.invoke('send-contact-notification', {
+          body: {
+            name: data.name,
+            email: data.email,
+            company: data.company,
+            service: data.service,
+            message: data.message,
+            submittedAt: new Date().toISOString()
           }
-        );
-
-        if (functionError) {
-          console.error('Email notification error:', functionError);
-          // Don't throw - we still want to show success since DB save worked
-        }
+        });
       } catch (emailError) {
-        console.error('Failed to send email notification:', emailError);
-        // Continue - email is secondary to database save
+        // Email is optional - just log the error
+        console.log('Email notification not sent (function may not be deployed yet):', emailError);
       }
 
       toast({
@@ -68,11 +64,11 @@ const Contact: React.FC = () => {
         description: "Thank you for contacting us. We'll get back to you soon.",
       });
       (e.target as HTMLFormElement).reset();
-    } catch (error) {
+    } catch (error: any) {
       console.error('Contact form error:', error);
       toast({
         title: "Error",
-        description: "There was a problem sending your message. Please try again.",
+        description: error.message || "There was a problem sending your message. Please try again.",
         variant: "destructive",
       });
     } finally {
