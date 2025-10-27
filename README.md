@@ -1,22 +1,20 @@
-# Welcome to your Lovable project
+# Shakes Digital - Africa's Digital Web Solutions Provider
 
-## Project info
+Shakes Digital specializes in addressing Africa's unique sustainable development and business challenges through innovative, locally-adapted digital web solutions.
 
-**URL**: https://lovable.dev/projects/0a5ef355-bd10-446f-996e-b2b1cfa85308
+## Project Info
+
+**Website**: https://shakesdigital.com
+
+**Repository**: https://github.com/Shakesdigital/shakes-digital-africa-online
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/0a5ef355-bd10-446f-996e-b2b1cfa85308) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+There are several ways of editing this application.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +22,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Shakesdigital/shakes-digital-africa-online.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd shakes-digital-africa-online
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -59,15 +57,47 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- Supabase (for backend and authentication)
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/0a5ef355-bd10-446f-996e-b2b1cfa85308) and click on Share -> Publish.
+This project is deployed to Netlify. Push your changes to the main branch and Netlify will automatically build and deploy the latest version.
 
-## Can I connect a custom domain to my Lovable project?
+To deploy manually:
 
-Yes, you can!
+1. Push your changes to the main branch on GitHub
+2. Netlify will automatically trigger a build and deployment
+3. Visit https://app.netlify.com to monitor the deployment status
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```
+src/
+├── components/       # Reusable React components
+├── pages/           # Page components (routes)
+├── hooks/           # Custom React hooks
+├── integrations/    # External service integrations (Supabase, etc.)
+├── styles/          # Global styles and Tailwind config
+└── main.tsx         # Application entry point
+
+public/
+├── images/          # Static images
+└── shakes-logo.png  # Shakes Digital logo
+```
+
+## Contributing
+
+When contributing to this project:
+
+1. Create a new branch for your feature: `git checkout -b feature/your-feature-name`
+2. Commit your changes with clear messages: `git commit -m "Description of changes"`
+3. Push to the branch: `git push origin feature/your-feature-name`
+4. Create a pull request
+
+## Support
+
+For questions or support, please contact:
+
+- **Email**: info@shakesdigital.com
+- **Website**: https://shakesdigital.com
+- **GitHub Issues**: https://github.com/Shakesdigital/shakes-digital-africa-online/issues
