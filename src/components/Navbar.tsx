@@ -28,9 +28,9 @@ const Navbar: React.FC = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
-            <img 
-              src="/lovable-uploads/97fbf1c7-d62a-40ce-9b67-0c5b50bb01e5.png" 
-              alt="Shakes Digital Logo" 
+            <img
+              src="/shakes-logo.png"
+              alt="Shakes Digital Logo"
               className="h-12 w-auto"
             />
             <span className="text-xl font-bold text-shakes-blue-dark">Shakes Digital</span>

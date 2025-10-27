@@ -59,9 +59,9 @@ const AdminLogin: React.FC = () => {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="mx-auto mb-4">
-            <img 
-              src="/lovable-uploads/97fbf1c7-d62a-40ce-9b67-0c5b50bb01e5.png" 
-              alt="Shakes Digital Logo" 
+            <img
+              src="/shakes-logo.png"
+              alt="Shakes Digital Logo"
               className="h-16 w-auto mx-auto"
             />
           </div>

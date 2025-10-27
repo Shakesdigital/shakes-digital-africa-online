@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Digital Web Solutions Tailored for
-              <span className="text-shakes-teal"> Africa's Sustainable Development Challenges</span>
+              Africa's Digital Web Solutions Provider
+              <span className="text-shakes-teal"> Addressing Unique Sustainable Development Challenges</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
               Shakes Digital specializes in addressing Africa's unique sustainable development and business challenges through innovative, locally-adapted digital web solutions.
