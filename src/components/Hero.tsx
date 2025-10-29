@@ -9,14 +9,11 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Africa's Digital Web Solutions Provider
-              <span className="text-shakes-teal"> Addressing Unique Sustainable Development Challenges</span>
+              Digital Solutions
+              <span className="text-shakes-teal"> for Africa's Development</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              Shakes Digital specializes in addressing Africa's unique sustainable development and business challenges through innovative, locally-adapted digital web solutions.
-            </p>
-            <p className="text-base md:text-lg text-gray-600 mb-8 max-w-xl">
-              We understand Africa's context—from infrastructure limitations to community needs. Our Custom Software, Web Development, and Mobile Apps are designed to tackle poverty alleviation, business growth, environmental sustainability, and community empowerment across the African continent.
+              We create Custom Software, Web Platforms, and Mobile Apps designed specifically to address Africa's sustainable development and business challenges.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">
@@ -42,9 +39,9 @@ const Hero: React.FC = () => {
 
         {/* Mission Highlight */}
         <div className="text-center mt-16 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Driving Africa's Sustainable Development Through Digital Innovation</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Tailored for Africa's Context</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Africa faces unique sustainable development challenges—from poverty and limited infrastructure to environmental concerns and business growth barriers. Shakes Digital exists to address these challenges head-on through carefully researched, contextually-relevant digital web solutions that empower African communities and businesses to thrive.
+            We understand Africa's unique challenges—from infrastructure and poverty to business growth. Our solutions are researched, locally-adapted, and designed to create real impact for communities and businesses across the continent.
           </p>
         </div>
       </div>

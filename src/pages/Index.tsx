@@ -17,9 +17,9 @@ const Index: React.FC = () => {
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Digital Solutions for Africa's Development</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We combine research-driven insights, strategic partnerships, and continuous evaluation to create sustainable digital solutions that address Africa's unique development challenges—from infrastructure limitations to community empowerment.
+                Three powerful digital solutions built for Africa's needs.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Tailored applications addressing specific challenges—from agricultural management to healthcare access and financial inclusion.
+                    Tailored applications for agriculture, healthcare, finance, and more.
                   </p>
                   <a href="/services/custom-software" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -55,7 +55,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Mobile-first web platforms optimized for low bandwidth and driving sustainable business growth across Africa.
+                    Fast-loading platforms optimized for low bandwidth and mobile access.
                   </p>
                   <a href="/services/web-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -73,7 +73,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile Apps</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Solutions enabling community reporting, market access, and offline functionality for areas with limited connectivity.
+                    User-friendly apps with offline access and community engagement features.
                   </p>
                   <a href="/services/mobile-app-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -110,12 +110,12 @@ const Index: React.FC = () => {
             {/* Impact Overview */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Driving Sustainable Change</h3>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Real Impact Across Africa</h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  We partner with African and international organizations in technology, community development, environmental conservation, and poverty alleviation to create scalable digital solutions that drive real change across the continent.
+                  We partner with local organizations to research challenges, implement solutions, and evaluate outcomes for scalability across African communities.
                 </p>
                 <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
-                  Explore Our Impact <ArrowRight className="h-5 w-5" />
+                  Learn More <ArrowRight className="h-5 w-5" />
                 </a>
               </div>
               <div>
