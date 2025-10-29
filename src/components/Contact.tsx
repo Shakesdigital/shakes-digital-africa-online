@@ -23,26 +23,32 @@ const Contact: React.FC = () => {
     };
 
     try {
-      // Send email via the function first
+      // Send email via Netlify function
       console.log('Sending contact form data:', data);
 
-      const emailResponse = await supabase.functions.invoke('send-contact-notification', {
-        body: {
+      const emailResponse = await fetch('/.netlify/functions/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           name: data.name,
           email: data.email,
           company: data.company,
-          service: data.service,
           message: data.message,
-          submittedAt: new Date().toISOString()
-        }
+          recipients: ['shakesdigital@gmail.com', 'info@shakesdigital.com', 'fsddanmugisa@gmail.com']
+        })
       });
 
-      console.log('Email function response:', emailResponse);
+      console.log('Email function status:', emailResponse.status);
 
-      if (emailResponse.error) {
-        console.error('Email function error:', emailResponse.error);
-        throw new Error(emailResponse.error.message || 'Failed to send email notification');
+      if (!emailResponse.ok) {
+        const errorData = await emailResponse.json();
+        throw new Error(errorData.message || 'Failed to send email');
       }
+
+      const responseData = await emailResponse.json();
+      console.log('Email sent successfully:', responseData);
 
       // Try to save to database (optional)
       try {
