@@ -57,7 +57,7 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital is Africa's premier digital web agency dedicated to addressing the continent's sustainable development and business challenges through innovative digital solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive poverty alleviation, community empowerment, and economic growth across Africa's diverse sectors.
+                      Shakes Digital is Africa's digital web servives agency dedicated to addressing the continent's sustainable development and business challenges through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive poverty alleviation, community empowerment, social, economic and environment growth across Africa's diverse sectors.
                     </p>
                   </div>
 
