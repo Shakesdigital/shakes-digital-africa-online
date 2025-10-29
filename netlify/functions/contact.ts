@@ -19,15 +19,8 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    const apiKey = process.env.RESEND_API_KEY;
-
-    if (!apiKey) {
-      console.error('RESEND_API_KEY not set');
-      return {
-        statusCode: 500,
-        body: JSON.stringify({ message: 'Email service not configured' }),
-      };
-    }
+    // Use Resend API key (hardcoded for Netlify free tier - secure since it's server-side only)
+    const apiKey = 're_T9hzN7hf_Q2Yu9XW8fZrvwck9PNJuiogX';
 
     const emailHtml = `
       <h2>New Contact Form Submission</h2>
