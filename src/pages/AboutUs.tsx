@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                  About Shakes Digital: Empowering Africa Through Digital Innovation
+                  Empowering Africa Through Digital Innovation
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
                   Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth
