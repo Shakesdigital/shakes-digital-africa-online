@@ -24,6 +24,8 @@ const Contact: React.FC = () => {
 
     try {
       // Send email via the function first
+      console.log('Sending contact form data:', data);
+
       const emailResponse = await supabase.functions.invoke('send-contact-notification', {
         body: {
           name: data.name,
@@ -35,9 +37,11 @@ const Contact: React.FC = () => {
         }
       });
 
+      console.log('Email function response:', emailResponse);
+
       if (emailResponse.error) {
         console.error('Email function error:', emailResponse.error);
-        throw new Error('Failed to send email notification');
+        throw new Error(emailResponse.error.message || 'Failed to send email notification');
       }
 
       // Try to save to database (optional)
@@ -53,6 +57,7 @@ const Contact: React.FC = () => {
             status: 'new',
             priority: 'normal'
           }]);
+        console.log('Successfully saved to database');
       } catch (dbError) {
         console.log('Database save optional - continuing:', dbError);
       }
