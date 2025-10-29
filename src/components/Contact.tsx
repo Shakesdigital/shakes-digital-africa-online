@@ -23,40 +23,38 @@ const Contact: React.FC = () => {
     };
 
     try {
-      // Save to database
-      const { data: insertData, error: dbError } = await supabase
-        .from('contact_submissions')
-        .insert([{
+      // Send email via the function first
+      const emailResponse = await supabase.functions.invoke('send-contact-notification', {
+        body: {
           name: data.name,
           email: data.email,
-          company: data.company || null,
-          project_type: data.service || null,
+          company: data.company,
+          service: data.service,
           message: data.message,
-          status: 'new',
-          priority: 'normal'
-        }])
-        .select();
+          submittedAt: new Date().toISOString()
+        }
+      });
 
-      if (dbError) {
-        console.error('Database error:', dbError);
-        throw new Error(dbError.message);
+      if (emailResponse.error) {
+        console.error('Email function error:', emailResponse.error);
+        throw new Error('Failed to send email notification');
       }
 
-      // Try to send email notification (optional - won't fail if function not deployed)
+      // Try to save to database (optional)
       try {
-        await supabase.functions.invoke('send-contact-notification', {
-          body: {
+        await supabase
+          .from('contact_submissions')
+          .insert([{
             name: data.name,
             email: data.email,
-            company: data.company,
-            service: data.service,
+            company: data.company || null,
+            project_type: data.service || null,
             message: data.message,
-            submittedAt: new Date().toISOString()
-          }
-        });
-      } catch (emailError) {
-        // Email is optional - just log the error
-        console.log('Email notification not sent (function may not be deployed yet):', emailError);
+            status: 'new',
+            priority: 'normal'
+          }]);
+      } catch (dbError) {
+        console.log('Database save optional - continuing:', dbError);
       }
 
       toast({
