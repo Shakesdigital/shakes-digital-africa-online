@@ -64,7 +64,7 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
                     <p className="text-gray-600">
-                      To leverage digital technology through tailored solutions that address Africa's unique sustainable development and business challenges—from poverty alleviation to infrastructure limitations, community empowerment to economic growth—across 7 key sectors.
+                      To leverage digital technology through tailored digital web solutions that address Africa's unique sustainable development and business challenges—from poverty alleviation to infrastructure limitations, community empowerment to economic growth—across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key sectors</a>.
                     </p>
                   </div>
                 </div>
