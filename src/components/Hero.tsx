@@ -10,10 +10,10 @@ const Hero: React.FC = () => {
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
               Digital Solutions
-              <span className="text-shakes-teal"> for Africa's Development</span>
+              <span className="text-shakes-teal"> for African Business Growth</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              We create Custom Software, Web Platforms, and Mobile Apps designed specifically to address Africa's sustainable development and business challenges.
+              We create Custom Software, Web Platforms, and Mobile Apps designed specifically to help African businesses drive revenue growth, improve operational efficiency, and expand into new markets.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">
@@ -39,9 +39,9 @@ const Hero: React.FC = () => {
 
         {/* Mission Highlight */}
         <div className="text-center mt-16 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Tailored for Africa's Context</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Tailored for African Business Needs</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            We understand Africa's unique challenges—from infrastructure and poverty to business growth. Our solutions are researched, locally-adapted, and designed to create real impact for communities and businesses across the continent.
+            We understand African businesses' unique challenges—from digital transformation and market competition to operational scalability and customer acquisition. Our solutions are researched, locally-adapted, and designed to drive measurable business results across the continent.
           </p>
         </div>
       </div>

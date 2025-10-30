@@ -57,86 +57,86 @@ const Industries: React.FC = () => {
   const industries = [
     {
       image: "/sustainable-tourism.png",
-      title: "Sustainable Tourism & Ecotourism",
-      description: "Digital solutions for environmentally responsible tourism operations.",
+      title: "Tourism & Hospitality",
+      description: "Digital solutions for tourism and hospitality business operations, booking systems, and guest management.",
       services: [
         "Web Development for booking sites and visitor portals",
         "Mobile Apps for guided tours and wildlife tracking",
         "Custom Software for real-time data and reservations"
       ],
-      objectives: "Leverages research and evaluation for scalable, impactful tourism deployments.",
+      objectives: "Drives revenue growth and customer satisfaction for scalable, profitable tourism businesses.",
       link: "/industries/sustainable-tourism"
     },
     {
       image: "/renewable-energy.png",
-      title: "Renewable Energy & Green Tech",
-      description: "Technology supporting clean energy initiatives and sustainability projects.",
+      title: "Energy & Utilities",
+      description: "Technology supporting energy business operations, grid management, and customer billing systems.",
       services: [
         "Custom Software for energy modeling and grid management",
         "Web Development for performance tracking dashboards",
         "Mobile Apps for field monitoring and reporting"
       ],
-      objectives: "Supports implementation and resource mobilization for renewable energy expansion.",
+      objectives: "Enables operational efficiency and market expansion for energy service providers.",
       link: "/industries/renewable-energy"
     },
     {
       image: "/agriculture.png",
-      title: "Agriculture & Food Security",
-      description: "Empowering farmers and agricultural enterprises with digital tools.",
+      title: "Agriculture & Food Business",
+      description: "Empowering agricultural enterprises and agribusinesses with digital tools and market access platforms.",
       services: [
         "Mobile Apps for crop management and market access",
         "Web Development for market portals and supply chain",
         "Custom Software for precision agriculture and analytics"
       ],
-      objectives: "Facilitates networking and partnerships for sustainable food system transformation.",
+      objectives: "Drives market access, profitability, and business growth for agricultural enterprises.",
       link: "/industries/agriculture"
     },
     {
       image: "/non-profit.png",
-      title: "Non-Profit & Social Impact",
-      description: "Digital infrastructure for NGOs and community development organizations.",
+      title: "Non-Profit & Organizations",
+      description: "Digital infrastructure for NGOs and organizations focused on business development and community services.",
       services: [
         "Custom Software for project tools and impact tracking",
         "Web Development for outreach sites and fundraising",
         "Mobile Apps for collaboration and donor management"
       ],
-      objectives: "Enables research, implementation, and evaluation for amplified social impact.",
+      objectives: "Enables operational efficiency and fundraising success for mission-driven organizations.",
       link: "/industries/nonprofit"
     },
     {
       image: "/education.png",
-      title: "Education & Workforce Development",
-      description: "Technology platforms advancing learning and skills development.",
+      title: "Education & EdTech",
+      description: "Technology platforms for education delivery, skills development, and online learning business operations.",
       services: [
         "Web Development for learning management platforms",
         "Mobile Apps for interactive courses and assessments",
         "Custom Software for student analytics and progress tracking"
       ],
-      objectives: "Drives implementation and monitoring for improved educational outcomes.",
+      objectives: "Drives enrollment growth and operational efficiency for education service providers.",
       link: "/industries/education"
     },
     {
       image: "/sme-esg.png",
-      title: "SMEs with ESG Focus",
-      description: "Supporting small and medium enterprises committed to environmental, social, and governance goals.",
+      title: "Small & Medium Enterprises",
+      description: "Supporting small and medium enterprises with digital solutions for growth, efficiency, and market competitiveness.",
       services: [
-        "Custom Software for ESG compliance and reporting tools",
+        "Custom Software for business operations and reporting tools",
         "Web Development with ecommerce integration",
-        "Mobile Apps for sustainability metrics tracking"
+        "Mobile Apps for sales and customer engagement"
       ],
-      objectives: "Supports resource mobilization and evaluation for sustainable business growth.",
+      objectives: "Drives scalability, profitability, and market leadership for growing SMEs.",
       link: "/industries/smes"
     },
     {
       image: "/healthcare.png",
-      title: "Healthcare & Public Health",
-      description: "Digital health solutions improving access and quality of care.",
+      title: "Healthcare & Wellness",
+      description: "Digital health solutions for healthcare providers, clinics, and wellness businesses.",
       services: [
         "Mobile Apps for telehealth and patient engagement",
         "Custom Software for health information systems",
         "Web Development for patient portals and secure data sharing"
       ],
-      objectives: "Enables partnerships and implementation for expanded healthcare access.",
+      objectives: "Enables operational efficiency and patient acquisition for healthcare service providers.",
       link: "/industries/healthcare"
     }
   ];
@@ -151,7 +151,7 @@ const Industries: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                  Industries We Elevate: Digital Solutions for Sector-Specific Sustainability
+                  Industries We Elevate: Digital Solutions for Sector-Specific Business Growth
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
                   Custom Software, Web Development, and Mobile Apps tailored for African challenges.
@@ -163,7 +163,7 @@ const Industries: React.FC = () => {
                   <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
                     src="/industries-hero.png"
-                    alt="African industries empowered through digital solutions for sustainable development"
+                    alt="African industries empowered through digital solutions for business growth"
                     className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
                   />
                 </div>
@@ -178,7 +178,7 @@ const Industries: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Sector-Specific Solutions</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each industry benefits from our core services, aligned with our objectives for sustainable impact.
+                Each industry benefits from our core services, aligned with our objectives for business growth and profitability.
               </p>
             </div>
 
@@ -196,7 +196,7 @@ const Industries: React.FC = () => {
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Cross-Sector Innovation</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Our services enable resource mobilization and partnerships, ensuring solutions scale across industries. From tourism to healthcare, we deliver Custom Software, Web Development, and Mobile Apps that are researched, implemented, and evaluated for maximum sustainable impact.
+                Our services enable business growth and market expansion, ensuring solutions scale across industries. From tourism to healthcare, we deliver Custom Software, Web Development, and Mobile Apps that are researched, implemented, and evaluated for maximum business ROI.
               </p>
             </div>
           </div>
@@ -208,7 +208,7 @@ const Industries: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Impact Across Sectors</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                Delivering objective-driven solutions for sustainable development across Africa.
+                Delivering objective-driven solutions for business growth and profitability across Africa.
               </p>
             </div>
 
@@ -244,7 +244,7 @@ const Industries: React.FC = () => {
                 Ready to Transform Your Industry?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Let us help you leverage digital technology to address the unique challenges in your sector and drive sustainable growth across Africa.
+                Let us help you leverage digital technology to address the unique business challenges in your sector and drive revenue growth across Africa.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">

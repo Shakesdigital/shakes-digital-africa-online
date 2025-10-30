@@ -15,10 +15,10 @@ const AboutUs: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                  Empowering Africa Through Digital Innovation
+                  Empowering African Businesses Through Digital Innovation
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth
+                  Addressing African businesses' challenges through tailored digital web solutions—driving revenue growth, operational efficiency, market expansion, and competitive advantage
                 </p>
               </div>
               <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -27,7 +27,7 @@ const AboutUs: React.FC = () => {
                   <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
                     src="/about-us-hero.png"
-                    alt="African children learning through digital technology for sustainable development"
+                    alt="African business professionals using digital technology for growth"
                     className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
                   />
                 </div>
@@ -57,14 +57,14 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital is Africa's digital web servives agency dedicated to addressing the continent's sustainable development and business challenges through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive poverty alleviation, community empowerment, social, economic and environment growth across Africa's diverse sectors.
+                      Shakes Digital is Africa's digital web services agency dedicated to helping African businesses address their competitive and operational challenges through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive revenue growth, operational efficiency, market expansion, and competitive advantage across Africa's diverse business sectors.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
                     <p className="text-gray-600">
-                      To leverage digital technology through tailored digital web solutions that address Africa's unique sustainable development and business challenges—from poverty alleviation to infrastructure limitations, community empowerment to economic growth—across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key sectors</a>.
+                      To leverage digital technology through tailored digital web solutions that help African businesses overcome competitive and operational challenges—from digital transformation to market expansion, customer acquisition to scalability—across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
                     </p>
                   </div>
                 </div>
@@ -89,15 +89,15 @@ const AboutUs: React.FC = () => {
                   <Search className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Research</h4>
-                <p className="text-gray-600 text-sm">Understand local needs and challenges through community engagement and data analysis.</p>
+                <p className="text-gray-600 text-sm">Understand African business needs and market challenges through market research and competitive analysis.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="w-12 h-12 bg-shakes-teal/20 rounded-full flex items-center justify-center mb-4">
                   <Handshake className="w-6 h-6 text-shakes-teal" />
                 </div>
-                <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Networking & Partnerships</h4>
-                <p className="text-gray-600 text-sm">Collaborate with local and international organizations in tech, community, and environmental development.</p>
+                <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Business Partnerships</h4>
+                <p className="text-gray-600 text-sm">Collaborate with local and international organizations in technology and business development.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -123,9 +123,9 @@ const AboutUs: React.FC = () => {
         <section className="py-20">
           <div className="container-custom">
             <div className="text-center max-w-4xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Powerful Digital Solutions for Africa</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Three Powerful Digital Solutions for African Businesses</h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We deliver Custom Software, Web Development, and Mobile Apps specifically designed to address Africa's unique sustainable development and business challenges across 7 key sectors.
+                We deliver Custom Software, Web Development, and Mobile Apps specifically designed to help African businesses overcome competitive and operational challenges across 7 key industries.
               </p>
             </div>
 
@@ -138,7 +138,7 @@ const AboutUs: React.FC = () => {
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Custom Software</h4>
-                  <p className="text-gray-600 text-sm">Tailored applications addressing Africa's specific challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.</p>
+                  <p className="text-gray-600 text-sm">Tailored applications addressing African business challenges—from inventory management to CRM systems, financial tracking to supply chain optimization.</p>
                 </div>
               </div>
 
@@ -150,7 +150,7 @@ const AboutUs: React.FC = () => {
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Web Development</h4>
-                  <p className="text-gray-600 text-sm">Robust web platforms designed for Africa's context—optimized for low bandwidth, mobile-first access, and driving sustainable business growth across the continent.</p>
+                  <p className="text-gray-600 text-sm">Robust web platforms designed for African businesses—optimized for performance, mobile-first access, and driving revenue growth and market expansion.</p>
                 </div>
               </div>
 
@@ -162,7 +162,7 @@ const AboutUs: React.FC = () => {
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Mobile Apps</h4>
-                  <p className="text-gray-600 text-sm">Mobile-first solutions for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality.</p>
+                  <p className="text-gray-600 text-sm">Mobile-first solutions for African businesses—enabling customer engagement, sales automation, digital payments, and real-time analytics.</p>
                 </div>
               </div>
             </div>
@@ -180,17 +180,17 @@ const AboutUs: React.FC = () => {
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Africa-Wide Impact</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Africa-Wide Business Impact</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                Every solution we create is rooted in deep research of Africa's sustainable development and business challenges, implemented with local context in mind, and evaluated for scalability across African communities.
+                Every solution we create is rooted in deep research of African business challenges, implemented with local market context in mind, and evaluated for scalability across African enterprises.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-white rounded-lg shadow">
                 <div className="text-4xl font-bold text-shakes-teal mb-2">7</div>
-                <p className="text-gray-600 font-medium">Key Sectors Served</p>
-                <p className="text-xs text-gray-500 mt-1">From Tourism to Healthcare</p>
+                <p className="text-gray-600 font-medium">Key Industries Served</p>
+                <p className="text-xs text-gray-500 mt-1">Across All Business Types</p>
               </div>
 
               <div className="text-center p-6 bg-white rounded-lg shadow">
@@ -219,10 +219,10 @@ const AboutUs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">
-                Ready to Transform Africa's Future Together?
+                Ready to Transform Your African Business?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Join us in creating tailored digital solutions that address Africa's sustainable development and business challenges across different sectors.
+                Join us in creating tailored digital solutions that drive growth, efficiency, and competitive advantage for African businesses.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">

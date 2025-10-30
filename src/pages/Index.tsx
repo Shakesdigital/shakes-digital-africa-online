@@ -37,7 +37,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Tailored applications for agriculture, healthcare, finance, and more.
+                    Tailored applications for business operations, financial systems, CRM, inventory management, and enterprise solutions.
                   </p>
                   <a href="/services/custom-software" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -55,7 +55,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Fast-loading platforms optimized for low bandwidth and mobile access.
+                    Fast-loading e-commerce platforms, business portals, and online marketplaces optimized for high performance and customer conversion.
                   </p>
                   <a href="/services/web-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -73,7 +73,7 @@ const Index: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile Apps</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    User-friendly apps with offline access and community engagement features.
+                    User-friendly apps with offline access, payment integration, and analytics for business growth and customer engagement.
                   </p>
                   <a href="/services/mobile-app-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -86,33 +86,33 @@ const Index: React.FC = () => {
                 <div className="w-20 h-20 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Search className="w-10 h-10 text-shakes-teal" />
                 </div>
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Research-Driven</h4>
-                <p className="text-gray-600">Deep understanding of local challenges to create contextually relevant solutions</p>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Market Research-Driven</h4>
+                <p className="text-gray-600">Deep understanding of African business challenges to create competitive, contextually relevant solutions</p>
               </div>
 
               <div className="text-center">
                 <div className="w-20 h-20 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-10 h-10 text-shakes-blue" />
                 </div>
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Strategic Partnerships</h4>
-                <p className="text-gray-600">Collaboration with local organizations to ensure sustainable impact</p>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Strategic Business Partnerships</h4>
+                <p className="text-gray-600">Collaboration with local businesses and organizations to drive scalable growth</p>
               </div>
 
               <div className="text-center">
                 <div className="w-20 h-20 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <BarChart className="w-10 h-10 text-shakes-blue-light" />
                 </div>
-                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Impact Focused</h4>
-                <p className="text-gray-600">Continuous evaluation to ensure meaningful development outcomes</p>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">ROI Focused</h4>
+                <p className="text-gray-600">Continuous evaluation and optimization to ensure measurable business returns</p>
               </div>
             </div>
 
             {/* Impact Overview */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Real Impact Across Africa</h3>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Proven Business Growth Across Africa</h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  We partner with local organizations to research challenges, implement solutions, and evaluate outcomes for scalability across African communities.
+                  We partner with African businesses to understand competitive challenges, implement solutions, and measure outcomes for scalability across African markets.
                 </p>
                 <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
                   Learn More <ArrowRight className="h-5 w-5" />

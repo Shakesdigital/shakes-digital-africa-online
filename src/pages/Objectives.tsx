@@ -8,43 +8,43 @@ const Objectives: React.FC = () => {
     {
       icon: <Search className="w-8 h-8 text-shakes-teal" />,
       title: "Research and Identification",
-      description: "Conduct thorough research to identify ongoing sustainable community development and business challenges in Africa that can be addressed through digital technology.",
+      description: "Conduct thorough research to identify African business and market challenges addressable through digital technology.",
       color: "#1DACA2"
     },
     {
       icon: <Wrench className="w-8 h-8 text-shakes-blue" />,
       title: "Implementation of Solutions",
-      description: "Develop and implement digital tech solutions that directly work towards resolving these challenges, with a focus on poverty alleviation in African communities.",
+      description: "Develop and implement digital tech solutions that directly address African business challenges, with a focus on revenue growth and operational efficiency.",
       color: "#1D70A2"
     },
     {
       icon: <Users className="w-8 h-8 text-shakes-blue-light" />,
-      title: "Networking and Partnerships",
-      description: "Collaborate and partner with local and international organizations in tech, community, and environmental development across Africa to mobilize resources and scale impact.",
+      title: "Business Partnerships",
+      description: "Collaborate and partner with local and international organizations in technology and business development across Africa to mobilize resources and drive business growth.",
       color: "#66B9DE"
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-shakes-teal" />,
-      title: "Digital Literacy Initiatives",
-      description: "Provide digital literacy training to reduce the digital divide among different African community groups, ensuring equitable access to technology.",
+      title: "Digital Skills Development",
+      description: "Provide digital skills training to African businesses and entrepreneurs, ensuring competitive advantage through technology adoption.",
       color: "#1DACA2"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-shakes-blue" />,
-      title: "Business Solutions",
-      description: "Offer digital business solutions to help African community enterprises boost their online visibility, driving economic growth.",
+      title: "Business Revenue Growth",
+      description: "Offer digital business solutions to help African enterprises boost sales, market reach, and profitability.",
       color: "#1D70A2"
     },
     {
       icon: <BarChart className="w-8 h-8 text-shakes-blue-light" />,
-      title: "Monitoring and Evaluation",
-      description: "Continuously monitor and evaluate our digital solutions to explore possibilities for scaling or replicating them across different African populations, maximizing overall impact.",
+      title: "Performance Monitoring & Optimization",
+      description: "Continuously monitor and evaluate our digital solutions to optimize ROI and scale across African markets for business growth.",
       color: "#66B9DE"
     },
     {
       icon: <Shield className="w-8 h-8 text-shakes-teal" />,
-      title: "Administrative and Legal Compliance",
-      description: "Meet all administrative and legal requirements for the effective management of Shakes Digital, ensuring transparency and sustainability in African operations.",
+      title: "Business Compliance & Governance",
+      description: "Meet all administrative and legal requirements for the effective management of Shakes Digital, ensuring transparency and operational excellence.",
       color: "#1DACA2"
     }
   ];
@@ -61,10 +61,10 @@ const Objectives: React.FC = () => {
                 Our Objectives
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Guiding our work towards maximum impact in sustainable community development across Africa.
+                Guiding our work towards maximum business impact and growth across Africa.
               </p>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                At Shakes Digital, our objectives drive every decision and project, with a focus on African contexts and sustainable development goals.
+                At Shakes Digital, our objectives drive every decision and project, with a focus on African business success and competitive advantage.
               </p>
             </div>
           </div>
@@ -101,12 +101,12 @@ const Objectives: React.FC = () => {
                 <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Vision</h2>
               </div>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We envision an Africa where digital technology is a key driver in eradicating poverty and promoting sustainable communities. Through our objectives, we commit to innovation that makes a real difference on the continent.
+                We envision an Africa where digital technology is a key driver for business growth, market competitiveness, and enterprise success. Through our objectives, we commit to innovation that makes a real difference on the continent.
               </p>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-teal mb-4">Our Impact Statement</h3>
                 <p className="text-lg text-gray-600">
-                  We're committed to leveraging digital technology for good in Africa. From poverty alleviation in East African communities to business empowerment across the continent, our solutions drive measurable change. Join us in building a more connected and sustainable Africa.
+                  We're committed to leveraging digital technology for business growth in Africa. From digital transformation to market expansion and competitive advantage across the continent, our solutions drive measurable business results. Join us in building African enterprise success.
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Objectives: React.FC = () => {
                 Ready to Partner with Us?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Join us in creating sustainable digital solutions that empower African communities and drive meaningful change across the continent.
+                Join us in creating digital solutions that empower African businesses and drive meaningful growth across the continent.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary">
