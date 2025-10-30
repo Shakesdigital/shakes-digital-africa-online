@@ -14,13 +14,13 @@ const Agriculture: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  AGRICULTURE & FOOD SECURITY
+                  AGRICULTURE & AGRIBUSINESS
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Solutions Empowering Africa's Farmers and Food Systems
+                  Digital Solutions Driving Agricultural Business Growth and Market Leadership
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Transform agricultural operations with precision farming tools, market access platforms, and supply chain solutions designed to improve yields, incomes, and food security across Africa.
+                  Transform agricultural operations with precision farming tools, market access platforms, and supply chain solutions designed to maximize yields, boost profitability, and achieve competitive market advantage across Africa.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -39,7 +39,7 @@ const Agriculture: React.FC = () => {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">Up to 40%</p>
-                  <p className="text-sm">Potential Income Increase for Digital-Enabled Farmers</p>
+                  <p className="text-sm">Revenue Growth Potential for Digital-Enabled Agribusinesses</p>
                 </div>
               </div>
             </div>
@@ -51,10 +51,10 @@ const Agriculture: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Agricultural Sector?
+                Why Digital Technology for Africa's Agribusiness Growth?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's smallholder farmers feed the continent but face challenges from climate change to market access. Our digital solutions address these barriers, improving productivity, profitability, and food security.
+                Africa's agribusinesses and agricultural enterprises require digital solutions to compete globally. Our platforms address operational inefficiencies, fragmented markets, and supply chain gaps—driving productivity gains, premium pricing, and market expansion.
               </p>
             </div>
 
@@ -127,10 +127,10 @@ const Agriculture: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Agriculture and Food Security
+                Digital Solutions for Agricultural Business Growth and Market Domination
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From smallholder farmers to agribusinesses, cooperatives to food processors—our solutions strengthen every link in Africa's agricultural value chain.
+                From agribusinesses to cooperatives, processors to exporters—our solutions optimize every link in Africa's agricultural value chain for maximum profitability and market capture.
               </p>
             </div>
 
@@ -293,10 +293,10 @@ const Agriculture: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Agricultural Development Approach
+                Our Agricultural Business Growth Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—supporting food security and farmer prosperity through research-driven, implementable agricultural technology.
+                Aligned with Shakes Digital's core objectives—driving agricultural profitability and market leadership through research-driven, implementable agricultural technology.
               </p>
             </div>
 
@@ -344,19 +344,19 @@ const Agriculture: React.FC = () => {
                     WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Help Increase Farmer Incomes by 35% and Reach 50,000+ Smallholders
+                    Drive Agricultural Revenue Growth by 35% and Capture 50,000+ Enterprise Customers
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can build an integrated farm management and marketplace app for smallholder farmers—potentially achieving higher yields, better prices, reduced post-harvest losses, and improved livelihoods for thousands of farming families.
+                    We can build an integrated farm management and marketplace app for agribusinesses—potentially achieving 35% revenue increases, premium market prices, reduced operational losses, and market leadership for thousands of agricultural enterprises.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">Up to 35%</p>
-                      <p className="text-blue-100">Potential Income Increase</p>
+                      <p className="text-blue-100">Revenue Growth</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">50K+</p>
-                      <p className="text-blue-100">Potential Farmer Reach</p>
+                      <p className="text-blue-100">Enterprise Customers</p>
                     </div>
                   </div>
                   <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -380,10 +380,10 @@ const Agriculture: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Agricultural Operations?
+                Ready to Transform Your Agricultural Business?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that improve yields, increase farmer incomes, strengthen food security, and create sustainable agricultural value chains across Africa.
+                Let's build digital solutions that boost operational efficiency, increase profitability, expand market reach, and create competitive agricultural value chains across Africa.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

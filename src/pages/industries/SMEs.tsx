@@ -14,13 +14,13 @@ const SMEs: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  SMEs WITH ESG FOCUS
+                  SME BUSINESS GROWTH
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Solutions for Sustainable Small & Medium Enterprises Across Africa
+                  SME Business Growth and Community Impact
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower your SME with digital tools for ESG compliance, sustainable operations, e-commerce growth, and impact measurement—driving business success while creating positive social and environmental impact.
+                  Drive revenue growth, operational efficiency, and market expansion with digital tools for e-commerce, business management, and ESG compliance—while creating positive social and environmental impact for African communities.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -38,7 +38,7 @@ const SMEs: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">Up to 300%</p>
+                  <p className="font-bold text-2xl mb-1">300% Growth</p>
                   <p className="text-sm text-gray-700">Potential Revenue Growth with Digital Transformation</p>
                 </div>
               </div>
@@ -51,10 +51,10 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Sustainable SMEs?
+                Why Digital Technology for SMEs?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Small and medium enterprises are the backbone of African economies. Digital solutions help ESG-focused SMEs scale sustainably, access markets, improve operations, and attract responsible investment.
+                SMEs need to grow revenue, operate efficiently, and access markets. Digital solutions drive revenue growth, reduce operational costs, enable market expansion, attract investment—while supporting sustainable practices and community impact.
               </p>
             </div>
 
@@ -127,10 +127,10 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Sustainable SME Growth
+                SME Business Growth and Community Impact Solutions
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From social enterprises to green startups, impact-driven businesses to sustainable manufacturers—our solutions support every type of ESG-focused SME across Africa.
+                From social enterprises to green startups, impact-driven businesses to sustainable manufacturers—our solutions drive revenue growth, operational efficiency, and market expansion while supporting community and environmental benefits across Africa.
               </p>
             </div>
 
@@ -293,10 +293,10 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our SME Digital Transformation Approach
+                SME Business Growth & Community Impact Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—from research to resource mobilization—ensuring your SME achieves sustainable growth and measurable impact.
+                Ensuring digital solutions drive revenue growth, operational efficiency, and investment access while supporting sustainable practices and positive community impact.
               </p>
             </div>
 
@@ -344,19 +344,19 @@ const SMEs: React.FC = () => {
                     WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Imagine: Sustainable Fashion SME Tripling Revenue While Achieving Carbon Neutrality
+                    Imagine: SME Tripling Revenue While Achieving Sustainability Goals
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    Picture an integrated e-commerce platform with ESG tracking for an African sustainable fashion brand—achieving 300% revenue growth, carbon-neutral operations, and $2M in impact investment.
+                    Picture an integrated e-commerce platform with business management and ESG tracking for an African SME—achieving 300% revenue growth, operational efficiency, $2M in investment access, and positive community impact.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">300%</p>
-                      <p className="text-blue-100">Potential Revenue Growth</p>
+                      <p className="text-3xl font-bold mb-2">300% Revenue</p>
+                      <p className="text-blue-100">Growth Potential</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">$2M</p>
-                      <p className="text-blue-100">Impact Investment Potential</p>
+                      <p className="text-3xl font-bold mb-2">$2M+ Investment</p>
+                      <p className="text-blue-100">Access Potential</p>
                     </div>
                   </div>
                   <a href="/services" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -380,10 +380,10 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-blue to-shakes-teal text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Your SME?
+                Ready to Grow Your SME Business and Community Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that drive sustainable growth, demonstrate ESG impact, and unlock new opportunities for your African small or medium enterprise.
+                Let's build digital solutions that grow your SME revenue, operational efficiency, market access, and sustainability goals while supporting positive community impact.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

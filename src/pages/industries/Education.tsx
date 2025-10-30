@@ -15,13 +15,13 @@ const Education: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  EDUCATION & WORKFORCE DEVELOPMENT
+                  EDUCATION & EDTECH BUSINESS
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Learning Platforms Transforming Education Across Africa
+                  Education Business Growth and Community Impact
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower learners and educators with digital tools for e-learning, skills development, student management, and workforce training—expanding access to quality education and economic opportunities.
+                  Drive revenue growth and operational efficiency with digital learning platforms for e-learning, skills development, and student management—while expanding access to quality education and economic opportunities for African communities.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -39,8 +39,8 @@ const Education: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">Up to 10X</p>
-                  <p className="text-sm text-white">Potential Increase in Student Reach with Digital Platforms</p>
+                  <p className="font-bold text-2xl mb-1">10X Growth</p>
+                  <p className="text-sm text-white">Potential Revenue Growth with Digital Platforms</p>
                 </div>
               </div>
             </div>
@@ -52,10 +52,10 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Education Sector?
+                Why Digital Technology for Education?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's education sector faces challenges from teacher shortages to limited infrastructure. Digital solutions expand access, improve quality, and prepare learners for the future workforce.
+                Education operators need to scale revenue, improve operational efficiency, and reach more students. Digital platforms enable market expansion and operator profitability while expanding access to quality education and preparing learners for the workforce.
               </p>
             </div>
 
@@ -128,10 +128,10 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Education and Workforce Development
+                Education Business Growth and Community Impact Solutions
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From schools to universities, vocational training to corporate learning—our solutions support every level of education and skills development across Africa.
+                From schools to universities, vocational training to corporate learning—our solutions drive operator revenue and student reach while supporting community education access and workforce development across Africa.
               </p>
             </div>
 
@@ -294,10 +294,10 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Education Technology Development Approach
+                Education Business Growth & Community Impact Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—expanding educational access and improving learning outcomes through research-driven technology.
+                Ensuring digital solutions drive enrollment growth, revenue expansion, and operational efficiency while supporting educational access and learning outcomes for African communities.
               </p>
             </div>
 
@@ -355,19 +355,19 @@ const Education: React.FC = () => {
                     WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Help Your E-Learning Platform Reach 100,000+ Students Across Africa
+                    Help Your E-Learning Business Scale Revenue and Reach 100,000+ Students
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can build a mobile-first learning management system with offline capabilities for your education organization—potentially achieving 10X student reach, 85% course completion rates, and improved learning outcomes.
+                    We can build a mobile-first learning management system with offline capabilities for your education organization—achieving 10X revenue growth, 100,000+ student reach, and 85% completion rates while supporting community educational access.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">100K+</p>
-                      <p className="text-blue-100">Potential Student Reach</p>
+                      <p className="text-3xl font-bold mb-2">10X Revenue</p>
+                      <p className="text-blue-100">Potential Growth</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">Up to 85%</p>
-                      <p className="text-blue-100">Potential Completion Rate</p>
+                      <p className="text-3xl font-bold mb-2">100K+ Users</p>
+                      <p className="text-blue-100">Scale Potential</p>
                     </div>
                   </div>
                   <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -391,10 +391,10 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Education?
+                Ready to Grow Your Education Business and Community Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital learning platforms that expand access, improve outcomes, and prepare African learners for success in the 21st century economy.
+                Let's build digital learning platforms that grow your education business, expand enrollment and revenue, and prepare African learners for success.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

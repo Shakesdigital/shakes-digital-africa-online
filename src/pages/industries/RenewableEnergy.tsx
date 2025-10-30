@@ -15,13 +15,13 @@ const RenewableEnergy: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  RENEWABLE ENERGY & GREEN TECH
+                  RENEWABLE ENERGY & GREEN TECH BUSINESS
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Solutions Powering Africa's Clean Energy Future
+                  Digital Solutions for Clean Energy Business Growth and Environmental Impact
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Transform your renewable energy operation with smart grid management, monitoring systems, and data analytics designed for Africa's energy transition and sustainable development goals.
+                  Transform your renewable energy operation with smart grid management, monitoring systems, and data analytics—driving operational profitability, investor returns, and clean energy expansion while advancing environmental sustainability.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -40,7 +40,7 @@ const RenewableEnergy: React.FC = () => {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white text-shakes-blue-dark p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">Up to 40%</p>
-                  <p className="text-sm text-gray-700">Potential Efficiency Improvement with Smart Monitoring</p>
+                  <p className="text-sm text-gray-700">Revenue Growth Potential with Smart Monitoring</p>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ const RenewableEnergy: React.FC = () => {
                 Why Digital Technology for Africa's Renewable Energy Sector?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's renewable energy sector is experiencing rapid growth, but faces unique challenges—from grid infrastructure limitations to financing barriers. Our digital solutions optimize operations, attract investment, and accelerate the clean energy transition.
+                Africa's renewable energy operators require digital solutions to compete and scale while advancing clean energy transition. Our platforms optimize operations, attract investment, and drive profitability—while accelerating sustainable energy growth.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ const RenewableEnergy: React.FC = () => {
                   <Wrench className="w-6 h-6 text-shakes-blue" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Developing and deploying sustainable energy solutions for African communities</p>
+                <p className="text-gray-600 text-sm">Developing and deploying energy solutions that drive profitability while supporting clean energy expansion</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -97,7 +97,7 @@ const RenewableEnergy: React.FC = () => {
                   <LineChart className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Monitoring & Evaluation</h4>
-                <p className="text-gray-600 text-sm">Tracking project impact and sustainability metrics</p>
+                <p className="text-gray-600 text-sm">Tracking operational performance, revenue impact, and sustainability outcomes</p>
               </div>
             </div>
           </div>
@@ -108,10 +108,10 @@ const RenewableEnergy: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Renewable Energy Operations
+                Digital Solutions for Energy Business Growth and Sustainability
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From solar farms to mini-grids, wind installations to energy storage—our solutions optimize every aspect of clean energy generation and distribution in Africa.
+                From solar operators to wind farms, microgrids to utilities—our solutions drive operational efficiency and profitability while supporting clean energy transition across Africa.
               </p>
             </div>
 
@@ -274,10 +274,10 @@ const RenewableEnergy: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Renewable Energy Development Approach
+                Our Energy Business Growth & Sustainability Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—supporting Africa's energy transition through research-driven, implementable, and scalable digital solutions.
+                Aligned with Shakes Digital's core objectives—ensuring digital energy solutions drive operator profitability and investor returns while advancing clean energy expansion and environmental impact.
               </p>
             </div>
 
@@ -325,19 +325,19 @@ const RenewableEnergy: React.FC = () => {
                     WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Help Your Solar Mini-Grid Operation Reduce Downtime by 65% and Attract $2M+ Investment
+                    Drive Energy Business Revenue Growth and Attract $2M+ Investment
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can implement an integrated energy management and investor reporting platform for your mini-grid operation—potentially achieving dramatic operational improvements and helping you secure Series A funding.
+                    Build an integrated energy management and investor reporting platform enabling operators to optimize revenue by 30%, reduce downtime by 65%, and attract Series A funding while expanding clean energy access.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">Up to 65%</p>
-                      <p className="text-blue-100">Potential Downtime Reduction</p>
+                      <p className="text-3xl font-bold mb-2">30%</p>
+                      <p className="text-blue-100">Revenue Growth Potential</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold mb-2">$2M+</p>
-                      <p className="text-blue-100">Investment Potential</p>
+                      <p className="text-blue-100">Investment Attraction Potential</p>
                     </div>
                   </div>
                   <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -361,10 +361,10 @@ const RenewableEnergy: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-blue to-shakes-teal text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Optimize Your Renewable Energy Operation?
+                Ready to Grow Your Energy Business and Sustainability Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that maximize energy output, reduce costs, attract investment, and accelerate Africa's clean energy transition.
+                Let's build digital solutions that grow your energy business, optimize operations, and drive clean energy expansion for African communities.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

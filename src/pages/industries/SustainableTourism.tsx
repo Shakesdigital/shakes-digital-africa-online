@@ -14,13 +14,13 @@ const SustainableTourism: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  SUSTAINABLE TOURISM & ECOTOURISM
+                  TOURISM & HOSPITALITY BUSINESS
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Solutions for Environmentally Responsible Tourism in Africa
+                  Digital Solutions for Tourism Business Growth and Community Impact
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower your tourism operation with digital tools designed for conservation, community empowerment, and sustainable visitor experiences across Africa's natural wonders.
+                  Empower your tourism operation with digital tools designed for revenue growth, operational efficiency, and sustainable visitor experiences across Africa's attractions.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -39,7 +39,7 @@ const SustainableTourism: React.FC = () => {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">Up to 85%</p>
-                  <p className="text-sm text-white">Potential Increase in Direct Bookings with Digital Solutions</p>
+                  <p className="text-sm text-white">Revenue Growth Potential with Digital Solutions</p>
                 </div>
               </div>
             </div>
@@ -51,10 +51,10 @@ const SustainableTourism: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Sustainable Tourism Sector?
+                Why Digital Technology for Africa's Tourism Sector?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's tourism industry faces unique challenges—from remote locations with limited connectivity to the need for conservation-focused operations. We develop digital solutions that address these while empowering local communities and protecting natural heritage.
+                Africa's tourism operators require digital solutions to compete globally and grow revenue while serving communities responsibly. Our platforms drive bookings, operational efficiency, and profitability—while supporting community empowerment and conservation.
               </p>
             </div>
 
@@ -127,10 +127,10 @@ const SustainableTourism: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Sustainable Tourism Operations
+                Digital Solutions for Tourism Business Growth and Community Engagement
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From safari lodges to ecotourism ventures, cultural heritage sites to adventure tourism—our solutions support every aspect of sustainable tourism in Africa.
+                From safari lodges to hospitality ventures, cultural heritage sites to adventure tourism—our solutions drive revenue growth while empowering local communities across Africa.
               </p>
             </div>
 
@@ -293,10 +293,10 @@ const SustainableTourism: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Sustainable Tourism Development Approach
+                Our Tourism Business Growth & Community Impact Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—from research to implementation, partnerships to monitoring—ensuring your tourism operation thrives sustainably.
+                Aligned with Shakes Digital's core objectives—ensuring your tourism operation drives profitability and revenue growth while supporting community empowerment and environmental responsibility.
               </p>
             </div>
 
@@ -310,13 +310,13 @@ const SustainableTourism: React.FC = () => {
               <div className="bg-gray-50 p-6 rounded-lg text-center">
                 <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Building digital solutions optimized for remote locations and sustainable tourism practices</p>
+                <p className="text-gray-600 text-sm">Building digital solutions optimized for remote locations and revenue-focused tourism operations</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
                 <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
-                <p className="text-gray-600 text-sm">Connecting with conservation organizations, tour operators, and community groups for scalable impact</p>
+                <p className="text-gray-600 text-sm">Connecting with tourism operators and community groups for scalable revenue growth</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -328,7 +328,7 @@ const SustainableTourism: React.FC = () => {
               <div className="bg-gray-50 p-6 rounded-lg text-center">
                 <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
                 <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
-                <p className="text-gray-600 text-sm">Measuring environmental impact, visitor satisfaction, and revenue to optimize for sustainable growth</p>
+                <p className="text-gray-600 text-sm">Measuring revenue, visitor satisfaction, and operational impact to optimize for business growth</p>
               </div>
             </div>
           </div>
@@ -344,19 +344,19 @@ const SustainableTourism: React.FC = () => {
                     WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Help Your Safari Lodge Increase Direct Bookings by 200% While Reducing Environmental Impact
+                    Drive Tourism Revenue Growth and Community Impact
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can build an integrated booking platform and conservation management system for your ecotourism operation—potentially doubling revenue, reducing operational carbon footprint by 50%, and empowering 120+ community members.
+                    Build an integrated booking platform enabling your tourism operation to double direct bookings, increase operational efficiency by 40%, and empower 120+ community members while promoting responsible tourism.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">Up to 200%</p>
-                      <p className="text-blue-100">Potential Bookings Growth</p>
+                      <p className="text-3xl font-bold mb-2">200%</p>
+                      <p className="text-blue-100">Bookings Growth Potential</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">Up to 50%</p>
-                      <p className="text-blue-100">Potential Carbon Reduction</p>
+                      <p className="text-3xl font-bold mb-2">40%</p>
+                      <p className="text-blue-100">Operational Efficiency Gain</p>
                     </div>
                   </div>
                   <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -380,10 +380,10 @@ const SustainableTourism: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Your Tourism Operation?
+                Ready to Grow Your Tourism Business and Community Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that drive bookings, enhance visitor experiences, support conservation, and empower local communities across Africa's tourism sector.
+                Let's build digital solutions that drive bookings, increase revenue, enhance visitor experiences, and empower local communities across Africa's tourism sector.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

@@ -15,13 +15,13 @@ const Nonprofit: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  NON-PROFIT & SOCIAL IMPACT
+                  NONPROFIT & BUSINESS GROWTH
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Infrastructure Amplifying Africa's Social Impact
+                  Nonprofit Business Growth and Community Impact
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower your NGO or social enterprise with digital tools for program management, impact measurement, fundraising, and community engagement—maximizing your reach and sustainable development outcomes.
+                  Drive operational efficiency, secure more funding, and scale your nonprofit with digital tools for program management, impact measurement, and fundraising—while maximizing your reach and sustainable development outcomes for African communities.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -39,8 +39,8 @@ const Nonprofit: React.FC = () => {
                   className="rounded-lg shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">Up to 3X</p>
-                  <p className="text-sm text-white">Potential Increase in Program Reach with Digital Tools</p>
+                  <p className="font-bold text-2xl mb-1">3X Growth</p>
+                  <p className="text-sm text-white">Potential Funding & Operational Growth</p>
                 </div>
               </div>
             </div>
@@ -52,10 +52,10 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Nonprofit Sector?
+                Why Digital Technology for Nonprofits?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                African NGOs and social enterprises tackle critical development challenges but often lack the digital infrastructure to scale impact. Our solutions streamline operations, measure outcomes, and amplify reach.
+                Nonprofits need to operate efficiently, secure funding, and demonstrate impact to donors. Digital solutions streamline operations, reduce costs, secure more funding, and measure outcomes—while amplifying community reach and development outcomes.
               </p>
             </div>
 
@@ -128,10 +128,10 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Nonprofit Organizations
+                Nonprofit Business Growth and Community Impact Solutions
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From international NGOs to grassroots community organizations—our solutions support every aspect of social impact work across Africa.
+                From international NGOs to grassroots community organizations—our solutions drive operational efficiency, secure funding, and scale programs while supporting community development outcomes across Africa.
               </p>
             </div>
 
@@ -294,10 +294,10 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Social Impact Development Approach
+                Nonprofit Business Growth & Community Impact Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—amplifying social impact through research-driven, implementable technology for sustainable development.
+                Ensuring digital solutions drive operational efficiency, funding growth, and program scaling while supporting community development outcomes and sustainable impact.
               </p>
             </div>
 
@@ -355,19 +355,19 @@ const Nonprofit: React.FC = () => {
                     WHAT WE CAN ACHIEVE TOGETHER
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Help Your NGO Triple Program Reach and Secure $5M+ in New Funding
+                    Help Your Nonprofit Secure $5M+ Funding and Triple Program Reach
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can build an integrated program management and impact measurement platform for your organization—enabling data-driven decision-making, transparent reporting, and dramatic expansion of life-changing programs.
+                    We can build an integrated program management and impact measurement platform for your organization—securing more funding, reducing operational costs, enabling data-driven decisions, and scaling life-changing community programs.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
-                      <p className="text-3xl font-bold mb-2">Up to 3X</p>
-                      <p className="text-blue-100">Potential Program Reach</p>
+                      <p className="text-3xl font-bold mb-2">$5M+ Funding</p>
+                      <p className="text-blue-100">Growth Potential</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">$5M+</p>
-                      <p className="text-blue-100">Funding Potential</p>
+                      <p className="text-3xl font-bold mb-2">3X Scale</p>
+                      <p className="text-blue-100">Program Reach Growth</p>
                     </div>
                   </div>
                   <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -391,10 +391,10 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Amplify Your Social Impact?
+                Ready to Grow Your Nonprofit Business and Community Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that streamline operations, measure impact, secure funding, and scale your organization's reach across African communities.
+                Let's build digital solutions that streamline operations, secure funding growth, reduce costs, and scale your organization's reach across African communities.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">

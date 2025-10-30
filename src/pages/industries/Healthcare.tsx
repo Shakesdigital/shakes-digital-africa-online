@@ -15,13 +15,13 @@ const Healthcare: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  HEALTHCARE & PUBLIC HEALTH
+                  HEALTHCARE & PUBLIC HEALTH BUSINESS
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Health Solutions Transforming Healthcare Access Across Africa
+                  Digital Health Solutions Driving Healthcare Business Growth and Community Health
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower healthcare providers with digital tools for telemedicine, patient management, health information systems, and community health—improving access, quality, and outcomes across African communities.
+                  Empower healthcare providers with digital tools for telemedicine, patient management, and operations—increasing patient acquisition and revenue while expanding healthcare access and improving community health outcomes.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -40,7 +40,7 @@ const Healthcare: React.FC = () => {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">Up to 500K+</p>
-                  <p className="text-sm text-white">Potential Patients Reached Through Digital Health</p>
+                  <p className="text-sm text-white">Revenue Growth & Patient Reach Potential</p>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ const Healthcare: React.FC = () => {
                 Why Digital Technology for Africa's Healthcare Sector?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa faces significant healthcare challenges—from doctor shortages to limited infrastructure and remote populations. Digital health solutions expand access, improve care quality, and save lives.
+                Africa's healthcare providers require digital solutions to compete and grow while serving underserved populations. Our platforms drive patient acquisition, operational efficiency, and revenue growth—while expanding healthcare access and improving community health outcomes.
               </p>
             </div>
 
@@ -108,10 +108,10 @@ const Healthcare: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Healthcare Delivery
+                Digital Solutions for Healthcare Business Growth and Community Access
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From hospitals to clinics, NGO health programs to public health departments—our solutions support every level of healthcare delivery across Africa.
+                From hospitals to clinics, medical networks to social enterprises—our solutions drive business profitability while expanding healthcare reach to underserved communities across Africa.
               </p>
             </div>
 
@@ -274,10 +274,10 @@ const Healthcare: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Healthcare Technology Development Approach
+                Our Healthcare Business Growth & Community Impact Approach
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—from research to partnerships—ensuring digital health solutions improve access, quality, and outcomes.
+                Aligned with Shakes Digital's core objectives—ensuring digital health solutions drive provider profitability and patient acquisition while expanding healthcare access to underserved communities.
               </p>
             </div>
 
@@ -325,19 +325,19 @@ const Healthcare: React.FC = () => {
                     WHAT'S POSSIBLE
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Imagine: Telemedicine Platform Reaching 500,000+ Patients in Rural East Africa
+                    Drive Healthcare Growth: Telemedicine Platform Serving 500,000+ Patients and Growing Provider Revenue
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    Picture a comprehensive telemedicine and EMR system for a Pan-African health network—reaching 500K+ patients, reducing wait times by 70%, and improving maternal health outcomes across underserved communities.
+                    Build a comprehensive telemedicine and EMR system enabling healthcare providers to reach 500K+ patients, increase revenue per provider by 40%, and improve health outcomes across previously underserved communities.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
                       <p className="text-3xl font-bold mb-2">500K+</p>
-                      <p className="text-blue-100">Potential Patients Reached</p>
+                      <p className="text-blue-100">Patient & Revenue Growth Potential</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold mb-2">70%</p>
-                      <p className="text-blue-100">Possible Wait Time Reduction</p>
+                      <p className="text-3xl font-bold mb-2">40%</p>
+                      <p className="text-blue-100">Operational Cost Reduction</p>
                     </div>
                   </div>
                   <a href="/services" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -361,10 +361,10 @@ const Healthcare: React.FC = () => {
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Healthcare Delivery?
+                Ready to Grow Your Healthcare Business and Community Impact?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital health solutions that expand access, improve quality of care, and save lives across African communities.
+                Let's build digital health solutions that grow your healthcare business, increase patient reach, and improve health outcomes for African communities.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
