@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-300 mb-4">
-              Addressing Africa's sustainable development and business challenges through tailored digital web solutions—driving poverty alleviation, community empowerment, and economic growth across the continent.
+              Africa's digital web solutions provider specializing in Custom Software, Web Development, and Mobile Apps designed to address business development challenges—driving revenue growth, operational efficiency, and market expansion across African businesses.
             </p>
             <form onSubmit={handleSubscribe} className="space-y-2">
               <Input
