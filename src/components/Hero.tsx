@@ -25,13 +25,13 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="relative">
+            <div className="relative h-[500px] md:h-[600px] lg:h-[700px]">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
               <img
                 src="/hero-mobile-app.png"
                 alt="Mobile app showcasing digital solutions for food and business management"
-                className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
+                className="rounded-lg shadow-xl relative z-10 w-full h-full object-cover"
               />
             </div>
           </div>
