@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
                 Reach out to Shakes Digital for custom digital web solutions for your business or community challenge
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8">
-                Explore Custom Software, Web Development, or Mobile Apps for your sustainable goals.
+                Explore Custom Software, Web Development, or Mobile Apps to address your business development challenges.
               </p>
             </div>
             <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -174,7 +174,7 @@ const Contact: React.FC = () => {
                   <Textarea
                     id="message"
                     name="message"
-                    placeholder="Describe your challenge and how we can help with sustainable community or business solutions"
+                    placeholder="Describe your business challenge and how we can help with digital solutions"
                     className="w-full min-h-[150px]"
                     required
                   />
@@ -220,7 +220,7 @@ const Contact: React.FC = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-shakes-teal mb-2">How do we collaborate on projects?</h4>
-                    <p className="text-gray-600 text-sm">We follow an objective-driven approach: Research, Implementation, Partnerships, Resource Mobilization, and Evaluation to ensure sustainable impact.</p>
+                    <p className="text-gray-600 text-sm">We follow an objective-driven approach: Research, Implementation, Partnerships, Resource Mobilization, and Evaluation to ensure measurable business results.</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-shakes-teal mb-2">Which service fits my industry?</h4>
