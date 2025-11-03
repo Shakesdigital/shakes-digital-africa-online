@@ -34,10 +34,6 @@ const CustomSoftware: React.FC = () => {
                   alt="Custom software development solutions for African businesses and communities"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-shakes-teal text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">100+</p>
-                  <p className="text-sm">Custom Solutions Deployed Across Africa</p>
-                </div>
               </div>
             </div>
           </div>

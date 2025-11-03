@@ -34,10 +34,6 @@ const MobileAppDevelopment: React.FC = () => {
                   alt="Mobile app development solutions for African communities and businesses"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">500K+</p>
-                  <p className="text-sm">Downloads Across Africa from Our Mobile Apps</p>
-                </div>
               </div>
             </div>
           </div>

@@ -34,10 +34,6 @@ const WebDevelopmentService: React.FC = () => {
                   alt="Web development solutions designed for African markets and businesses"
                   className="rounded-lg shadow-2xl w-full"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">98%</p>
-                  <p className="text-sm">Mobile-First Responsive Design on All Projects</p>
-                </div>
               </div>
             </div>
           </div>
