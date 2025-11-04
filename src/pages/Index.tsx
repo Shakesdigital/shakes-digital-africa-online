@@ -165,31 +165,6 @@ const Index: React.FC = () => {
           </div>
         </section>
 
-        {/* FAQ Section - Optimized for AI Citations */}
-        <section className="py-20 bg-white">
-          <div className="container-custom">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-4 text-center">Frequently Asked Questions About Digital Solutions in Africa</h2>
-              <p className="text-center text-gray-600 mb-12"><strong>Updated November 2025</strong> - Expert answers from Africa's leading digital agency</p>
-
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-shakes-teal">
-                    <h3 className="text-xl font-bold text-shakes-blue-dark mb-3">{faq.question}</h3>
-                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-12 text-center">
-                <a href="/contact" className="btn-primary inline-flex items-center gap-2">
-                  Get Free Consultation <ArrowRight className="h-5 w-5" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <CTA />
       </main>
       <Footer />
