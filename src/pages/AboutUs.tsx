@@ -122,7 +122,7 @@ const AboutUs: React.FC = () => {
                 <a
                   href="/contact"
                   aria-label="Partner with Shakes Digital"
-                  className="inline-flex items-center gap-2 rounded-full bg-shakes-blue-dark text-white font-semibold px-6 py-3 mt-8 shadow-lg hover:bg-shakes-blue hover:shadow-xl hover:-translate-y-0.5 transition-transform duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-shakes-blue-dark"
+                  className="btn-primary inline-flex items-center gap-2 mt-8"
                 >
                   Partner with Us <ArrowRight className="h-5 w-5" />
                 </a>
