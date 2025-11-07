@@ -101,21 +101,21 @@ const AboutUs: React.FC = () => {
                 <figcaption className="sr-only">Mugisa Dan Byenkya, Founder and CEO of Shakes Digital</figcaption>
               </figure>
               <div className="w-full lg:w-3/5 text-gray-700">
-                <p className="uppercase tracking-[0.3em] text-sm text-shakes-teal mb-4">Founder's Story</p>
                 <h2
                   id="founder-story-heading"
-                  className="text-3xl md:text-[2.5rem] font-bold text-shakes-blue-dark mb-6 leading-tight"
+                  className="text-base md:text-lg font-medium text-shakes-teal mb-6 flex flex-wrap items-center gap-2"
                 >
-                  Meet Our Founder: Mugisa Dan Byenkya
+                  Founder's Story
+                  <span className="font-semibold text-gray-900">Mugisa Dan Byenkya</span>
                 </h2>
-                <div className="space-y-5 text-[1.1rem] leading-[1.65] font-serif">
-                  <p>"My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's sustainable development challenges. Growing up in Uganda, I witnessed how poverty and economic disparities stifled communities and businesses. As Programs Coordinator at the Foundation for Sustainable Development (now FOSCOD), I gained insights into the intertwined social, economic, and environmental barriers tied to poverty and business growth. These experiences sparked a pivotal question: How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?"</p>
+                <div className="space-y-5 text-base md:text-lg leading-relaxed">
+                  <p>My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's sustainable development challenges. Growing up in Uganda, I witnessed how poverty and economic disparities stifled communities and businesses. As Programs Coordinator at the Foundation for Sustainable Development (now FOSCOD), I gained insights into the intertwined social, economic, and environmental barriers tied to poverty and business growth. These experiences sparked a pivotal question: How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?</p>
                   <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark text-base shadow-sm">
-                    "How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?"
+                    How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?
                   </blockquote>
-                  <p>"This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles—from optimizing agricultural supply chains to enabling SME e-commerce and developing tools for NGOs. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster economic growth, social progress, and environmental sustainability."</p>
-                  <p>"With the rise of Artificial Intelligence (AI), I am committed to harnessing its capabilities to tackle African business development challenges, scale impact, and drive community-wide economic advancement out of poverty."</p>
-                  <p>"My vision is to build strategic partnerships, amplify business influence, and innovate for a resilient Africa. Shakes Digital is more than a company—it's a catalyst for meaningful change. Let's collaborate to transform digital potential into tangible progress."</p>
+                  <p>This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles—from optimizing agricultural supply chains to enabling SME e-commerce and developing tools for NGOs. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster economic growth, social progress, and environmental sustainability.</p>
+                  <p>With the rise of Artificial Intelligence (AI), I am committed to harnessing its capabilities to tackle African business development challenges, scale impact, and drive community-wide economic advancement out of poverty.</p>
+                  <p>My vision is to build strategic partnerships, amplify business influence, and innovate for a resilient Africa. Shakes Digital is more than a company—it's a catalyst for meaningful change. Let's collaborate to transform digital potential into tangible progress.</p>
                 </div>
                 <a
                   href="/contact"
