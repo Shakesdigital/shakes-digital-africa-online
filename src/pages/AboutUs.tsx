@@ -90,12 +90,14 @@ const AboutUs: React.FC = () => {
           <div className="container-custom relative z-10">
             <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
               <figure className="w-full lg:w-2/5 flex justify-center items-center">
-                <div className="max-w-md w-full rounded-[32px] shadow-2xl bg-white/70 p-2">
+                <div className="relative max-w-md w-full">
+                  <div className="absolute -top-4 -left-4 w-24 h-24 bg-shakes-teal/20 rounded-full z-0"></div>
+                  <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
                     src="/images/IMG_0122.jpeg"
                     alt="Portrait of Mugisa Dan Byenkya"
                     loading="lazy"
-                    className="w-full h-full object-cover rounded-[28px] shadow-xl"
+                    className="rounded-lg shadow-xl relative z-10 w-full object-cover"
                   />
                 </div>
                 <figcaption className="sr-only">Mugisa Dan Byenkya, Founder and CEO of Shakes Digital</figcaption>
