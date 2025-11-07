@@ -73,6 +73,62 @@ const AboutUs: React.FC = () => {
           </div>
         </section>
 
+        {/* Founder Story Section */}
+        <section
+          className="relative overflow-hidden py-24"
+          aria-labelledby="founder-story-heading"
+          style={{ background: "linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)" }}
+        >
+          <div
+            className="absolute inset-0 opacity-20 pointer-events-none"
+            aria-hidden="true"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle at 10% 20%, rgba(13, 92, 99, 0.4) 1px, transparent 50px), radial-gradient(circle at 80% 30%, rgba(249, 168, 38, 0.35) 1px, transparent 55px), radial-gradient(circle at 40% 80%, rgba(93, 63, 211, 0.35) 1px, transparent 60px)"
+            }}
+          ></div>
+          <div className="container-custom relative z-10">
+            <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
+              <figure className="w-full lg:w-2/5 flex justify-center items-center">
+                <div className="max-w-md w-full rounded-[32px] shadow-2xl bg-white/70 p-2">
+                  <img
+                    src="/images/IMG_0122.jpeg"
+                    alt="Portrait of Mugisa Dan Byenkya"
+                    loading="lazy"
+                    className="w-full h-full object-cover rounded-[28px] shadow-xl"
+                  />
+                </div>
+                <figcaption className="sr-only">Mugisa Dan Byenkya, Founder and CEO of Shakes Digital</figcaption>
+              </figure>
+              <div className="w-full lg:w-3/5 text-gray-700">
+                <p className="uppercase tracking-[0.3em] text-sm text-shakes-teal mb-4">Founder's Story</p>
+                <h2
+                  id="founder-story-heading"
+                  className="text-3xl md:text-[2.5rem] font-bold text-shakes-blue-dark mb-6 leading-tight"
+                >
+                  Meet Our Founder: Mugisa Dan Byenkya
+                </h2>
+                <div className="space-y-5 text-[1.1rem] leading-[1.65] font-serif">
+                  <p>"My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's sustainable development challenges. Growing up in Uganda, I witnessed how poverty and economic disparities stifled communities and businesses. As Programs Coordinator at the Foundation for Sustainable Development (now FOSCOD), I gained insights into the intertwined social, economic, and environmental barriers tied to poverty and business growth. These experiences sparked a pivotal question: How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?"</p>
+                  <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark text-base shadow-sm">
+                    "How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?"
+                  </blockquote>
+                  <p>"This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles—from optimizing agricultural supply chains to enabling SME e-commerce and developing tools for NGOs. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster economic growth, social progress, and environmental sustainability."</p>
+                  <p>"With the rise of Artificial Intelligence (AI), I am committed to harnessing its capabilities to tackle African business development challenges, scale impact, and drive community-wide economic advancement out of poverty."</p>
+                  <p>"My vision is to build strategic partnerships, amplify business influence, and innovate for a resilient Africa. Shakes Digital is more than a company—it's a catalyst for meaningful change. Let's collaborate to transform digital potential into tangible progress."</p>
+                </div>
+                <a
+                  href="/contact"
+                  aria-label="Partner with Shakes Digital"
+                  className="inline-flex items-center gap-2 rounded-full bg-shakes-blue-dark text-white font-semibold px-6 py-3 mt-8 shadow-lg hover:bg-shakes-blue hover:shadow-xl hover:-translate-y-0.5 transition-transform duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-shakes-blue-dark"
+                >
+                  Partner with Us <ArrowRight className="h-5 w-5" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Our Objectives Section */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
