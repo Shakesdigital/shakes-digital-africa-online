@@ -110,9 +110,9 @@ const AboutUs: React.FC = () => {
                   Founder's Story
                   <span className="font-semibold text-gray-900">Mugisa Dan Byenkya</span>
                 </h2>
-                <div className="space-y-5 text-base md:text-lg leading-relaxed">
+                <div className="space-y-5 leading-relaxed">
                   <p>My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's sustainable development challenges. Growing up in Uganda, I witnessed how poverty and economic disparities stifled communities and businesses. As Programs Coordinator at the Foundation for Sustainable Development (now FOSCOD), I gained insights into the intertwined social, economic, and environmental barriers tied to poverty and business growth. These experiences sparked a pivotal question: How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?</p>
-                  <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark text-base shadow-sm">
+                  <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark shadow-sm">
                     How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?
                   </blockquote>
                   <p>This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles—from optimizing agricultural supply chains to enabling SME e-commerce and developing tools for NGOs. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster economic growth, social progress, and environmental sustainability.</p>
