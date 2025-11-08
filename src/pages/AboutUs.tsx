@@ -56,15 +56,15 @@ const AboutUs: React.FC = () => {
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
-                    <p className=\"text-gray-600 mb-4\">
+                    <p className="text-gray-600 mb-4">
                       Shakes Digital is Africa's digital web services agency dedicated to helping African businesses address their competitive and operational challenges while building sustainable business models through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive revenue growth, operational efficiency, market expansion, and competitive advantage across Africa's diverse business sectors while ensuring long-term business viability.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
-                    <p className=\"text-gray-600\">
-                      To leverage digital technology through tailored digital web solutions that help African businesses overcome competitive and operational challenges while building sustainable business models—from digital transformation and resilient operations to market expansion, customer acquisition, and scalable growth—across <a href=\"/industries\" className=\"font-bold text-shakes-teal hover:text-shakes-teal-dark underline\">7 key industries</a>.
+                    <p className="text-gray-600">
+                      To leverage digital technology through tailored digital web solutions that help African businesses overcome competitive and operational challenges while building sustainable business models—from digital transformation and resilient operations to market expansion, customer acquisition, and scalable growth—across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
                     </p>
                   </div>
                 </div>

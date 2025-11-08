@@ -122,8 +122,8 @@ const Index: React.FC = () => {
                 <div className="w-20 h-20 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Search className="w-10 h-10 text-shakes-teal" />
                 </div>
-                <h4 className=\"text-xl font-bold text-shakes-blue-dark mb-2\">Market Research-Driven</h4>
-                <p className=\"text-gray-600\">Deep understanding of African business challenges and sustainable business development needs to create competitive, contextually relevant solutions</p>
+                <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Market Research-Driven</h4>
+                <p className="text-gray-600">Deep understanding of African business challenges and sustainable business development needs to create competitive, contextually relevant solutions</p>
               </div>
 
               <div className="text-center">
@@ -147,7 +147,7 @@ const Index: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Proven Business Growth Across Africa</h3>
-                <p className=\"text-lg text-gray-600 mb-8\">
+                <p className="text-lg text-gray-600 mb-8">
                   We partner with African businesses to understand competitive challenges and sustainable business development needs, implement innovative solutions, and measure outcomes for scalability across African markets while contributing to economic resilience.
                 </p>
                 <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
