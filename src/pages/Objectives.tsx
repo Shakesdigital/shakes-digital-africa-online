@@ -20,7 +20,7 @@ const Objectives: React.FC = () => {
     {
       icon: <Users className="w-8 h-8 text-shakes-blue-light" />,
       title: "Business Partnerships",
-      description: "Collaborate and partner with local and international organizations in technology and business development across Africa to mobilize resources and drive business growth.",
+      description: "Collaborate and partner with local and international organizations in technology and Sustainable African Business Development across Africa to mobilize resources and drive business growth.",
       color: "#66B9DE"
     },
     {

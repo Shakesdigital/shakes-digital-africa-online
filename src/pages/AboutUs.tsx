@@ -154,7 +154,7 @@ const AboutUs: React.FC = () => {
                   <Handshake className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Business Partnerships</h4>
-                <p className="text-gray-600 text-sm">Collaborate with local and international organizations in technology and business development.</p>
+                <p className="text-gray-600 text-sm">Collaborate with local and international organizations in technology and Sustainable African Business Development.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">

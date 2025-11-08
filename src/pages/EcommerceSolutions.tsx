@@ -22,7 +22,7 @@ const EcommerceSolutions: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">eCommerce Solutions Overcoming Africa's Market Access Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  Custom eCommerce platforms specifically designed to address Africa's business development challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
+                  Custom eCommerce platforms specifically designed to address Africa's Sustainable African Business Development challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -134,7 +134,7 @@ const EcommerceSolutions: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">eCommerce Solutions Driving African Business Growth</h2>
               <p class="section-subtitle mx-auto">
-                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique business development and market access challenges
+                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique Sustainable African Business Development and market access challenges
               </p>
             </div>
 

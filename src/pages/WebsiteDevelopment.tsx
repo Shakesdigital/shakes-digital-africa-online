@@ -22,7 +22,7 @@ const WebsiteDevelopment: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Websites Addressing Africa's Business & Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We design responsive, high-performance websites specifically engineered to overcome Africa's business development barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
+                  We design responsive, high-performance websites specifically engineered to overcome Africa's Sustainable African Business Development barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -73,7 +73,7 @@ const WebsiteDevelopment: React.FC = () => {
                 },
                 {
                   title: "African Market Optimization",
-                  description: "SEO and content structured for African search patterns, local languages, and regional business development contexts—maximizing visibility for sustainable development projects and African enterprises.",
+                  description: "SEO and content structured for African search patterns, local languages, and regional Sustainable African Business Development contexts—maximizing visibility for sustainable development projects and African enterprises.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />
                 }
               ].map((benefit, index) => (

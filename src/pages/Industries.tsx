@@ -94,7 +94,7 @@ const Industries: React.FC = () => {
     {
       image: "/non-profit.png",
       title: "Non-Profit & Organizations",
-      description: "Digital infrastructure for NGOs and organizations focused on business development and community services.",
+      description: "Digital infrastructure for NGOs and organizations focused on Sustainable African Business Development and community services.",
       services: [
         "Custom Software for project tools and impact tracking",
         "Web Development for outreach sites and fundraising",

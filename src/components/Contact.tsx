@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
                 Reach out to Shakes Digital for custom digital web solutions for your business or community challenge
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8">
-                Explore Custom Software, Web Development, or Mobile Apps to address your business development challenges.
+                Explore Custom Software, Web Development, or Mobile Apps to address your Sustainable African Business Development challenges.
               </p>
             </div>
             <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
