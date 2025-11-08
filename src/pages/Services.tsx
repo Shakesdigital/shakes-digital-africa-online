@@ -111,7 +111,7 @@ const Services: React.FC = () => {
                   Digital Web Solutions for African Business Growth
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Purpose-built services addressing African business challenges and sustainable development needs—revenue growth, operational efficiency, market expansion, and competitive advantage through contextually-relevant digital technology that supports long-term economic resilience.
+                  Purpose-built services addressing African business challenges and sustainable business development needs—revenue growth, operational efficiency, market expansion, and competitive advantage through contextually-relevant digital technology that supports long-term business viability.
                 </p>
               </div>
               <div>

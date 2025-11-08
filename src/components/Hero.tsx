@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
               <span className="text-shakes-teal"> for African Business Growth</span>
             </h1>
             <p className=\"text-lg md:text-xl text-gray-600 mb-8 max-w-xl\">
-              We create Custom Software, Web Platforms, and Mobile Apps designed specifically to help African businesses tackle sustainable development challenges while driving revenue growth, improving operational efficiency, and expanding into new markets.
+              We create Custom Software, Web Platforms, and Mobile Apps designed specifically to help African businesses build sustainable business models while driving revenue growth, improving operational efficiency, and expanding into new markets.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         <div className="text-center mt-16 max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Tailored for African Business Needs</h2>
           <p className=\"text-lg text-gray-700 leading-relaxed\">
-            We understand African businesses' unique challenges—from addressing sustainable development goals and climate adaptation to digital transformation, market competition, operational scalability, and customer acquisition. Our solutions are researched, locally-adapted, and designed to drive measurable business results while contributing to Africa's sustainable economic growth.
+            We understand African businesses' unique challenges—from building sustainable business models and ensuring long-term viability to digital transformation, market competition, operational scalability, and customer acquisition. Our solutions are researched, locally-adapted, and designed to drive measurable business results while contributing to Africa's resilient economic growth.
           </p>
         </div>
       </div>
