@@ -32,8 +32,8 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "https://shakesdigital.com/#organization",
-    "name": "Shakes Digital",
-    "alternateName": "Shakes Digital Africa",
+    "name": "Shakes Digital Africa",
+    "alternateName": "Shakes Digital",
     "url": "https://shakesdigital.com",
     "logo": {
       "@type": "ImageObject",
@@ -42,7 +42,7 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "height": 250
     },
     "image": "https://shakesdigital.com/hero-mobile-app.png",
-    "description": "Africa's leading digital agency specializing in Custom Software Development, Web Development, and Mobile Applications for African businesses",
+    "description": "Leading digital agency solving Sustainable African Business Development Challenges through Custom Software, Web Development & Mobile Applications. Empowering African business owners with growth-focused solutions across 7 key industries.",
     "founder": {
       "@type": "Person",
       "@id": "https://shakesdigital.com/#founder",
@@ -94,20 +94,23 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "geoRadius": "5000000"
     },
     "knowsAbout": [
-      "Custom Software Development",
-      "Web Development",
-      "Mobile Application Development",
-      "Digital Transformation",
-      "Enterprise Software Solutions",
-      "E-commerce Platforms",
-      "Fintech Applications",
-      "Business Process Automation"
+      "Sustainable African Business Development",
+      "African Business Development Challenges",
+      "Custom Software Development for African Businesses",
+      "Sustainable Business Models",
+      "Web Development for African Entrepreneurs",
+      "Mobile Application Development for African Markets",
+      "Digital Transformation for Sustainable Growth",
+      "Enterprise Solutions for African Business Owners",
+      "Sustainable E-commerce Platforms",
+      "Fintech Applications for African Development",
+      "Business Process Automation for Sustainability"
     ],
     "offers": {
       "@type": "AggregateOffer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "USD",
-      "description": "Custom software development, web development, and mobile applications for African businesses"
+      "description": "Sustainable African Business Development solutions through custom software, web development, and mobile applications designed for African business owners seeking growth-focused, sustainable business models"
     },
     "sameAs": [
       "https://twitter.com/shakesdigital",
