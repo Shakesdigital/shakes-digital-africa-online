@@ -56,15 +56,15 @@ const AboutUs: React.FC = () => {
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
-                    <p className="text-gray-600 mb-4">
-                      Shakes Digital is Africa's digital web services agency dedicated to helping African businesses address their competitive and operational challenges through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive revenue growth, operational efficiency, market expansion, and competitive advantage across Africa's diverse business sectors.
+                    <p className=\"text-gray-600 mb-4\">
+                      Shakes Digital is Africa's digital web services agency dedicated to helping African businesses address their competitive and operational challenges while advancing sustainable business development goals through innovative digital web solutions. We specialize in creating tailored Custom Software, Web Development, and Mobile Apps that drive revenue growth, operational efficiency, market expansion, and competitive advantage across Africa's diverse business sectors while contributing to long-term economic resilience.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
-                    <p className="text-gray-600">
-                      To leverage digital technology through tailored digital web solutions that help African businesses overcome competitive and operational challenges—from digital transformation to market expansion, customer acquisition to scalability—across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
+                    <p className=\"text-gray-600\">
+                      To leverage digital technology through tailored digital web solutions that help African businesses overcome competitive and operational challenges while addressing sustainable business development goals—from digital transformation and climate-resilient operations to market expansion, customer acquisition, and scalable growth—across <a href=\"/industries\" className=\"font-bold text-shakes-teal hover:text-shakes-teal-dark underline\">7 key industries</a>.
                     </p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const AboutUs: React.FC = () => {
                   <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark shadow-sm">
                     How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?
                   </blockquote>
-                  <p>This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles—from optimizing agricultural supply chains to enabling SME e-commerce and developing tools for NGOs. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster economic growth, social progress, and environmental sustainability.</p>
+                  <p>This conviction in technology's transformative potential inspired me to found Shakes Digital Agency in late 2024. We deliver research-driven, custom software, web and mobile applications, and SaaS solutions tailored to Africa's unique business obstacles and sustainable development challenges—from optimizing agricultural supply chains and climate-smart farming to enabling SME e-commerce, developing tools for NGOs, and supporting renewable energy initiatives. Employing human-centered design and Design Thinking principles, we build scalable, inclusive platforms that foster sustainable economic development and address Africa's pressing social and environmental challenges.</p>
                   <p>With the rise of Artificial Intelligence (AI), I am committed to harnessing its capabilities to tackle African business development challenges, scale impact, and drive community-wide economic advancement out of poverty.</p>
                   <p>My vision is to build strategic partnerships, amplify business influence, and innovate for a resilient Africa. Shakes Digital is more than a company—it's a catalyst for meaningful change. Let's collaborate to transform digital potential into tangible progress.</p>
                 </div>
