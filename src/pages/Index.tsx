@@ -123,7 +123,7 @@ const Index: React.FC = () => {
                   <Search className="w-10 h-10 text-shakes-teal" />
                 </div>
                 <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Market Research-Driven</h4>
-                <p className="text-gray-600">Deep understanding of African business challenges and Sustainable African Business Development needs to create competitive, contextually relevant solutions</p>
+                <p className="text-gray-600">Deep understanding of Sustainable African Business Development Challenges to create competitive, contextually relevant solutions</p>
               </div>
 
               <div className="text-center">
