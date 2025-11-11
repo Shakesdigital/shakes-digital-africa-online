@@ -68,9 +68,6 @@ const Index: React.FC = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <div className="w-16 h-16 bg-shakes-teal/20 rounded-full flex items-center justify-center mx-auto -mt-14 mb-4 border-4 border-white">
-                    <Code className="w-8 h-8 text-shakes-teal" />
-                  </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
                     Tailored applications for business operations, financial systems, CRM, inventory management, and enterprise solutions.
@@ -86,9 +83,6 @@ const Index: React.FC = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <div className="w-16 h-16 bg-shakes-blue/20 rounded-full flex items-center justify-center mx-auto -mt-14 mb-4 border-4 border-white">
-                    <Lightbulb className="w-8 h-8 text-shakes-blue" />
-                  </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Web Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
                     Fast-loading e-commerce platforms, business portals, and online marketplaces optimized for high performance and customer conversion.
@@ -104,9 +98,6 @@ const Index: React.FC = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <div className="w-16 h-16 bg-shakes-blue-light/20 rounded-full flex items-center justify-center mx-auto -mt-14 mb-4 border-4 border-white">
-                    <Search className="w-8 h-8 text-shakes-blue-light" />
-                  </div>
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile Apps</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
                     User-friendly apps with offline access, payment integration, and analytics for business growth and customer engagement.
