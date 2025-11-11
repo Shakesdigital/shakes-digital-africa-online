@@ -116,7 +116,7 @@ const AboutUs: React.FC = () => {
                     How can digital technology bridge these gaps to empower individuals, boost incomes, and ensure sustainable livelihoods?
                   </blockquote>
                   <p>This question became my driving force and ultimately inspired me to found Shakes Digital Agency in late 2024. I am committed to making sustainable business impact using digital technology to solve the critical African business development challenges that are affecting Africa's Economic Growth and Development. Through our tailored solutions, we address real problems that limit business growth and economic prosperity across the continent.</p>
-                  <p>My vision is to build strategic partnerships, amplify business influence, and innovate for a resilient Africa. Shakes Digital is more than a company—it's a catalyst for meaningful change. Let's collaborate to transform digital potential into tangible progress.</p>
+                  <p>My vision is to see African businesses thrive by leveraging some of our digital technology products and services tailored to their target business communities irrespective of the business sector they operate in. I also envision covering digital disparities gap by digital innovation solutions that are inclusive and easy to use by the community and have the capacity to boost economic growth in African communities. I look forward to build strategic partnerships, amplify business influence, and innovate for a resilient Africa.</p>
                 </div>
                 <a
                   href="/contact"
