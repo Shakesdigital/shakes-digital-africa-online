@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Mail, MapPin, Phone, Clock, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, Linkedin, X, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { sendEmail } from "@/lib/email-service";
@@ -213,25 +213,40 @@ const Footer: React.FC = () => {
               <h4 className="text-lg font-semibold mb-3">Follow Us</h4>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/shakes-digital-848367252/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/shakes_digital"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
-                  aria-label="Twitter/X"
+                  aria-label="X (formerly Twitter)"
                 >
-                  <Twitter className="h-5 w-5" />
+                  <X className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100077385491862"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://www.instagram.com/shakesdigital7/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-shakes-teal transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
                 </a>
               </div>
             </div>
