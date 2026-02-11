@@ -1,378 +1,161 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Check, Heart, Activity, Smartphone, Users, Shield, BarChart } from "lucide-react";
-import { Search, Wrench, Handshake, Coins, LineChart } from 'lucide-react';
+import { ArrowRight, Check, Heart, Smartphone, Shield, BarChart, Users, Globe } from "lucide-react";
 
 const Healthcare: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="bg-gradient-to-br from-shakes-blue to-shakes-teal pt-32 pb-24 text-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
-                <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  HEALTHCARE & PUBLIC HEALTH BUSINESS
-                </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Health Solutions Driving Healthcare Business Growth and Community Health
-                </h1>
-                <p className="text-xl text-blue-100 mb-8">
-                  Empower healthcare providers with digital tools for telemedicine, patient management, and operations—increasing patient acquisition and revenue while expanding healthcare access and improving community health outcomes.
-                </p>
+                <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">HEALTHCARE & HEALTH TECH</div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">Websites & Mobile Apps for Healthcare Access Across Africa</h1>
+                <p className="text-xl text-blue-100 mb-8">We build healthcare websites and telemedicine mobile apps that help clinics, hospitals, and health organizations expand patient access, improve care delivery, and grow their practice across Africa.</p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
-                    Start Your Project <ArrowRight className="h-5 w-5" />
-                  </a>
-                  <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
-                    Explore Services
-                  </a>
+                  <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">Start Your Project <ArrowRight className="h-5 w-5" /></a>
+                  <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">Explore Services</a>
                 </div>
               </div>
               <div className="relative animate-fade-in">
-                <img
-                  src="/health 1.png"
-                  alt="African healthcare worker using digital health technology for patient care"
-                  className="rounded-lg shadow-2xl w-full"
-                />
+                <img src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="African healthcare professional using telemedicine app" className="rounded-lg shadow-2xl w-full" />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
-                  <p className="font-bold text-2xl mb-1">Up to 500K+</p>
-                  <p className="text-sm text-white">Revenue Growth & Patient Reach Potential</p>
+                  <p className="font-bold text-2xl mb-1">5x</p>
+                  <p className="text-sm text-white">Patient Reach with a Website & Mobile App</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why Digital Solutions for Healthcare */}
+        {/* Why Websites & Mobile Apps */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Healthcare Sector?
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's healthcare providers require digital solutions to compete and grow while serving underserved populations. Our platforms drive patient acquisition, operational efficiency, and revenue growth—while expanding healthcare access and improving community health outcomes.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Healthcare Sector?</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's healthcare providers need websites for patient acquisition and information, and mobile apps for telemedicine and patient engagement — expanding access to quality care across the continent.</p>
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Search className="w-6 h-6 text-shakes-teal" />
+              {[{ icon: Heart, color: "shakes-teal", title: "Clinic & Hospital Websites", desc: "Professional websites for patient acquisition, service information, doctor directories, appointment booking, and health education content." },
+              { icon: Smartphone, color: "shakes-blue", title: "Telemedicine Mobile Apps", desc: "Mobile apps enabling remote consultations, prescription refills, appointment scheduling, and secure patient-doctor communication." },
+              { icon: Shield, color: "shakes-blue-light", title: "Patient Portal Websites", desc: "Web-based portals for medical records access, lab results, appointment history, billing, and secure messaging with healthcare providers." },
+              { icon: Users, color: "shakes-teal", title: "Community Health Worker Apps", desc: "Mobile apps for community health workers — patient registration, visit tracking, referral management, and health data collection in the field." },
+              { icon: BarChart, color: "shakes-blue", title: "Health Analytics Dashboards", desc: "Web dashboards tracking patient volumes, disease patterns, resource utilization, and facility performance for data-driven healthcare management." },
+              { icon: Globe, color: "shakes-blue-light", title: "Health Education Apps", desc: "Mobile apps delivering health education, maternal care guidance, medication reminders, and wellness information in local languages." }
+              ].map((item, i) => (
+                <div key={i} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
+                  <div className={`w-16 h-16 bg-${item.color}/10 rounded-lg flex items-center justify-center mb-6`}><item.icon className={`h-8 w-8 text-${item.color}`} /></div>
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">{item.title}</h3>
+                  <p className="text-gray-600">{item.desc}</p>
                 </div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
-                <p className="text-gray-600 text-sm">Identifying healthcare challenges and opportunities across African communities</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-6 h-6 text-shakes-blue" />
-                </div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Developing and deploying healthcare technology solutions optimized for African contexts</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue-light/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Handshake className="w-6 h-6 text-shakes-blue-light" />
-                </div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
-                <p className="text-gray-600 text-sm">Connecting with health ministries, NGOs, and healthcare providers</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Coins className="w-6 h-6 text-shakes-teal" />
-                </div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
-                <p className="text-gray-600 text-sm">Enabling funding for health infrastructure and technology deployment</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <LineChart className="w-6 h-6 text-shakes-blue" />
-                </div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
-                <p className="text-gray-600 text-sm">Measuring health outcomes, patient satisfaction, and system performance</p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* Solutions for Healthcare Organizations */}
+        {/* Solutions */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Healthcare Business Growth and Community Access
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From hospitals to clinics, medical networks to social enterprises—our solutions drive business profitability while expanding healthcare reach to underserved communities across Africa.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Healthcare</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From clinics to hospitals, health NGOs to pharma companies — we build websites and mobile apps that improve healthcare delivery across Africa.</p>
             </div>
-
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Telemedicine Platforms</h3>
-                <p className="text-gray-600 mb-6">
-                  Comprehensive telehealth systems enabling remote consultations, video appointments, prescription management, and specialist referrals—extending healthcare reach.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Telemedicine & Teleconsultation Mobile Apps</h3>
+                <p className="text-gray-600 mb-6">Mobile apps enabling remote doctor consultations, symptom checkers, prescription management, and follow-up care for patients in underserved areas.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Secure video consultation and messaging platforms</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Electronic prescription and medication management</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Patient scheduling and appointment booking systems</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Integration with mobile money for consultation payments</span>
-                  </li>
+                  {["Video and audio consultation with doctors", "AI-powered symptom assessment and triage", "E-prescription and pharmacy locator", "Appointment scheduling and reminders"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Electronic Medical Records (EMR)</h3>
-                <p className="text-gray-600 mb-6">
-                  Digital patient record systems for hospitals and clinics—enabling comprehensive health histories, clinical decision support, and coordinated care.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Clinic & Hospital Websites</h3>
+                <p className="text-gray-600 mb-6">Professional healthcare websites for patient acquisition, service information, doctor profiles, online appointment booking, and health blog content.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Complete patient health records and medical histories</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Clinical decision support and treatment protocols</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Laboratory and diagnostic results integration</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">HIPAA-compliant security and access controls</span>
-                  </li>
+                  {["Online appointment booking and scheduling", "Doctor directory with profiles and specialties", "Service pages with detailed descriptions and pricing", "Health blog and patient education resources"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Mobile Health Apps (mHealth)</h3>
-                <p className="text-gray-600 mb-6">
-                  Patient-facing mobile applications for health education, symptom tracking, medication adherence, and wellness management—improving health literacy and outcomes.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Patient Records Web Portals</h3>
+                <p className="text-gray-600 mb-6">Web-based electronic medical records portals for clinics and hospitals — patient data management, lab results, treatment history, and billing.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Health education content and disease prevention information</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Medication reminders and adherence tracking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Symptom checkers and self-assessment tools</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Maternal and child health tracking features</span>
-                  </li>
+                  {["Electronic medical records with secure access", "Lab results and diagnostic imaging portal", "Treatment history and medication tracking", "Billing management and insurance claims processing"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Community Health Worker Tools</h3>
-                <p className="text-gray-600 mb-6">
-                  Mobile platforms equipping community health workers with patient tracking, health data collection, and referral management—strengthening last-mile healthcare.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Community Health Worker Mobile Apps</h3>
+                <p className="text-gray-600 mb-6">Field-ready mobile apps for community health workers — patient registration, home visit tracking, referral management, and health data collection.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Patient registration and household visit tracking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Clinical protocols and treatment guidelines offline access</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Referral management and facility connection</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Performance monitoring and incentive tracking</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Health Information Exchange</h3>
-                <p className="text-gray-600 mb-6">
-                  Interoperability platforms enabling secure data sharing between healthcare facilities, laboratories, and public health systems—coordinating patient care.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">FHIR-compliant data exchange standards</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Patient consent management and privacy controls</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Laboratory and pharmacy integration systems</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">National health registry connections</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Public Health Surveillance</h3>
-                <p className="text-gray-600 mb-6">
-                  Disease tracking and outbreak monitoring systems for public health departments—enabling rapid detection, response, and prevention of health emergencies.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Real-time disease case reporting and tracking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Outbreak detection algorithms and early warning systems</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Immunization tracking and vaccine cold chain monitoring</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Epidemiological analysis and reporting dashboards</span>
-                  </li>
+                  {["Offline-capable patient registration and data collection", "GPS-tagged home visit logging and route optimization", "Referral generation and follow-up tracking", "Real-time reporting to supervising health facilities"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Shakes Digital's Approach */}
+        {/* Approach */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Healthcare Business Growth & Community Impact Approach
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—ensuring digital health solutions drive provider profitability and patient acquisition while expanding healthcare access to underserved communities.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Our Website & Mobile App Development Approach for Healthcare</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">We research your healthcare challenges, then build websites and mobile apps that expand patient access and improve care delivery.</p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
-                <p className="text-gray-600 text-sm">Understanding health system challenges, patient needs, and clinical workflows</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Building secure, scalable health systems optimized for African contexts</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
-                <p className="text-gray-600 text-sm">Connecting with health ministries, NGOs, and healthcare providers</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
-                <p className="text-gray-600 text-sm">Enabling funding for health infrastructure and technology deployment</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
-                <p className="text-gray-600 text-sm">Measuring health outcomes, patient satisfaction, and system performance</p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[{ n: "1", c: "bg-shakes-teal", t: "Research", d: "Understanding your health facility's needs, patient demographics, and care delivery challenges" },
+              { n: "2", c: "bg-shakes-blue", t: "Build", d: "Developing your healthcare website and telemedicine mobile app with HIPAA-compliant security" },
+              { n: "3", c: "bg-shakes-blue-light", t: "Launch & Grow", d: "Deploying, training staff, and optimizing for patient engagement and facility growth" }].map((s, i) => (
+                <div key={i} className="bg-gray-50 p-6 rounded-lg text-center">
+                  <div className={`w-12 h-12 ${s.c} text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl`}>{s.n}</div>
+                  <h4 className="font-bold text-shakes-blue-dark mb-2">{s.t}</h4>
+                  <p className="text-gray-600 text-sm">{s.d}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* What's Possible */}
+        {/* Achievement */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    WHAT'S POSSIBLE
-                  </div>
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Drive Healthcare Growth: Telemedicine Platform Serving 500,000+ Patients and Growing Provider Revenue
-                  </h2>
-                  <p className="text-xl text-blue-100 mb-8">
-                    Build a comprehensive telemedicine and EMR system enabling healthcare providers to reach 500K+ patients, increase revenue per provider by 40%, and improve health outcomes across previously underserved communities.
-                  </p>
+                  <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">WHAT WE CAN ACHIEVE TOGETHER</div>
+                  <h2 className="text-3xl md:text-4xl font-bold mb-6">A Healthcare Website & Telemedicine App Serving 50K+ Patients</h2>
+                  <p className="text-xl text-blue-100 mb-8">We can build a healthcare website and telemedicine mobile app that serves 50,000+ patients, reduces wait times by 70%, and expands healthcare access to remote communities across Africa.</p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
-                    <div>
-                      <p className="text-3xl font-bold mb-2">500K+</p>
-                      <p className="text-blue-100">Patient & Revenue Growth Potential</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold mb-2">40%</p>
-                      <p className="text-blue-100">Operational Cost Reduction</p>
-                    </div>
+                    <div><p className="text-3xl font-bold mb-2">50K+</p><p className="text-blue-100">Patient Reach Potential</p></div>
+                    <div><p className="text-3xl font-bold mb-2">70%</p><p className="text-blue-100">Wait Time Reduction</p></div>
                   </div>
-                  <a href="/services" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    Explore Services <ArrowRight className="h-5 w-5" />
-                  </a>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">Start Your Project <ArrowRight className="h-5 w-5" /></a>
                 </div>
-                <div>
-                  <img
-                    src="/Health first 2.png"
-                    alt="African patient receiving telemedicine consultation"
-                    className="rounded-lg shadow-2xl w-full"
-                  />
-                </div>
+                <div><img src="https://images.pexels.com/photos/7579828/pexels-photo-7579828.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="African healthcare with telemedicine app" className="rounded-lg shadow-2xl w-full" /></div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Grow Your Healthcare Business and Community Impact?
-              </h2>
-              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital health solutions that grow your healthcare business, increase patient reach, and improve health outcomes for African communities.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Build a Website or Mobile App for Your Healthcare Organization?</h2>
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Let's build a healthcare website or telemedicine app that expands patient access, improves care delivery, and grows your practice across Africa.</p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
-                  Schedule Free Consultation <ArrowRight className="h-5 w-5" />
-                </a>
-                <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
-                  Explore Our Services
-                </a>
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">Schedule Free Consultation <ArrowRight className="h-5 w-5" /></a>
+                <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">Explore Our Services</a>
               </div>
             </div>
           </div>

@@ -14,13 +14,13 @@ const SustainableTourism: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  TOURISM & HOSPITALITY BUSINESS
+                  TOURISM & HOSPITALITY
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Digital Solutions for Tourism Business Growth and Community Impact
+                  Websites & Mobile Apps for Tourism Business Growth Across Africa
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Empower your tourism operation with digital tools designed for revenue growth, operational efficiency, and sustainable visitor experiences across Africa's attractions.
+                  We build booking websites and guest experience mobile apps that help tourism operators grow bookings, manage operations, and deliver exceptional visitor experiences across Africa.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -32,366 +32,159 @@ const SustainableTourism: React.FC = () => {
                 </div>
               </div>
               <div className="relative animate-fade-in">
-                <img
-                  src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1920"
-                  alt="African wildlife safari tourists experiencing sustainable ecotourism"
-                  className="rounded-lg shadow-2xl w-full"
-                />
+                <img src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="African wildlife safari tourists" className="rounded-lg shadow-2xl w-full" />
                 <div className="absolute -bottom-6 -left-6 bg-shakes-blue-dark text-white p-6 rounded-lg shadow-xl max-w-xs">
                   <p className="font-bold text-2xl mb-1">Up to 85%</p>
-                  <p className="text-sm text-white">Revenue Growth Potential with Digital Solutions</p>
+                  <p className="text-sm text-white">Booking Growth with a Website & Mobile App</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why Digital Solutions for Sustainable Tourism */}
+        {/* Why Websites & Mobile Apps */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Why Digital Technology for Africa's Tourism Sector?
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Tourism Sector?</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's tourism operators require digital solutions to compete globally and grow revenue while serving communities responsibly. Our platforms drive bookings, operational efficiency, and profitability—while supporting community empowerment and conservation.
+                Africa's tourism operators need professional booking websites and guest experience mobile apps to compete globally. Our websites drive direct bookings, and our mobile apps enhance visitor experiences — growing revenue while supporting community empowerment.
               </p>
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-shakes-teal" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Reach Global Travelers</h3>
-                <p className="text-gray-600">
-                  Connect with international tourists through optimized booking platforms, showcasing Africa's unique ecotourism experiences while ensuring easy reservations from anywhere in the world.
-                </p>
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6"><Globe className="h-8 w-8 text-shakes-teal" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Booking Websites</h3>
+                <p className="text-gray-600">Professional websites with integrated booking systems, showcasing Africa's unique experiences while enabling easy reservations from international travelers.</p>
               </div>
-
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
-                  <Leaf className="h-8 w-8 text-shakes-blue" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Conservation Tracking</h3>
-                <p className="text-gray-600">
-                  Monitor environmental impact, wildlife populations, visitor capacity, and conservation metrics in real-time—ensuring tourism supports rather than harms fragile ecosystems.
-                </p>
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6"><Leaf className="h-8 w-8 text-shakes-blue" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Conservation Web Portals</h3>
+                <p className="text-gray-600">Web-based dashboards monitoring environmental impact, wildlife populations, and visitor capacity — ensuring tourism supports fragile ecosystems.</p>
               </div>
-
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-shakes-blue-light" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Empowerment</h3>
-                <p className="text-gray-600">
-                  Platforms connecting local guides, artisans, and community-based tourism enterprises with visitors—ensuring tourism revenue benefits African communities directly.
-                </p>
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6"><Users className="h-8 w-8 text-shakes-blue-light" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Tourism Websites</h3>
+                <p className="text-gray-600">Websites connecting local guides, artisans, and community-based tourism enterprises with visitors — ensuring revenue benefits communities directly.</p>
               </div>
-
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-shakes-teal" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Enhanced Visitor Experiences</h3>
-                <p className="text-gray-600">
-                  Mobile apps providing interactive guides, wildlife identification, GPS-enabled tours, and cultural information—enriching tourist experiences while educating about conservation.
-                </p>
+                <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6"><Smartphone className="h-8 w-8 text-shakes-teal" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Guest Experience Mobile Apps</h3>
+                <p className="text-gray-600">Mobile apps providing interactive guides, wildlife identification, GPS-enabled tours, and cultural information — enriching tourist experiences.</p>
               </div>
-
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
-                  <BarChart className="h-8 w-8 text-shakes-blue" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Data-Driven Management</h3>
-                <p className="text-gray-600">
-                  Analytics dashboards tracking bookings, visitor patterns, revenue, seasonal trends, and operational efficiency—enabling smarter business decisions for sustainable growth.
-                </p>
+                <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6"><BarChart className="h-8 w-8 text-shakes-blue" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Analytics Web Dashboards</h3>
+                <p className="text-gray-600">Web-based dashboards tracking bookings, visitor patterns, revenue, and seasonal trends — enabling smarter business decisions for sustainable growth.</p>
               </div>
-
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
-                  <Palmtree className="h-8 w-8 text-shakes-blue-light" />
-                </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Remote Location Support</h3>
-                <p className="text-gray-600">
-                  Solutions optimized for low-bandwidth environments, offline functionality, and solar-powered infrastructure—perfect for remote lodges, national parks, and wilderness areas.
-                </p>
+                <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6"><Palmtree className="h-8 w-8 text-shakes-blue-light" /></div>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Offline-Ready Mobile Apps</h3>
+                <p className="text-gray-600">Mobile apps optimized for low-bandwidth environments with offline functionality — perfect for remote lodges, national parks, and wilderness areas.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Solutions for Tourism Operators */}
+        {/* Solutions */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Digital Solutions for Tourism Business Growth and Community Engagement
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From safari lodges to hospitality ventures, cultural heritage sites to adventure tourism—our solutions drive revenue growth while empowering local communities across Africa.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Tourism Operators</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From safari lodges to hospitality ventures — we build websites and mobile apps that drive bookings and empower communities.</p>
             </div>
-
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Booking & Reservation Platforms</h3>
-                <p className="text-gray-600 mb-6">
-                  Comprehensive booking systems for lodges, safaris, tours, and activities—with real-time availability, secure payments, automated confirmations, and multi-currency support.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Booking & Reservation Websites</h3>
+                <p className="text-gray-600 mb-6">Professional booking websites for lodges, safaris, tours, and activities — with real-time availability, secure payments, and multi-currency support.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Real-time availability calendar and instant confirmations</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Integration with international payment gateways and mobile money</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Multi-language support for international guests</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Automated email/SMS notifications and itineraries</span>
-                  </li>
+                  {["Real-time availability calendar and instant confirmations", "Integration with payment gateways and mobile money", "Multi-language website support for international guests", "Automated email/SMS notifications and itineraries"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Wildlife & Nature Guide Apps</h3>
-                <p className="text-gray-600 mb-6">
-                  Mobile applications for guided tours, wildlife identification, GPS-enabled trails, and educational content—enhancing visitor experiences while promoting conservation awareness.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Wildlife & Nature Guide Mobile Apps</h3>
+                <p className="text-gray-600 mb-6">Mobile apps for guided tours, wildlife identification, GPS-enabled trails, and educational content — enhancing visitor experiences.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">AI-powered wildlife and plant species identification</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">GPS-guided walking and driving trails with offline maps</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Audio guides and educational content in multiple languages</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Wildlife sighting reporting and real-time alerts</span>
-                  </li>
+                  {["AI-powered wildlife and plant species identification", "GPS-guided trails with offline maps", "Audio guides in multiple languages", "Wildlife sighting reporting and real-time alerts"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Conservation Management Systems</h3>
-                <p className="text-gray-600 mb-6">
-                  Custom software for environmental monitoring, wildlife tracking, anti-poaching operations, and visitor impact assessment—supporting conservation while enabling tourism.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Destination Marketing Websites</h3>
+                <p className="text-gray-600 mb-6">Stunning websites showcasing destinations and experiences — SEO-optimized and designed to convert browsers into bookers.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Real-time wildlife population and movement tracking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Environmental impact monitoring and reporting dashboards</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Ranger patrol management and incident reporting</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Visitor capacity management to prevent over-tourism</span>
-                  </li>
+                  {["High-quality photo galleries and virtual tours", "SEO optimization for international travel search terms", "Storytelling content sections and conservation updates", "Social media integration and user-generated content"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
-
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Marketing & Visitor Portals</h3>
-                <p className="text-gray-600 mb-6">
-                  Stunning websites and web platforms showcasing destinations, attractions, and experiences—optimized for search engines and designed to convert browsers into bookers.
-                </p>
+                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Operations Management Web Portals</h3>
+                <p className="text-gray-600 mb-6">Web-based systems for lodge operations, staff scheduling, inventory management, and guest services.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">High-quality photo galleries and virtual tour capabilities</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">SEO optimization for international travel search terms</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Content sections for storytelling and conservation updates</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Social media integration and user-generated content</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Community Tourism Platforms</h3>
-                <p className="text-gray-600 mb-6">
-                  Digital marketplaces connecting travelers with local guides, cultural experiences, homestays, and artisan products—ensuring tourism benefits African communities directly.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Local guide and cultural expert profiles and booking</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Community-based tourism experience marketplace</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Direct payment to community members via mobile money</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Reviews and ratings system building local reputation</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Operations & Staff Management</h3>
-                <p className="text-gray-600 mb-6">
-                  Backend systems for lodge operations, staff scheduling, inventory management, maintenance tracking, and guest services—streamlining daily operations.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Staff scheduling and shift management tools</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Inventory tracking for supplies and equipment</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Maintenance request and task management systems</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" />
-                    <span className="text-gray-600">Guest feedback collection and service improvement tracking</span>
-                  </li>
+                  {["Staff scheduling and shift management", "Inventory tracking for supplies and equipment", "Maintenance request and task management", "Guest feedback collection and service tracking"].map((t, i) => (
+                    <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
+                  ))}
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Shakes Digital's Approach */}
+        {/* Approach */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Our Tourism Business Growth & Community Impact Approach
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Aligned with Shakes Digital's core objectives—ensuring your tourism operation drives profitability and revenue growth while supporting community empowerment and environmental responsibility.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Our Website & Mobile App Development Approach for Tourism</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">We research your tourism operation, then build websites and mobile apps that drive bookings and enhance guest experiences.</p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Research</h4>
-                <p className="text-gray-600 text-sm">Understanding your tourism operation's unique challenges, conservation goals, and target market</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Implementation</h4>
-                <p className="text-gray-600 text-sm">Building digital solutions optimized for remote locations and revenue-focused tourism operations</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue-light text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Partnerships</h4>
-                <p className="text-gray-600 text-sm">Connecting with tourism operators and community groups for scalable revenue growth</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-teal text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Resource Mobilization</h4>
-                <p className="text-gray-600 text-sm">Enabling funding opportunities and investment attraction for tourism infrastructure</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg text-center">
-                <div className="w-12 h-12 bg-shakes-blue text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
-                <h4 className="font-bold text-shakes-blue-dark mb-2">Evaluation</h4>
-                <p className="text-gray-600 text-sm">Measuring revenue, visitor satisfaction, and operational impact to optimize for business growth</p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[{ n: "1", c: "bg-shakes-teal", t: "Research", d: "Understanding your tourism operation's challenges, target market, and guest experience goals" },
+              { n: "2", c: "bg-shakes-blue", t: "Build", d: "Developing your booking website and guest experience mobile app" },
+              { n: "3", c: "bg-shakes-blue-light", t: "Launch & Grow", d: "Deploying, training staff, and optimizing for bookings and growth" }].map((s, i) => (
+                <div key={i} className="bg-gray-50 p-6 rounded-lg text-center">
+                  <div className={`w-12 h-12 ${s.c} text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl`}>{s.n}</div>
+                  <h4 className="font-bold text-shakes-blue-dark mb-2">{s.t}</h4>
+                  <p className="text-gray-600 text-sm">{s.d}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* What We Can Achieve */}
+        {/* Achievement */}
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="bg-gradient-to-br from-shakes-blue to-shakes-teal text-white rounded-2xl p-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    WHAT WE CAN ACHIEVE TOGETHER
-                  </div>
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Drive Tourism Revenue Growth and Community Impact
-                  </h2>
-                  <p className="text-xl text-blue-100 mb-8">
-                    Build an integrated booking platform enabling your tourism operation to double direct bookings, increase operational efficiency by 40%, and empower 120+ community members while promoting responsible tourism.
-                  </p>
+                  <div className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">WHAT WE CAN ACHIEVE TOGETHER</div>
+                  <h2 className="text-3xl md:text-4xl font-bold mb-6">A Booking Website & Guest App Doubling Direct Bookings</h2>
+                  <p className="text-xl text-blue-100 mb-8">We can build a booking website and guest experience mobile app that doubles your direct bookings, increases operational efficiency by 40%, and empowers 120+ community members.</p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
-                    <div>
-                      <p className="text-3xl font-bold mb-2">200%</p>
-                      <p className="text-blue-100">Bookings Growth Potential</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold mb-2">40%</p>
-                      <p className="text-blue-100">Operational Efficiency Gain</p>
-                    </div>
+                    <div><p className="text-3xl font-bold mb-2">200%</p><p className="text-blue-100">Bookings Growth Potential</p></div>
+                    <div><p className="text-3xl font-bold mb-2">40%</p><p className="text-blue-100">Efficiency Gain</p></div>
                   </div>
-                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    Start Your Project <ArrowRight className="h-5 w-5" />
-                  </a>
+                  <a href="/contact" className="inline-flex items-center gap-2 bg-white text-shakes-blue-dark px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">Start Your Project <ArrowRight className="h-5 w-5" /></a>
                 </div>
-                <div>
-                  <img
-                    src="https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1920"
-                    alt="African eco-lodge benefiting from sustainable tourism digital platform"
-                    className="rounded-lg shadow-2xl w-full"
-                  />
-                </div>
+                <div><img src="https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="African eco-lodge with booking website" className="rounded-lg shadow-2xl w-full" /></div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA */}
         <section className="py-20 bg-white">
           <div className="container-custom">
             <div className="bg-gradient-to-r from-shakes-teal to-shakes-blue text-white rounded-2xl p-12 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Grow Your Tourism Business and Community Impact?
-              </h2>
-              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Let's build digital solutions that drive bookings, increase revenue, enhance visitor experiences, and empower local communities across Africa's tourism sector.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Build a Website or Mobile App for Your Tourism Business?</h2>
+              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Let's build a booking website or guest experience mobile app that drives bookings, increases revenue, and enhances visitor experiences across Africa.</p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
-                  Schedule Free Consultation <ArrowRight className="h-5 w-5" />
-                </a>
-                <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
-                  Explore Our Services
-                </a>
+                <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">Schedule Free Consultation <ArrowRight className="h-5 w-5" /></a>
+                <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">Explore Our Services</a>
               </div>
             </div>
           </div>
