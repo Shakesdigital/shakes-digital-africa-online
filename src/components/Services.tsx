@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Code, LayoutDashboard, ShoppingCart, Globe, Search, Megaphone, Users, Shield, FileText, BarChart } from "lucide-react";
+import { Globe, Smartphone } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -40,108 +40,34 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
 const Services: React.FC = () => {
   const services = [
     {
-      title: "Web Application Development",
-      description: "Build custom apps that streamline operations and enhance user engagement for African community initiatives and businesses.",
+      title: "Website Development",
+      description: "We build fast, mobile-responsive websites that help African businesses establish a strong digital presence — from corporate websites and e-commerce platforms to web applications and business portals.",
       features: [
-        "Community engagement tools",
-        "Data collection systems",
-        "Resource management platforms",
-        "Mobile-first design for African users"
-      ],
-      icon: <Code className="w-8 h-8 text-shakes-teal" />,
-      color: "#1DACA2",
-      link: "/web-application-development"
-    },
-    {
-      title: "Portal Development",
-      description: "Create secure, user-friendly portals for resource sharing, collaboration, and information access in African development projects.",
-      features: [
-        "Stakeholder collaboration portals",
-        "Resource sharing platforms",
-        "Information access systems",
-        "Multi-language support"
+        "Business & corporate websites",
+        "E-commerce platforms with local payment integration",
+        "Web applications & business portals",
+        "Content management systems (CMS)",
+        "Website redesign & optimization",
+        "Mobile-first, performance-optimized design"
       ],
       icon: <Globe className="w-8 h-8 text-shakes-blue" />,
       color: "#1D70A2",
-      link: "/portal-development"
+      link: "/services/web-development"
     },
     {
-      title: "Website Re-development",
-      description: "Revamp existing sites to improve functionality, accessibility, and performance, ensuring they meet modern standards for African users.",
+      title: "Mobile Application Development",
+      description: "We create native and cross-platform mobile apps engineered for Africa's mobile-first economy — with offline capabilities, mobile payment integration, and lightweight designs that work across diverse devices and connectivity conditions.",
       features: [
-        "Accessibility improvements",
-        "Performance optimization",
-        "Mobile responsiveness",
-        "Cross-platform compatibility"
+        "Native iOS & Android apps",
+        "Cross-platform mobile applications",
+        "Offline-capable architecture",
+        "Mobile payment integration (M-Pesa, MTN MoMo)",
+        "Real-time analytics & push notifications",
+        "Field data collection & community engagement apps"
       ],
-      icon: <LayoutDashboard className="w-8 h-8 text-shakes-blue-light" />,
-      color: "#66B9DE",
-      link: "/website-development"
-    },
-    {
-      title: "E-Commerce Website Development",
-      description: "Launch online stores to boost local African businesses, enabling wider market reach and economic growth across the continent.",
-      features: [
-        "Local payment integration",
-        "Multi-currency support",
-        "Inventory management",
-        "Market expansion tools"
-      ],
-      icon: <ShoppingCart className="w-8 h-8 text-shakes-teal" />,
+      icon: <Smartphone className="w-8 h-8 text-shakes-teal" />,
       color: "#1DACA2",
-      link: "/ecommerce-solutions"
-    },
-    {
-      title: "CRM Applications",
-      description: "Manage interactions efficiently to strengthen community ties and business relationships in African contexts.",
-      features: [
-        "Community relationship management",
-        "Stakeholder engagement tracking",
-        "Communication automation",
-        "Impact measurement tools"
-      ],
-      icon: <Users className="w-8 h-8 text-shakes-blue" />,
-      color: "#1D70A2",
-      link: "/crm-development"
-    },
-    {
-      title: "Content Management Systems",
-      description: "Easy-to-use platforms for updating and sharing content on African development topics and business resources.",
-      features: [
-        "Multi-language content support",
-        "Community content sharing",
-        "Educational resource management",
-        "Offline content access"
-      ],
-      icon: <FileText className="w-8 h-8 text-shakes-blue-light" />,
-      color: "#66B9DE",
-      link: "/cms-development"
-    },
-    {
-      title: "Digital Marketing",
-      description: "Promote your initiatives online to amplify impact and attract support within African markets.",
-      features: [
-        "Community awareness campaigns",
-        "Social media strategy",
-        "Local market targeting",
-        "Impact storytelling"
-      ],
-      icon: <Megaphone className="w-8 h-8 text-shakes-blue" />,
-      color: "#1D70A2",
-      link: "/digital-marketing"
-    },
-    {
-      title: "Search Engine Optimization",
-      description: "Optimize your digital presence for better visibility and reach in Africa-focused searches.",
-      features: [
-        "Local SEO optimization",
-        "African market targeting",
-        "Multi-language SEO",
-        "Community visibility enhancement"
-      ],
-      icon: <Search className="w-8 h-8 text-shakes-blue-light" />,
-      color: "#66B9DE",
-      link: "/seo-services"
+      link: "/services/mobile-app-development"
     }
   ];
 
@@ -149,16 +75,16 @@ const Services: React.FC = () => {
     <section id="services" className="py-20 bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Digital Services</h2>
+          <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle mx-auto">
-            Tailored solutions to empower African communities and businesses in the fight against poverty and for sustainable growth across the continent.
+            We focus on two powerful capabilities — Website Development and Mobile App Development — to help African businesses and development organizations solve their most pressing challenges.
           </p>
           <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
-            Discover how our digital expertise can transform challenges into opportunities for African sustainable development.
+            Every website and mobile app we build is researched, designed, and optimized for African business realities.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
@@ -167,7 +93,7 @@ const Services: React.FC = () => {
         {/* Customization Note */}
         <div className="text-center mt-16 max-w-3xl mx-auto">
           <p className="text-lg text-gray-600 mb-6">
-            All services are customized to align with your sustainable development goals. Contact us for a consultation tailored to your organization's needs.
+            Every project is customized to address your specific African business challenges. Contact us for a consultation tailored to your organization's needs.
           </p>
           <a href="#contact" className="btn-primary">
             Request a Quote

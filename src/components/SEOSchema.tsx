@@ -42,13 +42,13 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "height": 250
     },
     "image": "https://shakesdigital.com/hero-mobile-app.png",
-    "description": "Leading digital agency solving Sustainable African Business Development Challenges through Custom Software, Web Development & Mobile Applications. Empowering African business owners with growth-focused solutions across 7 key industries.",
+    "description": "Shakes Digital Africa specializes in website development and mobile application development for African businesses and development organizations. We build websites and mobile apps that solve real African business challenges across 7 key industries.",
     "founder": {
       "@type": "Person",
       "@id": "https://shakesdigital.com/#founder",
       "name": "Dan Mugisa Byenkya",
-      "jobTitle": "Founder & Digital Innovation Expert",
-      "description": "Expert in African market digital solutions and business transformation",
+      "jobTitle": "Founder & Website/Mobile App Development Expert",
+      "description": "Expert in website and mobile app development for African businesses and development challenges",
       "url": "https://shakesdigital.com/about-us"
     },
     "address": {
@@ -94,23 +94,23 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "geoRadius": "5000000"
     },
     "knowsAbout": [
-      "Sustainable African Business Development",
-      "African Business Development Challenges",
-      "Custom Software Development for African Businesses",
-      "Sustainable Business Models",
-      "Web Development for African Entrepreneurs",
+      "Website Development for African Businesses",
       "Mobile Application Development for African Markets",
-      "Digital Transformation for Sustainable Growth",
-      "Enterprise Solutions for African Business Owners",
-      "Sustainable E-commerce Platforms",
-      "Fintech Applications for African Development",
-      "Business Process Automation for Sustainability"
+      "E-commerce Website Development Africa",
+      "Business Website Design Uganda",
+      "Mobile App Development East Africa",
+      "Web Applications for African Entrepreneurs",
+      "Cross-platform Mobile Apps Africa",
+      "Offline-capable Mobile Applications",
+      "Mobile Payment Integration Africa",
+      "African Business and Development Challenges",
+      "Digital Solutions for African SMEs"
     ],
     "offers": {
       "@type": "AggregateOffer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "USD",
-      "description": "Sustainable African Business Development solutions through custom software, web development, and mobile applications designed for African business owners seeking growth-focused, sustainable business models"
+      "description": "Website development and mobile application development services for African businesses and development organizations. We build websites and mobile apps that solve real business challenges."
     },
     "sameAs": [
       "https://twitter.com/shakesdigital",
@@ -131,27 +131,20 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "@type": "Continent",
       "name": "Africa"
     },
-    "serviceType": "Digital Solutions & Software Development",
+    "serviceType": "Website & Mobile Application Development",
     "audience": {
       "@type": "Audience",
-      "audienceType": "African Businesses, Startups, NGOs, Educational Institutions, Healthcare Organizations"
+      "audienceType": "African Businesses, Startups, NGOs, Development Organizations, Educational Institutions, Healthcare Organizations"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Digital Services",
+      "name": "Website & Mobile App Development Services",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Custom Software Development"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Web Development & E-commerce"
+            "name": "Website Development"
           }
         },
         {
