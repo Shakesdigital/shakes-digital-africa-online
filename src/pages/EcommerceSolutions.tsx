@@ -22,7 +22,7 @@ const EcommerceSolutions: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">eCommerce Solutions Overcoming Africa's Market Access Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  Custom eCommerce platforms specifically designed to address Africa's Sustainable African Business Development challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
+                  Custom eCommerce platforms specifically designed to address Africa's African Development Business Challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -36,10 +36,10 @@ const EcommerceSolutions: React.FC = () => {
               <div className="flex-1">
                 <div className="relative">
                   <div className="absolute -inset-4 bg-shakes-orange/20 rounded-lg blur-xl"></div>
-                  <AspectRatio ratio={16/9} className="bg-white rounded-lg overflow-hidden">
-                    <img 
-                      src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" 
-                      alt="eCommerce Development" 
+                  <AspectRatio ratio={16 / 9} className="bg-white rounded-lg overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+                      alt="eCommerce Development"
                       className="object-cover w-full h-full"
                     />
                   </AspectRatio>
@@ -64,8 +64,8 @@ const EcommerceSolutions: React.FC = () => {
                 { name: "DHL", logo: "https://placeholder.svg" }
               ].map((partner, index) => (
                 <div key={index} className="flex items-center justify-center grayscale hover:grayscale-0 transition-all">
-                  <img 
-                    src={partner.logo} 
+                  <img
+                    src={partner.logo}
                     alt={partner.name}
                     className="h-10 md:h-12"
                   />
@@ -132,9 +132,9 @@ const EcommerceSolutions: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="section-title">eCommerce Solutions Driving African Business Growth</h2>
+              <h2 className="section-title">eCommerce Solutions Driving African Development Business Growth</h2>
               <p class="section-subtitle mx-auto">
-                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique Sustainable African Business Development and market access challenges
+                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique African Development Business Challenges and market access challenges
               </p>
             </div>
 
@@ -182,10 +182,10 @@ const EcommerceSolutions: React.FC = () => {
               ].map((solution, index) => (
                 <div key={index} className={`flex flex-col ${solution.align === 'left' ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-center`}>
                   <div className="flex-1">
-                    <AspectRatio ratio={4/3} className="rounded-lg overflow-hidden shadow-lg">
-                      <img 
-                        src={solution.image} 
-                        alt={solution.title} 
+                    <AspectRatio ratio={4 / 3} className="rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src={solution.image}
+                        alt={solution.title}
                         className="object-cover w-full h-full"
                       />
                     </AspectRatio>
@@ -246,9 +246,9 @@ const EcommerceSolutions: React.FC = () => {
                 }
               ].map((story, index) => (
                 <Card key={index} className="overflow-hidden border-none shadow-lg">
-                  <AspectRatio ratio={16/9}>
-                    <img 
-                      src={story.image} 
+                  <AspectRatio ratio={16 / 9}>
+                    <img
+                      src={story.image}
                       alt={story.company}
                       className="object-cover w-full h-full"
                     />
@@ -421,17 +421,17 @@ const EcommerceSolutions: React.FC = () => {
                     <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : ""}>
                       <td className="py-4 px-6 border-b border-gray-200 font-medium">{row.feature}</td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
-                        {typeof row.standard === 'boolean' ? 
+                        {typeof row.standard === 'boolean' ?
                           (row.standard ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
                           row.standard}
                       </td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
-                        {typeof row.professional === 'boolean' ? 
+                        {typeof row.professional === 'boolean' ?
                           (row.professional ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
                           row.professional}
                       </td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
-                        {typeof row.enterprise === 'boolean' ? 
+                        {typeof row.enterprise === 'boolean' ?
                           (row.enterprise ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
                           row.enterprise}
                       </td>
@@ -440,7 +440,7 @@ const EcommerceSolutions: React.FC = () => {
                 </tbody>
               </table>
             </div>
-            
+
             <div className="text-center mt-12">
               <Button className="bg-shakes-blue hover:bg-shakes-blue-light text-white py-3 px-8 text-lg">
                 View Detailed Feature Comparison
@@ -458,13 +458,13 @@ const EcommerceSolutions: React.FC = () => {
                 Let's build an eCommerce solution tailored to your business needs and the unique requirements of African markets.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button 
+                <Button
                   className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg"
                 >
                   Request a Free Consultation
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="border-2 border-white text-white hover:bg-white/10 py-3 px-8 text-lg"
                 >
                   View Pricing Options

@@ -26,13 +26,13 @@ const About: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold mb-3 text-shakes-blue-dark">Founder's Story</h3>
                 <p className="text-gray-600 mb-4">
-                  I started Shakes Digital with a clear mission: to develop websites and mobile applications that solve real African business and development challenges. During my time as Program Coordinator at FSD (now known as FOSCOD) in Uganda, one question kept echoing in my mind:
+                  I started Shakes Digital with a clear mission: to develop websites and mobile applications that solve real African Development Business Challenges. During my time as Program Coordinator at FSD (now known as FOSCOD) in Uganda, one question kept echoing in my mind:
                 </p>
                 <p className="text-gray-600 mb-4 font-medium italic">
                   "How can we build websites and mobile apps that directly address the business and development challenges holding Africa's communities and enterprises back?"
                 </p>
                 <p className="text-gray-600 mb-4">
-                  This question inspired the creation of Shakes Digital. We develop websites and mobile applications that directly tackle these challenges — helping African businesses establish their digital presence, reach more customers, automate operations, and scale across markets. Our goal is to leverage website and mobile app development to meet African business and development needs, creating pathways for growth, inclusion, and sustainability.
+                  This question inspired the creation of Shakes Digital. We develop websites and mobile applications that directly tackle these challenges — helping African businesses establish their digital presence, reach more customers, automate operations, and scale across markets. Our goal is to leverage website and mobile app development to meet African Development Business Challenges, creating pathways for growth, inclusion, and sustainability.
                 </p>
               </div>
 
@@ -51,14 +51,14 @@ const About: React.FC = () => {
                     <div className="w-2 h-2 bg-shakes-teal rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-shakes-blue-dark mb-1">Research & Understanding</h4>
-                      <p className="text-gray-600 text-sm">Conduct thorough research to identify African business and development challenges that can be addressed through purpose-built websites and mobile applications.</p>
+                      <p className="text-gray-600 text-sm">Conduct thorough research to identify African Development Business Challenges that can be addressed through purpose-built websites and mobile applications.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-shakes-teal rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-shakes-blue-dark mb-1">Website & App Development</h4>
-                      <p className="text-gray-600 text-sm">Design and develop high-quality websites and mobile applications tailored to solve specific African business challenges — from e-commerce and customer engagement to operations management and market expansion.</p>
+                      <p className="text-gray-600 text-sm">Design and develop high-quality websites and mobile applications tailored to solve specific African Development Business Challenges — from e-commerce and customer engagement to operations management and market expansion.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -95,7 +95,7 @@ const About: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-shakes-blue-dark mb-1">Innovation</h4>
-                    <p className="text-gray-600 text-sm">We use modern web and mobile technologies to build solutions that truly address African business challenges.</p>
+                    <p className="text-gray-600 text-sm">We use modern web and mobile technologies to build solutions that truly address African Development Business Challenges.</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-shakes-blue-dark mb-1">Impact-Driven</h4>

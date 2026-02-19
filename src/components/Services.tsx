@@ -77,7 +77,7 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle mx-auto">
-            We focus on two powerful capabilities — Website Development and Mobile App Development — to help African businesses and development organizations solve their most pressing challenges.
+            We focus on two powerful capabilities — Website Development and Mobile App Development — to help African businesses and development organizations solve their most pressing African Development Business Challenges.
           </p>
           <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
             Every website and mobile app we build is researched, designed, and optimized for African business realities.
@@ -93,7 +93,7 @@ const Services: React.FC = () => {
         {/* Customization Note */}
         <div className="text-center mt-16 max-w-3xl mx-auto">
           <p className="text-lg text-gray-600 mb-6">
-            Every project is customized to address your specific African business challenges. Contact us for a consultation tailored to your organization's needs.
+            Every project is customized to address your specific African Development Business Challenges. Contact us for a consultation tailored to your organization's needs.
           </p>
           <a href="#contact" className="btn-primary">
             Request a Quote

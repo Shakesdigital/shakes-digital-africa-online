@@ -120,7 +120,7 @@ const WebDevelopmentService: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">
-                Web Solutions Driving African Business Growth
+                Web Solutions Driving African Development Business Growth
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 From e-commerce to enterprise platforms, we build web solutions that address real business challenges and create sustainable value.

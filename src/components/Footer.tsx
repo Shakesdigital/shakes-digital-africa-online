@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-300 mb-4">
-              Shakes Digital is a website and mobile app development agency dedicated to solving African business and development challenges. We build powerful digital products that help African businesses grow, reach customers, and scale operations.
+              Shakes Digital is a website and mobile app development agency dedicated to solving African Development Business Challenges. We build powerful digital products that help African businesses grow, reach customers, and scale operations.
             </p>
             <form onSubmit={handleSubscribe} className="space-y-2">
               <Input

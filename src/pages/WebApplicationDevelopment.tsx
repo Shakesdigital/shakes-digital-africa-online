@@ -37,10 +37,10 @@ const WebApplicationDevelopment: React.FC = () => {
               <div className="flex-1">
                 <div className="relative">
                   <div className="absolute -inset-4 bg-shakes-orange/20 rounded-lg blur-xl"></div>
-                  <AspectRatio ratio={16/9} className="bg-white rounded-lg overflow-hidden">
-                    <img 
-                      src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                      alt="Web Application Development" 
+                  <AspectRatio ratio={16 / 9} className="bg-white rounded-lg overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                      alt="Web Application Development"
                       className="object-cover w-full h-full"
                     />
                   </AspectRatio>
@@ -75,7 +75,7 @@ const WebApplicationDevelopment: React.FC = () => {
                   features: ["Community reporting tools", "Resource mapping dashboards", "Mobile money integration", "SMS/USSD accessibility"]
                 },
                 {
-                  title: "African Business Growth Solutions",
+                  title: "African Development Business Growth Solutions",
                   description: "Robust applications helping African enterprises overcome infrastructure limitations, access markets, manage operations, and scale sustainably across the continent.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />,
                   features: ["Low-bandwidth optimization", "Local payment integration", "Supply chain management", "Market access facilitation"]
@@ -239,10 +239,10 @@ const WebApplicationDevelopment: React.FC = () => {
                     </div>
 
                     <div className="flex-1">
-                      <AspectRatio ratio={4/3} className="rounded-lg overflow-hidden shadow-lg">
-                        <img 
-                          src={process.image} 
-                          alt={process.title} 
+                      <AspectRatio ratio={4 / 3} className="rounded-lg overflow-hidden shadow-lg">
+                        <img
+                          src={process.image}
+                          alt={process.title}
                           className="object-cover w-full h-full"
                         />
                       </AspectRatio>
@@ -285,9 +285,9 @@ const WebApplicationDevelopment: React.FC = () => {
               ].map((project, index) => (
                 <Card key={index} className="overflow-hidden border-none shadow-lg">
                   <div className="grid grid-cols-1 lg:grid-cols-2">
-                    <AspectRatio ratio={4/3} className="lg:h-full">
-                      <img 
-                        src={project.image} 
+                    <AspectRatio ratio={4 / 3} className="lg:h-full">
+                      <img
+                        src={project.image}
                         alt={project.title}
                         className="object-cover w-full h-full"
                       />
@@ -299,7 +299,7 @@ const WebApplicationDevelopment: React.FC = () => {
                       <h3 className="text-2xl font-bold mb-2 text-shakes-blue-dark">{project.title}</h3>
                       <p className="text-shakes-orange font-medium mb-4">Client: {project.client}</p>
                       <p className="text-gray-600 mb-6">{project.description}</p>
-                      
+
                       <div className="mb-6">
                         <h4 className="font-bold text-gray-700 mb-2">Technologies Used:</h4>
                         <div className="flex flex-wrap gap-2">
@@ -318,7 +318,7 @@ const WebApplicationDevelopment: React.FC = () => {
                           ))}
                         </div>
                       </div>
-                      
+
                       <div className="mb-6">
                         <h4 className="font-bold text-gray-700 mb-2">Results:</h4>
                         <ul className="space-y-1">
@@ -330,7 +330,7 @@ const WebApplicationDevelopment: React.FC = () => {
                           ))}
                         </ul>
                       </div>
-                      
+
                       <Button className="bg-shakes-blue hover:bg-shakes-blue-light text-white">
                         View Full Case Study
                       </Button>
@@ -339,7 +339,7 @@ const WebApplicationDevelopment: React.FC = () => {
                 </Card>
               ))}
             </div>
-            
+
             <div className="text-center mt-12">
               <Button variant="outline" className="border-2 border-shakes-blue text-shakes-blue hover:bg-shakes-blue hover:text-white py-3 px-6 text-lg">
                 View All Application Projects
@@ -357,13 +357,13 @@ const WebApplicationDevelopment: React.FC = () => {
                 Let's create powerful applications specifically designed to overcome Africa's sustainable development and business challenges—from poverty alleviation to community empowerment, healthcare access to agricultural productivity.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button 
+                <Button
                   className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg"
                 >
                   Schedule a Free Consultation
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="border-2 border-white text-white hover:bg-white/10 py-3 px-8 text-lg"
                 >
                   Download Capability Brief

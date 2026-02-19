@@ -42,13 +42,13 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "height": 250
     },
     "image": "https://shakesdigital.com/hero-mobile-app.png",
-    "description": "Shakes Digital Africa specializes in website development and mobile application development for African businesses and development organizations. We build websites and mobile apps that solve real African business challenges across 7 key industries.",
+    "description": "Shakes Digital Africa specializes in website development and mobile application development for African businesses and development organizations. We build websites and mobile apps that solve real African Development Business Challenges across 7 key industries.",
     "founder": {
       "@type": "Person",
       "@id": "https://shakesdigital.com/#founder",
       "name": "Dan Mugisa Byenkya",
       "jobTitle": "Founder & Website/Mobile App Development Expert",
-      "description": "Expert in website and mobile app development for African businesses and development challenges",
+      "description": "Expert in website and mobile app development for African Development Business Challenges",
       "url": "https://shakesdigital.com/about-us"
     },
     "address": {
@@ -103,14 +103,14 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "Cross-platform Mobile Apps Africa",
       "Offline-capable Mobile Applications",
       "Mobile Payment Integration Africa",
-      "African Business and Development Challenges",
+      "African Development Business Challenges",
       "Digital Solutions for African SMEs"
     ],
     "offers": {
       "@type": "AggregateOffer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "USD",
-      "description": "Website development and mobile application development services for African businesses and development organizations. We build websites and mobile apps that solve real business challenges."
+      "description": "Website development and mobile application development services for African businesses and development organizations. We build websites and mobile apps that solve real African Development Business Challenges."
     },
     "sameAs": [
       "https://twitter.com/shakesdigital",

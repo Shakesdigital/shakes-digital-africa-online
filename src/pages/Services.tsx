@@ -101,7 +101,7 @@ const Services: React.FC = () => {
                   Website & Mobile App Development for African Businesses
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  We specialize in building websites and mobile applications that solve real African business and development challenges — from establishing a digital presence and reaching new customers to automating operations and expanding into new markets.
+                  We specialize in building websites and mobile applications that solve real African Development Business Challenges — from establishing a digital presence and reaching new customers to automating operations and expanding into new markets.
                 </p>
               </div>
               <div>
@@ -139,7 +139,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Development Process</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Every website and mobile app we build follows a structured process rooted in understanding African business challenges and delivering solutions that make a real difference.
+                Every website and mobile app we build follows a structured process rooted in understanding African Development Business Challenges and delivering solutions that make a real difference.
               </p>
             </div>
 
@@ -193,7 +193,7 @@ const Services: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why African Businesses Choose Shakes Digital</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We don't just build websites and apps — we build digital products that understand and solve African business challenges.
+                We don’t just build websites and apps — we build digital products that understand and solve African Development Business Challenges.
               </p>
             </div>
 

@@ -22,7 +22,7 @@ const WebsiteDevelopment: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Websites Addressing Africa's Business & Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We design responsive, high-performance websites specifically engineered to overcome Africa's Sustainable African Business Development barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
+                  We design responsive, high-performance websites specifically engineered to overcome Africa's African Development Business Challenges barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -36,10 +36,10 @@ const WebsiteDevelopment: React.FC = () => {
               <div className="flex-1">
                 <div className="relative">
                   <div className="absolute -inset-4 bg-shakes-orange/20 rounded-lg blur-xl"></div>
-                  <AspectRatio ratio={16/9} className="bg-white rounded-lg overflow-hidden">
-                    <img 
-                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
-                      alt="Website Development" 
+                  <AspectRatio ratio={16 / 9} className="bg-white rounded-lg overflow-hidden">
+                    <img
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                      alt="Website Development"
                       className="object-cover w-full h-full"
                     />
                   </AspectRatio>
@@ -73,7 +73,7 @@ const WebsiteDevelopment: React.FC = () => {
                 },
                 {
                   title: "African Market Optimization",
-                  description: "SEO and content structured for African search patterns, local languages, and regional Sustainable African Business Development contexts—maximizing visibility for sustainable development projects and African enterprises.",
+                  description: "SEO and content structured for African search patterns, local languages, and regional African Development Business Challenges contexts—maximizing visibility for sustainable development projects and African enterprises.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />
                 }
               ].map((benefit, index) => (
@@ -183,9 +183,9 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[1, 2, 3].map((item) => (
                 <Card key={item} className="overflow-hidden border-none shadow-lg">
-                  <AspectRatio ratio={16/9}>
-                    <img 
-                      src={`https://picsum.photos/800/450?random=${item}`} 
+                  <AspectRatio ratio={16 / 9}>
+                    <img
+                      src={`https://picsum.photos/800/450?random=${item}`}
                       alt={`Website Project ${item}`}
                       className="object-cover w-full h-full"
                     />
@@ -248,9 +248,9 @@ const WebsiteDevelopment: React.FC = () => {
                   <CardContent className="p-0">
                     <p className="italic text-gray-600 mb-6">"{testimonial.quote}"</p>
                     <div className="flex items-center gap-4">
-                      <img 
-                        src={testimonial.image} 
-                        alt={testimonial.name} 
+                      <img
+                        src={testimonial.image}
+                        alt={testimonial.name}
                         className="w-14 h-14 rounded-full"
                       />
                       <div>
@@ -274,13 +274,13 @@ const WebsiteDevelopment: React.FC = () => {
                 Let's create a website specifically designed to overcome Africa's sustainable development and business barriers—driving poverty alleviation, community empowerment, and economic growth across the continent.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button 
+                <Button
                   className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg"
                 >
                   Request a Free Consultation
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="border-2 border-white text-white hover:bg-white/10 py-3 px-8 text-lg"
                 >
                   View Pricing

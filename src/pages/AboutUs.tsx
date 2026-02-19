@@ -18,7 +18,7 @@ const AboutUs: React.FC = () => {
                   Building Websites & Mobile Apps That Solve African Challenges
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  We develop websites and mobile applications designed to address real African business and development challenges — helping businesses grow, reach customers, and scale across the continent.
+                  We develop websites and mobile applications designed to address real African Development Business Challenges — helping businesses grow, reach customers, and scale across the continent.
                 </p>
               </div>
               <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -57,14 +57,14 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital is a website and mobile app development agency dedicated to solving African business and development challenges. We specialize in building powerful, user-friendly websites and mobile applications that help African businesses establish their digital presence, acquire customers, automate operations, and expand into new markets — all designed for the realities of the African continent.
+                      Shakes Digital is a website and mobile app development agency dedicated to solving African Development Business Challenges. We specialize in building powerful, user-friendly websites and mobile applications that help African businesses establish their digital presence, acquire customers, automate operations, and expand into new markets — all designed for the realities of the African continent.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
                     <p className="text-gray-600">
-                      To develop professionally built websites and mobile applications that directly address African business and development challenges — from helping businesses go digital for the first time to enabling cross-border e-commerce, improving customer engagement, and driving operational efficiency across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
+                      To develop professionally built websites and mobile applications that directly address African Development Business Challenges — from helping businesses go digital for the first time to enabling cross-border e-commerce, improving customer engagement, and driving operational efficiency across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
                     </p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const AboutUs: React.FC = () => {
                   <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark shadow-sm">
                     How can professionally built websites and mobile applications bridge these gaps — empowering African businesses to reach customers, grow revenue, and build sustainable operations?
                   </blockquote>
-                  <p>This question became my driving force and ultimately inspired me to found Shakes Digital Agency in late 2024. I am committed to developing websites and mobile applications that solve the critical African business and development challenges affecting the continent's economic growth. Through our focused approach to website and mobile app development, we address real problems that limit African businesses from thriving in the digital economy.</p>
+                  <p>This question became my driving force and ultimately inspired me to found Shakes Digital Agency in late 2024. I am committed to developing websites and mobile applications that solve the critical African Development Business Challenges affecting the continent's economic growth. Through our focused approach to website and mobile app development, we address real problems that limit African businesses from thriving in the digital economy.</p>
                   <p>My vision is to see every African business — from a market vendor in Kampala to a logistics company serving East Africa — equipped with a professionally built website or mobile app that helps them compete, grow, and succeed. I look forward to building strategic partnerships, amplifying our impact through technology, and contributing to a digitally empowered Africa.</p>
                 </div>
                 <a
@@ -146,7 +146,7 @@ const AboutUs: React.FC = () => {
                   <Search className="w-6 h-6 text-shakes-teal" />
                 </div>
                 <h4 className="text-lg font-bold mb-3 text-shakes-blue-dark">Research</h4>
-                <p className="text-gray-600 text-sm">Understand African business challenges and user needs to ensure every website and app we build addresses real problems.</p>
+                <p className="text-gray-600 text-sm">Understand African Development Business Challenges and user needs to ensure every website and app we build addresses real problems.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -227,7 +227,7 @@ const AboutUs: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Impact Across Africa</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                Every website and mobile app we build is rooted in deep research of African business challenges, designed for local users and conditions, and built to scale across markets.
+                Every website and mobile app we build is rooted in deep research of African Development Business Challenges, designed for local users and conditions, and built to scale across markets.
               </p>
             </div>
 

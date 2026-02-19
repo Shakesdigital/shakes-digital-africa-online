@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
               <span className="text-shakes-teal"> for African Businesses</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              We build powerful Websites and Mobile Applications designed to solve real African business and development challenges—helping businesses grow revenue, reach more customers, and scale operations across the continent.
+              We build powerful Websites and Mobile Applications designed to solve real African Development Business Challenges—helping businesses grow revenue, reach more customers, and scale operations across the continent.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">

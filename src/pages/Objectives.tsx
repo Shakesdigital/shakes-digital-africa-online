@@ -8,19 +8,19 @@ const Objectives: React.FC = () => {
     {
       icon: <Search className="w-8 h-8 text-shakes-teal" />,
       title: "Research and Identification",
-      description: "Conduct thorough research to identify African business and market challenges addressable through digital technology.",
+      description: "Conduct thorough research to identify African Development Business Challenges addressable through digital technology.",
       color: "#1DACA2"
     },
     {
       icon: <Wrench className="w-8 h-8 text-shakes-blue" />,
       title: "Implementation of Solutions",
-      description: "Develop and implement digital tech solutions that directly address African business challenges, with a focus on revenue growth and operational efficiency.",
+      description: "Develop and implement digital tech solutions that directly address African Development Business Challenges, with a focus on revenue growth and operational efficiency.",
       color: "#1D70A2"
     },
     {
       icon: <Users className="w-8 h-8 text-shakes-blue-light" />,
       title: "Business Partnerships",
-      description: "Collaborate and partner with local and international organizations in technology and Sustainable African Business Development across Africa to mobilize resources and drive business growth.",
+      description: "Collaborate and partner with local and international organizations in technology and African Development Business Challenges across Africa to mobilize resources and drive business growth.",
       color: "#66B9DE"
     },
     {
