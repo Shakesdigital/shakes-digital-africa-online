@@ -1,30 +1,32 @@
-interface EmailData {
-  name: string;
+export interface FormNotificationData {
+  formType: "contact" | "newsletter";
+  name?: string;
   email: string;
   company?: string;
+  service?: string;
   message: string;
+  source?: string;
+  phone?: string;
 }
 
-export const sendEmail = async (data: EmailData) => {
+export const sendEmail = async (data: FormNotificationData) => {
   try {
-    const response = await fetch('/api/contact', {
-      method: 'POST',
+    const response = await fetch("/.netlify/functions/contact", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        ...data,
-        recipients: ['shakesdigital@gmail.com', 'info@shakesdigital.com']
-      }),
+      body: JSON.stringify(data),
     });
 
     if (!response.ok) {
-      throw new Error('Failed to send message');
+      const errorData = await response.json().catch(() => null);
+      throw new Error(errorData?.message || "Failed to send message");
     }
 
-    return true;
+    return await response.json();
   } catch (error) {
-    console.error('Error sending email:', error);
+    console.error("Error sending form notification:", error);
     throw error;
   }
 };

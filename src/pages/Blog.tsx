@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Clock, User, Search, ArrowRight } from "lucide-react";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
+import { sendEmail } from "@/lib/email-service";
 
 interface BlogPost {
   id: string;
@@ -244,6 +245,14 @@ const NewsletterForm: React.FC = () => {
         }
         throw error;
       }
+
+      await sendEmail({
+        formType: "newsletter",
+        name: name || "Newsletter Subscription",
+        email,
+        message: `New newsletter subscription request from ${email}`,
+        source: "blog",
+      });
 
       setMessage({ type: 'success', text: 'Successfully subscribed! Check your email for confirmation.' });
       setEmail("");

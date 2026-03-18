@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { supabase } from "@/integrations/supabase/client";
+import { sendEmail } from "@/lib/email-service";
 
 const Contact: React.FC = () => {
   const { toast } = useToast();
@@ -26,28 +27,15 @@ const Contact: React.FC = () => {
       // Send email via Netlify function
       console.log('Sending contact form data:', data);
 
-      const emailResponse = await fetch('/.netlify/functions/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: data.name,
-          email: data.email,
-          company: data.company,
-          message: data.message,
-          recipients: ['shakesdigital@gmail.com', 'info@shakesdigital.com', 'fsddanmugisa@gmail.com']
-        })
+      const responseData = await sendEmail({
+        formType: "contact",
+        name: data.name,
+        email: data.email,
+        company: data.company,
+        service: data.service,
+        message: data.message,
+        source: "contact-page",
       });
-
-      console.log('Email function status:', emailResponse.status);
-
-      if (!emailResponse.ok) {
-        const errorData = await emailResponse.json();
-        throw new Error(errorData.message || 'Failed to send email');
-      }
-
-      const responseData = await emailResponse.json();
       console.log('Email sent successfully:', responseData);
 
       // Try to save to database (optional)

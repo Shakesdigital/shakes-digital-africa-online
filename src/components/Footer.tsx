@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { sendEmail } from "@/lib/email-service";
 import { useToast } from "@/components/ui/use-toast";
 import { useScrollTo } from "@/hooks/use-scroll-to";
+import { supabase } from "@/integrations/supabase/client";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -28,11 +29,26 @@ const Footer: React.FC = () => {
     setIsSubscribing(true);
 
     try {
+      const { error } = await supabase
+        .from("newsletter_subscriptions")
+        .insert([
+          {
+            email,
+            status: "active",
+            source: "footer",
+          },
+        ]);
+
+      if (error && error.code !== "23505") {
+        throw error;
+      }
+
       await sendEmail({
+        formType: "newsletter",
         name: "Newsletter Subscription",
         email: email,
         message: `New newsletter subscription request from ${email}`,
-        company: ""
+        source: "footer",
       });
 
       toast({
@@ -195,7 +211,7 @@ const Footer: React.FC = () => {
                 <div>
                   <span className="font-medium">Working Hours:</span>
                   <div>Monday to Saturday</div>
-                  <div>9:00 AM ,  5:00 PM EAT</div>
+                  <div>9:00 AM to 5:00 PM EAT</div>
                 </div>
               </li>
             </ul>
