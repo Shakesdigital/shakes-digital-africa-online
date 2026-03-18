@@ -232,7 +232,7 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-sm text-gray-500">Map embed placeholder - Google Map integration can be added here</p>
+            <p className="text-sm text-gray-500">Map embed placeholder. Google Maps integration can be added here.</p>
           </div>
         </div>
       </section>

@@ -1,4 +1,4 @@
-# Shakes Digital - AI Crawler Configuration
+# Shakes Digital: AI Crawler Configuration
 # Updated: November 2025
 
 User-agent: *
@@ -7,7 +7,7 @@ Disallow: /admin
 Disallow: /admin/*
 Disallow: /test-connection
 
-# AI Crawlers - ALLOW ALL for GEO Optimization
+# AI Crawlers: ALLOW ALL for GEO Optimization
 User-agent: GPTBot
 Allow: /
 

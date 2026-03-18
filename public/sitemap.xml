@@ -5,7 +5,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- Homepage - Highest Priority -->
+  <!-- Homepage: Highest Priority -->
   <url>
     <loc>https://shakesdigital.com/</loc>
     <lastmod>2025-01-15</lastmod>
@@ -13,7 +13,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Core Service Pages -->
+  <!-- Core Service Pages: -->
   <url>
     <loc>https://shakesdigital.com/services</loc>
     <lastmod>2025-01-15</lastmod>
@@ -42,7 +42,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Additional Service Pages -->
+  <!-- Additional Service Pages: -->
   <url>
     <loc>https://shakesdigital.com/website-development</loc>
     <lastmod>2025-01-15</lastmod>
@@ -64,7 +64,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Company Pages -->
+  <!-- Company Pages: -->
   <url>
     <loc>https://shakesdigital.com/about-us</loc>
     <lastmod>2025-01-15</lastmod>
@@ -93,7 +93,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Industry Pages -->
+  <!-- Industry Pages: -->
   <url>
     <loc>https://shakesdigital.com/industries</loc>
     <lastmod>2025-01-15</lastmod>
@@ -150,7 +150,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog and Content Pages -->
+  <!-- Blog and Content Pages: -->
   <url>
     <loc>https://shakesdigital.com/blog</loc>
     <lastmod>2025-01-15</lastmod>
