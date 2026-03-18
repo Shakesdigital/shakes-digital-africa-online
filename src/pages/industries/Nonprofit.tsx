@@ -37,15 +37,15 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for African Non-Profits?</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">African non-profits need compelling websites to tell their story and attract donors, and mobile apps for field data collection and community engagement — maximizing impact with limited resources.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">African non-profits need compelling websites to tell their story and attract donors, and mobile apps for field data collection and community engagement ,  maximizing impact with limited resources.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[{ icon: Globe, color: "shakes-teal", title: "Organization Websites", desc: "Compelling websites telling your story, showcasing impact, attracting donors, and providing transparency — the digital face of your mission." },
+              {[{ icon: Globe, color: "shakes-teal", title: "Organization Websites", desc: "Compelling websites telling your story, showcasing impact, attracting donors, and providing transparency ,  the digital face of your mission." },
               { icon: Heart, color: "shakes-blue", title: "Online Donation Websites", desc: "Fundraising websites with secure donation processing, recurring giving, campaign pages, and donor acknowledgment systems." },
-              { icon: Smartphone, color: "shakes-blue-light", title: "Field Data Collection Apps", desc: "Mobile apps for field workers — beneficiary registration, survey data collection, GPS-tagged observations, and offline capability." },
-              { icon: Users, color: "shakes-teal", title: "Volunteer Management Apps", desc: "Mobile apps for volunteer recruitment, scheduling, task assignment, hour tracking, and communication — organizing your volunteer workforce." },
-              { icon: BarChart, color: "shakes-blue", title: "Impact Dashboard Websites", desc: "Web dashboards displaying program outcomes, beneficiary data, financial transparency, and impact metrics — building donor confidence." },
-              { icon: HandHeart, color: "shakes-blue-light", title: "Community Engagement Apps", desc: "Mobile apps connecting beneficiaries with services, information, and support — ensuring your programs reach the people who need them most." }
+              { icon: Smartphone, color: "shakes-blue-light", title: "Field Data Collection Apps", desc: "Mobile apps for field workers ,  beneficiary registration, survey data collection, GPS-tagged observations, and offline capability." },
+              { icon: Users, color: "shakes-teal", title: "Volunteer Management Apps", desc: "Mobile apps for volunteer recruitment, scheduling, task assignment, hour tracking, and communication ,  organizing your volunteer workforce." },
+              { icon: BarChart, color: "shakes-blue", title: "Impact Dashboard Websites", desc: "Web dashboards displaying program outcomes, beneficiary data, financial transparency, and impact metrics ,  building donor confidence." },
+              { icon: HandHeart, color: "shakes-blue-light", title: "Community Engagement Apps", desc: "Mobile apps connecting beneficiaries with services, information, and support ,  ensuring your programs reach the people who need them most." }
               ].map((item, i) => (
                 <div key={i} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                   <div className={`w-16 h-16 bg-${item.color}/10 rounded-lg flex items-center justify-center mb-6`}><item.icon className={`h-8 w-8 text-${item.color}`} /></div>
@@ -62,12 +62,12 @@ const Nonprofit: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Non-Profits</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From international NGOs to community-based organizations — we build websites and mobile apps that amplify your mission and accelerate your impact across Africa.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From international NGOs to community-based organizations ,  we build websites and mobile apps that amplify your mission and accelerate your impact across Africa.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Fundraising & Donation Websites</h3>
-                <p className="text-gray-600 mb-6">Compelling websites for online fundraising — campaign pages, secure donation processing, recurring giving, donor management, and financial transparency.</p>
+                <p className="text-gray-600 mb-6">Compelling websites for online fundraising ,  campaign pages, secure donation processing, recurring giving, donor management, and financial transparency.</p>
                 <ul className="space-y-3">
                   {["Secure online donation with multiple payment options", "Campaign pages with progress tracking and storytelling", "Recurring giving and donor subscription management", "Automated tax receipts and donation acknowledgment"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -76,7 +76,7 @@ const Nonprofit: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Field Data Collection Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps for field workers and program staff — beneficiary registration, survey data, GPS-tagged observations, photo documentation, and offline data sync.</p>
+                <p className="text-gray-600 mb-6">Mobile apps for field workers and program staff ,  beneficiary registration, survey data, GPS-tagged observations, photo documentation, and offline data sync.</p>
                 <ul className="space-y-3">
                   {["Offline-capable data collection with auto-sync", "GPS-tagged observations and photo documentation", "Custom survey forms and questionnaires", "Beneficiary registration and enrollment tracking"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -94,7 +94,7 @@ const Nonprofit: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Impact Measurement Web Dashboards</h3>
-                <p className="text-gray-600 mb-6">Web dashboards visualizing program outcomes, beneficiary data, KPIs, and impact stories — building donor confidence and supporting grant applications.</p>
+                <p className="text-gray-600 mb-6">Web dashboards visualizing program outcomes, beneficiary data, KPIs, and impact stories ,  building donor confidence and supporting grant applications.</p>
                 <ul className="space-y-3">
                   {["Real-time impact metrics and KPI dashboards", "Beneficiary outcome tracking and reporting", "Visual data storytelling for donor communications", "Exportable reports for grant applications and audits"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

@@ -54,7 +54,7 @@ const Agriculture: React.FC = () => {
                 Why Websites & Mobile Apps for Africa's Agribusiness Growth?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's agribusinesses need strong online presence and mobile tools to compete globally. Our websites and mobile apps address market access gaps, supply chain inefficiencies, and operational challenges — driving productivity, profitability, and market expansion.
+                Africa's agribusinesses need strong online presence and mobile tools to compete globally. Our websites and mobile apps address market access gaps, supply chain inefficiencies, and operational challenges ,  driving productivity, profitability, and market expansion.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Farm Advisory Mobile Apps</h3>
                 <p className="text-gray-600">
-                  Mobile apps providing crop recommendations, pest identification, weather forecasts, and agronomic advice — helping farmers maximize yields and minimize input costs.
+                  Mobile apps providing crop recommendations, pest identification, weather forecasts, and agronomic advice ,  helping farmers maximize yields and minimize input costs.
                 </p>
               </div>
 
@@ -75,7 +75,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Marketplace Websites</h3>
                 <p className="text-gray-600">
-                  Websites connecting farmers directly to buyers, providing price transparency, facilitating transactions, and integrating mobile money payments — eliminating middlemen.
+                  Websites connecting farmers directly to buyers, providing price transparency, facilitating transactions, and integrating mobile money payments ,  eliminating middlemen.
                 </p>
               </div>
 
@@ -85,7 +85,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Weather & Climate Apps</h3>
                 <p className="text-gray-600">
-                  Mobile applications delivering hyper-local weather forecasts, climate risk alerts, and seasonal planning tools — helping farmers adapt to changing conditions.
+                  Mobile applications delivering hyper-local weather forecasts, climate risk alerts, and seasonal planning tools ,  helping farmers adapt to changing conditions.
                 </p>
               </div>
 
@@ -95,7 +95,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile-First Design</h3>
                 <p className="text-gray-600">
-                  Apps designed for smartphones with offline capabilities, SMS integration, and voice interfaces — accessible even in areas with limited connectivity across rural Africa.
+                  Apps designed for smartphones with offline capabilities, SMS integration, and voice interfaces ,  accessible even in areas with limited connectivity across rural Africa.
                 </p>
               </div>
 
@@ -105,7 +105,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Supply Chain Web Portals</h3>
                 <p className="text-gray-600">
-                  Web-based platforms for tracking products from farm to market — ensuring quality, reducing losses, enabling traceability, and building consumer trust in African agricultural products.
+                  Web-based platforms for tracking products from farm to market ,  ensuring quality, reducing losses, enabling traceability, and building consumer trust in African agricultural products.
                 </p>
               </div>
 
@@ -115,7 +115,7 @@ const Agriculture: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Farm Management Dashboards</h3>
                 <p className="text-gray-600">
-                  Web-based dashboards for plot mapping, input tracking, labor management, financial records, and harvest planning — professionalizing smallholder agriculture.
+                  Web-based dashboards for plot mapping, input tracking, labor management, financial records, and harvest planning ,  professionalizing smallholder agriculture.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Agriculture: React.FC = () => {
                 Website & Mobile App Solutions for Agricultural Business Growth
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From agribusinesses to cooperatives, processors to exporters — we build websites and mobile apps that optimize every link in Africa's agricultural value chain.
+                From agribusinesses to cooperatives, processors to exporters ,  we build websites and mobile apps that optimize every link in Africa's agricultural value chain.
               </p>
             </div>
 
@@ -188,7 +188,7 @@ const Agriculture: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Farm Management Web Dashboards</h3>
                 <p className="text-gray-600 mb-6">
-                  Web-based platforms for managing farm operations — plot mapping, input tracking, labor management, financial records, and harvest planning for improved productivity.
+                  Web-based platforms for managing farm operations ,  plot mapping, input tracking, labor management, financial records, and harvest planning for improved productivity.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -238,7 +238,7 @@ const Agriculture: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Cooperative Management Web Portals</h3>
                 <p className="text-gray-600 mb-6">
-                  Web-based tools for farmer cooperatives — member management, input distribution, aggregated marketing, financial services, and governance portals.
+                  Web-based tools for farmer cooperatives ,  member management, input distribution, aggregated marketing, financial services, and governance portals.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -263,7 +263,7 @@ const Agriculture: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">AgFinance Mobile Apps</h3>
                 <p className="text-gray-600 mb-6">
-                  Mobile applications for agricultural financial services — credit scoring, loan management, crop insurance, and savings products integrated with mobile money.
+                  Mobile applications for agricultural financial services ,  credit scoring, loan management, crop insurance, and savings products integrated with mobile money.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -335,7 +335,7 @@ const Agriculture: React.FC = () => {
                     A Marketplace Website & Mobile App Driving 35% Agricultural Revenue Growth
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    We can build an integrated marketplace website and farmer advisory mobile app — potentially achieving 35% revenue increases, premium market prices, reduced losses, and market leadership for thousands of agricultural enterprises.
+                    We can build an integrated marketplace website and farmer advisory mobile app ,  potentially achieving 35% revenue increases, premium market prices, reduced losses, and market leadership for thousands of agricultural enterprises.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>

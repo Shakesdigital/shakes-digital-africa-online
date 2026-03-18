@@ -22,7 +22,7 @@ const WebsiteDevelopment: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Website Development for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Websites Addressing Africa's Business & Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We design responsive, high-performance websites specifically engineered to overcome Africa's African Development Business Challenges barriers—from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
+                  We design responsive, high-performance websites specifically engineered to overcome Africa's African Development Business Challenges barriers, from limited infrastructure and connectivity challenges to market access limitations and poverty alleviation needs across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -55,7 +55,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">Website Solutions for Africa's Development Challenges</h2>
               <p className="section-subtitle mx-auto">
-                We deliver websites engineered to overcome Africa's unique sustainable development and business challenges—driving poverty alleviation, community empowerment, and economic growth across the continent
+                We deliver websites engineered to overcome Africa's unique sustainable development and business challenges, driving poverty alleviation, community empowerment, and economic growth across the continent
               </p>
             </div>
 
@@ -63,17 +63,17 @@ const WebsiteDevelopment: React.FC = () => {
               {[
                 {
                   title: "Africa-Contextualized Design",
-                  description: "Websites designed for Africa's realities—low bandwidth environments, limited infrastructure, and diverse community needs—representing your sustainable development or business mission authentically.",
+                  description: "Websites designed for Africa's realities, low bandwidth environments, limited infrastructure, and diverse community needs, representing your sustainable development or business mission authentically.",
                   icon: <Globe className="h-12 w-12 text-shakes-blue" />
                 },
                 {
                   title: "Mobile-First for African Markets",
-                  description: "Responsive designs optimized for Africa's smartphone-dominant landscape, ensuring accessibility for communities with limited desktop access—critical for poverty alleviation and business inclusion initiatives.",
+                  description: "Responsive designs optimized for Africa's smartphone-dominant landscape, ensuring accessibility for communities with limited desktop access, critical for poverty alleviation and business inclusion initiatives.",
                   icon: <Code className="h-12 w-12 text-shakes-blue" />
                 },
                 {
                   title: "African Market Optimization",
-                  description: "SEO and content structured for African search patterns, local languages, and regional African Development Business Challenges contexts—maximizing visibility for sustainable development projects and African enterprises.",
+                  description: "SEO and content structured for African search patterns, local languages, and regional African Development Business Challenges contexts, maximizing visibility for sustainable development projects and African enterprises.",
                   icon: <CheckCircle className="h-12 w-12 text-shakes-blue" />
                 }
               ].map((benefit, index) => (
@@ -106,12 +106,12 @@ const WebsiteDevelopment: React.FC = () => {
                 {
                   step: "01",
                   title: "Africa Challenge Research",
-                  description: "We research your specific African context—understanding your sustainable development or business challenges, target communities, infrastructure limitations, and development objectives."
+                  description: "We research your specific African context, understanding your sustainable development or business challenges, target communities, infrastructure limitations, and development objectives."
                 },
                 {
                   step: "02",
                   title: "Contextual Design",
-                  description: "Our designers create wireframes optimized for Africa's realities—low bandwidth, mobile-first access, and cultural contexts that align with your development or business mission."
+                  description: "Our designers create wireframes optimized for Africa's realities, low bandwidth, mobile-first access, and cultural contexts that align with your development or business mission."
                 },
                 {
                   step: "03",
@@ -145,7 +145,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Features Addressing Africa's Development Challenges</h2>
               <p className="text-xl font-medium mb-8 opacity-90 max-w-2xl mx-auto">
-                Our websites come equipped with features specifically designed to overcome Africa's sustainable development and business barriers—from connectivity challenges to community accessibility needs.
+                Our websites come equipped with features specifically designed to overcome Africa's sustainable development and business barriers, from connectivity challenges to community accessibility needs.
               </p>
             </div>
 
@@ -176,7 +176,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">African Development Impact Through Websites</h2>
               <p className="section-subtitle mx-auto">
-                See how our websites are addressing sustainable development and business challenges across Africa—from poverty alleviation to community empowerment
+                See how our websites are addressing sustainable development and business challenges across Africa, from poverty alleviation to community empowerment
               </p>
             </div>
 
@@ -232,13 +232,13 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  quote: "Shakes Digital created a website optimized for our African context—it loads quickly even in areas with limited connectivity, enabling us to reach communities we couldn't serve before. Our sustainable tourism initiative now empowers local guides and reduces poverty in rural areas.",
+                  quote: "Shakes Digital created a website optimized for our African context, it loads quickly even in areas with limited connectivity, enabling us to reach communities we couldn't serve before. Our sustainable tourism initiative now empowers local guides and reduces poverty in rural areas.",
                   name: "Sarah Mwangi",
                   company: "Community Tourism Initiative, Kenya",
                   image: "https://randomuser.me/api/portraits/women/45.jpg"
                 },
                 {
-                  quote: "Their understanding of Africa's infrastructure challenges was crucial. Our website works perfectly on mobile devices with low bandwidth, allowing small businesses across Tanzania to access our digital skills training platform—directly addressing unemployment and poverty alleviation.",
+                  quote: "Their understanding of Africa's infrastructure challenges was crucial. Our website works perfectly on mobile devices with low bandwidth, allowing small businesses across Tanzania to access our digital skills training platform, directly addressing unemployment and poverty alleviation.",
                   name: "John Ochieng",
                   company: "Digital Inclusion Project, Tanzania",
                   image: "https://randomuser.me/api/portraits/men/32.jpg"
@@ -271,7 +271,7 @@ const WebsiteDevelopment: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Address Africa's Development Challenges Through Your Website?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's create a website specifically designed to overcome Africa's sustainable development and business barriers—driving poverty alleviation, community empowerment, and economic growth across the continent.
+                Let's create a website specifically designed to overcome Africa's sustainable development and business barriers, driving poverty alleviation, community empowerment, and economic growth across the continent.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button
@@ -316,7 +316,7 @@ const WebsiteDevelopment: React.FC = () => {
                 },
                 {
                   question: "Will my website work in areas with limited connectivity across Africa?",
-                  answer: "Yes, all our websites are built with Africa's realities in mind—mobile-first design for smartphone users, optimized for low bandwidth environments, and tested across various connectivity scenarios typical in African regions to ensure maximum accessibility."
+                  answer: "Yes, all our websites are built with Africa's realities in mind, mobile-first design for smartphone users, optimized for low bandwidth environments, and tested across various connectivity scenarios typical in African regions to ensure maximum accessibility."
                 }
               ].map((faq, index) => (
                 <div key={index}>

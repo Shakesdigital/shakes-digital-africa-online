@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-6 text-shakes-blue-dark">Contact Form</h3>
               <p className="text-gray-600 mb-6">
-                Describe your challenge—we'll align it with our objectives for a strategic response.
+                Describe your challenge, we'll align it with our objectives for a strategic response.
               </p>
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">

@@ -17,7 +17,7 @@ const CustomSoftware: React.FC = () => {
                   Custom Software Development for Africa's Challenges
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Tailored digital solutions addressing Africa's unique sustainable development and business challenges—from agricultural management to healthcare access, environmental monitoring to financial inclusion.
+                  Tailored digital solutions addressing Africa's unique sustainable development and business challenges, from agricultural management to healthcare access, environmental monitoring to financial inclusion.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -58,7 +58,7 @@ const CustomSoftware: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Built for African Context</h3>
                 <p className="text-gray-600">
-                  Solutions optimized for low bandwidth, intermittent connectivity, mobile-first access, and local language support—designed for Africa's digital infrastructure reality.
+                  Solutions optimized for low bandwidth, intermittent connectivity, mobile-first access, and local language support, designed for Africa's digital infrastructure reality.
                 </p>
               </div>
 
@@ -131,7 +131,7 @@ const CustomSoftware: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Agricultural Management Systems</h3>
                 <p className="text-gray-600 mb-6">
-                  Digital platforms for smallholder farmers—crop planning, weather forecasting, market prices, mobile money integration, and supply chain tracking optimized for rural connectivity.
+                  Digital platforms for smallholder farmers, crop planning, weather forecasting, market prices, mobile money integration, and supply chain tracking optimized for rural connectivity.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -265,7 +265,7 @@ const CustomSoftware: React.FC = () => {
                 Our Custom Software Development Process
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                A proven methodology that aligns with Shakes Digital's core objectives—from research to implementation, monitoring, and scaling.
+                A proven methodology that aligns with Shakes Digital's core objectives, from research to implementation, monitoring, and scaling.
               </p>
             </div>
 
@@ -338,7 +338,7 @@ const CustomSoftware: React.FC = () => {
                 Modern Technologies, African Context
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We leverage cutting-edge technologies optimized for African infrastructure—ensuring performance on low-end devices and intermittent connectivity.
+                We leverage cutting-edge technologies optimized for African infrastructure, ensuring performance on low-end devices and intermittent connectivity.
               </p>
             </div>
 
@@ -379,7 +379,7 @@ const CustomSoftware: React.FC = () => {
                     Imagine: Custom Agricultural Platform Serving 10,000+ Farmers
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    Picture a comprehensive agricultural management system connecting smallholder farmers to markets, weather data, and financial services—achieving 40% income increase and 60% reduction in post-harvest losses.
+                    Picture a comprehensive agricultural management system connecting smallholder farmers to markets, weather data, and financial services, achieving 40% income increase and 60% reduction in post-harvest losses.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>

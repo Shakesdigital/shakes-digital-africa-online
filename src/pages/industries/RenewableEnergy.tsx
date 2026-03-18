@@ -37,15 +37,15 @@ const RenewableEnergy: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Energy Sector?</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's renewable energy companies need websites to acquire customers and establish credibility, and mobile apps for system monitoring, customer service, and payment collection — accelerating the clean energy transition.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's renewable energy companies need websites to acquire customers and establish credibility, and mobile apps for system monitoring, customer service, and payment collection ,  accelerating the clean energy transition.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[{ icon: Sun, color: "shakes-teal", title: "Energy Company Websites", desc: "Professional websites showcasing solar products, services, and financing options — driving customer acquisition and building brand credibility." },
+              {[{ icon: Sun, color: "shakes-teal", title: "Energy Company Websites", desc: "Professional websites showcasing solar products, services, and financing options ,  driving customer acquisition and building brand credibility." },
               { icon: Smartphone, color: "shakes-blue", title: "Energy Monitoring Mobile Apps", desc: "Mobile apps for real-time solar system monitoring, energy consumption tracking, alerts, and performance analytics for customers and technicians." },
-              { icon: Battery, color: "shakes-blue-light", title: "Pay-As-You-Go Web Platforms", desc: "Web-based platforms for managing pay-as-you-go solar customers — billing, payment tracking, remote activation, and customer account management." },
-              { icon: Zap, color: "shakes-teal", title: "Mini-Grid Management Apps", desc: "Mobile apps for mini-grid operators — energy dispatch, customer metering, fault detection, and prepaid billing in off-grid communities." },
+              { icon: Battery, color: "shakes-blue-light", title: "Pay-As-You-Go Web Platforms", desc: "Web-based platforms for managing pay-as-you-go solar customers ,  billing, payment tracking, remote activation, and customer account management." },
+              { icon: Zap, color: "shakes-teal", title: "Mini-Grid Management Apps", desc: "Mobile apps for mini-grid operators ,  energy dispatch, customer metering, fault detection, and prepaid billing in off-grid communities." },
               { icon: BarChart, color: "shakes-blue", title: "Energy Analytics Dashboards", desc: "Web dashboards tracking energy production, consumption patterns, system health, and business KPIs for data-driven energy management." },
-              { icon: Globe, color: "shakes-blue-light", title: "Customer Self-Service Apps", desc: "Mobile apps enabling energy customers to check balances, make payments, request support, and monitor their system — reducing service costs." }
+              { icon: Globe, color: "shakes-blue-light", title: "Customer Self-Service Apps", desc: "Mobile apps enabling energy customers to check balances, make payments, request support, and monitor their system ,  reducing service costs." }
               ].map((item, i) => (
                 <div key={i} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                   <div className={`w-16 h-16 bg-${item.color}/10 rounded-lg flex items-center justify-center mb-6`}><item.icon className={`h-8 w-8 text-${item.color}`} /></div>
@@ -62,12 +62,12 @@ const RenewableEnergy: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Renewable Energy</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From solar companies to mini-grid operators — we build websites and mobile apps that accelerate clean energy adoption across Africa.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From solar companies to mini-grid operators ,  we build websites and mobile apps that accelerate clean energy adoption across Africa.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Solar Company Websites</h3>
-                <p className="text-gray-600 mb-6">Professional websites for solar companies — product catalogs, financing calculators, installation booking, customer testimonials, and lead generation.</p>
+                <p className="text-gray-600 mb-6">Professional websites for solar companies ,  product catalogs, financing calculators, installation booking, customer testimonials, and lead generation.</p>
                 <ul className="space-y-3">
                   {["Product catalog with solar system specifications and pricing", "Solar savings calculator and financing options display", "Online booking for site assessment and installation", "Customer testimonials and project portfolio showcase"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -76,7 +76,7 @@ const RenewableEnergy: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Energy Monitoring Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps for monitoring solar system performance, energy production, battery levels, and consumption — for both customers and field technicians.</p>
+                <p className="text-gray-600 mb-6">Mobile apps for monitoring solar system performance, energy production, battery levels, and consumption ,  for both customers and field technicians.</p>
                 <ul className="space-y-3">
                   {["Real-time energy production and consumption dashboards", "Battery level monitoring and charge optimization alerts", "System fault detection and automatic technician alerts", "Historical energy data and performance analytics"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -85,7 +85,7 @@ const RenewableEnergy: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Pay-As-You-Go Web Platforms</h3>
-                <p className="text-gray-600 mb-6">Web-based platforms for PAYGO solar companies — customer account management, payment tracking, remote system activation, and collections management.</p>
+                <p className="text-gray-600 mb-6">Web-based platforms for PAYGO solar companies ,  customer account management, payment tracking, remote system activation, and collections management.</p>
                 <ul className="space-y-3">
                   {["Mobile money payment integration and tracking", "Remote system activation and deactivation controls", "Customer account management and payment history", "Collections reporting and delinquency management"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -94,7 +94,7 @@ const RenewableEnergy: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Field Technician Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps for installation and maintenance teams — work order management, site assessment tools, GPS navigation, and offline data collection.</p>
+                <p className="text-gray-600 mb-6">Mobile apps for installation and maintenance teams ,  work order management, site assessment tools, GPS navigation, and offline data collection.</p>
                 <ul className="space-y-3">
                   {["Work order assignment and completion tracking", "Site assessment forms with photo and GPS documentation", "Inventory management for spare parts and equipment", "Offline capability for remote installation sites"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

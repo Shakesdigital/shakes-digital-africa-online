@@ -37,15 +37,15 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Education Sector?</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's educational institutions need websites for visibility and enrollment, and mobile apps for delivering learning content to students anywhere — bridging the education access gap with technology.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's educational institutions need websites for visibility and enrollment, and mobile apps for delivering learning content to students anywhere ,  bridging the education access gap with technology.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[{ icon: GraduationCap, color: "shakes-teal", title: "School & University Websites", desc: "Professional websites for enrollment, course catalogs, campus information, and student portals — the digital front door for educational institutions." },
-              { icon: Smartphone, color: "shakes-blue", title: "Mobile Learning Apps", desc: "Mobile apps delivering lessons, quizzes, video tutorials, and interactive content — enabling learning anytime, anywhere, even offline." },
+              {[{ icon: GraduationCap, color: "shakes-teal", title: "School & University Websites", desc: "Professional websites for enrollment, course catalogs, campus information, and student portals ,  the digital front door for educational institutions." },
+              { icon: Smartphone, color: "shakes-blue", title: "Mobile Learning Apps", desc: "Mobile apps delivering lessons, quizzes, video tutorials, and interactive content ,  enabling learning anytime, anywhere, even offline." },
               { icon: BookOpen, color: "shakes-blue-light", title: "E-Learning Platform Websites", desc: "Web-based learning management systems with course creation, student tracking, assessments, and certificate generation." },
-              { icon: Users, color: "shakes-teal", title: "Student Community Apps", desc: "Mobile apps for student collaboration, study groups, peer tutoring, and campus social networking — strengthening learning communities." },
+              { icon: Users, color: "shakes-teal", title: "Student Community Apps", desc: "Mobile apps for student collaboration, study groups, peer tutoring, and campus social networking ,  strengthening learning communities." },
               { icon: BarChart, color: "shakes-blue", title: "Education Analytics Dashboards", desc: "Web dashboards tracking student performance, enrollment trends, completion rates, and institutional KPIs for data-driven decisions." },
-              { icon: Globe, color: "shakes-blue-light", title: "Multi-Language Learning Apps", desc: "Mobile apps delivering educational content in local African languages — making quality education accessible to diverse populations." }
+              { icon: Globe, color: "shakes-blue-light", title: "Multi-Language Learning Apps", desc: "Mobile apps delivering educational content in local African languages ,  making quality education accessible to diverse populations." }
               ].map((item, i) => (
                 <div key={i} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                   <div className={`w-16 h-16 bg-${item.color}/10 rounded-lg flex items-center justify-center mb-6`}><item.icon className={`h-8 w-8 text-${item.color}`} /></div>
@@ -62,7 +62,7 @@ const Education: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Education</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From schools to universities, training centers to EdTech startups — we build websites and mobile apps that transform education delivery across Africa.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From schools to universities, training centers to EdTech startups ,  we build websites and mobile apps that transform education delivery across Africa.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -76,7 +76,7 @@ const Education: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Mobile Learning Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps delivering bite-sized lessons, video content, interactive exercises, and offline learning — making education accessible on any smartphone.</p>
+                <p className="text-gray-600 mb-6">Mobile apps delivering bite-sized lessons, video content, interactive exercises, and offline learning ,  making education accessible on any smartphone.</p>
                 <ul className="space-y-3">
                   {["Offline content download for areas with limited connectivity", "Push notifications for assignments and deadlines", "Gamified learning with progress tracking and badges", "Voice-enabled learning and local language support"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

@@ -22,7 +22,7 @@ const EcommerceSolutions: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">eCommerce for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">eCommerce Solutions Overcoming Africa's Market Access Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  Custom eCommerce platforms specifically designed to address Africa's African Development Business Challenges—breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
+                  Custom eCommerce platforms specifically designed to address Africa's African Development Business Challenges, breaking down market access barriers, enabling financial inclusion through mobile money, empowering small businesses, and driving economic growth across the continent.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -81,7 +81,7 @@ const EcommerceSolutions: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">eCommerce Addressing Africa's Business Development Challenges</h2>
               <p className="section-subtitle mx-auto">
-                Our eCommerce platforms overcome Africa's unique barriers—from limited market access and financial exclusion to infrastructure challenges and poverty—empowering businesses to thrive and communities to prosper
+                Our eCommerce platforms overcome Africa's unique barriers, from limited market access and financial exclusion to infrastructure challenges and poverty, empowering businesses to thrive and communities to prosper
               </p>
             </div>
 
@@ -89,19 +89,19 @@ const EcommerceSolutions: React.FC = () => {
               {[
                 {
                   title: "Financial Inclusion Through Mobile Money",
-                  description: "Overcome Africa's banking access challenges by integrating M-Pesa, Airtel Money, and local payment methods—enabling unbanked communities to participate in digital commerce and driving poverty alleviation through economic participation.",
+                  description: "Overcome Africa's banking access challenges by integrating M-Pesa, Airtel Money, and local payment methods, enabling unbanked communities to participate in digital commerce and driving poverty alleviation through economic participation.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Mobile money for unbanked populations", "Microfinance integration", "Community savings group payments", "Financial empowerment tools"]
                 },
                 {
                   title: "Mobile-First Market Access",
-                  description: "Address Africa's infrastructure realities by creating smartphone-optimized platforms that work in low-bandwidth environments—breaking down barriers for small businesses and rural entrepreneurs to access broader markets.",
+                  description: "Address Africa's infrastructure realities by creating smartphone-optimized platforms that work in low-bandwidth environments, breaking down barriers for small businesses and rural entrepreneurs to access broader markets.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Optimized for Africa's 3G networks", "Progressive web app functionality", "Offline browsing capabilities", "Low data consumption for affordability"]
                 },
                 {
                   title: "Overcoming Logistics Barriers",
-                  description: "Solve Africa's addressing and delivery challenges through innovative location mapping, flexible delivery options, and cash-on-delivery—ensuring rural and underserved communities can access markets and products.",
+                  description: "Solve Africa's addressing and delivery challenges through innovative location mapping, flexible delivery options, and cash-on-delivery, ensuring rural and underserved communities can access markets and products.",
                   icon: <ShoppingCart className="h-12 w-12 text-shakes-blue" />,
                   features: ["Alternative addressing systems", "Community pickup points", "Rural delivery networks", "Trust-building through cash payment"]
                 }
@@ -134,7 +134,7 @@ const EcommerceSolutions: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">eCommerce Solutions Driving African Development Business Growth</h2>
               <p class="section-subtitle mx-auto">
-                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa—our platforms address unique African Development Business Challenges and market access challenges
+                From small-scale entrepreneurs overcoming poverty to large enterprises scaling across Africa, our platforms address unique African Development Business Challenges and market access challenges
               </p>
             </div>
 
@@ -422,17 +422,17 @@ const EcommerceSolutions: React.FC = () => {
                       <td className="py-4 px-6 border-b border-gray-200 font-medium">{row.feature}</td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
                         {typeof row.standard === 'boolean' ?
-                          (row.standard ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
+                          (row.standard ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : ", ") :
                           row.standard}
                       </td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
                         {typeof row.professional === 'boolean' ?
-                          (row.professional ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
+                          (row.professional ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : ", ") :
                           row.professional}
                       </td>
                       <td className="py-4 px-6 border-b border-gray-200 text-center">
                         {typeof row.enterprise === 'boolean' ?
-                          (row.enterprise ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : "—") :
+                          (row.enterprise ? <CheckCircle className="h-5 w-5 text-green-500 mx-auto" /> : ", ") :
                           row.enterprise}
                       </td>
                     </tr>

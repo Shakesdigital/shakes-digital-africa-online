@@ -17,7 +17,7 @@ const MobileAppDevelopment: React.FC = () => {
                   Mobile App Development for Africa's Mobile-First Future
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Native and cross-platform mobile applications built for Africa's growing smartphone adoption—enabling community reporting, market access, digital payments, and offline functionality for areas with limited connectivity.
+                  Native and cross-platform mobile applications built for Africa's growing smartphone adoption, enabling community reporting, market access, digital payments, and offline functionality for areas with limited connectivity.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -58,7 +58,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Mobile-First Continent</h3>
                 <p className="text-gray-600">
-                  Africa leapfrogged desktop computers. Mobile phones are the primary—and often only—device for internet access, making mobile apps essential for reaching African users.
+                  Africa leapfrogged desktop computers. Mobile phones are the primary, and often only, device for internet access, making mobile apps essential for reaching African users.
                 </p>
               </div>
 
@@ -68,7 +68,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Offline-First Design</h3>
                 <p className="text-gray-600">
-                  Apps that work without constant internet—syncing data when connectivity returns. Perfect for rural areas and regions with intermittent network coverage across Africa.
+                  Apps that work without constant internet, syncing data when connectivity returns. Perfect for rural areas and regions with intermittent network coverage across Africa.
                 </p>
               </div>
 
@@ -78,7 +78,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Low-End Device Support</h3>
                 <p className="text-gray-600">
-                  Optimized for affordable smartphones with limited RAM, storage, and battery—ensuring your app works smoothly on the devices Africans actually use.
+                  Optimized for affordable smartphones with limited RAM, storage, and battery, ensuring your app works smoothly on the devices Africans actually use.
                 </p>
               </div>
 
@@ -88,7 +88,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Push Notifications</h3>
                 <p className="text-gray-600">
-                  Real-time engagement through push notifications—keeping users informed about updates, promotions, appointments, and important alerts even when offline.
+                  Real-time engagement through push notifications, keeping users informed about updates, promotions, appointments, and important alerts even when offline.
                 </p>
               </div>
 
@@ -98,7 +98,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Native Features</h3>
                 <p className="text-gray-600">
-                  Access device capabilities—camera, GPS, biometrics, contacts, SMS—to create rich, contextual experiences tailored to African user needs and use cases.
+                  Access device capabilities, camera, GPS, biometrics, contacts, SMS, to create rich, contextual experiences tailored to African user needs and use cases.
                 </p>
               </div>
 
@@ -108,7 +108,7 @@ const MobileAppDevelopment: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Viral Growth Potential</h3>
                 <p className="text-gray-600">
-                  Apps spread through communities via Bluetooth sharing and word-of-mouth—perfect for markets where app store discovery and data costs can be barriers.
+                  Apps spread through communities via Bluetooth sharing and word-of-mouth, perfect for markets where app store discovery and data costs can be barriers.
                 </p>
               </div>
             </div>
@@ -297,7 +297,7 @@ const MobileAppDevelopment: React.FC = () => {
               <div className="bg-gradient-to-br from-shakes-blue-dark to-shakes-blue text-white p-10 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">Native Apps (iOS & Android)</h3>
                 <p className="text-blue-100 mb-6">
-                  Platform-specific development using Swift/Objective-C for iOS and Kotlin/Java for Android—maximum performance and native feel.
+                  Platform-specific development using Swift/Objective-C for iOS and Kotlin/Java for Android, maximum performance and native feel.
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start gap-3">
@@ -325,7 +325,7 @@ const MobileAppDevelopment: React.FC = () => {
               <div className="bg-gradient-to-br from-shakes-teal to-shakes-blue-light text-white p-10 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">Cross-Platform (React Native & Flutter)</h3>
                 <p className="text-blue-100 mb-6">
-                  Single codebase for both iOS and Android using React Native or Flutter—faster development and lower cost with near-native performance.
+                  Single codebase for both iOS and Android using React Native or Flutter, faster development and lower cost with near-native performance.
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start gap-3">
@@ -361,7 +361,7 @@ const MobileAppDevelopment: React.FC = () => {
                 Our Mobile App Development Process
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From concept to app store launch and beyond—a structured approach optimized for African markets.
+                From concept to app store launch and beyond, a structured approach optimized for African markets.
               </p>
             </div>
 
@@ -519,7 +519,7 @@ const MobileAppDevelopment: React.FC = () => {
                     Imagine: Agricultural App Empowering 50,000+ Farmers
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    Picture a cross-platform farming app connecting smallholder farmers to market prices, weather data, and buyers—achieving 35% income increase and reaching 50,000+ downloads across East Africa.
+                    Picture a cross-platform farming app connecting smallholder farmers to market prices, weather data, and buyers, achieving 35% income increase and reaching 50,000+ downloads across East Africa.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
@@ -589,7 +589,7 @@ const MobileAppDevelopment: React.FC = () => {
                   Can the app work offline?
                 </h3>
                 <p className="text-gray-600">
-                  Yes! We specialize in offline-first architecture—apps store data locally, function without internet, and sync automatically when connectivity returns. Essential for rural areas and unreliable networks.
+                  Yes! We specialize in offline-first architecture, apps store data locally, function without internet, and sync automatically when connectivity returns. Essential for rural areas and unreliable networks.
                 </p>
               </div>
 
@@ -598,7 +598,7 @@ const MobileAppDevelopment: React.FC = () => {
                   Do you handle app store submission and approval?
                 </h3>
                 <p className="text-gray-600">
-                  Absolutely. We manage the entire process—developer accounts, app store listings, compliance with guidelines, submission, and communication with Apple/Google until approval. We also handle updates and ongoing maintenance.
+                  Absolutely. We manage the entire process, developer accounts, app store listings, compliance with guidelines, submission, and communication with Apple/Google until approval. We also handle updates and ongoing maintenance.
                 </p>
               </div>
             </div>

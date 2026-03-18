@@ -12,23 +12,23 @@ const Index: React.FC = () => {
   const faqs = [
     {
       question: "What website and mobile app development services does Shakes Digital offer for African businesses?",
-      answer: "Shakes Digital specializes in two core services for African businesses: (1) Website Development — including business websites, e-commerce platforms, web applications, portals, and content management systems optimized for African markets; (2) Mobile Application Development — native and cross-platform iOS/Android apps with offline capabilities, mobile payment integration, and real-time analytics. All solutions are designed to address specific African Development Business Challenges."
+      answer: "Shakes Digital specializes in two core services for African businesses: (1) Website Development ,  including business websites, e-commerce platforms, web applications, portals, and content management systems optimized for African markets; (2) Mobile Application Development ,  native and cross-platform iOS/Android apps with offline capabilities, mobile payment integration, and real-time analytics. All solutions are designed to address specific African Development Business Challenges."
     },
     {
       question: "Why should African businesses choose Shakes Digital for website and mobile app development?",
-      answer: "Shakes Digital brings unique advantages for African businesses: (1) Deep understanding of African Development Business Challenges and development needs, (2) Mobile-first approach optimized for African connectivity realities, (3) Cost-effective solutions tailored to African budgets, (4) Expertise across 7 key African industries, (5) Research-driven development process ensuring locally relevant solutions, (6) Focus on solving real business problems — from customer acquisition to revenue growth, operational efficiency, and market expansion."
+      answer: "Shakes Digital brings unique advantages for African businesses: (1) Deep understanding of African Development Business Challenges and development needs, (2) Mobile-first approach optimized for African connectivity realities, (3) Cost-effective solutions tailored to African budgets, (4) Expertise across 7 key African industries, (5) Research-driven development process ensuring locally relevant solutions, (6) Focus on solving real business problems ,  from customer acquisition to revenue growth, operational efficiency, and market expansion."
     },
     {
       question: "How does Shakes Digital approach website development for African businesses?",
-      answer: "Our website development process starts with deep research into your specific African Development Business Challenges. We build fast-loading, mobile-responsive websites that work reliably across African connectivity conditions. Whether it's an e-commerce platform for cross-border trade, a business portal for stakeholder collaboration, or a corporate website to establish your digital presence — we ensure every website is built to drive measurable business results."
+      answer: "Our website development process starts with deep research into your specific African Development Business Challenges. We build fast-loading, mobile-responsive websites that work reliably across African connectivity conditions. Whether it's an e-commerce platform for cross-border trade, a business portal for stakeholder collaboration, or a corporate website to establish your digital presence ,  we ensure every website is built to drive measurable business results."
     },
     {
       question: "What kind of mobile apps does Shakes Digital build for African markets?",
-      answer: "We build mobile applications specifically engineered for African markets — including business management apps, customer engagement platforms, mobile commerce solutions, field data collection tools, and community engagement apps. Key features include offline functionality for areas with limited connectivity, integration with African mobile payment systems like M-Pesa and MTN Mobile Money, and lightweight designs optimized for devices common across Africa."
+      answer: "We build mobile applications specifically engineered for African markets ,  including business management apps, customer engagement platforms, mobile commerce solutions, field data collection tools, and community engagement apps. Key features include offline functionality for areas with limited connectivity, integration with African mobile payment systems like M-Pesa and MTN Mobile Money, and lightweight designs optimized for devices common across Africa."
     },
     {
       question: "Which industries does Shakes Digital serve with website and mobile app solutions?",
-      answer: "Shakes Digital serves 7 key African industries with website and mobile app solutions: (1) Healthcare — patient portals and telemedicine apps, (2) Education — learning platforms and student management systems, (3) Agriculture — farm management and supply chain apps, (4) Fintech — digital wallets and payment platforms, (5) Tourism — booking websites and travel apps, (6) Non-Profits — impact tracking portals and donor management apps, (7) SMEs — business websites and e-commerce mobile apps."
+      answer: "Shakes Digital serves 7 key African industries with website and mobile app solutions: (1) Healthcare ,  patient portals and telemedicine apps, (2) Education ,  learning platforms and student management systems, (3) Agriculture ,  farm management and supply chain apps, (4) Fintech ,  digital wallets and payment platforms, (5) Tourism ,  booking websites and travel apps, (6) Non-Profits ,  impact tracking portals and donor management apps, (7) SMEs ,  business websites and e-commerce mobile apps."
     }
   ];
 
@@ -55,7 +55,7 @@ const Index: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Two Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We focus on what we do best — building websites and mobile applications that solve real African Development Business Challenges.
+                We focus on what we do best ,  building websites and mobile applications that solve real African Development Business Challenges.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ const Index: React.FC = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Website Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    From business websites and e-commerce platforms to web applications and portals — we build fast, mobile-responsive web solutions that help African businesses establish a strong digital presence, acquire customers, and drive revenue.
+                    From business websites and e-commerce platforms to web applications and portals ,  we build fast, mobile-responsive web solutions that help African businesses establish a strong digital presence, acquire customers, and drive revenue.
                   </p>
                   <a href="/services/web-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -85,7 +85,7 @@ const Index: React.FC = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile App Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and analytics — engineered for Africa's mobile-first economy to help businesses engage customers and scale operations.
+                    Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and analytics ,  engineered for Africa's mobile-first economy to help businesses engage customers and scale operations.
                   </p>
                   <a href="/services/mobile-app-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -115,7 +115,7 @@ const Index: React.FC = () => {
                   <BarChart className="w-10 h-10 text-shakes-blue-light" />
                 </div>
                 <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Measurable Business Impact</h4>
-                <p className="text-gray-600">Our websites and apps are designed to deliver real results — more customers, increased revenue, and improved efficiency</p>
+                <p className="text-gray-600">Our websites and apps are designed to deliver real results ,  more customers, increased revenue, and improved efficiency</p>
               </div>
             </div>
 
@@ -124,7 +124,7 @@ const Index: React.FC = () => {
               <div>
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Solving African Development Business Challenges Through Code</h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  From helping a Kampala retailer launch their first e-commerce website to building a mobile app that connects rural farmers to urban markets — we partner with African businesses to understand their challenges and build the digital products that solve them. Every website and mobile app we create is a tool for growth, impact, and economic transformation.
+                  From helping a Kampala retailer launch their first e-commerce website to building a mobile app that connects rural farmers to urban markets ,  we partner with African businesses to understand their challenges and build the digital products that solve them. Every website and mobile app we create is a tool for growth, impact, and economic transformation.
                 </p>
                 <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
                   Learn More <ArrowRight className="h-5 w-5" />

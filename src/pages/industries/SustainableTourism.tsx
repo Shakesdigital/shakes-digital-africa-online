@@ -48,7 +48,7 @@ const SustainableTourism: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Tourism Sector?</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Africa's tourism operators need professional booking websites and guest experience mobile apps to compete globally. Our websites drive direct bookings, and our mobile apps enhance visitor experiences — growing revenue while supporting community empowerment.
+                Africa's tourism operators need professional booking websites and guest experience mobile apps to compete globally. Our websites drive direct bookings, and our mobile apps enhance visitor experiences ,  growing revenue while supporting community empowerment.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -60,27 +60,27 @@ const SustainableTourism: React.FC = () => {
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6"><Leaf className="h-8 w-8 text-shakes-blue" /></div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Conservation Web Portals</h3>
-                <p className="text-gray-600">Web-based dashboards monitoring environmental impact, wildlife populations, and visitor capacity — ensuring tourism supports fragile ecosystems.</p>
+                <p className="text-gray-600">Web-based dashboards monitoring environmental impact, wildlife populations, and visitor capacity ,  ensuring tourism supports fragile ecosystems.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6"><Users className="h-8 w-8 text-shakes-blue-light" /></div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community Tourism Websites</h3>
-                <p className="text-gray-600">Websites connecting local guides, artisans, and community-based tourism enterprises with visitors — ensuring revenue benefits communities directly.</p>
+                <p className="text-gray-600">Websites connecting local guides, artisans, and community-based tourism enterprises with visitors ,  ensuring revenue benefits communities directly.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-shakes-teal/10 rounded-lg flex items-center justify-center mb-6"><Smartphone className="h-8 w-8 text-shakes-teal" /></div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Guest Experience Mobile Apps</h3>
-                <p className="text-gray-600">Mobile apps providing interactive guides, wildlife identification, GPS-enabled tours, and cultural information — enriching tourist experiences.</p>
+                <p className="text-gray-600">Mobile apps providing interactive guides, wildlife identification, GPS-enabled tours, and cultural information ,  enriching tourist experiences.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6"><BarChart className="h-8 w-8 text-shakes-blue" /></div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Analytics Web Dashboards</h3>
-                <p className="text-gray-600">Web-based dashboards tracking bookings, visitor patterns, revenue, and seasonal trends — enabling smarter business decisions for sustainable growth.</p>
+                <p className="text-gray-600">Web-based dashboards tracking bookings, visitor patterns, revenue, and seasonal trends ,  enabling smarter business decisions for sustainable growth.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6"><Palmtree className="h-8 w-8 text-shakes-blue-light" /></div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Offline-Ready Mobile Apps</h3>
-                <p className="text-gray-600">Mobile apps optimized for low-bandwidth environments with offline functionality — perfect for remote lodges, national parks, and wilderness areas.</p>
+                <p className="text-gray-600">Mobile apps optimized for low-bandwidth environments with offline functionality ,  perfect for remote lodges, national parks, and wilderness areas.</p>
               </div>
             </div>
           </div>
@@ -91,12 +91,12 @@ const SustainableTourism: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Tourism Operators</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From safari lodges to hospitality ventures — we build websites and mobile apps that drive bookings and empower communities.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From safari lodges to hospitality ventures ,  we build websites and mobile apps that drive bookings and empower communities.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Booking & Reservation Websites</h3>
-                <p className="text-gray-600 mb-6">Professional booking websites for lodges, safaris, tours, and activities — with real-time availability, secure payments, and multi-currency support.</p>
+                <p className="text-gray-600 mb-6">Professional booking websites for lodges, safaris, tours, and activities ,  with real-time availability, secure payments, and multi-currency support.</p>
                 <ul className="space-y-3">
                   {["Real-time availability calendar and instant confirmations", "Integration with payment gateways and mobile money", "Multi-language website support for international guests", "Automated email/SMS notifications and itineraries"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -105,7 +105,7 @@ const SustainableTourism: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Wildlife & Nature Guide Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps for guided tours, wildlife identification, GPS-enabled trails, and educational content — enhancing visitor experiences.</p>
+                <p className="text-gray-600 mb-6">Mobile apps for guided tours, wildlife identification, GPS-enabled trails, and educational content ,  enhancing visitor experiences.</p>
                 <ul className="space-y-3">
                   {["AI-powered wildlife and plant species identification", "GPS-guided trails with offline maps", "Audio guides in multiple languages", "Wildlife sighting reporting and real-time alerts"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -114,7 +114,7 @@ const SustainableTourism: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Destination Marketing Websites</h3>
-                <p className="text-gray-600 mb-6">Stunning websites showcasing destinations and experiences — SEO-optimized and designed to convert browsers into bookers.</p>
+                <p className="text-gray-600 mb-6">Stunning websites showcasing destinations and experiences ,  SEO-optimized and designed to convert browsers into bookers.</p>
                 <ul className="space-y-3">
                   {["High-quality photo galleries and virtual tours", "SEO optimization for international travel search terms", "Storytelling content sections and conservation updates", "Social media integration and user-generated content"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

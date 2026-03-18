@@ -18,7 +18,7 @@ const AboutUs: React.FC = () => {
                   Building Websites & Mobile Apps That Solve African Challenges
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  We develop websites and mobile applications designed to address real African Development Business Challenges — helping businesses grow, reach customers, and scale across the continent.
+                  We develop websites and mobile applications designed to address real African Development Business Challenges ,  helping businesses grow, reach customers, and scale across the continent.
                 </p>
               </div>
               <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -57,14 +57,14 @@ const AboutUs: React.FC = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-blue-dark">Who We Are</h3>
                     <p className="text-gray-600 mb-4">
-                      Shakes Digital is a website and mobile app development agency dedicated to solving African Development Business Challenges. We specialize in building powerful, user-friendly websites and mobile applications that help African businesses establish their digital presence, acquire customers, automate operations, and expand into new markets — all designed for the realities of the African continent.
+                      Shakes Digital is a website and mobile app development agency dedicated to solving African Development Business Challenges. We specialize in building powerful, user-friendly websites and mobile applications that help African businesses establish their digital presence, acquire customers, automate operations, and expand into new markets ,  all designed for the realities of the African continent.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-shakes-teal">Our Central Goal</h3>
                     <p className="text-gray-600">
-                      To develop professionally built websites and mobile applications that directly address African Development Business Challenges — from helping businesses go digital for the first time to enabling cross-border e-commerce, improving customer engagement, and driving operational efficiency across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
+                      To develop professionally built websites and mobile applications that directly address African Development Business Challenges ,  from helping businesses go digital for the first time to enabling cross-border e-commerce, improving customer engagement, and driving operational efficiency across <a href="/industries" className="font-bold text-shakes-teal hover:text-shakes-teal-dark underline">7 key industries</a>.
                     </p>
                   </div>
                 </div>
@@ -111,12 +111,12 @@ const AboutUs: React.FC = () => {
                   <span className="font-semibold text-gray-900">Mugisa Dan Byenkya</span>
                 </h2>
                 <div className="space-y-5 leading-relaxed">
-                  <p>My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's business and development challenges. Growing up in Uganda, I witnessed how the lack of digital tools — websites for businesses, mobile apps for communities — held back economic growth and limited opportunities. As Programs Coordinator at the <a href="https://foscod.org/" target="_blank" rel="noopener noreferrer" className="text-shakes-teal hover:text-shakes-teal-dark underline font-semibold">Foundation for Sustainable Community Based Development</a>, I worked directly with communities and businesses facing these realities, which constantly led me to ask:</p>
+                  <p>My journey is rooted in a deep passion for digital technology and firsthand exposure to Africa's business and development challenges. Growing up in Uganda, I witnessed how the lack of digital tools ,  websites for businesses, mobile apps for communities ,  held back economic growth and limited opportunities. As Programs Coordinator at the <a href="https://foscod.org/" target="_blank" rel="noopener noreferrer" className="text-shakes-teal hover:text-shakes-teal-dark underline font-semibold">Foundation for Sustainable Community Based Development</a>, I worked directly with communities and businesses facing these realities, which constantly led me to ask:</p>
                   <blockquote className="bg-white/80 border-l-4 border-shakes-teal rounded-xl p-6 italic text-shakes-blue-dark shadow-sm">
-                    How can professionally built websites and mobile applications bridge these gaps — empowering African businesses to reach customers, grow revenue, and build sustainable operations?
+                    How can professionally built websites and mobile applications bridge these gaps ,  empowering African businesses to reach customers, grow revenue, and build sustainable operations?
                   </blockquote>
                   <p>This question became my driving force and ultimately inspired me to found Shakes Digital Agency in late 2024. I am committed to developing websites and mobile applications that solve the critical African Development Business Challenges affecting the continent's economic growth. Through our focused approach to website and mobile app development, we address real problems that limit African businesses from thriving in the digital economy.</p>
-                  <p>My vision is to see every African business — from a market vendor in Kampala to a logistics company serving East Africa — equipped with a professionally built website or mobile app that helps them compete, grow, and succeed. I look forward to building strategic partnerships, amplifying our impact through technology, and contributing to a digitally empowered Africa.</p>
+                  <p>My vision is to see every African business ,  from a market vendor in Kampala to a logistics company serving East Africa ,  equipped with a professionally built website or mobile app that helps them compete, grow, and succeed. I look forward to building strategic partnerships, amplifying our impact through technology, and contributing to a digitally empowered Africa.</p>
                 </div>
                 <a
                   href="/contact"
@@ -182,7 +182,7 @@ const AboutUs: React.FC = () => {
             <div className="text-center max-w-4xl mx-auto mb-16">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Two Focused Services for Maximum Impact</h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We focus exclusively on Website Development and Mobile App Development — the two most powerful digital tools African businesses need to solve their challenges and grow.
+                We focus exclusively on Website Development and Mobile App Development ,  the two most powerful digital tools African businesses need to solve their challenges and grow.
               </p>
             </div>
 
@@ -195,7 +195,7 @@ const AboutUs: React.FC = () => {
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Website Development</h4>
-                  <p className="text-gray-600 text-sm">Business websites, e-commerce platforms, web applications, and portals — built fast, mobile-responsive, and optimized for African markets and connectivity conditions.</p>
+                  <p className="text-gray-600 text-sm">Business websites, e-commerce platforms, web applications, and portals ,  built fast, mobile-responsive, and optimized for African markets and connectivity conditions.</p>
                 </div>
               </div>
 
@@ -207,7 +207,7 @@ const AboutUs: React.FC = () => {
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold mb-3 text-shakes-blue-dark">Mobile App Development</h4>
-                  <p className="text-gray-600 text-sm">Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and lightweight designs — engineered for Africa's mobile-first economy.</p>
+                  <p className="text-gray-600 text-sm">Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and lightweight designs ,  engineered for Africa's mobile-first economy.</p>
                 </div>
               </div>
             </div>

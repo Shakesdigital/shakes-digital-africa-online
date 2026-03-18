@@ -37,13 +37,13 @@ const Healthcare: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for Africa's Healthcare Sector?</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's healthcare providers need websites for patient acquisition and information, and mobile apps for telemedicine and patient engagement — expanding access to quality care across the continent.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's healthcare providers need websites for patient acquisition and information, and mobile apps for telemedicine and patient engagement ,  expanding access to quality care across the continent.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[{ icon: Heart, color: "shakes-teal", title: "Clinic & Hospital Websites", desc: "Professional websites for patient acquisition, service information, doctor directories, appointment booking, and health education content." },
               { icon: Smartphone, color: "shakes-blue", title: "Telemedicine Mobile Apps", desc: "Mobile apps enabling remote consultations, prescription refills, appointment scheduling, and secure patient-doctor communication." },
               { icon: Shield, color: "shakes-blue-light", title: "Patient Portal Websites", desc: "Web-based portals for medical records access, lab results, appointment history, billing, and secure messaging with healthcare providers." },
-              { icon: Users, color: "shakes-teal", title: "Community Health Worker Apps", desc: "Mobile apps for community health workers — patient registration, visit tracking, referral management, and health data collection in the field." },
+              { icon: Users, color: "shakes-teal", title: "Community Health Worker Apps", desc: "Mobile apps for community health workers ,  patient registration, visit tracking, referral management, and health data collection in the field." },
               { icon: BarChart, color: "shakes-blue", title: "Health Analytics Dashboards", desc: "Web dashboards tracking patient volumes, disease patterns, resource utilization, and facility performance for data-driven healthcare management." },
               { icon: Globe, color: "shakes-blue-light", title: "Health Education Apps", desc: "Mobile apps delivering health education, maternal care guidance, medication reminders, and wellness information in local languages." }
               ].map((item, i) => (
@@ -62,7 +62,7 @@ const Healthcare: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for Healthcare</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From clinics to hospitals, health NGOs to pharma companies — we build websites and mobile apps that improve healthcare delivery across Africa.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From clinics to hospitals, health NGOs to pharma companies ,  we build websites and mobile apps that improve healthcare delivery across Africa.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -85,7 +85,7 @@ const Healthcare: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Patient Records Web Portals</h3>
-                <p className="text-gray-600 mb-6">Web-based electronic medical records portals for clinics and hospitals — patient data management, lab results, treatment history, and billing.</p>
+                <p className="text-gray-600 mb-6">Web-based electronic medical records portals for clinics and hospitals ,  patient data management, lab results, treatment history, and billing.</p>
                 <ul className="space-y-3">
                   {["Electronic medical records with secure access", "Lab results and diagnostic imaging portal", "Treatment history and medication tracking", "Billing management and insurance claims processing"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -94,7 +94,7 @@ const Healthcare: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Community Health Worker Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Field-ready mobile apps for community health workers — patient registration, home visit tracking, referral management, and health data collection.</p>
+                <p className="text-gray-600 mb-6">Field-ready mobile apps for community health workers ,  patient registration, home visit tracking, referral management, and health data collection.</p>
                 <ul className="space-y-3">
                   {["Offline-capable patient registration and data collection", "GPS-tagged home visit logging and route optimization", "Referral generation and follow-up tracking", "Real-time reporting to supervising health facilities"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

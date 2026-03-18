@@ -47,7 +47,7 @@ const WebDevelopmentService: React.FC = () => {
                 Web Development Built for African Success
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We understand Africa's digital landscape—from infrastructure challenges to mobile-first users. Our web solutions are engineered to perform brilliantly in these conditions while driving real business results.
+                We understand Africa's digital landscape, from infrastructure challenges to mobile-first users. Our web solutions are engineered to perform brilliantly in these conditions while driving real business results.
               </p>
             </div>
 
@@ -78,7 +78,7 @@ const WebDevelopmentService: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Progressive Web Apps (PWA)</h3>
                 <p className="text-gray-600">
-                  Web apps that work offline, install like native apps, send push notifications, and function smoothly even with poor connectivity—perfect for African markets.
+                  Web apps that work offline, install like native apps, send push notifications, and function smoothly even with poor connectivity, perfect for African markets.
                 </p>
               </div>
 
@@ -108,7 +108,7 @@ const WebDevelopmentService: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Scalable Architecture</h3>
                 <p className="text-gray-600">
-                  Built to grow with your business—from startup to enterprise. Handle increasing traffic, expand to new markets, and add features seamlessly without rebuilding.
+                  Built to grow with your business, from startup to enterprise. Handle increasing traffic, expand to new markets, and add features seamlessly without rebuilding.
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">E-Commerce Platforms</h3>
                 <p className="text-gray-600 mb-6">
-                  Full-featured online stores optimized for African markets—mobile money integration, low-bandwidth product catalogs, SMS order notifications, and multi-currency support.
+                  Full-featured online stores optimized for African markets, mobile money integration, low-bandwidth product catalogs, SMS order notifications, and multi-currency support.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -156,7 +156,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Corporate Websites</h3>
                 <p className="text-gray-600 mb-6">
-                  Professional, conversion-focused business websites that establish credibility, attract customers, and generate leads—optimized for African audiences.
+                  Professional, conversion-focused business websites that establish credibility, attract customers, and generate leads, optimized for African audiences.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -181,7 +181,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Business Portals & Dashboards</h3>
                 <p className="text-gray-600 mb-6">
-                  Custom web applications for business operations—customer portals, project management, inventory systems, and analytics dashboards accessible from anywhere.
+                  Custom web applications for business operations, customer portals, project management, inventory systems, and analytics dashboards accessible from anywhere.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -206,7 +206,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Booking & Reservation Systems</h3>
                 <p className="text-gray-600 mb-6">
-                  Online booking platforms for hotels, tours, events, transportation, and services—automated scheduling, payment processing, and customer management.
+                  Online booking platforms for hotels, tours, events, transportation, and services, automated scheduling, payment processing, and customer management.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -231,7 +231,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Community & Membership Platforms</h3>
                 <p className="text-gray-600 mb-6">
-                  Web platforms for NGOs, associations, and communities—member management, event organization, content sharing, and collaboration tools.
+                  Web platforms for NGOs, associations, and communities, member management, event organization, content sharing, and collaboration tools.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -256,7 +256,7 @@ const WebDevelopmentService: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Educational Platforms</h3>
                 <p className="text-gray-600 mb-6">
-                  E-learning websites and learning management systems—course delivery, student tracking, assessments, and certificates optimized for low-bandwidth environments.
+                  E-learning websites and learning management systems, course delivery, student tracking, assessments, and certificates optimized for low-bandwidth environments.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -289,7 +289,7 @@ const WebDevelopmentService: React.FC = () => {
                 Our Proven Web Development Process
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From concept to launch and beyond—a collaborative approach that ensures your web platform meets your goals and exceeds user expectations.
+                From concept to launch and beyond, a collaborative approach that ensures your web platform meets your goals and exceeds user expectations.
               </p>
             </div>
 
@@ -454,7 +454,7 @@ const WebDevelopmentService: React.FC = () => {
                     Imagine: E-Commerce Platform Generating $50K Monthly Revenue
                   </h2>
                   <p className="text-xl text-blue-100 mb-8">
-                    Picture a mobile-first e-commerce platform for a Kenya-based retailer, integrating M-Pesa and optimizing for 3G networks—achieving 250% increase in online sales within 6 months.
+                    Picture a mobile-first e-commerce platform for a Kenya-based retailer, integrating M-Pesa and optimizing for 3G networks, achieving 250% increase in online sales within 6 months.
                   </p>
                   <div className="grid grid-cols-2 gap-6 mb-8">
                     <div>
@@ -506,7 +506,7 @@ const WebDevelopmentService: React.FC = () => {
                   Will my website work well on African mobile networks?
                 </h3>
                 <p className="text-gray-600">
-                  Absolutely. We optimize specifically for African conditions—testing on 2G/3G networks, using progressive loading, image compression, and efficient caching. Our sites typically load in under 2 seconds on 3G.
+                  Absolutely. We optimize specifically for African conditions, testing on 2G/3G networks, using progressive loading, image compression, and efficient caching. Our sites typically load in under 2 seconds on 3G.
                 </p>
               </div>
 

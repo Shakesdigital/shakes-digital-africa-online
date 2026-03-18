@@ -195,7 +195,7 @@ const Footer: React.FC = () => {
                 <div>
                   <span className="font-medium">Working Hours:</span>
                   <div>Monday to Saturday</div>
-                  <div>9:00 AM – 5:00 PM EAT</div>
+                  <div>9:00 AM ,  5:00 PM EAT</div>
                 </div>
               </li>
             </ul>

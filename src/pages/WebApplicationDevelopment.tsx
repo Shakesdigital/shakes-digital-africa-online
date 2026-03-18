@@ -23,7 +23,7 @@ const WebApplicationDevelopment: React.FC = () => {
                 <Badge className="bg-shakes-orange text-white mb-4 px-3 py-1 text-sm">Web Applications for African Development</Badge>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Custom Web Applications Addressing Africa's Sustainable Development Challenges</h1>
                 <p className="text-xl opacity-90 mb-8">
-                  We build powerful, scalable web applications specifically designed to overcome Africa's sustainable development and business challenges—from poverty alleviation tools to community empowerment platforms, healthcare access systems to agricultural management solutions.
+                  We build powerful, scalable web applications specifically designed to overcome Africa's sustainable development and business challenges, from poverty alleviation tools to community empowerment platforms, healthcare access systems to agricultural management solutions.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">
@@ -109,7 +109,7 @@ const WebApplicationDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">Africa-Optimized Technology Stack</h2>
               <p className="section-subtitle mx-auto">
-                We use modern, reliable technologies optimized for Africa's infrastructure realities—building robust applications that work in low-bandwidth environments and scale across diverse African contexts
+                We use modern, reliable technologies optimized for Africa's infrastructure realities, building robust applications that work in low-bandwidth environments and scale across diverse African contexts
               </p>
             </div>
 
@@ -201,7 +201,7 @@ const WebApplicationDevelopment: React.FC = () => {
                   {
                     step: "02",
                     title: "Africa-Adapted Design",
-                    description: "Our team designs interfaces optimized for African contexts—mobile-first, low-bandwidth, offline-capable, and culturally appropriate for your target communities.",
+                    description: "Our team designs interfaces optimized for African contexts, mobile-first, low-bandwidth, offline-capable, and culturally appropriate for your target communities.",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600",
                     align: "right"
                   },
@@ -260,7 +260,7 @@ const WebApplicationDevelopment: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="section-title">African Development Impact Through Web Applications</h2>
               <p className="section-subtitle mx-auto">
-                Real-world applications addressing Africa's sustainable development and business challenges—driving poverty alleviation, community empowerment, and economic growth
+                Real-world applications addressing Africa's sustainable development and business challenges, driving poverty alleviation, community empowerment, and economic growth
               </p>
             </div>
 
@@ -269,7 +269,7 @@ const WebApplicationDevelopment: React.FC = () => {
                 {
                   title: "Community Health Access Platform",
                   client: "Rural Healthcare Initiative, Uganda",
-                  description: "A mobile-optimized application connecting rural communities with healthcare services—featuring offline appointment scheduling, SMS health alerts, and mobile money payment integration to overcome Africa's healthcare access challenges.",
+                  description: "A mobile-optimized application connecting rural communities with healthcare services, featuring offline appointment scheduling, SMS health alerts, and mobile money payment integration to overcome Africa's healthcare access challenges.",
                   image: "https://picsum.photos/800/450?random=10",
                   technologies: ["React", "Node.js", "MongoDB", "M-Pesa API", "SMS Gateway"],
                   results: ["60% increase in rural healthcare access", "Reduced maternal mortality in target areas", "Offline functionality serving communities without reliable internet"]
@@ -277,7 +277,7 @@ const WebApplicationDevelopment: React.FC = () => {
                 {
                   title: "Agricultural Productivity Platform",
                   client: "Smallholder Farmer Cooperative, Kenya",
-                  description: "A web application empowering African smallholder farmers with crop management tools, weather predictions, market price information, and direct buyer connections—addressing poverty through agricultural development.",
+                  description: "A web application empowering African smallholder farmers with crop management tools, weather predictions, market price information, and direct buyer connections, addressing poverty through agricultural development.",
                   image: "https://picsum.photos/800/450?random=11",
                   technologies: ["Vue.js", "PHP/Laravel", "MySQL", "Weather API", "Mobile Money"],
                   results: ["45% increase in farmer income", "Reduced post-harvest losses by 30%", "Connected 5,000+ farmers to sustainable markets"]
@@ -354,7 +354,7 @@ const WebApplicationDevelopment: React.FC = () => {
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Address Africa's Challenges Through Custom Web Applications?</h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Let's create powerful applications specifically designed to overcome Africa's sustainable development and business challenges—from poverty alleviation to community empowerment, healthcare access to agricultural productivity.
+                Let's create powerful applications specifically designed to overcome Africa's sustainable development and business challenges, from poverty alleviation to community empowerment, healthcare access to agricultural productivity.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button
@@ -387,19 +387,19 @@ const WebApplicationDevelopment: React.FC = () => {
               {[
                 {
                   question: "How do you optimize applications for Africa's infrastructure challenges?",
-                  answer: "We build with Africa's realities in mind—optimizing for low bandwidth, implementing offline-first functionality where needed, ensuring mobile responsiveness, and integrating local payment systems like M-Pesa. Our applications are tested across diverse African connectivity scenarios."
+                  answer: "We build with Africa's realities in mind, optimizing for low bandwidth, implementing offline-first functionality where needed, ensuring mobile responsiveness, and integrating local payment systems like M-Pesa. Our applications are tested across diverse African connectivity scenarios."
                 },
                 {
                   question: "Can your applications address poverty alleviation and community development?",
-                  answer: "Yes, we specialize in building applications that directly address Africa's sustainable development challenges—from healthcare access and agricultural productivity to financial inclusion and community empowerment. We focus on measurable impact and scalability across African contexts."
+                  answer: "Yes, we specialize in building applications that directly address Africa's sustainable development challenges, from healthcare access and agricultural productivity to financial inclusion and community empowerment. We focus on measurable impact and scalability across African contexts."
                 },
                 {
                   question: "Do you support African languages and local contexts?",
-                  answer: "Absolutely. We implement multi-language support for African languages, culturally appropriate design, and features tailored to regional needs—ensuring accessibility for diverse communities across the continent."
+                  answer: "Absolutely. We implement multi-language support for African languages, culturally appropriate design, and features tailored to regional needs, ensuring accessibility for diverse communities across the continent."
                 },
                 {
                   question: "How do you ensure applications work in rural African areas?",
-                  answer: "We design with rural accessibility in mind—offline functionality, SMS/USSD integration for basic phones, low-bandwidth optimization, and mobile money integration. Our Africa-based support team understands regional infrastructure challenges and provides localized assistance."
+                  answer: "We design with rural accessibility in mind, offline functionality, SMS/USSD integration for basic phones, low-bandwidth optimization, and mobile money integration. Our Africa-based support team understands regional infrastructure challenges and provides localized assistance."
                 }
               ].map((faq, index) => (
                 <div key={index}>

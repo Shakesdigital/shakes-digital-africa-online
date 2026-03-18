@@ -10,7 +10,7 @@ const CTA = () => {
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-shakes-blue-dark">How We Build for Africa</h2>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto text-gray-700">
-            Every website and mobile app we develop follows a proven approach — grounded in understanding African Development Business Challenges and delivering products that create real impact.
+            Every website and mobile app we develop follows a proven approach ,  grounded in understanding African Development Business Challenges and delivering products that create real impact.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white p-6 rounded-lg shadow-lg">

@@ -56,7 +56,7 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Website Development",
-      description: "We build fast, mobile-responsive, and high-performing websites tailored for African businesses — from corporate sites and e-commerce platforms to web applications and business portals that drive customer acquisition and revenue growth.",
+      description: "We build fast, mobile-responsive, and high-performing websites tailored for African businesses ,  from corporate sites and e-commerce platforms to web applications and business portals that drive customer acquisition and revenue growth.",
       benefits: [
         "Business & corporate websites that establish a strong digital presence across African markets",
         "E-commerce platforms with local payment integration (MTN MoMo, Airtel Money, M-Pesa) for cross-border trade",
@@ -72,14 +72,14 @@ const Services: React.FC = () => {
     },
     {
       title: "Mobile Application Development",
-      description: "We create native and cross-platform mobile applications engineered for Africa's mobile-first economy — with offline capabilities, mobile money integration, and lightweight designs optimized for the devices and connectivity conditions common across the continent.",
+      description: "We create native and cross-platform mobile applications engineered for Africa's mobile-first economy ,  with offline capabilities, mobile money integration, and lightweight designs optimized for the devices and connectivity conditions common across the continent.",
       benefits: [
         "Native iOS and Android mobile applications built for performance and reliability",
         "Cross-platform apps with a single codebase to reduce development cost and time-to-market",
         "Offline-capable architecture for areas with limited or intermittent connectivity",
         "Mobile payment integration with M-Pesa, MTN MoMo, Airtel Money, and bank APIs",
         "Field data collection and community engagement apps for development organizations",
-        "Business management apps — inventory, CRM, sales tracking, and real-time analytics"
+        "Business management apps ,  inventory, CRM, sales tracking, and real-time analytics"
       ],
       imageUrl: "/mobile-app.png",
       color: "#1DACA2",
@@ -101,7 +101,7 @@ const Services: React.FC = () => {
                   Website & Mobile App Development for African Businesses
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  We specialize in building websites and mobile applications that solve real African Development Business Challenges — from establishing a digital presence and reaching new customers to automating operations and expanding into new markets.
+                  We specialize in building websites and mobile applications that solve real African Development Business Challenges ,  from establishing a digital presence and reaching new customers to automating operations and expanding into new markets.
                 </p>
               </div>
               <div>
@@ -193,24 +193,24 @@ const Services: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Why African Businesses Choose Shakes Digital</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                We don’t just build websites and apps — we build digital products that understand and solve African Development Business Challenges.
+                We don’t just build websites and apps ,  we build digital products that understand and solve African Development Business Challenges.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg text-center">
                 <h4 className="text-xl font-bold text-shakes-teal mb-3">Built for African Realities</h4>
-                <p className="text-gray-600">Our websites and apps are optimized for African connectivity, mobile devices, payment systems, and user behaviors — not copied from Western templates.</p>
+                <p className="text-gray-600">Our websites and apps are optimized for African connectivity, mobile devices, payment systems, and user behaviors ,  not copied from Western templates.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
                 <h4 className="text-xl font-bold text-shakes-teal mb-3">Focused on Solving Real Problems</h4>
-                <p className="text-gray-600">Every website and mobile app we build addresses a specific business or development challenge — from customer acquisition and revenue growth to operational efficiency and market expansion.</p>
+                <p className="text-gray-600">Every website and mobile app we build addresses a specific business or development challenge ,  from customer acquisition and revenue growth to operational efficiency and market expansion.</p>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg text-center">
                 <h4 className="text-xl font-bold text-shakes-teal mb-3">Scalable Across African Markets</h4>
-                <p className="text-gray-600">Our solutions are designed to grow with your business — from a single location in Uganda to multi-country operations across East Africa and beyond.</p>
+                <p className="text-gray-600">Our solutions are designed to grow with your business ,  from a single location in Uganda to multi-country operations across East Africa and beyond.</p>
               </div>
             </div>
           </div>

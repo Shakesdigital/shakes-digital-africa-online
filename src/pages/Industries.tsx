@@ -154,7 +154,7 @@ const Industries: React.FC = () => {
                   Website & Mobile App Solutions for 7 Key African Industries
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  We build websites and mobile applications tailored for the unique challenges of each African industry — helping businesses across 7 sectors grow revenue, reach customers, and scale operations.
+                  We build websites and mobile applications tailored for the unique challenges of each African industry ,  helping businesses across 7 sectors grow revenue, reach customers, and scale operations.
                 </p>
               </div>
               <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -196,7 +196,7 @@ const Industries: React.FC = () => {
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Cross-Industry Website & Mobile App Expertise</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Whether it's a booking website for a safari lodge, a mobile app for farmers, or a patient portal for a clinic — every website and mobile app we build is researched, designed, and optimized for the specific realities of each African industry. Our two core services — Website Development and Mobile App Development — are applied with deep sector knowledge to drive maximum business impact.
+                Whether it's a booking website for a safari lodge, a mobile app for farmers, or a patient portal for a clinic ,  every website and mobile app we build is researched, designed, and optimized for the specific realities of each African industry. Our two core services ,  Website Development and Mobile App Development ,  are applied with deep sector knowledge to drive maximum business impact.
               </p>
             </div>
           </div>

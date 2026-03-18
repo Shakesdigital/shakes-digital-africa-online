@@ -37,15 +37,15 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Why Websites & Mobile Apps for African SMEs?</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's SMEs need professional websites to build credibility and reach customers online, and mobile apps to manage operations and serve customers on-the-go — the foundation for competing in the digital economy.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">Africa's SMEs need professional websites to build credibility and reach customers online, and mobile apps to manage operations and serve customers on-the-go ,  the foundation for competing in the digital economy.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[{ icon: Globe, color: "shakes-teal", title: "Business Websites", desc: "Professional websites establishing online presence, showcasing products/services, and generating leads — the digital shopfront for African SMEs." },
-              { icon: ShoppingCart, color: "shakes-blue", title: "E-Commerce Websites", desc: "Online stores with product catalogs, shopping carts, mobile money payments, and delivery management — enabling SMEs to sell to customers anywhere." },
-              { icon: Smartphone, color: "shakes-blue-light", title: "Business Mobile Apps", desc: "Mobile apps for customer engagement, order management, loyalty programs, and service delivery — keeping SMEs connected to their customers." },
-              { icon: TrendingUp, color: "shakes-teal", title: "Sales & CRM Web Portals", desc: "Web-based tools for managing customer relationships, tracking sales pipelines, and automating follow-ups — professionalizing SME sales processes." },
-              { icon: BarChart, color: "shakes-blue", title: "Business Analytics Dashboards", desc: "Web dashboards tracking sales, customer patterns, inventory, and financial performance — enabling data-driven decisions for SME owners." },
-              { icon: Users, color: "shakes-blue-light", title: "Marketplace Mobile Apps", desc: "Mobile apps connecting SMEs with customers, suppliers, and partners — expanding market reach through aggregation and recommendation algorithms." }
+              {[{ icon: Globe, color: "shakes-teal", title: "Business Websites", desc: "Professional websites establishing online presence, showcasing products/services, and generating leads ,  the digital shopfront for African SMEs." },
+              { icon: ShoppingCart, color: "shakes-blue", title: "E-Commerce Websites", desc: "Online stores with product catalogs, shopping carts, mobile money payments, and delivery management ,  enabling SMEs to sell to customers anywhere." },
+              { icon: Smartphone, color: "shakes-blue-light", title: "Business Mobile Apps", desc: "Mobile apps for customer engagement, order management, loyalty programs, and service delivery ,  keeping SMEs connected to their customers." },
+              { icon: TrendingUp, color: "shakes-teal", title: "Sales & CRM Web Portals", desc: "Web-based tools for managing customer relationships, tracking sales pipelines, and automating follow-ups ,  professionalizing SME sales processes." },
+              { icon: BarChart, color: "shakes-blue", title: "Business Analytics Dashboards", desc: "Web dashboards tracking sales, customer patterns, inventory, and financial performance ,  enabling data-driven decisions for SME owners." },
+              { icon: Users, color: "shakes-blue-light", title: "Marketplace Mobile Apps", desc: "Mobile apps connecting SMEs with customers, suppliers, and partners ,  expanding market reach through aggregation and recommendation algorithms." }
               ].map((item, i) => (
                 <div key={i} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
                   <div className={`w-16 h-16 bg-${item.color}/10 rounded-lg flex items-center justify-center mb-6`}><item.icon className={`h-8 w-8 text-${item.color}`} /></div>
@@ -62,12 +62,12 @@ const SMEs: React.FC = () => {
           <div className="container-custom">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-shakes-blue-dark mb-6">Website & Mobile App Solutions for SMEs</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From retail shops to service providers, manufacturers to tech startups — we build websites and mobile apps that drive SME growth across Africa.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">From retail shops to service providers, manufacturers to tech startups ,  we build websites and mobile apps that drive SME growth across Africa.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Professional Business Websites</h3>
-                <p className="text-gray-600 mb-6">Modern, responsive websites for African SMEs — establishing credibility, showcasing products/services, generating leads, and converting visitors into customers.</p>
+                <p className="text-gray-600 mb-6">Modern, responsive websites for African SMEs ,  establishing credibility, showcasing products/services, generating leads, and converting visitors into customers.</p>
                 <ul className="space-y-3">
                   {["Mobile-responsive design optimized for African audiences", "SEO optimization for local and regional search visibility", "Lead capture forms and inquiry management", "Integration with WhatsApp Business and social media"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -76,7 +76,7 @@ const SMEs: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">E-Commerce Websites & Apps</h3>
-                <p className="text-gray-600 mb-6">Online stores with product catalogs, inventory management, mobile money payments, delivery tracking, and customer accounts — enabling digital commerce.</p>
+                <p className="text-gray-600 mb-6">Online stores with product catalogs, inventory management, mobile money payments, delivery tracking, and customer accounts ,  enabling digital commerce.</p>
                 <ul className="space-y-3">
                   {["Product catalog with categories, search, and filtering", "Mobile money and card payment integration", "Order tracking and delivery management", "Customer accounts, wishlists, and order history"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -85,7 +85,7 @@ const SMEs: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Customer Engagement Mobile Apps</h3>
-                <p className="text-gray-600 mb-6">Mobile apps for customer loyalty, order placement, appointment booking, and service delivery — keeping SME customers engaged and returning.</p>
+                <p className="text-gray-600 mb-6">Mobile apps for customer loyalty, order placement, appointment booking, and service delivery ,  keeping SME customers engaged and returning.</p>
                 <ul className="space-y-3">
                   {["Loyalty programs with points and rewards", "Push notifications for promotions and updates", "In-app ordering and appointment booking", "Customer feedback and support chat"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>
@@ -94,7 +94,7 @@ const SMEs: React.FC = () => {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-4">Operations Management Web Portals</h3>
-                <p className="text-gray-600 mb-6">Web-based tools for inventory management, employee scheduling, financial tracking, and supplier management — bringing operational efficiency to SMEs.</p>
+                <p className="text-gray-600 mb-6">Web-based tools for inventory management, employee scheduling, financial tracking, and supplier management ,  bringing operational efficiency to SMEs.</p>
                 <ul className="space-y-3">
                   {["Inventory management and low-stock alerts", "Employee scheduling and attendance tracking", "Financial reporting and expense management", "Supplier management and purchase order tracking"].map((t, i) => (
                     <li key={i} className="flex items-start gap-3"><Check className="h-5 w-5 text-shakes-teal flex-shrink-0 mt-1" /><span className="text-gray-600">{t}</span></li>

@@ -32,7 +32,7 @@ const About: React.FC = () => {
                   "How can we build websites and mobile apps that directly address the business and development challenges holding Africa's communities and enterprises back?"
                 </p>
                 <p className="text-gray-600 mb-4">
-                  This question inspired the creation of Shakes Digital. We develop websites and mobile applications that directly tackle these challenges — helping African businesses establish their digital presence, reach more customers, automate operations, and scale across markets. Our goal is to leverage website and mobile app development to meet African Development Business Challenges, creating pathways for growth, inclusion, and sustainability.
+                  This question inspired the creation of Shakes Digital. We develop websites and mobile applications that directly tackle these challenges ,  helping African businesses establish their digital presence, reach more customers, automate operations, and scale across markets. Our goal is to leverage website and mobile app development to meet African Development Business Challenges, creating pathways for growth, inclusion, and sustainability.
                 </p>
               </div>
 
@@ -58,7 +58,7 @@ const About: React.FC = () => {
                     <div className="w-2 h-2 bg-shakes-teal rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-shakes-blue-dark mb-1">Website & App Development</h4>
-                      <p className="text-gray-600 text-sm">Design and develop high-quality websites and mobile applications tailored to solve specific African Development Business Challenges — from e-commerce and customer engagement to operations management and market expansion.</p>
+                      <p className="text-gray-600 text-sm">Design and develop high-quality websites and mobile applications tailored to solve specific African Development Business Challenges ,  from e-commerce and customer engagement to operations management and market expansion.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

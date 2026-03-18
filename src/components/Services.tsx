@@ -41,7 +41,7 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Website Development",
-      description: "We build fast, mobile-responsive websites that help African businesses establish a strong digital presence — from corporate websites and e-commerce platforms to web applications and business portals.",
+      description: "We build fast, mobile-responsive websites that help African businesses establish a strong digital presence ,  from corporate websites and e-commerce platforms to web applications and business portals.",
       features: [
         "Business & corporate websites",
         "E-commerce platforms with local payment integration",
@@ -56,7 +56,7 @@ const Services: React.FC = () => {
     },
     {
       title: "Mobile Application Development",
-      description: "We create native and cross-platform mobile apps engineered for Africa's mobile-first economy — with offline capabilities, mobile payment integration, and lightweight designs that work across diverse devices and connectivity conditions.",
+      description: "We create native and cross-platform mobile apps engineered for Africa's mobile-first economy ,  with offline capabilities, mobile payment integration, and lightweight designs that work across diverse devices and connectivity conditions.",
       features: [
         "Native iOS & Android apps",
         "Cross-platform mobile applications",
@@ -77,7 +77,7 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle mx-auto">
-            We focus on two powerful capabilities — Website Development and Mobile App Development — to help African businesses and development organizations solve their most pressing African Development Business Challenges.
+            We focus on two powerful capabilities ,  Website Development and Mobile App Development ,  to help African businesses and development organizations solve their most pressing African Development Business Challenges.
           </p>
           <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
             Every website and mobile app we build is researched, designed, and optimized for African business realities.
