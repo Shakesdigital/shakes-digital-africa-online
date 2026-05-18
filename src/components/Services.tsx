@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Globe, Smartphone } from "lucide-react";
+import { Check, Code2, Globe, Smartphone } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -14,7 +14,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features, icon, color, link }) => {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col">
       <div className="mb-6">
         <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: `${color}20` }}>
           {icon}
@@ -22,10 +22,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
         <h3 className="text-2xl font-bold mb-3 text-shakes-blue-dark">{title}</h3>
         <p className="text-gray-600 mb-6">{description}</p>
       </div>
-      <ul className="space-y-3 mb-8">
+      <ul className="space-y-3 mb-8 flex-grow">
         {features.map((feature, index) => (
-          <li key={index} className="flex items-center">
-            <div className="mr-2 text-shakes-teal">✓</div>
+          <li key={index} className="flex items-start">
+            <Check className="mr-2 h-4 w-4 text-shakes-teal mt-1 flex-shrink-0" />
             <span>{feature}</span>
           </li>
         ))}
@@ -40,35 +40,53 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, features,
 const Services: React.FC = () => {
   const services = [
     {
-      title: "Website Development",
-      description: "We build fast, mobile-responsive websites that help African businesses establish a strong digital presence ,  from corporate websites and e-commerce platforms to web applications and business portals.",
+      title: "Custom Software Development",
+      description:
+        "Tailored software systems for businesses and organizations that need workflow automation, portals, dashboards, integrations, and operational tools built around their exact processes.",
       features: [
-        "Business & corporate websites",
+        "Business management systems",
+        "Client and staff portals",
+        "Workflow automation tools",
+        "Dashboards and reporting platforms",
+        "CRM, ERP, and payment integrations",
+        "Secure, scalable web-based software",
+      ],
+      icon: <Code2 className="w-8 h-8 text-shakes-blue-dark" />,
+      color: "#0D5C63",
+      link: "/services/custom-software",
+    },
+    {
+      title: "Website Development",
+      description:
+        "Fast, mobile-responsive websites that help African businesses establish a strong digital presence, win trust, generate leads, sell online, and communicate clearly.",
+      features: [
+        "Business and corporate websites",
         "E-commerce platforms with local payment integration",
-        "Web applications & business portals",
-        "Content management systems (CMS)",
-        "Website redesign & optimization",
-        "Mobile-first, performance-optimized design"
+        "Landing pages and campaign websites",
+        "Content management systems",
+        "Website redesign and optimization",
+        "Mobile-first, performance-optimized design",
       ],
       icon: <Globe className="w-8 h-8 text-shakes-blue" />,
       color: "#1D70A2",
-      link: "/services/web-development"
+      link: "/services/web-development",
     },
     {
       title: "Mobile Application Development",
-      description: "We create native and cross-platform mobile apps engineered for Africa's mobile-first economy ,  with offline capabilities, mobile payment integration, and lightweight designs that work across diverse devices and connectivity conditions.",
+      description:
+        "Native and cross-platform mobile apps engineered for Africa's mobile-first economy, with offline capabilities, mobile payment integration, and lightweight performance.",
       features: [
-        "Native iOS & Android apps",
+        "Native iOS and Android apps",
         "Cross-platform mobile applications",
         "Offline-capable architecture",
-        "Mobile payment integration (M-Pesa, MTN MoMo)",
-        "Real-time analytics & push notifications",
-        "Field data collection & community engagement apps"
+        "Mobile payment integration",
+        "Real-time analytics and push notifications",
+        "Field data collection and engagement apps",
       ],
       icon: <Smartphone className="w-8 h-8 text-shakes-teal" />,
       color: "#1DACA2",
-      link: "/services/mobile-app-development"
-    }
+      link: "/services/mobile-app-development",
+    },
   ];
 
   return (
@@ -77,20 +95,19 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle mx-auto">
-            We focus on two powerful capabilities ,  Website Development and Mobile App Development ,  to help African businesses and development organizations solve their most pressing African Development Business Challenges.
+            We build custom software, websites, and mobile applications that help African businesses and development organizations solve their most pressing African Development Business Challenges.
           </p>
           <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
-            Every website and mobile app we build is researched, designed, and optimized for African business realities.
+            Every digital product we build is researched, designed, and optimized for African business realities.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
         </div>
 
-        {/* Customization Note */}
         <div className="text-center mt-16 max-w-3xl mx-auto">
           <p className="text-lg text-gray-600 mb-6">
             Every project is customized to address your specific African Development Business Challenges. Contact us for a consultation tailored to your organization's needs.

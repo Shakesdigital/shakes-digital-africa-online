@@ -9,11 +9,11 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-              Website & Mobile App Development
+              Custom Software, Website & Mobile App Development
               <span className="text-shakes-teal"> for African Businesses</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
-              We build powerful Websites and Mobile Applications designed to solve real African Development Business Challenges, helping businesses grow revenue, reach more customers, and scale operations across the continent.
+              We build powerful custom software, websites, and mobile applications designed to solve real African Development Business Challenges, helping businesses grow revenue, reach more customers, automate operations, and scale across the continent.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/services" className="btn-primary flex items-center gap-2">
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
               <img
                 src="/hero-mobile-app.png"
-                alt="Website and mobile app development solutions for African businesses"
+                alt="Custom software, website, and mobile app development solutions for African businesses"
                 className="rounded-lg shadow-xl relative z-10 w-full h-full object-cover"
               />
             </div>
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         <div className="text-center mt-16 max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-shakes-blue-dark mb-4">Building Digital Products That Solve African Challenges</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Africa's businesses face unique challenges, from limited digital presence and customer acquisition hurdles to operational inefficiency and market access barriers. We specialize in crafting websites and mobile applications that directly address these challenges, empowering African entrepreneurs and organizations to thrive in the digital economy.
+            Africa's businesses face unique challenges, from limited digital presence and customer acquisition hurdles to operational inefficiency and market access barriers. We specialize in crafting custom software, websites, and mobile applications that directly address these challenges, empowering African entrepreneurs and organizations to thrive in the digital economy.
           </p>
         </div>
       </div>

@@ -11,12 +11,12 @@ const Index: React.FC = () => {
   // FAQ Data for Schema and Display
   const faqs = [
     {
-      question: "What website and mobile app development services does Shakes Digital offer for African businesses?",
-      answer: "Shakes Digital specializes in two core services for African businesses: (1) Website Development ,  including business websites, e-commerce platforms, web applications, portals, and content management systems optimized for African markets; (2) Mobile Application Development ,  native and cross-platform iOS/Android apps with offline capabilities, mobile payment integration, and real-time analytics. All solutions are designed to address specific African Development Business Challenges."
+      question: "What custom software, website, and mobile app development services does Shakes Digital offer for African businesses?",
+      answer: "Shakes Digital specializes in three core services for African businesses: (1) Custom Software Development, including business systems, portals, dashboards, workflow automation, and integrations; (2) Website Development, including business websites, e-commerce platforms, landing pages, and content management systems optimized for African markets; (3) Mobile Application Development, including native and cross-platform iOS/Android apps with offline capabilities, mobile payment integration, and real-time analytics. All solutions are designed to address specific African Development Business Challenges."
     },
     {
-      question: "Why should African businesses choose Shakes Digital for website and mobile app development?",
-      answer: "Shakes Digital brings unique advantages for African businesses: (1) Deep understanding of African Development Business Challenges and development needs, (2) Mobile-first approach optimized for African connectivity realities, (3) Cost-effective solutions tailored to African budgets, (4) Expertise across 7 key African industries, (5) Research-driven development process ensuring locally relevant solutions, (6) Focus on solving real business problems ,  from customer acquisition to revenue growth, operational efficiency, and market expansion."
+      question: "Why should African businesses choose Shakes Digital for digital product development?",
+      answer: "Shakes Digital brings unique advantages for African businesses: (1) Deep understanding of African Development Business Challenges and development needs, (2) Mobile-first approach optimized for African connectivity realities, (3) Cost-effective solutions tailored to African budgets, (4) Expertise across 7 key African industries, (5) Research-driven development process ensuring locally relevant solutions, (6) Focus on solving real business problems, from customer acquisition to revenue growth, operational efficiency, and market expansion."
     },
     {
       question: "How does Shakes Digital approach website development for African businesses?",
@@ -36,8 +36,8 @@ const Index: React.FC = () => {
     <div className="min-h-screen flex flex-col">
       <SEOSchema
         type="Organization"
-        title="Website & Mobile App Development for African Businesses | Shakes Digital Africa"
-        description="Africa's leading website and mobile app development agency. We build powerful websites and mobile applications that solve real African Development Business Challenges. Serving businesses across Uganda, Kenya, Tanzania, Rwanda."
+        title="Custom Software, Website & Mobile App Development for African Businesses | Shakes Digital Africa"
+        description="Africa's custom software, website, and mobile app development agency. We build powerful digital products that solve real African Development Business Challenges. Serving businesses across Uganda, Kenya, Tanzania, Rwanda."
         url="https://shakesdigital.com/"
         image="https://shakesdigital.com/hero-mobile-app.png"
         faq={faqs}
@@ -53,14 +53,29 @@ const Index: React.FC = () => {
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Two Core Services</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Our Three Core Services</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We focus on what we do best ,  building websites and mobile applications that solve real African Development Business Challenges.
+                We focus on what we do best: building custom software, websites, and mobile applications that solve real African Development Business Challenges.
               </p>
             </div>
 
             {/* Core Services */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+              <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 overflow-hidden">
+                <img
+                  src="/custom-software.png"
+                  alt="Custom software development for African businesses"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Custom Software Development</h3>
+                  <p className="text-gray-600 text-sm text-center mb-4">
+                    Business systems, dashboards, portals, workflow automation, and integrations built around the exact way your organization operates and grows.
+                  </p>
+                  <a href="/services/custom-software" className="btn-outline w-full text-center block">Learn More</a>
+                </div>
+              </div>
+
               <div className="bg-white border-2 border-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 overflow-hidden">
                 <img
                   src="/web-development-2.png"
@@ -70,7 +85,7 @@ const Index: React.FC = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Website Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    From business websites and e-commerce platforms to web applications and portals ,  we build fast, mobile-responsive web solutions that help African businesses establish a strong digital presence, acquire customers, and drive revenue.
+                    From business websites and e-commerce platforms to landing pages and content-managed sites, we build fast web experiences that help African businesses establish trust, acquire customers, and drive revenue.
                   </p>
                   <a href="/services/web-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -85,7 +100,7 @@ const Index: React.FC = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-shakes-blue-dark mb-3 text-center">Mobile App Development</h3>
                   <p className="text-gray-600 text-sm text-center mb-4">
-                    Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and analytics ,  engineered for Africa's mobile-first economy to help businesses engage customers and scale operations.
+                    Native and cross-platform mobile apps with offline capabilities, mobile payment integration, and analytics, engineered for Africa's mobile-first economy to help businesses engage customers and scale operations.
                   </p>
                   <a href="/services/mobile-app-development" className="btn-outline w-full text-center block">Learn More</a>
                 </div>
@@ -107,7 +122,7 @@ const Index: React.FC = () => {
                   <Users className="w-10 h-10 text-shakes-blue" />
                 </div>
                 <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Built for African Users</h4>
-                <p className="text-gray-600">Every website and mobile app we create is optimized for African connectivity, devices, and user behaviors</p>
+                <p className="text-gray-600">Every software platform, website, and mobile app we create is optimized for African connectivity, devices, and user behaviors</p>
               </div>
 
               <div className="text-center">
@@ -115,7 +130,7 @@ const Index: React.FC = () => {
                   <BarChart className="w-10 h-10 text-shakes-blue-light" />
                 </div>
                 <h4 className="text-xl font-bold text-shakes-blue-dark mb-2">Measurable Business Impact</h4>
-                <p className="text-gray-600">Our websites and apps are designed to deliver real results ,  more customers, increased revenue, and improved efficiency</p>
+                <p className="text-gray-600">Our digital products are designed to deliver real results: more customers, increased revenue, and improved efficiency</p>
               </div>
             </div>
 
@@ -124,7 +139,7 @@ const Index: React.FC = () => {
               <div>
                 <h3 className="text-2xl font-bold text-shakes-blue-dark mb-6">Solving African Development Business Challenges Through Code</h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  From helping a Kampala retailer launch their first e-commerce website to building a mobile app that connects rural farmers to urban markets ,  we partner with African businesses to understand their challenges and build the digital products that solve them. Every website and mobile app we create is a tool for growth, impact, and economic transformation.
+                  From helping a Kampala retailer launch their first e-commerce website to building a custom operations dashboard or a mobile app that connects rural farmers to urban markets, we partner with African businesses to understand their challenges and build the digital products that solve them. Every software platform, website, and mobile app we create is a tool for growth, impact, and economic transformation.
                 </p>
                 <a href="/about-us" className="btn-primary inline-flex items-center gap-2">
                   Learn More <ArrowRight className="h-5 w-5" />

@@ -42,13 +42,13 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "height": 250
     },
     "image": "https://shakesdigital.com/hero-mobile-app.png",
-    "description": "Shakes Digital Africa specializes in website development and mobile application development for African businesses and development organizations. We build websites and mobile apps that solve real African Development Business Challenges across 7 key industries.",
+    "description": "Shakes Digital Africa specializes in custom software development, website development, and mobile application development for African businesses and development organizations. We build digital products that solve real African Development Business Challenges across 7 key industries.",
     "founder": {
       "@type": "Person",
       "@id": "https://shakesdigital.com/#founder",
       "name": "Dan Mugisa Byenkya",
-      "jobTitle": "Founder & Website/Mobile App Development Expert",
-      "description": "Expert in website and mobile app development for African Development Business Challenges",
+      "jobTitle": "Founder & Digital Product Development Expert",
+      "description": "Expert in custom software, website, and mobile app development for African Development Business Challenges",
       "url": "https://shakesdigital.com/about-us"
     },
     "address": {
@@ -95,11 +95,14 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
     },
     "knowsAbout": [
       "Website Development for African Businesses",
+      "Custom Software Development for African Businesses",
       "Mobile Application Development for African Markets",
       "E-commerce Website Development Africa",
       "Business Website Design Uganda",
       "Mobile App Development East Africa",
       "Web Applications for African Entrepreneurs",
+      "Business Process Automation Africa",
+      "Custom Business Software Uganda",
       "Cross-platform Mobile Apps Africa",
       "Offline-capable Mobile Applications",
       "Mobile Payment Integration Africa",
@@ -110,7 +113,7 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "@type": "AggregateOffer",
       "availability": "https://schema.org/InStock",
       "priceCurrency": "USD",
-      "description": "Website development and mobile application development services for African businesses and development organizations. We build websites and mobile apps that solve real African Development Business Challenges."
+      "description": "Custom software development, website development, and mobile application development services for African businesses and development organizations. We build digital products that solve real African Development Business Challenges."
     },
     "sameAs": [
       "https://twitter.com/shakesdigital",
@@ -131,15 +134,22 @@ const SEOSchema: React.FC<SEOSchemaProps> = ({
       "@type": "Continent",
       "name": "Africa"
     },
-    "serviceType": "Website & Mobile Application Development",
+    "serviceType": "Custom Software, Website & Mobile Application Development",
     "audience": {
       "@type": "Audience",
       "audienceType": "African Businesses, Startups, NGOs, Development Organizations, Educational Institutions, Healthcare Organizations"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Website & Mobile App Development Services",
+      "name": "Custom Software, Website & Mobile App Development Services",
       "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Software Development"
+          }
+        },
         {
           "@type": "Offer",
           "itemOffered": {

@@ -25,7 +25,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ image, title, description, 
         <p className="text-gray-600 mb-6">{description}</p>
 
         <div className="mb-6">
-          <h4 className="text-lg font-semibold text-shakes-teal mb-3">Website & Mobile App Solutions:</h4>
+          <h4 className="text-lg font-semibold text-shakes-teal mb-3">Software, Website & Mobile App Solutions:</h4>
           <ul className="space-y-2">
             {services.map((service, index) => (
               <li key={index} className="flex items-start">
@@ -58,7 +58,7 @@ const Industries: React.FC = () => {
     {
       image: "/sustainable-tourism.png",
       title: "Tourism & Hospitality",
-      description: "Websites and mobile apps that help tourism operators grow bookings, manage operations, and deliver exceptional visitor experiences across Africa.",
+      description: "Custom software, websites, and mobile apps that help tourism operators grow bookings, manage operations, and deliver exceptional visitor experiences across Africa.",
       services: [
         "Booking websites and visitor portals for lodges, safaris, and tours",
         "Mobile apps for guided tours, wildlife tracking, and guest engagement",
@@ -70,7 +70,7 @@ const Industries: React.FC = () => {
     {
       image: "/renewable-energy.png",
       title: "Energy & Utilities",
-      description: "Websites and mobile apps that help energy businesses manage operations, reach customers, and track performance across African energy markets.",
+      description: "Custom software, websites, and mobile apps that help energy businesses manage operations, reach customers, and track performance across African energy markets.",
       services: [
         "Websites for customer portals, billing systems, and energy service marketing",
         "Mobile apps for field monitoring, meter reading, and customer support",
@@ -82,7 +82,7 @@ const Industries: React.FC = () => {
     {
       image: "/agriculture.png",
       title: "Agriculture & Food Business",
-      description: "Websites and mobile apps empowering agribusinesses to access markets, manage operations, and connect with buyers across Africa's agricultural landscape.",
+      description: "Custom software, websites, and mobile apps empowering agribusinesses to access markets, manage operations, and connect with buyers across Africa's agricultural landscape.",
       services: [
         "Mobile apps for crop management, market prices, and farmer advisory",
         "Websites for agricultural marketplaces, supply chain portals, and e-commerce",
@@ -94,7 +94,7 @@ const Industries: React.FC = () => {
     {
       image: "/non-profit.png",
       title: "Non-Profit & Organizations",
-      description: "Websites and mobile apps that help NGOs and development organizations strengthen outreach, manage projects, and drive donor engagement across Africa.",
+      description: "Custom software, websites, and mobile apps that help NGOs and development organizations strengthen outreach, manage projects, and drive donor engagement across Africa.",
       services: [
         "Websites for organizational profiles, fundraising campaigns, and impact reporting",
         "Mobile apps for field data collection, community engagement, and staff coordination",
@@ -106,7 +106,7 @@ const Industries: React.FC = () => {
     {
       image: "/education.png",
       title: "Education & EdTech",
-      description: "Websites and mobile apps that enable education providers to deliver learning experiences, manage enrollment, and reach students across Africa.",
+      description: "Custom software, websites, and mobile apps that enable education providers to deliver learning experiences, manage enrollment, and reach students across Africa.",
       services: [
         "Websites for learning management systems, school portals, and online course delivery",
         "Mobile apps for interactive learning, assessments, and student engagement",
@@ -118,7 +118,7 @@ const Industries: React.FC = () => {
     {
       image: "/sme-esg.png",
       title: "Small & Medium Enterprises",
-      description: "Websites and mobile apps that help SMEs establish digital presence, sell online, and manage operations to grow revenue across African markets.",
+      description: "Custom software, websites, and mobile apps that help SMEs establish digital presence, sell online, and manage operations to grow revenue across African markets.",
       services: [
         "Business websites and e-commerce platforms with mobile payment integration",
         "Mobile apps for sales, inventory management, and customer engagement",
@@ -130,7 +130,7 @@ const Industries: React.FC = () => {
     {
       image: "/healthcare.png",
       title: "Healthcare & Wellness",
-      description: "Websites and mobile apps that help healthcare providers improve patient access, streamline operations, and deliver better health outcomes across Africa.",
+      description: "Custom software, websites, and mobile apps that help healthcare providers improve patient access, streamline operations, and deliver better health outcomes across Africa.",
       services: [
         "Websites for patient portals, appointment booking, and health resource centers",
         "Mobile apps for telehealth, patient engagement, and health worker tools",
@@ -151,10 +151,10 @@ const Industries: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-shakes-blue-dark mb-6">
-                  Website & Mobile App Solutions for 7 Key African Industries
+                  Software, Website & Mobile App Solutions for 7 Key African Industries
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  We build websites and mobile applications tailored for the unique challenges of each African industry ,  helping businesses across 7 sectors grow revenue, reach customers, and scale operations.
+                  We build custom software, websites, and mobile applications tailored for the unique challenges of each African industry, helping businesses across 7 sectors grow revenue, reach customers, automate work, and scale operations.
                 </p>
               </div>
               <div className="lg:pl-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -163,7 +163,7 @@ const Industries: React.FC = () => {
                   <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-shakes-blue/20 rounded-full z-0"></div>
                   <img
                     src="/industries-hero.png"
-                    alt="Website and mobile app solutions for African industries"
+                    alt="Custom software, website, and mobile app solutions for African industries"
                     className="rounded-lg shadow-xl relative z-10 w-full object-cover h-auto"
                   />
                 </div>
@@ -176,9 +176,9 @@ const Industries: React.FC = () => {
         <section className="py-20">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Industry-Specific Website & Mobile App Solutions</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Industry-Specific Software, Website & Mobile App Solutions</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Each industry has unique digital challenges. We build websites and mobile apps specifically designed to solve the problems faced by African businesses in each sector.
+                Each industry has unique digital challenges. We build custom software, websites, and mobile apps specifically designed to solve the problems faced by African businesses in each sector.
               </p>
             </div>
 
@@ -194,9 +194,9 @@ const Industries: React.FC = () => {
         <section className="py-20 bg-gray-50">
           <div className="container-custom">
             <div className="text-center max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Cross-Industry Website & Mobile App Expertise</h2>
+              <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Cross-Industry Software, Website & Mobile App Expertise</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Whether it's a booking website for a safari lodge, a mobile app for farmers, or a patient portal for a clinic ,  every website and mobile app we build is researched, designed, and optimized for the specific realities of each African industry. Our two core services ,  Website Development and Mobile App Development ,  are applied with deep sector knowledge to drive maximum business impact.
+                Whether it's a booking website for a safari lodge, a mobile app for farmers, a clinic management portal, or a custom dashboard for field teams, every digital product we build is researched, designed, and optimized for the specific realities of each African industry. Our three core services, Custom Software Development, Website Development, and Mobile App Development, are applied with deep sector knowledge to drive maximum business impact.
               </p>
             </div>
           </div>
@@ -208,7 +208,7 @@ const Industries: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">Impact Across 7 Industries</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                Delivering purpose-built websites and mobile apps for business growth across Africa's key industries.
+                Delivering purpose-built software, websites, and mobile apps for business growth across Africa's key industries.
               </p>
             </div>
 
@@ -219,9 +219,9 @@ const Industries: React.FC = () => {
               </div>
 
               <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <div className="text-4xl font-bold text-shakes-blue mb-2">2</div>
+                <div className="text-4xl font-bold text-shakes-blue mb-2">3</div>
                 <p className="text-gray-600 font-medium">Core Services</p>
-                <p className="text-xs text-gray-500 mt-1">Websites & Mobile Apps</p>
+                <p className="text-xs text-gray-500 mt-1">Software, Websites & Mobile Apps</p>
               </div>
 
               <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -242,10 +242,10 @@ const Industries: React.FC = () => {
           <div className="container-custom">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">
-                Ready to Build a Website or Mobile App for Your Industry?
+                Ready to Build Software, a Website, or a Mobile App for Your Industry?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Let us build a website or mobile application tailored to the unique challenges and opportunities of your African industry sector.
+                Let us build a custom software platform, website, or mobile application tailored to the unique challenges and opportunities of your African industry sector.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="/contact" className="btn-primary inline-flex items-center gap-2">

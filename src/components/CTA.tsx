@@ -10,7 +10,7 @@ const CTA = () => {
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-shakes-blue-dark">How We Build for Africa</h2>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto text-gray-700">
-            Every website and mobile app we develop follows a proven approach ,  grounded in understanding African Development Business Challenges and delivering products that create real impact.
+            Every custom software platform, website, and mobile app we develop follows a proven approach, grounded in understanding African Development Business Challenges and delivering products that create real impact.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -19,7 +19,7 @@ const CTA = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-shakes-teal mb-3">Build</h3>
-              <p className="text-gray-600">We design and develop your website or mobile app using modern technologies, optimized for African users and conditions.</p>
+              <p className="text-gray-600">We design and develop your software, website, or mobile app using modern technologies, optimized for African users and conditions.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-shakes-teal mb-3">Launch & Grow</h3>
@@ -32,9 +32,9 @@ const CTA = () => {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-shakes-blue to-shakes-blue-dark text-white">
         <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Build Your Website or Mobile App?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Build Your Software, Website, or Mobile App?</h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Let's discuss how a professionally built website or mobile application can help solve your African Development Business Challenges and drive growth.
+            Let's discuss how a professionally built custom software platform, website, or mobile application can help solve your African Development Business Challenges and drive growth.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild className="bg-shakes-orange hover:bg-shakes-orange-light text-white py-3 px-8 text-lg">

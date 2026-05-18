@@ -14,10 +14,10 @@ const CustomSoftware: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  Custom Software Development for Africa's Challenges
+                  Custom Software Development for African Businesses
                 </h1>
                 <p className="text-xl text-blue-100 mb-8">
-                  Tailored digital solutions addressing Africa's unique sustainable development and business challenges, from agricultural management to healthcare access, environmental monitoring to financial inclusion.
+                  Tailored business systems, portals, dashboards, workflow tools, and data platforms built to help African businesses automate operations, serve customers better, and scale with confidence.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="/contact" className="bg-white text-shakes-blue-dark px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
@@ -47,7 +47,7 @@ const CustomSoftware: React.FC = () => {
                 Why Choose Custom Software Development?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We offer off the shelf custom software solutions tailored specifically to address Africa's unique sustainable development and business challenges.
+                When a normal website or mobile app is not enough, custom software gives your organization a system designed around the way you actually work.
               </p>
             </div>
 
@@ -56,9 +56,9 @@ const CustomSoftware: React.FC = () => {
                 <div className="w-16 h-16 bg-shakes-blue/10 rounded-lg flex items-center justify-center mb-6">
                   <Code2 className="h-8 w-8 text-shakes-blue" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Built for African Context</h3>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Built for African Business Context</h3>
                 <p className="text-gray-600">
-                  Solutions optimized for low bandwidth, intermittent connectivity, mobile-first access, and local language support, designed for Africa's digital infrastructure reality.
+                  Solutions optimized for local workflows, mobile-first users, low bandwidth, intermittent connectivity, local payment methods, and Africa's digital infrastructure reality.
                 </p>
               </div>
 
@@ -68,7 +68,7 @@ const CustomSoftware: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Perfectly Tailored</h3>
                 <p className="text-gray-600">
-                  Every feature, workflow, and integration is custom-built to match your exact business processes, community needs, and sustainable development goals.
+                  Every feature, workflow, and integration is custom-built to match your exact business processes, team structure, customer needs, and growth goals.
                 </p>
               </div>
 
@@ -78,7 +78,7 @@ const CustomSoftware: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Scalable & Future-Ready</h3>
                 <p className="text-gray-600">
-                  Built on modern architectures that grow with your organization, from serving one community to scaling across multiple African countries.
+                  Built on modern architectures that grow with your organization, from one branch or team to multi-country operations.
                 </p>
               </div>
 
@@ -106,9 +106,9 @@ const CustomSoftware: React.FC = () => {
                 <div className="w-16 h-16 bg-shakes-blue-light/10 rounded-lg flex items-center justify-center mb-6">
                   <Users className="h-8 w-8 text-shakes-blue-light" />
                 </div>
-                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">Community-Centered Design</h3>
+                <h3 className="text-xl font-bold text-shakes-blue-dark mb-4">People-Centered Design</h3>
                 <p className="text-gray-600">
-                  User interfaces designed for diverse literacy levels, cultural contexts, and accessibility needs across African communities.
+                  User interfaces designed for staff, customers, partners, and communities with different devices, digital skill levels, and accessibility needs.
                 </p>
               </div>
             </div>
