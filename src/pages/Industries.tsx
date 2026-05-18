@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 
 interface IndustryCardProps {
   image: string;
@@ -29,7 +29,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ image, title, description, 
           <ul className="space-y-2">
             {services.map((service, index) => (
               <li key={index} className="flex items-start">
-                <span className="text-shakes-teal mr-2 mt-1">✓</span>
+                <Check className="text-shakes-teal mr-2 mt-1 h-4 w-4 flex-shrink-0" />
                 <span className="text-gray-600 text-sm">{service}</span>
               </li>
             ))}
@@ -62,7 +62,7 @@ const Industries: React.FC = () => {
       services: [
         "Booking websites and visitor portals for lodges, safaris, and tours",
         "Mobile apps for guided tours, wildlife tracking, and guest engagement",
-        "Web-based dashboards for reservations, analytics, and staff management"
+        "Custom reservation dashboards for bookings, analytics, and staff management"
       ],
       objectives: "Drives revenue growth, direct bookings, and customer satisfaction for tourism businesses.",
       link: "/industries/sustainable-tourism"
@@ -74,7 +74,7 @@ const Industries: React.FC = () => {
       services: [
         "Websites for customer portals, billing systems, and energy service marketing",
         "Mobile apps for field monitoring, meter reading, and customer support",
-        "Web-based dashboards for performance tracking and grid management"
+        "Custom software dashboards for performance tracking and grid management"
       ],
       objectives: "Enables operational efficiency, customer acquisition, and market expansion for energy providers.",
       link: "/industries/renewable-energy"
@@ -86,7 +86,7 @@ const Industries: React.FC = () => {
       services: [
         "Mobile apps for crop management, market prices, and farmer advisory",
         "Websites for agricultural marketplaces, supply chain portals, and e-commerce",
-        "Web-based platforms for cooperative management and traceability"
+        "Custom software platforms for cooperative management and traceability"
       ],
       objectives: "Drives market access, profitability, and business growth for agricultural enterprises.",
       link: "/industries/agriculture"
@@ -98,7 +98,7 @@ const Industries: React.FC = () => {
       services: [
         "Websites for organizational profiles, fundraising campaigns, and impact reporting",
         "Mobile apps for field data collection, community engagement, and staff coordination",
-        "Web-based portals for donor management, project tracking, and impact dashboards"
+        "Custom software portals for donor management, project tracking, and impact dashboards"
       ],
       objectives: "Enables operational efficiency, donor acquisition, and fundraising success for NGOs.",
       link: "/industries/nonprofit"
@@ -108,9 +108,9 @@ const Industries: React.FC = () => {
       title: "Education & EdTech",
       description: "Custom software, websites, and mobile apps that enable education providers to deliver learning experiences, manage enrollment, and reach students across Africa.",
       services: [
-        "Websites for learning management systems, school portals, and online course delivery",
+        "Custom learning management software, school websites, and online course portals",
         "Mobile apps for interactive learning, assessments, and student engagement",
-        "Web-based dashboards for student analytics, enrollment, and progress tracking"
+        "Custom software dashboards for student analytics, enrollment, and progress tracking"
       ],
       objectives: "Drives enrollment growth, learning outcomes, and operational efficiency for education providers.",
       link: "/industries/education"
@@ -122,7 +122,7 @@ const Industries: React.FC = () => {
       services: [
         "Business websites and e-commerce platforms with mobile payment integration",
         "Mobile apps for sales, inventory management, and customer engagement",
-        "Web-based tools for CRM, invoicing, and business analytics"
+        "Custom software tools for CRM, invoicing, inventory, and business analytics"
       ],
       objectives: "Drives scalability, profitability, and market leadership for growing SMEs.",
       link: "/industries/smes"
@@ -134,7 +134,7 @@ const Industries: React.FC = () => {
       services: [
         "Websites for patient portals, appointment booking, and health resource centers",
         "Mobile apps for telehealth, patient engagement, and health worker tools",
-        "Web-based systems for electronic health records and clinic management"
+        "Custom software systems for electronic health records and clinic management"
       ],
       objectives: "Enables operational efficiency, patient acquisition, and care quality for healthcare providers.",
       link: "/industries/healthcare"
@@ -242,7 +242,7 @@ const Industries: React.FC = () => {
           <div className="container-custom">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-shakes-blue-dark mb-6">
-                Ready to Build Software, a Website, or a Mobile App for Your Industry?
+                Ready to Build Custom Software, a Website, or a Mobile App for Your Industry?
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                 Let us build a custom software platform, website, or mobile application tailored to the unique challenges and opportunities of your African industry sector.
